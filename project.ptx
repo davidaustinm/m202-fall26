@@ -5,7 +5,7 @@
   <targets>
     <!-- Main course for html or pdf -->
     <target name="instructor" source="main.ptx" format="html"
-            publication="publication.ptx" deploy-dir="instructor" />
+            publication="publication.ptx" />
     <target name="student" source="main.ptx" format="html"
             publication="publication-student.ptx" deploy-dir="." />
     <target name="print" source="main.ptx" format="pdf"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Course outline</title>
+<section xml:id="syllabus-04" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section 04: Course outline</title>
 
   <introduction>
     <p>
@@ -24,7 +24,6 @@
           lot more fun.
         </p>
         </li>
-        
         <li><title>We learn by doing</title>
         <p>
           I like watching professional basketball,
@@ -140,7 +139,7 @@
 
   </introduction>
 
-  <subsection xml:id="sec-course-info">
+  <subsection xml:id="sec-course-04-info">
     <title>General Course Information</title>
 
     <p>
@@ -153,8 +152,7 @@
         </li>
 
         <li><title>Meetings</title>
-        <p>Section 02:  TR 2:00 - 3:50, MAK A-2-155</p>
-        <p>Section 04:  MW 10:00 - 11:50 MAK A-2-167</p>
+        <p>MW 10:00 - 11:50 MAK A-2-167</p>
         </li>
 
         <li><title>Email</title>
@@ -262,7 +260,7 @@
           <p>
             “I will be using AI in my career.”  With the current state
             of AI, you won’t be using it to learn new ways of
-            thinking, like we’re trying to do in our course.  AI will
+            thinking, like we’re trying to do in our course.  AI will not
             help you develop an understanding of mathematics.
           </p>
         </li>
@@ -364,7 +362,7 @@
   </subsection>
 
   <!-- Other subsections for larger dividers -->
-  <subsection xml:id="sec-assessments">
+  <subsection xml:id="sec-assessments-04">
     <title>About MTH 202</title>
 
     <p>
@@ -596,7 +594,7 @@
       </xref>
       that are intended to focus your attention
       on specific skills you should acquire to develop a deep
-      understanding of linear algebra. 
+      understanding of calculus.
     </p>
 
     <p>

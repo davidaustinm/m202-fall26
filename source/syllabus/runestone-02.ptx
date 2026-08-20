@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="runestone-02" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section 02: Accessing Runestone Academy</title>
+
+  <p>
+    Begin by going to
+    <url href="https://landing.runestone.academy">
+      https://landing.runestone.academy
+    </url>.
+  </p>
+
+  <p>
+    If you do <alert>not</alert> have a Runestone account, follow
+    these instructions.
+    <ul>
+      <li>
+        <p>
+          Click “Register and Get Started”
+        </p>
+      </li>
+      <li>
+        <p>
+          Under "Student in a class," click the button for "Sign up
+          &amp; Join”
+        </p>
+      </li>
+      <li>
+        <p>
+          This will take you to a page that allows you to pick a
+          username, password, enter name, email, etc.
+          <ol>
+            <li>
+              <p>
+                Please use your real first and last name; you can use
+                any email and username you want.
+              </p>
+            </li>
+            <li>
+              <p>
+                Use "(your university’s full name)" for the
+                institution.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Save your username and password somewhere.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Do NOT select that you are an instructor and want to create
+          a course.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click on "Create Account."
+        </p>
+      </li>
+      <li>
+        <p>
+          On the next page, enter your course name:
+          GVSU-MTH202-02-Fall-26.
+        </p>
+        <p>
+          While there may be another option to select the course from
+          a list, don’t use that option.  Again, just enter the course
+          name as above.
+        </p>
+      </li>
+      <li>
+        <p>
+          Scroll all the way down and click "Enroll"
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    If you <alert>do</alert> already have a Runestone account, log in,
+    use the person
+    icon go to the user menu and select “Change Course.”
+    <ul>
+      <li>
+        <p>
+          Then scroll down if needed and choose “Enroll in Another
+          Course.”
+        </p>
+      </li>
+      <li>
+        <p>
+          Enter the course name: GVSU-MTH-202-02-Fall-26.
+        </p>
+      </li>
+      <li>
+        <p>
+          Scroll all the way down and click "Enroll"
+        </p>
+      </li>
+    </ul>
+  </p>
+
+</section>

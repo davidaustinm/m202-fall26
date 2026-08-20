@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Course outline</title>
+<section xml:id="syllabus-02" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section 02: Course outline</title>
 
   <introduction>
     <p>
@@ -24,7 +24,6 @@
           lot more fun.
         </p>
         </li>
-        
         <li><title>We learn by doing</title>
         <p>
           I like watching professional basketball,
@@ -140,7 +139,7 @@
 
   </introduction>
 
-  <subsection xml:id="sec-course-info">
+  <subsection xml:id="sec-course-02-info">
     <title>General Course Information</title>
 
     <p>
@@ -153,8 +152,7 @@
         </li>
 
         <li><title>Meetings</title>
-        <p>Section 02:  TR 2:00 - 3:50, MAK A-2-155</p>
-        <p>Section 04:  MW 10:00 - 11:50 MAK A-2-167</p>
+        <p>TR 2:00 - 3:50, MAK A-2-155</p>
         </li>
 
         <li><title>Email</title>
@@ -171,15 +169,19 @@
           <title>Textbook</title>
 
           <p>
-            <url href="https://runestone.academy/ns/books/published/GVSU-MTH202-04-Fall-26/frontmatter.html">
+            <url href="https://runestone.academy/ns/books/published/GVSU-MTH202-02-Fall-26/frontmatter.html">
               <em>Active Calculus: with Doenet</em>
             </url>
           </p>
           <p>
             Our textbook is freely available on the Runestone Academy
             platform, but you will need to make a free account on
-            Runestone.  Please use your actual name when signing up.
-            Then enroll in the course <q>GVSU-MTH202-04-Fall-26</q>.
+            Runestone.  Follow
+            <xref ref="runestone-02" text="custom">
+              these instructions
+            </xref>
+            to create an account and enroll in the course
+            <q>GVSU-MTH202-02-Fall-26</q>.
           </p>
           <p>
             One advantage of this is that the book has an
@@ -195,18 +197,14 @@
         <p>R 12:00 - 1:00 (MAK A-2-610)</p>
         <p>Or by appointment</p>
         </li>
-        
         <li>
           <title>Course web page</title>
-          
           <p>
             <url href="https://lms.gvsu.edu">Blackboard</url>
           </p>
         </li>
-        
         <li>
           <title>Key dates</title>
-          
           <p>
             <url
                 href="https://www.gvsu.edu/registrar/academiccalendar.htm">
@@ -262,7 +260,7 @@
           <p>
             “I will be using AI in my career.”  With the current state
             of AI, you won’t be using it to learn new ways of
-            thinking, like we’re trying to do in our course.  AI will
+            thinking, like we’re trying to do in our course.  AI will not
             help you develop an understanding of mathematics.
           </p>
         </li>
@@ -335,7 +333,6 @@
       don’t need to buy a calculator for this course.
       </p>
     </paragraphs>
-    
     <paragraphs>
       <title>Communication</title>
       <p>I will be posting assignments, activities, and other relevant
@@ -346,7 +343,6 @@
       system because I am unlikely to see them in a timely fashion.
       </p>
     </paragraphs>
-
     <paragraphs>
       <title>Late work</title>
       <p>
@@ -360,11 +356,10 @@
         things in on time, please come and talk with me.
       </p>
     </paragraphs>
-    
   </subsection>
 
   <!-- Other subsections for larger dividers -->
-  <subsection xml:id="sec-assessments">
+  <subsection xml:id="sec-assessments-02">
     <title>About MTH 202</title>
 
     <p>
@@ -411,7 +406,7 @@
       </p>
     </paragraphs>
     -->
-    
+
     <paragraphs>
       <title>Prerequisites</title>
       <p>​ MTH 201 (Calculus I) or GV placement.</p>
@@ -434,7 +429,7 @@
             Interpret the interrelationships between information
             given in graphical, numerical, and symbolic forms;
           </p></li>
-          <li><p>          
+          <li><p>
             Use communication skills, both verbal and written, in mathematics.;
           </p></li>
           <li><p>
@@ -537,8 +532,9 @@
           The comprehensive final exam will consist of
           questions that address big-picture ideas in the course, and
           your work on those problems will constitute 20% of your
-          semester grade.  Our final is on Monday, December 14 from
-          10:00 - 11:50am in our usual classroom.
+          semester grade.  Our final is on
+          Thursday, December 17, 2:00 pm - 3:50 pm 
+          in our usual classroom.
         </p>
       </li>
     </dl>
@@ -596,12 +592,11 @@
       </xref>
       that are intended to focus your attention
       on specific skills you should acquire to develop a deep
-      understanding of linear algebra. 
+      understanding of calculus. 
     </p>
 
     <p>
       Here are the nuts and bolts of how it works.
-      
       <ul>
         <li>
           <p>
@@ -676,7 +671,7 @@
 
   </subsection>
   -->
-  
+
   <subsection>
     <title>Expectations</title>
 
@@ -748,7 +743,7 @@
         concepts, or on specific problems.  All Math Center
         tutoring is FREE, so stop by early and often.
       </p>
-      
+
       <p>
         The Math Tutoring Center offers:
         <ul>
@@ -784,7 +779,7 @@
         a tutor.
       </p>
     </paragraphs>
-    
+
     <paragraphs>
       <title>Tutoring and Reading Center Appointments</title>
       <p>GVSU’s Tutoring and Reading Center offers appointment
@@ -887,7 +882,7 @@
 	<p>Final Exams (see Registrar page for schedule)</p></li>
       </dl>
     </p>
-    
+
     <p>
       More information is available at the
       <url
@@ -920,7 +915,7 @@
             announcement and let you know of a plan.
           </p>
         </li>
-        
+
         <li>
           <title>University Policies</title>
           <p>
@@ -994,10 +989,6 @@
           <p>
             Additional information about campus safety can be found at
             the following sites:
-
-
-
-            
             <ul>
               <li>
                 <p>

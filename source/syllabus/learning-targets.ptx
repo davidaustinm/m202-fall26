@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="targets" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Learning targets</title>
+
+  <p>
+    <ol>
+      <li><p>Given the graph of a function and other data, I can
+      construct an accurate graph of the antiderivative of the
+      function by determining select values of the antiderivative as
+      well as where the antiderivative is increasing/decreasing and
+      concave up/down.</p></li>
+
+      <li><p>I can use integration by substitution and integration by
+      parts to find antiderivatives.</p></li>
+
+      <li><p>I can use definite integrals to find the area of a planar
+      region.</p></li>
+
+      <li><p>I can apply an appropriate technique to approximate a
+      definite integral.</p></li>
+
+      <li><p>I can use definite integrals to find the volume of a
+      solid of revolution as well as the mass and center of mass of an
+      object.</p></li>
+
+      <li><p>I can use definite integrals to represent key quantities
+      in applications such as work, finance, and probability.</p></li>
+
+      <li><p>I can check whether a function is a solution to a
+      differential equation and explain why the function is or is not
+      a solution.</p></li> 
+
+      <li><p>I can apply Euler’s Method to generate an approximate
+      solution to an initial value problem and explain the result’s
+      meaning in context.</p></li>
+
+      <li><p>I can express real world situations as differential
+      equations, determine any stable or unstable equilibrium
+      solutions, and explain the significance of the equilibrium
+      solutions in context.</p></li>
+
+      <li><p>I can determine whether or not an infinite series is
+      geometric and, if so (and it converges), find its sum.</p></li>
+
+      <li><p>Given appropriate information about a function, I can
+      find its Taylor series.</p></li>
+    </ol>
+  </p>
+</section>

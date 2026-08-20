@@ -6,9 +6,9 @@
   <xi:include href="./docinfo.ptx" />
   <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
   <book>
-    <title>Course Name (change me)</title>
+    <title>Calculus II</title>
 
-    <subtitle>MATH xxx Semester 20xx</subtitle>
+    <subtitle>MATH 202, Fall 2026</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
@@ -17,10 +17,17 @@
       <title>Course Documents</title>
 
       <!-- Course syllabus -->
-      <xi:include href="./syllabus/syllabus.ptx" />
-      <!-- Other documents could go here, like a schedule, project description, etc. -->
+      <xi:include href="./syllabus/syllabus-02.ptx" />
+      <xi:include href="./syllabus/syllabus-04.ptx" />
+      <xi:include href="./syllabus/runestone-02.ptx" />
+      <xi:include href="./syllabus/runestone-04.ptx" />
+      <xi:include href="./syllabus/learning-targets.ptx" />
+      <!--
+          <xi:include href="./syllabus/homework.ptx" />
+      -->
     </chapter>
 
+    <!--
     <chapter xml:id="course-notes">
       <title>Course Notes</title>
 
@@ -33,9 +40,9 @@
 
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
-      <!-- etc. -->
 
-    </chapter>
+</chapter>
+-->
 
 
     <chapter xml:id="activities">
@@ -43,7 +50,8 @@
 
       <introduction>
         <p>
-          These are copies of the in-class activities distributed during the semester.
+          These are the in-class activities we will be working on
+          throughout the semester.
         </p>
       </introduction>
 
@@ -53,19 +61,17 @@
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
+    <!--
     <chapter xml:id="handouts">
       <title>Handouts</title>
-      <!-- Include handouts -->
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+      <xi:include href="./handouts/handout-filename.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">
       <title>Homework</title>
-
-      <!-- Include homework files -->
-      <!--<xi:include href="./homework/homework01.ptx"/>-->
-
+      <xi:include href="./homework/homework01.ptx"/>
     </chapter>
+    -->
 
     <!-- Include additional chapters for other categories -->
 

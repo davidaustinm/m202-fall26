@@ -134,6 +134,42 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  In the same way, consider the graph of the function shown below.   The graph of another piecewise linear function              If , what is the value ?      Find the value of at each of its critical points.      What is the global maximum and what is the global minimum of on the interval ?    "
+},
+{
+  "id": "activities-4",
+  "level": "1",
+  "url": "activities-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Second Fundamental Theorem of Calculus (Section 5.2)",
+  "body": " Second Fundamental Theorem of Calculus (Section 5.2)    Shown below on the left is the graph of a function .    The graph of a piecewise linear function            An empty coordinate grid           We will define a new function by      Let's begin by evaluating .      Find the exact values of to complete the table below.              0  1  2  3  4  5  6  7                   Sketch a graph of on the right above.     The graph of the antiderivative of the piecewise linear function    f1(x)=x^2-1  f2(x)=f1(1)-1\/4*(4-2*x)^2+1  f3(x)=f2(3)+1\/2*(x-5)^2-2  f4(x)=f3(6)-1\/2*(7-x)^2+1\/2                  On what intervals is increasing and how does this relate to the behavior of ? Also, on what intervals is decreasing?      Where does have a relative minimum or maximum? How is this related to the value of ?      Remembering that is an antiderivative of , what is the value of the derivative ?       The Fresnel integral function is defined by and is used in the study of optics.     What is ?      Use some computational device like Desmos to estimate .      What is ? Is increasing or decreasing at ?      Find the first relative maximum to the right of . What is the value of at this relative maximum?      Find the first relative minimum to the right of . What is the value of at this relative maximum?      Find the second relative maximum to the right of and the value of at this relative maximum.      Sketch the graph of below.       The function appears frequently in probability and statistics and is closely related to an important function called the error function .     What is the derivative ?      Use some computational device to estimate the value .      Explain why is an always increasing function.      Sketch the graph of below.     "
+},
+{
+  "id": "activities-4-2",
+  "level": "2",
+  "url": "activities-4.html#activities-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Shown below on the left is the graph of a function .    The graph of a piecewise linear function            An empty coordinate grid           We will define a new function by      Let's begin by evaluating .      Find the exact values of to complete the table below.              0  1  2  3  4  5  6  7                   Sketch a graph of on the right above.     The graph of the antiderivative of the piecewise linear function    f1(x)=x^2-1  f2(x)=f1(1)-1\/4*(4-2*x)^2+1  f3(x)=f2(3)+1\/2*(x-5)^2-2  f4(x)=f3(6)-1\/2*(7-x)^2+1\/2                  On what intervals is increasing and how does this relate to the behavior of ? Also, on what intervals is decreasing?      Where does have a relative minimum or maximum? How is this related to the value of ?      Remembering that is an antiderivative of , what is the value of the derivative ?    "
+},
+{
+  "id": "activities-4-3",
+  "level": "2",
+  "url": "activities-4.html#activities-4-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The Fresnel integral function is defined by and is used in the study of optics.     What is ?      Use some computational device like Desmos to estimate .      What is ? Is increasing or decreasing at ?      Find the first relative maximum to the right of . What is the value of at this relative maximum?      Find the first relative minimum to the right of . What is the value of at this relative maximum?      Find the second relative maximum to the right of and the value of at this relative maximum.      Sketch the graph of below.    "
+},
+{
+  "id": "activities-4-4",
+  "level": "2",
+  "url": "activities-4.html#activities-4-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The function appears frequently in probability and statistics and is closely related to an important function called the error function .     What is the derivative ?      Use some computational device to estimate the value .      Explain why is an always increasing function.      Sketch the graph of below.    "
 }
 ]
 

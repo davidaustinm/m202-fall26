@@ -1,0 +1,27 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)" margins="(10,5,5,5)">
+  <coordinates bbox="(-0.5,-2,7.5,2)">
+    <grid-axes/>
+    <label anchor="(1.5,1)" alignment="ne" clear-background="yes">
+      <m>y=f(x)</m>
+    </label>
+    <definition>p0=(0,1)</definition>
+    <definition>p1=(1,1)</definition>
+    <definition>p2=(1,-1)</definition>
+    <definition>p3=(3,-1)</definition>
+    <definition>p4=(3,0)</definition>
+    <definition>p5=(4,0)</definition>
+    <definition>p6=(4,1)</definition>
+    <definition>p7=(6,1)</definition>
+    <definition>p8=(6,-1)</definition>
+    <definition>p9=(7,-1)</definition>
+    <line endpoints="(p0,p1)" stroke="blue"/>
+    <line endpoints="(p2,p3)" stroke="blue"/>
+    <line endpoints="(p4,p5)" stroke="blue"/>
+    <line endpoints="(p6,p7)" stroke="blue"/>
+    <line endpoints="(p8,p9)" stroke="blue"/>
+    <repeat parameter="p in (p0,p1,p2,p3,p4,p5,p6,p7,p8,p9)">
+      <point p="p" fill="white" stroke="blue"/>
+    </repeat>
+  </coordinates>
+</diagram>

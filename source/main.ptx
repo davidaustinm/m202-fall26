@@ -48,15 +48,17 @@
     <chapter xml:id="activities">
       <title>In-Class Activities</title>
 
+      <!--
       <introduction>
         <p>
           These are the in-class activities we will be working on
           throughout the semester.
         </p>
       </introduction>
-
+      -->
       <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/01-intro-activity.ptx"/>
+      <xi:include href="./activities/01-review.ptx"/>
+      <xi:include href="./activities/02-ftc.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>

@@ -1,0 +1,9 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,200)" margins="5">
+  <definition>f(x)=-0.25*(x-1)^2 + 0.5*(x-1)+2</definition>
+  <coordinates bbox="(-1,-1,5,5)">
+    <grid-axes/>
+    <graph function="f"/>
+    <tangent-line function="f" point="1"/>
+  </coordinates>
+</diagram>

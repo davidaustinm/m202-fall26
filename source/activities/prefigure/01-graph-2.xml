@@ -1,0 +1,10 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(250,250)" margins="(25,5,5,5)">
+  <coordinates bbox="(0,-2.5,5,2.5)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <label anchor="(2,2)" alignment="ne" clear-background="yes">
+      <m>y=f(x)</m>
+    </label>
+    <polygon points="((0,0),(2,2),(4,-2),(5,-1))" stroke="blue"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Constructing antiderivatives (Section 5.1)</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Using what you know from your first semester of calculus,
+        consider the function below and sketch its derivative to
+        the right.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <sidebyside widths="45% 45%" margins="0% 0%">
+          <image>
+            <shortdescription>
+              The graph of a degree four polynomial
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-graph-1-a">
+              <xi:include href="prefigure/02-graph-1.xml"/>
+            </prefigure>
+          </image>
+          <image>
+            <shortdescription>
+              An empty coordinate grid
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-empty-1">
+              <xi:include href="prefigure/02-empty-1.xml"/>
+            </prefigure>
+          </image>
+        </sidebyside>
+      </statement>
+      <solution component="aaa-solutions">
+        <sidebyside widths="45% 45%" margins="0% 0%">
+          <image>
+            <shortdescription>
+              The graph of a degree four polynomial
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-graph-1-b">
+              <xi:include href="prefigure/02-graph-1.xml"/>
+            </prefigure>
+          </image>
+          <image>
+            <shortdescription>
+              The graph of the derivative is a cubic polynomial
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-solution-1">
+              <xi:include href="prefigure/02-solution-1.xml"/>
+            </prefigure>
+          </image>
+        </sidebyside>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <sidebyside widths="45% 45%" margins="0% 0%">
+          <image>
+            <shortdescription>
+              The graph of a cubic polynomial
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-graph-2-a">
+              <xi:include href="prefigure/02-graph-2.xml"/>
+            </prefigure>
+          </image>
+          <image>
+            <shortdescription>
+              An empty coordinate grid
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-empty-2">
+              <xi:include href="prefigure/02-empty-1.xml"/>
+            </prefigure>
+          </image>
+        </sidebyside>
+      </statement>
+      <solution component="aaa-solutions">
+        <sidebyside widths="45% 45%" margins="0% 0%">
+          <image>
+            <shortdescription>
+              The graph of a cubic polynomial
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-graph-2-b">
+              <xi:include href="prefigure/02-graph-2.xml"/>
+            </prefigure>
+          </image>
+          <image>
+            <shortdescription>
+              The graph of the deriviative of the cubic polynomial
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="02-solution-2">
+              <xi:include href="prefigure/02-solution-2.xml"/>
+            </prefigure>
+          </image>
+        </sidebyside>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Now let's try to go the other way.  Consider the function
+        shown below and sketch an <em>antiderivative</em>---that
+        is, a function whose derivative is shown---to the right.
+        Perhaps you could begin by thinking about where an
+        antiderivative is increasing and where it is decreasing.
+      </p>
+      <sidebyside widths="45% 45%" margins="0% 0%">
+        <image>
+          <shortdescription>
+            The graph of a linear function having negative slope
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-graph-3-a">
+            <xi:include href="prefigure/02-graph-3.xml"/>
+          </prefigure>
+        </image>
+        <image>
+          <shortdescription>
+            An empty coordinate grid
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-empty-3">
+            <xi:include href="prefigure/02-empty-1.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+    </statement>
+    <solution component="aaa-solutions">
+      <sidebyside widths="45% 45%" margins="0% 0%">
+        <image>
+          <shortdescription>
+            The graph of a linear function having negative slope
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-graph-3-b">
+            <xi:include href="prefigure/02-graph-3.xml"/>
+          </prefigure>
+        </image>
+        <image>
+          <shortdescription>
+            The graph of an antiderivative of a linear function having
+            negative slope
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-solution-3">
+            <xi:include href="prefigure/02-solution-3.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Now we're going to see how to do a better job of the
+        last task.  Shown below on the left is the graph of a
+        function <m>f(x)</m> that is the derivative of an
+        unknown function <m>F(x)</m>.  We say that <m>F(x)</m>
+        is an <em>antiderivative</em> of <m>f(x)</m> because
+        <m>F'(x) = f(x)</m>.  We would like to deduce
+        information about <m>F(x)</m>.
+      </p>
+      <sidebyside widths="45% 45%" margins="0% 0%">
+        <image>
+          <shortdescription>
+            The graph of a piecewise linear function
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-graph-4-a">
+            <xi:include href="prefigure/02-graph-4.xml"/>
+          </prefigure>
+        </image>
+        <image>
+          <shortdescription>
+            An empty coordinate grid
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-empty-4">
+            <xi:include href="prefigure/02-empty-2.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Remember that you are looking at the graph of
+          <m>F'(x) = f(x)</m>.  On what interval(s) is <m>F</m>
+          increasing and on what intervals is it decreasing?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          The function <m>F</m> increases when <m>F'=f</m> is
+          positive, which means on the intervals <m>0\lt x \lt 2</m>
+          and <m>5\lt x \lt 7</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Sketch the graph of <m>f'(x)</m> on the empty axes on
+          the right above.  Notice that this is the same as
+          <m>F''(x)</m>:  since <m>F'(x) = f(x)</m>, then
+          <m>F''(x) = f'(x)</m>.  On what interval(s) is the
+          graph of <m>F</m> concave up?  concave down? neither?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <image width="50%">
+          <shortdescription>
+            The graph of the derivative of a function that is
+            piecewise linear
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-graph-4-deriv">
+            <xi:include href="prefigure/02-graph-4-deriv.xml"/>
+          </prefigure>
+        </image>
+        <p>
+          The graph of <m>F</m> is concave up with <m>F'' = f'</m> is
+          positive, which is on the intervals <m>0\lt x \lt 1</m> and
+          <m>4\lt x \lt 6</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          At what points does <m>F</m> have a relative minimum?
+          maximum?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>F</m> has a relative minimum when the derivative changes
+          from negative to positive which happens at <m>x=5</m>.
+          There is a relative maximum when the derivative changes from
+          positive to negative which happens at <m>x=2</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Evaluate the integral <m>\int_0^1 f(x)~dx</m>.
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          Look at the area under the graph to find
+          <m>\int_0^1f(x)~dx = 1/2\cdot1\cdot1 = 1/2</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          The Fundamental Theorem of Calculus tells us that
+          <md>
+            \int_0^1 f(x)~dx = \int_0^1 F'(x)~dx = F(1) - F(0).
+          </md>
+          Suppose we are told that <m>F(0) = -1</m>.  What is
+          <m>F(1)</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>F(1)=F(0)+\int_0^1f(x)~dx = -1 + 1/2 = -1/2</m>.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          In the same way, find the values of <m>F(x)</m> in the
+          table below.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>x \vphantom{\Huge M}</m></cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+          </row>
+          <row>
+            <cell><m>F(x) \vphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="aaa-solutions">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>x \vphantom{\Huge M}</m></cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+          </row>
+          <row>
+            <cell><m>F(x) \vphantom{\Huge M}</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>-1/2</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>-1/2</m></cell>
+            <cell><m>-3/2</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-3/2</m></cell>
+            <cell><m>-1</m></cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Using all the information you have found so far, sketch
+          the graph of <m>F(x)</m> below.
+        </p>
+        <image width="60%">
+          <shortdescription>
+            An empty coordinate grid
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-empty-anti">
+            <xi:include href="prefigure/02-empty-anti.xml"/>
+          </prefigure>
+        </image>
+      </statement>
+      <solution component="aaa-solutions">
+        <image width="60%">
+          <shortdescription>
+            The graph of an antiderivative of the piecewise linear
+            function
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="02-solution-anti">
+            <xi:include href="prefigure/02-solution-anti.xml"/>
+          </prefigure>
+        </image>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Suppose there is another antiderivative <m>G</m> where
+          <m>G'(x) = f(x)</m> and <m>G(0) = 0</m>.  Complete
+          the table of values of <m>G</m>.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>x \vphantom{\Huge M}</m></cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+          </row>
+          <row>
+            <cell><m>G(x) \vphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="aaa-solutions">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>x \vphantom{\Huge M}</m></cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+          </row>
+          <row>
+            <cell><m>G(x) \vphantom{\Huge M}</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1/2</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>1/2</m></cell>
+            <cell><m>-1/2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>-1/2</m></cell>
+            <cell><m>0</m></cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How are the graphs of <m>F</m> and <m>G</m> related to
+          one another?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          The graph of <m>G</m> is the same as the graph of <m>F</m>
+          shifted up by one unit.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        In the same way, consider the graph of the function
+        <m>f'(x)</m> shown below.
+      </p>
+      <image width="40%">
+        <shortdescription>
+          The graph of another piecewise linear
+          function
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="02-ftc-graph">
+          <xi:include href="prefigure/02-ftc-graph.xml"/>
+        </prefigure>
+      </image>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If <m>f(0) = 4</m>, what is the value <m>f(6)</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <md>
+            <mrow>
+              f(6) = \amp f(0) + \int_0^6f'(x)~dx
+            </mrow>
+            <mrow>
+              = \amp 4 + 0 = 4
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Find the value of <m>f</m> at each of its critical
+          points.
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>f(3/2) = 4 + 3/4 = 4.75</m>.
+        </p>
+        <p>
+          <m>f(4) = f(3/2) -15/4 = 1</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the global maximum and what is the global
+          minimum of <m>f</m> on the interval <m>[0,6]</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          The global maximum and minimum occur at either a critical
+          point or one of the endpoints:
+          <ul>
+            <li><p><m>f(0)=4</m></p></li>
+            <li><p><m>f(3/2)=4.75</m></p></li>
+            <li><p><m>f(4)=1</m></p></li>
+            <li><p><m>f(6)=4</m></p></li>
+          </ul>
+          so the global maximum if <m>f(3/2)=4.75</m> and the global
+          minimum is <m>f(4)=1</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

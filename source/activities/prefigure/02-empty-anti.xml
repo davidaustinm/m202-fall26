@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(440, 220)" margins="(10,5,5,5)">
+  <definition>f1(x)=-1+1/2*x^2</definition>
+  <definition>f2(x)=-1/2*(2-x)^2</definition>
+  <definition>f3(x)=3+f2(3)-x</definition>
+  <definition>f4(x)=f3(4)+1/2*(x-4)^2-(x-4)</definition>
+  <definition>f5(x)=-1/2*(x-7)^2-1</definition>
+  <coordinates bbox="(-0.5,-2,7.5,2)">
+    <grid-axes/>
+  </coordinates>
+</diagram>

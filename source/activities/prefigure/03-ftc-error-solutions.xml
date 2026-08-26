@@ -1,0 +1,9 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 200)" margins="5">
+  <definition>f(t,y)=exp(-t^2)</definition>
+  <coordinates bbox="(-4,-2,4,2)">
+    <grid-axes/>
+    <plot-de-solution function="f" t0="0" t1="4" y0="0" stroke="blue"/>
+    <plot-de-solution function="f" t0="0" t1="-4" y0="0" stroke="blue"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Second Fundamental Theorem of Calculus (Section 5.2)</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Shown below on the left is the graph of a function
+        <m>g(t)</m>.
+      </p>
+      <sidebyside widths="40% 40%" margins="0% 0%">
+        <image>
+          <shortdescription>
+            The graph of a piecewise linear function
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="03-ftc-graph">
+            <xi:include href="prefigure/03-ftc-graph.xml"/>
+          </prefigure>
+        </image>
+        <image>
+          <shortdescription>
+            An empty coordinate grid
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="03-ftc-graph-empty">
+            <xi:include href="prefigure/03-ftc-graph-empty.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+      <p>
+        We will define a new function by
+        <md>
+          A(x) = \int_1^x g(t)~dt.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Let's begin by evaluating
+          <m>A(2) = \int_1^2g(t)~dt</m>.
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>A(2)=\int_1^2g(t)dt = 1</m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find the exact values of <m>A(x)</m> to complete the
+          table below.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>x \vphantom{\Huge M}</m></cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+          </row>
+          <row>
+            <cell><m>A(x) \vphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+            <cell><m>\hphantom{\Huge M}</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="aaa-solutions">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>x \vphantom{\Huge M}</m></cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+          </row>
+          <row>
+            <cell><m>A(x) \vphantom{\Huge M}</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>-1.5</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1.5</m></cell>
+            <cell><m>-1</m></cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+              
+    <task>
+      <statement>
+        <p>
+          Sketch a graph of <m>A(x)</m> on the right above.
+        </p>
+      </statement>
+      <solution>
+        <image width="50%">
+          <shortdescription>
+            The graph of the antiderivative of the piecewise linear
+            function
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="03-ftc-graph-solution">
+            <xi:include href="prefigure/03-ftc-graph-solution.xml"/>
+          </prefigure>
+        </image>
+      </solution>
+    </task>
+        
+    <task workspace="1in">
+      <statement>
+        <p>
+          On what intervals is <m>A</m> increasing and how does
+          this relate to the behavior of <m>g</m>?  Also, on
+          what intervals is <m>A</m> decreasing?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>A</m> increases where <m>g\gt 0</m> so on <m>(0,2)</m>
+          and <m>(5,7)</m> and it's decreasing on <m>(2,5)</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Where does <m>A</m> have a relative minimum or maximum?
+          How is this related to the value of <m>g</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          There is a relative maximum at <m>x=2</m>.
+        </p>
+        <p>
+          There is a relative minimum at <m>x=5</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Remembering that <m>A</m> is an antiderivative of
+          <m>g</m>, what is the value of the derivative
+          <m>A'(1)</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>A'(1)=g(1)=2</m>
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        The <em>Fresnel integral function</em> is defined by
+        <md>
+          S(x) = \int_0^x \sin(t^2)~dt
+        </md>
+        and is used in the study of optics.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is <m>S(0)</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>S(0)=\int_0^0\sin(t^2)~dt = 0</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Use some computational device like
+          <url href="https://desmos.com/calculator"
+               text="custom">
+            Desmos
+          </url>
+          to estimate <m>S(1)</m>.
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>S(1)=\int_0^1\sin(t^2)~dt = 0.3103</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is <m>S'(1)</m>?  Is <m>S(x)</m> increasing or
+          decreasing at <m>x=1</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>S'(1)=\sin(t^2)|_{t=1} = \sin(1)=0.84\gt 0</m>
+          so <m>S</m> is increasing.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the first relative maximum to the right of
+          <m>x=0</m>.  What is the value of <m>S</m> at this
+          relative maximum?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>S'(x)=\sin(x^2)=0</m> at <m>x^2=\pi</m> so
+          <m>x=\sqrt{\pi}=1.772</m>. At this point, <m>S(\sqrt{\pi}) =
+          0.89</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the first relative minimum to the right of
+          <m>x=0</m>.  What is the value of <m>S</m> at this
+          relative maximum?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>S'(x)=\sin(x^2)=0</m> at <m>x^2=2\pi</m> so
+          <m>x=\sqrt{2\pi}=2.506</m>. At this point, <m>S(\sqrt{2\pi}) =
+          0.43</m>.
+        </p>
+      </solution>        
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the second relative maximum to the right of
+          <m>x=0</m> and the value of <m>S</m> at this relative
+          maximum.
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>S'(x)=\sin(x^2)=0</m> at <m>x^2=3\pi</m> so
+          <m>x=\sqrt{3\pi}=3.07</m>. At this point, <m>S(\sqrt{3\pi}) =
+          0.0788</m>.
+        </p>
+      </solution>        
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>Sketch the graph of <m>S(x)</m> below.</p>
+      </statement>
+      <solution component="aaa-solutions">
+        <image width="50%">
+          <shortdescription>
+            The graph of the Fresnel function
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="03-ftc-fresnel-solution">
+            <xi:include href="prefigure/03-ftc-fresnel-solution.xml"/>
+          </prefigure>
+        </image>
+      </solution>        
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        The function
+        <md>
+          E(x) = \int_0^x e^{-t^2}~dt
+        </md>
+        appears frequently in probability and statistics and is
+        closely related to an important function called the
+        <em>error function</em>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the derivative <m>E'(1)</m>?
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>E'(1)=e^{-1}=0.368</m>
+        </p>
+      </solution>        
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Use some computational device to estimate the value
+          <m>E(1)</m>.
+        </p>
+      </statement>
+      <solution component="aaa-solutions">
+        <p>
+          <m>E(1)=\int_0^1e^{-t^2}~dt=0.747</m>
+        </p>
+      </solution>        
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Explain why <m>E</m> is an always increasing function.</p>
+      </statement>
+    </task>
+    <solution component="aaa-solutions">
+      <p>
+        <m>E'(x)=e^{-x^2}\gt 0</m>.
+      </p>
+    </solution>        
+    <task workspace="1.5in">
+      <statement>
+        <p>Sketch the graph of <m>E(x)</m> below.</p>
+      </statement>
+      <solution component="aaa-solutions">
+        <image width="50%">
+          <shortdescription>
+            The graph of the error function
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="03-ftc-error-solution">
+            <xi:include href="prefigure/03-ftc-error-solutions.xml"/>
+          </prefigure>
+        </image>
+      </solution>        
+    </task>
+  </exercise>
+
+</worksheet>

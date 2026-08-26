@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Second Fundamental Theorem of Calculus (Section 5.2)</title>
+
+  <exercise>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose that
+          <md>
+            f(t) = \frac t{1+t^2}.
+          </md>
+          Using Desmos, sketch the graph of <m>f</m> on the
+          interval <m>-5\leq t \leq 5</m> below on the left.
+          Then sketch a graph of <m>f'</m> on the right.
+        </p>
+        <p>
+          <image source="figures/201-empty-t.eps"/>
+          <image source="figures/201-empty-t.eps"/>
+        </p>
+        <p>
+          Next we'll define
+          <md>
+            F(x) = \int_0^x f(t)~dt.
+          </md>
+          What does the Second Fundamental Theorem of Calculus
+          tell us about the relationship between <m>F</m> and
+          <m>f</m>?
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Given the graphs you created above, on what intervals
+          is <m>F</m> increasing and on what intervals is it
+          decreasing?
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Given the graphs you created above, on what intervals
+          is <m>F</m> concave up and on what intervals is it
+          concave down?
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.9in">
+      <statement>
+        <p>
+          At what points does <m>F</m> have a relative maximum
+          or minimum and what is the value of <m>F</m> at these
+          points?
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.9in">
+      <statement>
+        <p>
+          Using Desmos, find the values <m>F(-3)</m>,
+          <m>F(-1)</m>, <m>F(1)</m>, and <m>F(3)</m>.
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Use all the information you've gathered to sketch a
+          graph of <m>F</m> below, indicating the scale on the
+          axes.
+        </p>
+        <p><image source="figures/201-empty-x.eps"/></p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        <term>Differentiation:</term> Complete the table of
+        derivatives below.  Feel free to look up some of them,
+        if you don't remember.
+      </p>
+      <p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>f(x)</m></cell>
+            <cell><m>f'(x)</m></cell>
+          </row>
+          <row>
+            <cell><m>x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>x^n</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>\sin x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>\cos x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>e^x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>\ln x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>\arctan x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>\arcsin x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        <term>Antidifferentiation:</term> Given below is a table
+        of functions.  Complete the table by supplying an
+        <em>anti</em>derivative of each function.
+      </p>
+      <p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>f(x)</m></cell>
+            <cell><m>F(x)</m></cell>
+          </row>
+          <row>
+            <cell><m>x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>x^n</m> (<m>n\neq-1</m>)</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>1/x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>\sin x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>\cos x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>e^x</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>1/(1+x^2)</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>1/\sqrt{1-x^2}</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <task workspace="0.75in">
+      <statement>
+        <p>Find the derivative of <m>f(x) = \cos(3x)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Using this result, find an expression for an
+          antiderivative of <m>\sin(3x)</m>.  You may want to
+          make a guess, check if it is correct by
+          differentiating, and then making a better guess if
+          it's not.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <task workspace="0.75in">
+      <statement>
+        <p>Find the derivative of <m>g(x) = e^{x^2}</m>.</p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Using this result, find an expression for an
+          antiderivative of <m>xe^{x^2}</m>.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <task workspace="1in">
+      <statement>
+        <p>Find the derivative of <m>h(t) = \ln(1+t^2)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now find an expression for an antiderivative of
+          <m>\frac{t}{1+t^2}</m>.
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Notice that we considered the function
+          <m>f(t) = \frac{t}{1+t^2}</m> in the first problem of
+          this activity.  Use Desmos to graph your antiderivative
+          of <m>f(t)</m> and compare it to your graph of
+          <m>F(x)</m>, the antiderivative that you found in that
+          problem.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <task workspace="0.75in">
+      <statement>
+        <p>Find derivatives of these functions:</p>
+        <p><m>\displaystyle (x^3 + 2)^2</m></p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p><m>\displaystyle \sqrt{e^x + e^{-x}}</m></p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p><m>\displaystyle \sin^2(3x-5)</m></p>
+      </statement>
+    </task>
+  </exercise>
+
+</worksheet>

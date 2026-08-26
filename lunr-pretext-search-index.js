@@ -46,22 +46,94 @@ var ptx_lunr_docs = [
   "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use integration by substitution and integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can apply an appropriate technique to approximate a definite integral.  I can use definite integrals to find the volume of a solid of revolution as well as the mass and center of mass of an object.  I can use definite integrals to represent key quantities in applications such as work, finance, and probability.  I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can express real world situations as differential equations, determine any stable or unstable equilibrium solutions, and explain the significance of the equilibrium solutions in context.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
 },
 {
-  "id": "activity-01-intro-activity",
+  "id": "activities-2",
   "level": "1",
-  "url": "activity-01-intro-activity.html",
+  "url": "activities-2.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Introduction Activity",
-  "body": " Introduction Activity    This is the introduction to the activity.      This is the first exercise.    "
+  "title": "Some concepts from Calculus I",
+  "body": " Some concepts from Calculus I  Here are a few ideas that appeared in Calculus I and that we'd like to review. It's OK if you don't remember everything, but let's work together to help everyone feel caught up.    Let's begin by remembering the relationship between velocity and distance traveled.     Suppose you drive in your car at 70mph for 3 hours. How far will you travel? If you know your speed and the amount of time you travel at that speed, what is the general rule for determining the distance traveled?      Suppose you take a trip in your car and measure your speed for 30 seconds:             Time (seconds)  0  5  10  15  20  25  30    Speed (feet\/second)  10  25  35  45  50  60  70     Estimate how far you travel during the first five seconds. There are a couple of ways you could do this so write one sentence that explains what you did and share it with your group mates.      Estimate how far you have traveled over the entire 30-second interval.      Estimate your average speed over the 30-second interval.       Suppose that is a function satisfying , and . Sketch a possible graph for on the left below.    An empty coordinate grid           An empty coordinate grid           Suppose that is a function with and . Sketch a possible graph for on the right above.  Suppose that a function satisfies and . Using this information, estimate . What would knowledge of tell you about your estimate?      Shown below is the graph of a function .   The graph of a function consisting of straight lines       y=f(x)        Evaluate the definite integrals:                                                Evaluate the definite integrals using the Fundamental Theorem of Calculus:                       "
 },
 {
-  "id": "activity-01-intro-activity-3",
+  "id": "activities-2-3",
   "level": "2",
-  "url": "activity-01-intro-activity.html#activity-01-intro-activity-3",
+  "url": "activities-2.html#activities-2-3",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  This is the first exercise.   "
+  "body": "  Let's begin by remembering the relationship between velocity and distance traveled.     Suppose you drive in your car at 70mph for 3 hours. How far will you travel? If you know your speed and the amount of time you travel at that speed, what is the general rule for determining the distance traveled?      Suppose you take a trip in your car and measure your speed for 30 seconds:             Time (seconds)  0  5  10  15  20  25  30    Speed (feet\/second)  10  25  35  45  50  60  70     Estimate how far you travel during the first five seconds. There are a couple of ways you could do this so write one sentence that explains what you did and share it with your group mates.      Estimate how far you have traveled over the entire 30-second interval.      Estimate your average speed over the 30-second interval.    "
+},
+{
+  "id": "activities-2-4",
+  "level": "2",
+  "url": "activities-2.html#activities-2-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that is a function satisfying , and . Sketch a possible graph for on the left below.    An empty coordinate grid           An empty coordinate grid           Suppose that is a function with and . Sketch a possible graph for on the right above.  Suppose that a function satisfies and . Using this information, estimate . What would knowledge of tell you about your estimate?   "
+},
+{
+  "id": "activities-2-5",
+  "level": "2",
+  "url": "activities-2.html#activities-2-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Shown below is the graph of a function .   The graph of a function consisting of straight lines       y=f(x)        Evaluate the definite integrals:                                             "
+},
+{
+  "id": "activities-2-6",
+  "level": "2",
+  "url": "activities-2.html#activities-2-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Evaluate the definite integrals using the Fundamental Theorem of Calculus:                      "
+},
+{
+  "id": "activities-3",
+  "level": "1",
+  "url": "activities-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Constructing antiderivatives (Section 5.1)",
+  "body": " Constructing antiderivatives (Section 5.1)    Using what you know from your first semester of calculus, consider the function below and sketch its derivative to the right.       The graph of a degree four polynomial    f(x)=1\/4*x^4-2*x^2          An empty coordinate grid    f(x)=1\/4*x^4-2*x^2               The graph of a cubic polynomial    f(x)=1\/10*x^3+1  g(x)=x^3-4*x          An empty coordinate grid    f(x)=1\/4*x^4-2*x^2              Now let's try to go the other way. Consider the function shown below and sketch an antiderivative ---that is, a function whose derivative is shown---to the right. Perhaps you could begin by thinking about where an antiderivative is increasing and where it is decreasing.    The graph of a linear function having negative slope    f(x)=-x-1  g(x)=x^3-4*x          An empty coordinate grid    f(x)=1\/4*x^4-2*x^2             Now we're going to see how to do a better job of the last task. Shown below on the left is the graph of a function that is the derivative of an unknown function . We say that is an antiderivative of because . We would like to deduce information about .    The graph of a piecewise linear function       y=f(x)         An empty coordinate grid              Remember that you are looking at the graph of . On what interval(s) is increasing and on what intervals is it decreasing?      Sketch the graph of on the empty axes on the right above. Notice that this is the same as : since , then . On what interval(s) is the graph of concave up? concave down? neither?      At what points does have a relative minimum? maximum?      Evaluate the integral .      The Fundamental Theorem of Calculus tells us that Suppose we are told that . What is ?      In the same way, find the values of in the table below.              0  1  2  3  4  5  6  7                   Using all the information you have found so far, sketch the graph of below.   An empty coordinate grid    f1(x)=-1+1\/2*x^2  f2(x)=-1\/2*(2-x)^2  f3(x)=3+f2(3)-x  f4(x)=f3(4)+1\/2*(x-4)^2-(x-4)  f5(x)=-1\/2*(x-7)^2-1            Suppose there is another antiderivative where and . Complete the table of values of .              0  1  2  3  4  5  6  7                   How are the graphs of and related to one another?       In the same way, consider the graph of the function shown below.   The graph of another piecewise linear function              If , what is the value ?      Find the value of at each of its critical points.      What is the global maximum and what is the global minimum of on the interval ?     "
+},
+{
+  "id": "activities-3-2",
+  "level": "2",
+  "url": "activities-3.html#activities-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Using what you know from your first semester of calculus, consider the function below and sketch its derivative to the right.       The graph of a degree four polynomial    f(x)=1\/4*x^4-2*x^2          An empty coordinate grid    f(x)=1\/4*x^4-2*x^2               The graph of a cubic polynomial    f(x)=1\/10*x^3+1  g(x)=x^3-4*x          An empty coordinate grid    f(x)=1\/4*x^4-2*x^2           "
+},
+{
+  "id": "activities-3-3",
+  "level": "2",
+  "url": "activities-3.html#activities-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Now let's try to go the other way. Consider the function shown below and sketch an antiderivative ---that is, a function whose derivative is shown---to the right. Perhaps you could begin by thinking about where an antiderivative is increasing and where it is decreasing.    The graph of a linear function having negative slope    f(x)=-x-1  g(x)=x^3-4*x          An empty coordinate grid    f(x)=1\/4*x^4-2*x^2          "
+},
+{
+  "id": "activities-3-4",
+  "level": "2",
+  "url": "activities-3.html#activities-3-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now we're going to see how to do a better job of the last task. Shown below on the left is the graph of a function that is the derivative of an unknown function . We say that is an antiderivative of because . We would like to deduce information about .    The graph of a piecewise linear function       y=f(x)         An empty coordinate grid              Remember that you are looking at the graph of . On what interval(s) is increasing and on what intervals is it decreasing?      Sketch the graph of on the empty axes on the right above. Notice that this is the same as : since , then . On what interval(s) is the graph of concave up? concave down? neither?      At what points does have a relative minimum? maximum?      Evaluate the integral .      The Fundamental Theorem of Calculus tells us that Suppose we are told that . What is ?      In the same way, find the values of in the table below.              0  1  2  3  4  5  6  7                   Using all the information you have found so far, sketch the graph of below.   An empty coordinate grid    f1(x)=-1+1\/2*x^2  f2(x)=-1\/2*(2-x)^2  f3(x)=3+f2(3)-x  f4(x)=f3(4)+1\/2*(x-4)^2-(x-4)  f5(x)=-1\/2*(x-7)^2-1            Suppose there is another antiderivative where and . Complete the table of values of .              0  1  2  3  4  5  6  7                   How are the graphs of and related to one another?    "
+},
+{
+  "id": "activities-3-5",
+  "level": "2",
+  "url": "activities-3.html#activities-3-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  In the same way, consider the graph of the function shown below.   The graph of another piecewise linear function              If , what is the value ?      Find the value of at each of its critical points.      What is the global maximum and what is the global minimum of on the interval ?    "
 }
 ]
 

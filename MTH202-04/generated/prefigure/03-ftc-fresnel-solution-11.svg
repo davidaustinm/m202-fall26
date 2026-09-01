@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="03-ftc-fresnel-solution-figure" width="310" height="210" viewBox="0 0 310 210">
+  <defs>
+    <clipPath id="03-ftc-fresnel-solution-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="200.0"/>
+    </clipPath>
+    <clipPath id="03-ftc-fresnel-solution-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="200.0"/>
+    </clipPath>
+  </defs>
+  <g id="03-ftc-fresnel-solution-grid-axes">
+    <g id="03-ftc-fresnel-solution-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="205.0" x2="5.0" y2="5.0"/>
+      <line x1="42.5" y1="205.0" x2="42.5" y2="5.0"/>
+      <line x1="80.0" y1="205.0" x2="80.0" y2="5.0"/>
+      <line x1="117.5" y1="205.0" x2="117.5" y2="5.0"/>
+      <line x1="155.0" y1="205.0" x2="155.0" y2="5.0"/>
+      <line x1="192.5" y1="205.0" x2="192.5" y2="5.0"/>
+      <line x1="230.0" y1="205.0" x2="230.0" y2="5.0"/>
+      <line x1="267.5" y1="205.0" x2="267.5" y2="5.0"/>
+      <line x1="305.0" y1="205.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="205.0" x2="305.0" y2="205.0"/>
+      <line x1="5.0" y1="180.0" x2="305.0" y2="180.0"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="130.0" x2="305.0" y2="130.0"/>
+      <line x1="5.0" y1="105.0" x2="305.0" y2="105.0"/>
+      <line x1="5.0" y1="80.0" x2="305.0" y2="80.0"/>
+      <line x1="5.0" y1="55.0" x2="305.0" y2="55.0"/>
+      <line x1="5.0" y1="30.0" x2="305.0" y2="30.0"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="03-ftc-fresnel-solution-axes" stroke="black" stroke-width="2">
+      <line id="03-ftc-fresnel-solution-__line-18" x1="5.0" y1="105.0" x2="305.0" y2="105.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="03-ftc-fresnel-solution-__line-19" x1="80.0" y1="108.0" x2="80.0" y2="102.0"/>
+        <line id="03-ftc-fresnel-solution-__line-20" x1="230.0" y1="108.0" x2="230.0" y2="102.0"/>
+      </g>
+      <line id="03-ftc-fresnel-solution-__line-21" x1="155.0" y1="205.0" x2="155.0" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="03-ftc-fresnel-solution-__line-22" x1="152.0" y1="155.0" x2="158.0" y2="155.0"/>
+        <line id="03-ftc-fresnel-solution-__line-23" x1="152.0" y1="55.0" x2="158.0" y2="55.0"/>
+      </g>
+    </g>
+    <g id="03-ftc-fresnel-solution-__label-0" transform="translate(80.0,116.0) translate(-7.5,-0.0)">
+      <g id="03-ftc-fresnel-solution-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="03-ftc-fresnel-solution-MJX-2-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="03-ftc-fresnel-solution-MJX-2-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#03-ftc-fresnel-solution-MJX-2-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#03-ftc-fresnel-solution-MJX-2-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="03-ftc-fresnel-solution-__label-1" transform="translate(230.0,116.0) translate(-4.5,-0.0)">
+      <g id="03-ftc-fresnel-solution-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="03-ftc-fresnel-solution-MJX-3-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#03-ftc-fresnel-solution-MJX-3-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="03-ftc-fresnel-solution-__label-2" transform="translate(144.0,155.0) translate(-15.1,-6.0)">
+      <g id="03-ftc-fresnel-solution-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="03-ftc-fresnel-solution-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="03-ftc-fresnel-solution-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1">
+                <use data-c="2D" xlink:href="#03-ftc-fresnel-solution-MJX-4-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#03-ftc-fresnel-solution-MJX-4-TEX-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="03-ftc-fresnel-solution-__label-3" transform="translate(144.0,55.0) translate(-9.0,-6.0)">
+      <g id="03-ftc-fresnel-solution-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="03-ftc-fresnel-solution-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#03-ftc-fresnel-solution-MJX-5-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="03-ftc-fresnel-solution-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 155.0 105.0 L 156.5 105.0 L 158.0 105.0 L 159.5 105.0 L 161.1 104.9 L 162.6 104.9 L 164.1 104.8 L 165.6 104.6 L 167.1 104.4 L 168.6 104.2 L 170.2 103.9 L 171.7 103.5 L 173.2 103.1 L 174.7 102.6 L 176.2 102.0 L 177.7 101.3 L 179.2 100.5 L 180.8 99.7 L 182.3 98.7 L 183.8 97.6 L 185.3 96.5 L 186.8 95.2 L 188.3 93.8 L 189.8 92.3 L 191.4 90.7 L 192.9 89.0 L 194.4 87.2 L 195.9 85.4 L 197.4 83.5 L 198.9 81.5 L 200.5 79.5 L 202.0 77.5 L 203.5 75.6 L 205.0 73.6 L 206.5 71.7 L 208.0 69.9 L 209.5 68.1 L 211.1 66.5 L 212.6 65.0 L 214.1 63.6 L 215.6 62.5 L 217.1 61.5 L 218.6 60.8 L 220.2 60.4 L 221.7 60.3 L 223.2 60.5 L 224.7 61.0 L 226.2 61.8 L 227.7 62.8 L 229.2 64.1 L 230.8 65.6 L 232.3 67.3 L 233.8 69.1 L 235.3 71.1 L 236.8 73.0 L 238.3 75.0 L 239.8 76.9 L 241.4 78.7 L 242.9 80.3 L 244.4 81.6 L 245.9 82.6 L 247.4 83.2 L 248.9 83.4 L 250.5 83.2 L 252.0 82.6 L 253.5 81.6 L 255.0 80.3 L 256.5 78.8 L 258.0 77.0 L 259.5 75.0 L 261.1 73.0 L 262.6 71.1 L 264.1 69.3 L 265.6 67.7 L 267.1 66.6 L 268.6 65.9 L 270.2 65.7 L 271.7 65.9 L 273.2 66.7 L 274.7 67.8 L 276.2 69.3 L 277.7 71.1 L 279.2 73.1 L 280.8 75.1 L 282.3 77.0 L 283.8 78.6 L 285.3 79.8 L 286.8 80.5 L 288.3 80.5 L 289.8 80.1 L 291.4 79.1 L 292.9 77.7 L 294.4 76.1 L 295.9 74.2 L 297.4 72.3 L 298.9 70.4 L 300.5 68.9 L 302.0 67.8 L 303.5 67.4 L 305.0 67.7" clip-path="url(#03-ftc-fresnel-solution-__clipPath-1)"/>
+  <path id="03-ftc-fresnel-solution-__path-1" stroke="blue" stroke-width="2" fill="none" d="M 155.0 105.0 L 153.5 105.0 L 152.0 105.0 L 150.5 105.0 L 148.9 105.1 L 147.4 105.1 L 145.9 105.2 L 144.4 105.4 L 142.9 105.6 L 141.4 105.8 L 139.8 106.1 L 138.3 106.5 L 136.8 106.9 L 135.3 107.4 L 133.8 108.0 L 132.3 108.7 L 130.8 109.5 L 129.2 110.3 L 127.7 111.3 L 126.2 112.4 L 124.7 113.5 L 123.2 114.8 L 121.7 116.2 L 120.2 117.7 L 118.6 119.3 L 117.1 121.0 L 115.6 122.8 L 114.1 124.6 L 112.6 126.5 L 111.1 128.5 L 109.5 130.5 L 108.0 132.5 L 106.5 134.4 L 105.0 136.4 L 103.5 138.3 L 102.0 140.1 L 100.5 141.9 L 98.9 143.5 L 97.4 145.0 L 95.9 146.4 L 94.4 147.5 L 92.9 148.5 L 91.4 149.2 L 89.8 149.6 L 88.3 149.7 L 86.8 149.5 L 85.3 149.0 L 83.8 148.2 L 82.3 147.2 L 80.8 145.9 L 79.2 144.4 L 77.7 142.7 L 76.2 140.9 L 74.7 138.9 L 73.2 137.0 L 71.7 135.0 L 70.2 133.1 L 68.6 131.3 L 67.1 129.7 L 65.6 128.4 L 64.1 127.4 L 62.6 126.8 L 61.1 126.6 L 59.5 126.8 L 58.0 127.4 L 56.5 128.4 L 55.0 129.7 L 53.5 131.2 L 52.0 133.0 L 50.5 135.0 L 48.9 137.0 L 47.4 138.9 L 45.9 140.7 L 44.4 142.3 L 42.9 143.4 L 41.4 144.1 L 39.8 144.3 L 38.3 144.1 L 36.8 143.3 L 35.3 142.2 L 33.8 140.7 L 32.3 138.9 L 30.8 136.9 L 29.2 134.9 L 27.7 133.0 L 26.2 131.4 L 24.7 130.2 L 23.2 129.5 L 21.7 129.5 L 20.2 129.9 L 18.6 130.9 L 17.1 132.3 L 15.6 133.9 L 14.1 135.8 L 12.6 137.7 L 11.1 139.6 L 9.5 141.1 L 8.0 142.2 L 6.5 142.6 L 5.0 142.3" clip-path="url(#03-ftc-fresnel-solution-__clipPath-1)"/>
+</svg>

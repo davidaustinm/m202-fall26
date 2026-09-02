@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Second Fundamental Theorem of Calculus, part I (Section 5.2)",
-  "body": " Second Fundamental Theorem of Calculus, part I (Section 5.2)    Shown below on the left is the graph of a function .    The graph of a piecewise linear function            An empty coordinate grid           We will define a new function by      Let's begin by evaluating .      Find the exact values of to complete the table below.              0  1  2  3  4  5  6  7                   Sketch a graph of on the right above.     The graph of the antiderivative of the piecewise linear function    f1(x)=x^2-1  f2(x)=f1(1)-1\/4*(4-2*x)^2+1  f3(x)=f2(3)+1\/2*(x-5)^2-2  f4(x)=f3(6)-1\/2*(7-x)^2+1\/2                  On what intervals is increasing and how does this relate to the behavior of ? Also, on what intervals is decreasing?      Where does have a relative minimum or maximum? How is this related to the value of ?      Remembering that is an antiderivative of , what is the value of the derivative ?       The Fresnel integral function is defined by and is used in the study of optics.     What is ?      Use some computational device like Desmos to estimate .      What is ? Is increasing or decreasing at ?      Find the first relative maximum to the right of . What is the value of at this relative maximum?      Find the first relative minimum to the right of . What is the value of at this relative maximum?      Find the second relative maximum to the right of and the value of at this relative maximum.      Sketch the graph of below.       The function appears frequently in probability and statistics and is closely related to an important function called the error function .     What is the derivative ?      Use some computational device to estimate the value .      Explain why is an always increasing function.      Sketch the graph of below.     "
+  "body": " Second Fundamental Theorem of Calculus, part I (Section 5.2)    Shown below on the left is the graph of a function .    The graph of a piecewise linear function            An empty coordinate grid           We will define a new function by      Let's begin by evaluating .           Find the exact values of to complete the table below.              0  1  2  3  4  5  6  7                             0  1  2  3  4  5  6  7                   Sketch a graph of on the right above.     The graph of the antiderivative of the piecewise linear function    f1(x)=x^2-1  f2(x)=f1(1)-1\/4*(4-2*x)^2+1  f3(x)=f2(3)+1\/2*(x-5)^2-2  f4(x)=f3(6)-1\/2*(7-x)^2+1\/2                  On what intervals is increasing and how does this relate to the behavior of ? Also, on what intervals is decreasing?     increases where so on and and it's decreasing on .      Where does have a relative minimum or maximum? How is this related to the value of ?    There is a relative maximum at .  There is a relative minimum at .      Remembering that is an antiderivative of , what is the value of the derivative ?            The Fresnel integral function is defined by and is used in the study of optics.     What is ?           Use some computational device like Desmos to estimate .     .      What is ? Is increasing or decreasing at ?     so is increasing.      Find the first relative maximum to the right of . What is the value of at this relative maximum?     at so . At this point, .      Find the first relative minimum to the right of . What is the value of at this relative maximum?     at so . At this point, .      Find the second relative maximum to the right of and the value of at this relative maximum.     at so . At this point, .      Sketch the graph of below.     The graph of the Fresnel function    f(t,y)=sin(t^2)               The function appears frequently in probability and statistics and is closely related to an important function called the error function .     What is the derivative ?           Use some computational device to estimate the value .           Explain why is an always increasing function.     .      Sketch the graph of below.     The graph of the error function    f(t,y)=exp(-t^2)             "
 },
 {
   "id": "activities-4-2",
@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Shown below on the left is the graph of a function .    The graph of a piecewise linear function            An empty coordinate grid           We will define a new function by      Let's begin by evaluating .      Find the exact values of to complete the table below.              0  1  2  3  4  5  6  7                   Sketch a graph of on the right above.     The graph of the antiderivative of the piecewise linear function    f1(x)=x^2-1  f2(x)=f1(1)-1\/4*(4-2*x)^2+1  f3(x)=f2(3)+1\/2*(x-5)^2-2  f4(x)=f3(6)-1\/2*(7-x)^2+1\/2                  On what intervals is increasing and how does this relate to the behavior of ? Also, on what intervals is decreasing?      Where does have a relative minimum or maximum? How is this related to the value of ?      Remembering that is an antiderivative of , what is the value of the derivative ?    "
+  "body": "  Shown below on the left is the graph of a function .    The graph of a piecewise linear function            An empty coordinate grid           We will define a new function by      Let's begin by evaluating .           Find the exact values of to complete the table below.              0  1  2  3  4  5  6  7                             0  1  2  3  4  5  6  7                   Sketch a graph of on the right above.     The graph of the antiderivative of the piecewise linear function    f1(x)=x^2-1  f2(x)=f1(1)-1\/4*(4-2*x)^2+1  f3(x)=f2(3)+1\/2*(x-5)^2-2  f4(x)=f3(6)-1\/2*(7-x)^2+1\/2                  On what intervals is increasing and how does this relate to the behavior of ? Also, on what intervals is decreasing?     increases where so on and and it's decreasing on .      Where does have a relative minimum or maximum? How is this related to the value of ?    There is a relative maximum at .  There is a relative minimum at .      Remembering that is an antiderivative of , what is the value of the derivative ?         "
 },
 {
   "id": "activities-4-3",
@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  The Fresnel integral function is defined by and is used in the study of optics.     What is ?      Use some computational device like Desmos to estimate .      What is ? Is increasing or decreasing at ?      Find the first relative maximum to the right of . What is the value of at this relative maximum?      Find the first relative minimum to the right of . What is the value of at this relative maximum?      Find the second relative maximum to the right of and the value of at this relative maximum.      Sketch the graph of below.    "
+  "body": "  The Fresnel integral function is defined by and is used in the study of optics.     What is ?           Use some computational device like Desmos to estimate .     .      What is ? Is increasing or decreasing at ?     so is increasing.      Find the first relative maximum to the right of . What is the value of at this relative maximum?     at so . At this point, .      Find the first relative minimum to the right of . What is the value of at this relative maximum?     at so . At this point, .      Find the second relative maximum to the right of and the value of at this relative maximum.     at so . At this point, .      Sketch the graph of below.     The graph of the Fresnel function    f(t,y)=sin(t^2)            "
 },
 {
   "id": "activities-4-4",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  The function appears frequently in probability and statistics and is closely related to an important function called the error function .     What is the derivative ?      Use some computational device to estimate the value .      Explain why is an always increasing function.      Sketch the graph of below.    "
+  "body": "  The function appears frequently in probability and statistics and is closely related to an important function called the error function .     What is the derivative ?           Use some computational device to estimate the value .           Explain why is an always increasing function.     .      Sketch the graph of below.     The graph of the error function    f(t,y)=exp(-t^2)            "
 },
 {
   "id": "activities-5",
@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Second Fundamental Theorem of Calculus, part II (Section 5.2)",
-  "body": " Second Fundamental Theorem of Calculus, part II (Section 5.2)    Suppose that      Using Desmos, sketch the graph of on the interval below on the left. Then sketch a graph of on the right.    An empty coordinate grid           An empty coordinate grid               Next we'll define .  What does the Second Fundamental Theorem of Calculus tell us about the relationship between and ?      Given the graphs you created above, on what intervals is increasing and on what intervals is it decreasing?      Given the graphs you created above, on what intervals is concave up and on what intervals is it concave down?      At what points does have a relative maximum or minimum and what is the value of at these points?      Using Desmos, find the values , , , and .      Use all the information you've gathered to sketch a graph of below.   An empty coordinate grid                Differentiation: Complete the table of derivatives below. Feel free to ask someone around you.                                                                               Antidifferentiation: Given below is a table of functions. Complete the table by supplying an anti derivative of each function.                  ( )                                                             We would like to use our table to antidifferentiate more functions.     Find the derivative of .      Using this result, find an expression for an antiderivative of . You may want to make a guess, check if it is correct by differentiating, and then making a better guess if it's not.       Antidifferentiating is the process of reversing differentiation.     Find the derivative of .      Using this result, find an expression for an antiderivative of .       Let's do the same thing with a different function.     Find the derivative of .      Now find an expression for an antiderivative of .      Notice that we considered the function in the first problem of this activity. Use Desmos to graph your antiderivative of and compare it to your graph of , the antiderivative that you found in that problem.       Let's review how the Chain Rule works.                   "
+  "body": " Second Fundamental Theorem of Calculus, part II (Section 5.2)    Suppose that      Using Desmos, sketch the graph of on the interval below on the left. Then sketch a graph of on the right.    An empty coordinate grid           An empty coordinate grid               A graph of f    f(x)=x\/(1+x^2)          The derivative of f    f(x)=x\/(1+x^2)  fp(x)=deriv(f,x)              Next we'll define .  What does the Second Fundamental Theorem of Calculus tell us about the relationship between and ?    We know that .      Given the graphs you created above, on what intervals is increasing and on what intervals is it decreasing?     is increasing when is positive, which happens when . It is decreasing when .      Given the graphs you created above, on what intervals is concave up and on what intervals is it concave down?     is concave up when is positive so when , and it is concave down when and .      At what points does have a relative maximum or minimum and what is the value of at these points?     has a relative minimum when , which occurs at . We have .      Using Desmos, find the values , , , and .                        Use all the information you've gathered to sketch a graph of below.   An empty coordinate grid             The graph of F    f(x,y)=x\/(1+x^2)                Differentiation: Complete the table of derivatives below. Feel free to ask someone around you.                                                                                                                                                         Antidifferentiation: Given below is a table of functions. Complete the table by supplying an anti derivative of each function.                  ( )                                                                           ( )                                                  \\arcsin x            We would like to use our table to antidifferentiate more functions.     Find the derivative of .           Using this result, find an expression for an antiderivative of . You may want to make a guess, check if it is correct by differentiating, and then making a better guess if it's not.            Antidifferentiating is the process of reversing differentiation.     Find the derivative of .           Using this result, find an expression for an antiderivative of .            Let's do the same thing with a different function.     Find the derivative of .           Now find an expression for an antiderivative of .           Notice that we considered the function in the first problem of this activity. Use Desmos to graph your antiderivative of and compare it to your graph of , the antiderivative that you found in that problem.    Looks about the same!       Let's review how the Chain Rule works.                                  "
 },
 {
   "id": "activities-5-2",
@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Suppose that      Using Desmos, sketch the graph of on the interval below on the left. Then sketch a graph of on the right.    An empty coordinate grid           An empty coordinate grid               Next we'll define .  What does the Second Fundamental Theorem of Calculus tell us about the relationship between and ?      Given the graphs you created above, on what intervals is increasing and on what intervals is it decreasing?      Given the graphs you created above, on what intervals is concave up and on what intervals is it concave down?      At what points does have a relative maximum or minimum and what is the value of at these points?      Using Desmos, find the values , , , and .      Use all the information you've gathered to sketch a graph of below.   An empty coordinate grid            "
+  "body": "  Suppose that      Using Desmos, sketch the graph of on the interval below on the left. Then sketch a graph of on the right.    An empty coordinate grid           An empty coordinate grid               A graph of f    f(x)=x\/(1+x^2)          The derivative of f    f(x)=x\/(1+x^2)  fp(x)=deriv(f,x)              Next we'll define .  What does the Second Fundamental Theorem of Calculus tell us about the relationship between and ?    We know that .      Given the graphs you created above, on what intervals is increasing and on what intervals is it decreasing?     is increasing when is positive, which happens when . It is decreasing when .      Given the graphs you created above, on what intervals is concave up and on what intervals is it concave down?     is concave up when is positive so when , and it is concave down when and .      At what points does have a relative maximum or minimum and what is the value of at these points?     has a relative minimum when , which occurs at . We have .      Using Desmos, find the values , , , and .                        Use all the information you've gathered to sketch a graph of below.   An empty coordinate grid             The graph of F    f(x,y)=x\/(1+x^2)            "
 },
 {
   "id": "activities-5-3",
@@ -196,7 +196,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "   Differentiation: Complete the table of derivatives below. Feel free to ask someone around you.                                                                           "
+  "body": "   Differentiation: Complete the table of derivatives below. Feel free to ask someone around you.                                                                                                                                                     "
 },
 {
   "id": "activities-5-4",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "   Antidifferentiation: Given below is a table of functions. Complete the table by supplying an anti derivative of each function.                  ( )                                                          "
+  "body": "   Antidifferentiation: Given below is a table of functions. Complete the table by supplying an anti derivative of each function.                  ( )                                                                           ( )                                                  \\arcsin x         "
 },
 {
   "id": "activities-5-5",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  We would like to use our table to antidifferentiate more functions.     Find the derivative of .      Using this result, find an expression for an antiderivative of . You may want to make a guess, check if it is correct by differentiating, and then making a better guess if it's not.    "
+  "body": "  We would like to use our table to antidifferentiate more functions.     Find the derivative of .           Using this result, find an expression for an antiderivative of . You may want to make a guess, check if it is correct by differentiating, and then making a better guess if it's not.         "
 },
 {
   "id": "activities-5-6",
@@ -223,7 +223,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Antidifferentiating is the process of reversing differentiation.     Find the derivative of .      Using this result, find an expression for an antiderivative of .    "
+  "body": "  Antidifferentiating is the process of reversing differentiation.     Find the derivative of .           Using this result, find an expression for an antiderivative of .         "
 },
 {
   "id": "activities-5-7",
@@ -232,7 +232,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "  Let's do the same thing with a different function.     Find the derivative of .      Now find an expression for an antiderivative of .      Notice that we considered the function in the first problem of this activity. Use Desmos to graph your antiderivative of and compare it to your graph of , the antiderivative that you found in that problem.    "
+  "body": "  Let's do the same thing with a different function.     Find the derivative of .           Now find an expression for an antiderivative of .           Notice that we considered the function in the first problem of this activity. Use Desmos to graph your antiderivative of and compare it to your graph of , the antiderivative that you found in that problem.    Looks about the same!    "
 },
 {
   "id": "activities-5-8",
@@ -241,7 +241,34 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "  Let's review how the Chain Rule works.                  "
+  "body": "  Let's review how the Chain Rule works.                                 "
+},
+{
+  "id": "activities-6",
+  "level": "1",
+  "url": "activities-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Antiderivatives using substitution (Section 5.3)",
+  "body": " Antiderivatives using substitution (Section 5.3)    The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.       Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                         "
+},
+{
+  "id": "activities-6-2",
+  "level": "2",
+  "url": "activities-6.html#activities-6-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.    "
+},
+{
+  "id": "activities-6-3",
+  "level": "2",
+  "url": "activities-6.html#activities-6-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                        "
 }
 ]
 

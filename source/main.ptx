@@ -60,6 +60,9 @@
       <xi:include href="./activities/01-review.ptx"/>
       <xi:include href="./activities/02-ftc.ptx"/>
       <xi:include href="./activities/03-ftc.ptx"/>
+      <xi:include href="./activities/04-review.ptx"/>
+      <xi:include href="./activities/05-substitution.ptx"/>
+      <xi:include href="./activities/06-area.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>

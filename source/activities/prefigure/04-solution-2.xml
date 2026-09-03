@@ -1,0 +1,9 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,250)" margins="5">
+  <definition>f(x)=x/(1+x^2)</definition>
+  <definition>fp(x)=deriv(f,x)</definition>
+  <coordinates bbox="(-5,-1.25,5,1.25)">
+    <grid-axes/>
+    <graph function="fp"/>
+  </coordinates>
+</diagram>

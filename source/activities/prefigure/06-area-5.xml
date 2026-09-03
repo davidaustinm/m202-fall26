@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,200)" margins="5">
+  <definition>f(x)=sqrt(x)</definition>
+  <coordinates bbox="(-1,-0.5,4,2)">
+    <axes decorations="no"/>
+    <area-under-curve function="f" domain="(0, 3)"
+                      fill="lightgray" stroke="black"/>
+    <graph function="f"/>
+    <tick-mark location="3"><m>R</m></tick-mark>
+  </coordinates>
+</diagram>

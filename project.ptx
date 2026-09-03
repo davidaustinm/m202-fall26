@@ -4,8 +4,10 @@
 <project ptx-version="2">
   <targets>
     <!-- Main course for html or pdf -->
-    <target name="student" source="main.ptx" format="html"
-            publication="publication-student.ptx" deploy-dir="." />
+    <target name="student-04" source="main.ptx" format="html"
+            publication="publication-04.ptx" deploy-dir="MTH202-04" />
+    <target name="student-02" source="main.ptx" format="html"
+            publication="publication-02.ptx" deploy-dir="MTH202-02" />
     <target name="instructor" source="main.ptx" format="html"
             publication="publication.ptx" />
 

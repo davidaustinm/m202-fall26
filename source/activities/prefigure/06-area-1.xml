@@ -1,0 +1,10 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,300)" margins="5">
+  <definition>f(x)=x^2-5</definition>
+  <definition>g(x)=3-x^2</definition>
+  <coordinates bbox="(-3,-6,3,6)">
+    <grid-axes/>
+    <graph function="f"/>
+    <graph function="g"/>
+  </coordinates>
+</diagram>

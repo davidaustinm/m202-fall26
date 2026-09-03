@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Second Fundamental Theorem of Calculus (Section 5.2)</title>
+  <title>Second Fundamental Theorem of Calculus, part I (Section 5.2)</title>
 
   <exercise>
     <introduction>
@@ -42,7 +42,7 @@
           <m>A(2) = \int_1^2g(t)~dt</m>.
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>A(2)=\int_1^2g(t)dt = 1</m>
         </p>
@@ -88,7 +88,7 @@
           </row>
         </tabular>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <tabular>
           <col halign="center" right="minor"/>
           <col halign="center" right="minor"/>
@@ -153,7 +153,7 @@
           what intervals is <m>A</m> decreasing?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>A</m> increases where <m>g\gt 0</m> so on <m>(0,2)</m>
           and <m>(5,7)</m> and it's decreasing on <m>(2,5)</m>.
@@ -167,7 +167,7 @@
           How is this related to the value of <m>g</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           There is a relative maximum at <m>x=2</m>.
         </p>
@@ -184,7 +184,7 @@
           <m>A'(1)</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>A'(1)=g(1)=2</m>
         </p>
@@ -208,7 +208,7 @@
           What is <m>S(0)</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>S(0)=\int_0^0\sin(t^2)~dt = 0</m>
         </p>
@@ -225,7 +225,7 @@
           to estimate <m>S(1)</m>.
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>S(1)=\int_0^1\sin(t^2)~dt = 0.3103</m>.
         </p>
@@ -238,7 +238,7 @@
           decreasing at <m>x=1</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>S'(1)=\sin(t^2)|_{t=1} = \sin(1)=0.84\gt 0</m>
           so <m>S</m> is increasing.
@@ -253,7 +253,7 @@
           relative maximum?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>S'(x)=\sin(x^2)=0</m> at <m>x^2=\pi</m> so
           <m>x=\sqrt{\pi}=1.772</m>. At this point, <m>S(\sqrt{\pi}) =
@@ -269,7 +269,7 @@
           relative maximum?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>S'(x)=\sin(x^2)=0</m> at <m>x^2=2\pi</m> so
           <m>x=\sqrt{2\pi}=2.506</m>. At this point, <m>S(\sqrt{2\pi}) =
@@ -285,7 +285,7 @@
           maximum.
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>S'(x)=\sin(x^2)=0</m> at <m>x^2=3\pi</m> so
           <m>x=\sqrt{3\pi}=3.07</m>. At this point, <m>S(\sqrt{3\pi}) =
@@ -297,7 +297,7 @@
       <statement>
         <p>Sketch the graph of <m>S(x)</m> below.</p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <image width="50%">
           <shortdescription>
             The graph of the Fresnel function
@@ -329,7 +329,7 @@
           What is the derivative <m>E'(1)</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>E'(1)=e^{-1}=0.368</m>
         </p>
@@ -342,7 +342,7 @@
           <m>E(1)</m>.
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <p>
           <m>E(1)=\int_0^1e^{-t^2}~dt=0.747</m>
         </p>
@@ -352,17 +352,17 @@
       <statement>
         <p>Explain why <m>E</m> is an always increasing function.</p>
       </statement>
+      <solution component="03-solutions">
+        <p>
+          <m>E'(x)=e^{-x^2}\gt 0</m>.
+        </p>
+      </solution>
     </task>
-    <solution component="aaa-solutions">
-      <p>
-        <m>E'(x)=e^{-x^2}\gt 0</m>.
-      </p>
-    </solution>        
     <task workspace="1.5in">
       <statement>
         <p>Sketch the graph of <m>E(x)</m> below.</p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="03-solutions">
         <image width="50%">
           <shortdescription>
             The graph of the error function

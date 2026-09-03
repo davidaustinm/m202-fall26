@@ -1,35 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Second Fundamental Theorem of Calculus (Section 5.2)</title>
+  <title>Second Fundamental Theorem of Calculus, part II (Section 5.2)</title>
 
   <exercise>
-    <task workspace="1in">
+    <introduction>
+      <p>
+        Suppose that
+        <md>
+          f(t) = \frac t{1+t^2}.
+        </md>
+      </p>
+    </introduction>
+    <task>
       <statement>
         <p>
-          Suppose that
-          <md>
-            f(t) = \frac t{1+t^2}.
-          </md>
           Using Desmos, sketch the graph of <m>f</m> on the
           interval <m>-5\leq t \leq 5</m> below on the left.
           Then sketch a graph of <m>f'</m> on the right.
         </p>
-        <p>
-          <image source="figures/201-empty-t.eps"/>
-          <image source="figures/201-empty-t.eps"/>
-        </p>
+        <sidebyside widths="45% 45%" margins="0% 0%">
+          <image>
+            <shordescription>
+              An empty coordinate grid
+            </shordescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="04-empty-t-a">
+              <xi:include href="prefigure/04-empty-1.xml"/>
+            </prefigure>
+          </image>
+          <image>
+            <shordescription>
+              An empty coordinate grid
+            </shordescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="04-empty-t-b">
+              <xi:include href="prefigure/04-empty-1.xml"/>
+            </prefigure>
+          </image>
+        </sidebyside>
+      </statement>
+      <solution component="04-solutions">
+        <sidebyside widths="45% 45%" margins="0% 0%">
+          <image>
+            <shordescription>
+              A graph of f
+            </shordescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="04-solution-a">
+              <xi:include href="prefigure/04-solution-1.xml"/>
+            </prefigure>
+          </image>
+          <image>
+            <shordescription>
+              The derivative of f
+            </shordescription>
+            <prefigure xmlns="https://prefigure.org"
+                       label="04-solution-b">
+              <xi:include href="prefigure/04-solution-2.xml"/>
+            </prefigure>
+          </image>
+        </sidebyside>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
         <p>
           Next we'll define
           <md>
-            F(x) = \int_0^x f(t)~dt.
-          </md>
+            F(x) = \int_0^x f(t)~dt
+          </md>.
+        </p>
+        <p>
           What does the Second Fundamental Theorem of Calculus
           tell us about the relationship between <m>F</m> and
           <m>f</m>?
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          We know that <m>F' = f</m>.
+        </p>
+      </solution>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>
           Given the graphs you created above, on what intervals
@@ -37,8 +90,15 @@
           decreasing?
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>F</m> is increasing when <m>F'=f</m> is positive, which
+          happens when <m>x\gt 0</m>.  It is decreasing when <m>x\lt
+          0</m>.
+        </p>
+      </solution>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>
           Given the graphs you created above, on what intervals
@@ -46,8 +106,15 @@
           concave down?
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>F</m> is concave up when <m>F''=f'</m> is positive so
+          when <m>-1\lt x\lt 1</m>, and it is concave down when
+          <m>x\lt -1</m> and <m>x\gt 1</m>.
+        </p>
+      </solution>
     </task>
-    <task workspace="0.9in">
+    <task workspace="0.5in">
       <statement>
         <p>
           At what points does <m>F</m> have a relative maximum
@@ -55,200 +122,400 @@
           points?
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>F</m> has a relative minimum when <m>F'=f=0</m>, which
+          occurs at <m>x=0</m>.  We have
+          <md>
+            F(0)=\int_0^0 f(t)~dt = 0
+          </md>.
+        </p>
+      </solution>
     </task>
-    <task workspace="0.9in">
+    <task workspace="0.5in">
       <statement>
         <p>
           Using Desmos, find the values <m>F(-3)</m>,
           <m>F(-1)</m>, <m>F(1)</m>, and <m>F(3)</m>.
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <ul>
+            <li>
+              <p><m>F(-3)=1.15</m></p>
+            </li>
+            <li>
+              <p><m>F(-1)=0.347</m></p>
+            </li>
+            <li>
+              <p><m>F(1)=0.347</m></p>
+            </li>
+            <li>
+              <p><m>F(3)=1.15</m></p>
+            </li>
+          </ul>
+        </p>
+      </solution>
     </task>
-    <task workspace="1in">
+    <task>
       <statement>
         <p>
           Use all the information you've gathered to sketch a
-          graph of <m>F</m> below, indicating the scale on the
-          axes.
+          graph of <m>F</m> below.
         </p>
-        <p><image source="figures/201-empty-x.eps"/></p>
+        <image width="50%">
+          <shordescription>
+            An empty coordinate grid
+          </shordescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="04-empty-t-4">
+            <xi:include href="prefigure/04-empty-1.xml"/>
+          </prefigure>
+        </image>
+
       </statement>
+      <solution component="04-solutions">
+        <image width="60%">
+          <shordescription>
+            The graph of F
+          </shordescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="04-solution-3">
+            <xi:include href="prefigure/04-solution-3.xml"/>
+          </prefigure>
+        </image>
+      </solution>
     </task>
   </exercise>
 
-  <exercise workspace="1in">
+  <exercise>
     <statement>
       <p>
         <term>Differentiation:</term> Complete the table of
-        derivatives below.  Feel free to look up some of them,
-        if you don't remember.
+        derivatives below.  Feel free to ask someone around you.
       </p>
-      <p>
-        <tabular>
-          <col halign="center" right="minor"/>
-          <col halign="center"/>
-          <row bottom="minor">
-            <cell><m>f(x)</m></cell>
-            <cell><m>f'(x)</m></cell>
-          </row>
-          <row>
-            <cell><m>x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>x^n</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>\sin x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>\cos x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>e^x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>\ln x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>\arctan x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>\arcsin x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-        </tabular>
-      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>f(x)</m></cell>
+          <cell><m>f'(x)</m></cell>
+        </row>
+        <row>
+          <cell><m>x</m></cell>
+          <cell><m>\hphantom{\Huge MMM}</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^n</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\sin x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\cos x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>e^x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\ln x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\arctan x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\arcsin x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
     </statement>
+    <solution component="04-solutions">
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>f(x)</m></cell>
+          <cell><m>f'(x)</m></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>x</m></cell>
+          <cell><m>1</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>x^n</m></cell>
+          <cell><m>nx^{n-1}</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\sin x</m></cell>
+          <cell><m>\cos x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\cos x</m></cell>
+          <cell><m>-\sin x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>e^x</m></cell>
+          <cell><m>e^x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\ln x</m></cell>
+          <cell><m>1/x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\arctan x</m></cell>
+          <cell><m>1/(1+x^2)</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\arcsin x</m></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell><m>1/\sqrt{1-x^2}</m></cell>
+        </row>
+      </tabular>
+    </solution>
   </exercise>
 
-  <exercise workspace="1in">
+  <exercise>
     <statement>
       <p>
         <term>Antidifferentiation:</term> Given below is a table
         of functions.  Complete the table by supplying an
         <em>anti</em>derivative of each function.
       </p>
-      <p>
-        <tabular>
-          <col halign="center" right="minor"/>
-          <col halign="center"/>
-          <row bottom="minor">
-            <cell><m>f(x)</m></cell>
-            <cell><m>F(x)</m></cell>
-          </row>
-          <row>
-            <cell><m>x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>x^n</m> (<m>n\neq-1</m>)</cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>1/x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>\sin x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>\cos x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>e^x</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>1/(1+x^2)</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell><m>1/\sqrt{1-x^2}</m></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-          </row>
-        </tabular>
-      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>f(x)</m></cell>
+          <cell><m>F(x)</m></cell>
+        </row>
+        <row>
+          <cell><m>x</m></cell>
+          <cell><m>\hphantom{\Huge MMM}</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^n</m> (<m>n\neq-1</m>)</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>1/x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\sin x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\cos x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>e^x</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>1/(1+x^2)</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>1/\sqrt{1-x^2}</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
     </statement>
+    <solution component="04-solutions">
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="major">
+          <cell><m>f(x)</m></cell>
+          <cell><m>F(x)</m></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>x</m></cell>
+          <cell><m>\frac12 x^2</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>x^n</m> (<m>n\neq-1</m>)</cell>
+          <cell><m>\frac{1}{n+1}x^{n+1}</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>1/x</m></cell>
+          <cell><m>\ln|x|</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\sin x</m></cell>
+          <cell><m>-\cos x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\cos x</m></cell>
+          <cell><m>\sin x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>e^x</m></cell>
+          <cell><m>e^x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>1/(1+x^2)</m></cell>
+          <cell><m>\arctan x</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>1/\sqrt{1-x^2}</m></cell>
+          <cell>\arcsin x</cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+    </solution>
   </exercise>
 
   <exercise>
+    <introduction>
+      <p>
+        We would like to use our table to antidifferentiate more
+        functions.
+      </p>
+    </introduction>
     <task workspace="0.75in">
       <statement>
         <p>Find the derivative of <m>f(x) = \cos(3x)</m>.</p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>f'(x)=-3\sin(3x)</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.75in">
       <statement>
@@ -260,14 +527,30 @@
           it's not.
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>-\frac13 \cos(3x)</m>
+        </p>
+      </solution>
     </task>
   </exercise>
 
   <exercise>
+    <introduction>
+      <p>
+        Antidifferentiating is the process of reversing
+        differentiation.
+      </p>
+    </introduction>
     <task workspace="0.75in">
       <statement>
         <p>Find the derivative of <m>g(x) = e^{x^2}</m>.</p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>g'(x)=2xe^{x^2}</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.75in">
       <statement>
@@ -276,14 +559,29 @@
           antiderivative of <m>xe^{x^2}</m>.
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>\frac12 e^{x^2}</m>
+        </p>
+      </solution>
     </task>
   </exercise>
 
   <exercise>
+    <introduction>
+      <p>
+        Let's do the same thing with a different function.
+      </p>
+    </introduction>
     <task workspace="1in">
       <statement>
         <p>Find the derivative of <m>h(t) = \ln(1+t^2)</m>.</p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>h'(t)=\frac{2t}{1+t^2}</m>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -292,6 +590,11 @@
           <m>\frac{t}{1+t^2}</m>.
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>\frac12 \ln|1+t^2|</m>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -304,25 +607,49 @@
           problem.
         </p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          Looks about the same!
+        </p>
+      </solution>
     </task>
   </exercise>
 
   <exercise>
+    <introduction>
+      <p>
+        Let's review how the Chain Rule works.
+      </p>
+    </introduction>
     <task workspace="0.75in">
       <statement>
-        <p>Find derivatives of these functions:</p>
         <p><m>\displaystyle (x^3 + 2)^2</m></p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>2(x^3+2)\cdot 3x^2</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.75in">
       <statement>
         <p><m>\displaystyle \sqrt{e^x + e^{-x}}</m></p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>\frac12\frac{1}{\sqrt{e^x+e^{-x}}}(e^x-e^{-x})</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.75in">
       <statement>
-        <p><m>\displaystyle \sin^2(3x-5)</m></p>
+        <p><m>\displaystyle \sin^2(3x-5)=(\sin(3x-5))^2</m></p>
       </statement>
+      <solution component="04-solutions">
+        <p>
+          <m>2\sin(3x-5)(\cos(3x-5)\cdot 3)</m>
+        </p>
+      </solution>
     </task>
   </exercise>
 

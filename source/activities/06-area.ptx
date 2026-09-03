@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Area (Section 6.1)</title>
+
+  <exercise workspace="2.4in">
+    <statement>
+      <p>
+        Given the two parabolas <m>y=x^2-5</m> and <m>y=3-x^2</m>,
+        sketch their graphs and find the area of the region between
+        them.
+      </p>
+    </statement>
+    <solution component="06">
+      <image width="50%">
+        <shortdescription>
+          A graph of two parabolas, one opening up and one opening down
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="06-area-1">
+          <xi:include href="prefigure/06-area-1.xml"/>
+        </prefigure>
+      </image>
+      <p>
+        <md>
+          <mrow>
+            A\amp=\int_{-2}{2} [(3-x^2)-(x^2-5)]~dx
+          </mrow>
+          <mrow>
+            \amp=\int_{-2}{2} (8-2x^2)~dx
+          </mrow>
+          <mrow>
+            \amp=(8x-x^2)|_{-2}^2
+          </mrow>
+          <mrow>
+            \amp=64/3
+          </mrow>
+        </md>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="2.4in">
+    <statement>
+      <p>
+        Graph the functions <m>f(x) = \cos x</m> and
+        <m>g(x)=\sin x</m> and find the area of one of the regions
+        bounded by their graphs.
+      </p>
+    </statement>
+    <solution component="06">
+      <image width="50%">
+        <shortdescription>
+          A graph of sine x and cosine x
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="06-area-2">
+          <xi:include href="prefigure/06-area-2.xml"/>
+        </prefigure>
+      </image>
+      <p>
+        <md>
+          <mrow>
+            A\amp=\int_{\pi/4}^{\pi/4} (\sin(x)-\cos(x)~dx
+          </mrow>
+          <mrow>
+            \amp=(-\cos(x)-\sin(x))|_{\pi/4}^{3\pi/4}
+          </mrow>
+          <mrow>
+            \amp=\sqrt{2}
+          </mrow>
+        </md>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Find the area between the graphs of <m>y = x^3</m> and
+        <m>y=x</m>.
+      </p>
+    </statement>
+    <solution component="06">
+      <image width="50%">
+        <shortdescription>
+          A graph of x cubed and a graph of x
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="06-area-3">
+          <xi:include href="prefigure/06-area-3.xml"/>
+        </prefigure>
+      </image>
+      <p>
+        <md>
+          <mrow>
+            A\amp=\int_{-1}^{0} (x^3-x)~dx+\int_{0}^{1} (x-x^3)~dx
+          </mrow>
+          <mrow>
+            \amp=(\frac14x^4-\frac12x^2)|_{-1}^0 +
+            (\frac12x^2-\frac14x^4)|_0^1
+          </mrow>
+          <mrow>
+            \amp=1/2
+          </mrow>
+        </md>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        The curve <m>x=y^2-12</m> and the line <m>y=x</m> are shown
+        in the figure below.  I would like for you to find the region
+        between them by slicing the region into <em>horizontal</em>
+        rectangles as shown.  What is the width of each rectangle?
+        What is the height?  How do you then find the area?
+      </p>
+      <image width="40%">
+        <shortdescription>
+          Two curves where x is defined in terms of y
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="06-area-4">
+          <xi:include href="prefigure/06-area-4.xml"/>
+        </prefigure>
+      </image>
+    </statement>
+    <solution component="06">
+      <p>
+        The width of the rectangle is given by the difference in the
+        <m>x</m> coordinates so it is <m>y-(y^2-12)</m> and the height
+        is a small change in <m>y</m> so <m>dy</m>.  This means that
+        the area of the rectangle is <m>(y-y^2+12)~dy</m>.  The curves
+        intersect when their <m>x</m> coordinates are equal, which is
+        when
+        <md>
+          <mrow>
+            y \amp = y^2-12
+          </mrow>
+          <mrow>
+            y^2-y-12 \amp = 0
+          </mrow>
+          <mrow>
+            (y-4)(y+3) \amp = 0
+          </mrow>
+        </md>
+        so <m>y=-3</m> and <m>y=4</m>.  This means that the area is
+        <md>
+          A=\int_{-3}^{4} (y-y^2+12)~dy = 343/6 = 51.17
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="3in">
+    <statement>
+      <p>
+        Suppose you need to paint the region between the graph
+        <m>y=\sqrt{x}</m> and the <m>x</m>-axis.  You start painting
+        at <m>x=0</m> and work your way to the right.  However, you
+        only have enough paint to cover 18 square units of area.
+        Where does your paint run out?
+      </p>
+    </statement>
+    <solution component="06">
+      <image width="50%">
+        <shortdescription>
+          Two graph of y equals square root of x
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="06-area-5">
+          <xi:include href="prefigure/06-area-5.xml"/>
+        </prefigure>
+      </image>
+      <p>
+        Call <m>R</m> the right endpoint where the paint runs out.  We
+        have
+        <md>
+          <mrow>
+            \int_0^R \sqrt{x}\amp=18
+          </mrow>
+          <mrow>
+            \frac23 R^{3/2}\amp =18
+          </mrow>
+          <mrow>
+            R\amp = 9
+          </mrow>
+        </md>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Sometimes we can use area to help us evaluate a definite
+        integral.  For instance, the circle of radius 5 centered at
+        the origin is described by <m>x^2+y^2 = 25</m>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Write the
+          upper-half of this circle by solving for <m>y</m> in terms
+          of <m>x</m>.
+        </p>
+      </statement>
+      <solution component="06">
+        <p>
+          <m>y=\sqrt{25-x^2}</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          What does this tell you about the integral
+          <m>\ds\int_{-5}^5 \sqrt{25-x^2}~dx</m> or the integral
+          <m>\ds\int_{0}^5 \sqrt{25-x^2}~dx</m>?
+        </p>
+      </statement>
+      <solution component="06">
+        <p>
+          The first is half the area of the circle so
+          <md>
+            \int_{-5}^5 \sqrt{25-x^2}~dx = \frac12\pi5^2
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          Apply the same kind of thinking to evaluate the integral
+          <m>\ds\int_{-2}^4 |x|~dx</m>.
+        </p>
+      </statement>
+      <solution component="06">
+        <p>
+          Drawing a graph, this is the area of two triangles so
+          <md>
+            \int_{-2}^4 |x|~dx = 2 + 8 = 10
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Sometimes we want to be able to work with situations having an
+        unknown parameter in them.  For instance, if <m>a</m> is some
+        unknown constant, find the area between the graph
+        <m>y=a-x^2</m> and the <m>x</m>-axis.
+      </p>
+    </statement>
+    <solution component="06">
+      <p>
+        <md>
+          <mrow>
+            A \amp = \int_{-\sqrt{a}}^{\sqrt{a}} (a-x^2)~dx
+          </mrow>
+          <mrow>
+            A \amp = (ax - \frac13 x^3)|_{-\sqrt{a}}^{\sqrt{a}}
+          </mrow>
+          <mrow>
+            A \amp = \frac 43 a^{3/2}
+          </mrow>
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+</worksheet>

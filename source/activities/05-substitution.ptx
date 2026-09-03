@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Antiderivatives using substitution (Section 5.3)</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        The substitution technique helps us to undo the chain rule.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Find the derivative of <m>e^{4x}</m>.</p>
+      </statement>
+      <solution component="05">
+        <p>
+          <m>\frac{d}{dx}[e^{4x}] = 4e^{4x}</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Use your result to find the family of antiderivatives
+          <m>\int e^{4x}~dx</m>.
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          When we differentiated <m>e^{4x}</m>, we got something
+          pretty close to <m>e^{4x}</m>.  There's just an additional
+          factor of 4 we wish weren't there.  So we'll divide it out
+          on both sides.
+          <md>
+            \int e^{4x}~dx = \frac14 e^{4x} + C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Let's do this using a substitution now.  We know that
+          <m>\int e^u~du = e^u + C</m> so let's try the substitution
+          <m>u=4x</m>.  What is <m>du</m> in terms of <m>dx</m>?
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          Let's choose <m>u=4x</m> so that <m>du=4dx</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How can we transform <m>\int e^{4x}~dx</m> into something
+          involving <m>\int e^u~du</m>?  Use this to find
+          <m>\int e^{4x}~dx</m> using substitution.
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          Since <m>du=4dx</m>, we know that <m>dx=\frac14 dx</m> so
+          that
+          <md>
+            \int e^{4x}~dx = \int e^{u} \frac14 du = \frac14 \int
+            e^u~du = \frac14 e^u + C = \frac 14 e^{4x}+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>Here are some functions to antidifferentiate using
+      substitution.  In each case, identify an intermediate function
+      <m>u</m> to transform the integrand into something on the table
+      of antiderivatives.
+      </p>
+    </introduction>
+    <task workspace="1.5in">
+      <statement>
+        <p>In the same way, find the following antiderivatives:</p>
+        <p><m>\ds \int \cos(7x)~dx</m>.</p>
+      </statement>
+      <solution component="05">
+        <p>
+          We'll choose <m>u=7x</m> so that the function looks like
+          <m>\cos(u)</m>, which is on the table of antiderivatives.
+          We then have
+          <md>
+            <mrow>
+              du\amp = 7dx
+            </mrow>
+            <mrow>
+              dx \amp =\frac17 du
+            </mrow>
+          </md>.
+          Therefore
+          <md>
+            \int\cos(7x)~dx = \frac17 \int\cos(u)~du =
+            \frac17\sin(u)+C = \frac17\sin(7x)+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.8in">
+      <statement>
+        <p>
+          <m>\ds \int x(x^2+1)^4~dx</m> using the substitution
+          <m>u=x^2+1</m>
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          OK, this looks a little more complicated, but it's still the
+          same idea.  We have <m>du = 2x~dx</m> or <m>x~dx =
+          \frac12~du</m>.  Then
+          <md>
+            \int x(x^2+1)^4~dx = \int(x^2+1)^4 x~dx = \frac12\int
+            u^4~du = \frac12 \frac15 u^5+C = \frac1{10}(x^2+1)^5+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.8in">
+      <statement>
+        <p><m>\ds\int\sqrt{3x^4+2x}\cdot(12x^3+2)~dx</m></p>
+      </statement>
+      <solution component="05">
+        <p>
+          Hmm.  Square roots are scary so let's try to turn this into
+          <m>\sqrt{u}</m>.  Let <m>u=3x^4+2x</m> so that
+          <m>du=(12x^3+2)dx</m>.  Wow, that was fortunate, but this
+          technique requires some luck.
+          <md>
+            \int\sqrt{3x^4+2x}\cdot(12x^3+2)~dx=\int\sqrt{u}~du
+            =\int u^{1/2}~du = \frac23 u^{3/2}+C = \frac23
+            (3x^4+2x)^{3/2}+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.8in">
+      <statement>
+        <p><m>\ds \int x\sin(7x^2)~dx</m></p>
+      </statement>
+      <solution component="05">
+        <p>
+          We don't know anything about an antiderivative of
+          <m>\sin(7x^2)</m> so let's substitute <m>u=7x^2</m>.  Then
+          <m>du=14x~dx</m> or <m>x~dx=\frac{1}{14}du</m> so that
+          <md>
+            \int x\sin(7x^2)~dx = \frac{1}{14}\int\sin(u)~du =
+            -\frac{1}{14} \cos(u)+C = -\frac1{14}\cos(7x^2)+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.8in">
+      <statement>
+        <p><m>\ds \int\frac{1}{8x-9}~dx</m></p>
+      </statement>
+      <solution component="05">
+        <p>
+          <m>u=8x-9</m> so that <m>du=8dx</m> and
+          <md>
+            \int\frac{1}{8x-9}~dx=\frac18\int\frac1u~du =
+            \frac18\ln|u|+C = \frac18\ln|8x-9|+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.8in">
+      <statement>
+        <p><m>\ds\int\frac{\sin x}{\cos x}~dx</m></p>
+      </statement>
+      <solution component="05">
+        <p>
+          <m>u=\cos x</m> so that <m>du=-\sin x~dx</m>.  Therefore
+          <md>
+            \int\frac{\sin x}{\cos x}~dx = -\frac{1}{u}~du = -\ln|u|+C
+            = -\ln|\cos x|+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.8in">
+      <statement>
+        <p><m>\ds \int e^x\sin(e^x)~dx</m></p>
+      </statement>
+      <solution component="05">
+        <p>
+          Choose <m>u=e^x</m> so that <m>du=e^x~dx</m>.  Then
+          <md>
+            \int e^x\sin(e^x)~dx = \int\sin(u)~du = -\cos(u)+C =
+            -\cos(e^x)+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.8in">
+      <statement>
+        <p><m>\ds \int\frac{x^3}{(5x^4+1)^2}~dx</m></p>
+      </statement>
+      <solution component="05">
+        <p>
+          <m>u=(5x^4+1)</m> so that <m>du=20x^3~dx</m> and
+          <md>
+            \int\frac{x^3}{(5x^4+1)^2}~dx
+            = \frac1{20}\int \frac1{u^2}~du
+            = -\frac1{20}\frac1u + C
+            = -\frac1{20}\frac1{5x^2+1} + C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\ds \int\frac{t}{1+t^2}~dt</m></p>
+      </statement>
+      <solution component="05">
+        <p>
+          Let <m>u=1+t^2</m> so that <m>du=2t~dt</m>.  Then
+          <md>
+            \int\frac{t}{1+t^2}~dt = \frac12\int\frac1u~du
+            = \frac12\ln|u|+C = \frac12 \ln|1+t^2|+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

@@ -1,0 +1,15 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,300)" margins="5">
+  <definition>f(x)=x^2-12</definition>
+  <definition>g(x)=x</definition>
+  <coordinates bbox="(-13,-5,6,5)">
+    <grid-axes/>
+    <transform>
+      <change-basis basis="((0,1),(1,0))"/>
+      <area-between-curves functions="(f,g)" domain="(0.9,1.1)"
+                           fill="lightgray" stroke="black"/>
+      <graph function="f"/>
+      <graph function="g"/>
+    </transform>
+  </coordinates>
+</diagram>

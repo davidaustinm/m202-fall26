@@ -1,0 +1,10 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,300)" margins="5">
+  <definition>f(x)=cos(x)</definition>
+  <definition>g(x)=sin(x)</definition>
+  <coordinates bbox="(0,-1.5,2*pi,1.5)">
+    <grid-axes/>
+    <graph function="f"/>
+    <graph function="g"/>
+  </coordinates>
+</diagram>

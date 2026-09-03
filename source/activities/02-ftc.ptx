@@ -33,7 +33,7 @@
           </image>
         </sidebyside>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <sidebyside widths="45% 45%" margins="0% 0%">
           <image>
             <shortdescription>
@@ -79,7 +79,7 @@
           </image>
         </sidebyside>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <sidebyside widths="45% 45%" margins="0% 0%">
           <image>
             <shortdescription>
@@ -134,7 +134,7 @@
         </image>
       </sidebyside>
     </statement>
-    <solution component="aaa-solutions">
+    <solution component="02-solutions">
       <sidebyside widths="45% 45%" margins="0% 0%">
         <image>
           <shortdescription>
@@ -199,7 +199,7 @@
           increasing and on what intervals is it decreasing?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           The function <m>F</m> increases when <m>F'=f</m> is
           positive, which means on the intervals <m>0\lt x \lt 2</m>
@@ -217,7 +217,7 @@
           graph of <m>F</m> concave up?  concave down? neither?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <image width="50%">
           <shortdescription>
             The graph of the derivative of a function that is
@@ -242,7 +242,7 @@
           maximum?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           <m>F</m> has a relative minimum when the derivative changes
           from negative to positive which happens at <m>x=5</m>.
@@ -257,7 +257,7 @@
           Evaluate the integral <m>\int_0^1 f(x)~dx</m>.
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           Look at the area under the graph to find
           <m>\int_0^1f(x)~dx = 1/2\cdot1\cdot1 = 1/2</m>.
@@ -275,7 +275,7 @@
           <m>F(1)</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           <m>F(1)=F(0)+\int_0^1f(x)~dx = -1 + 1/2 = -1/2</m>.
         </p>
@@ -321,7 +321,7 @@
           </row>
         </tabular>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <tabular>
           <col halign="center" right="minor"/>
           <col halign="center" right="minor"/>
@@ -373,7 +373,7 @@
           </prefigure>
         </image>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <image width="60%">
           <shortdescription>
             The graph of an antiderivative of the piecewise linear
@@ -427,7 +427,7 @@
           </row>
         </tabular>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <tabular>
           <col halign="center" right="minor"/>
           <col halign="center" right="minor"/>
@@ -470,7 +470,7 @@
           one another?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           The graph of <m>G</m> is the same as the graph of <m>F</m>
           shifted up by one unit.
@@ -502,7 +502,7 @@
           If <m>f(0) = 4</m>, what is the value <m>f(6)</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           <md>
             <mrow>
@@ -522,7 +522,7 @@
           points.
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           <m>f(3/2) = 4 + 3/4 = 4.75</m>.
         </p>
@@ -538,7 +538,7 @@
           minimum of <m>f</m> on the interval <m>[0,6]</m>?
         </p>
       </statement>
-      <solution component="aaa-solutions">
+      <solution component="02-solutions">
         <p>
           The global maximum and minimum occur at either a critical
           point or one of the endpoints:

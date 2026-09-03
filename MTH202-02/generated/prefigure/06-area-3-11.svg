@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="06-area-3-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="06-area-3-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="06-area-3-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="06-area-3-grid-axes">
+    <g id="06-area-3-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="55.0" y1="305.0" x2="55.0" y2="5.0"/>
+      <line x1="105.0" y1="305.0" x2="105.0" y2="5.0"/>
+      <line x1="155.0" y1="305.0" x2="155.0" y2="5.0"/>
+      <line x1="205.0" y1="305.0" x2="205.0" y2="5.0"/>
+      <line x1="255.0" y1="305.0" x2="255.0" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="255.0" x2="305.0" y2="255.0"/>
+      <line x1="5.0" y1="205.0" x2="305.0" y2="205.0"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="105.0" x2="305.0" y2="105.0"/>
+      <line x1="5.0" y1="55.0" x2="305.0" y2="55.0"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="06-area-3-axes" stroke="black" stroke-width="2">
+      <line id="06-area-3-__line-14" x1="5.0" y1="155.0" x2="305.0" y2="155.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="06-area-3-__line-15" x1="55.0" y1="158.0" x2="55.0" y2="152.0"/>
+        <line id="06-area-3-__line-16" x1="255.0" y1="158.0" x2="255.0" y2="152.0"/>
+      </g>
+      <line id="06-area-3-__line-17" x1="155.0" y1="305.0" x2="155.0" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="06-area-3-__line-18" x1="152.0" y1="255.0" x2="158.0" y2="255.0"/>
+        <line id="06-area-3-__line-19" x1="152.0" y1="55.0" x2="158.0" y2="55.0"/>
+      </g>
+    </g>
+    <g id="06-area-3-__label-0" transform="translate(55.0,166.0) translate(-7.5,-0.0)">
+      <g id="06-area-3-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="06-area-3-MJX-2-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="06-area-3-MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1">
+                <use data-c="2D" xlink:href="#06-area-3-MJX-2-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#06-area-3-MJX-2-TEX-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="06-area-3-__label-1" transform="translate(255.0,166.0) translate(-4.5,-0.0)">
+      <g id="06-area-3-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="06-area-3-MJX-3-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#06-area-3-MJX-3-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="06-area-3-__label-2" transform="translate(144.0,255.0) translate(-15.1,-6.0)">
+      <g id="06-area-3-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="06-area-3-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="06-area-3-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1">
+                <use data-c="2D" xlink:href="#06-area-3-MJX-4-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#06-area-3-MJX-4-TEX-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="06-area-3-__label-3" transform="translate(144.0,55.0) translate(-9.0,-6.0)">
+      <g id="06-area-3-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="06-area-3-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#06-area-3-MJX-5-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="06-area-3-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 5.0 492.5 L 8.0 472.7 L 11.0 453.6 L 14.0 435.3 L 17.0 417.8 L 20.0 401.0 L 23.0 385.0 L 26.0 369.7 L 29.0 355.0 L 32.0 341.1 L 35.0 327.8 L 38.0 315.2 L 41.0 303.2 L 44.0 291.8 L 47.0 281.0 L 50.0 270.8 L 53.0 261.1 L 56.0 252.0 L 59.0 243.5 L 62.0 235.4 L 65.0 227.9 L 68.0 220.9 L 71.0 214.3 L 74.0 208.1 L 77.0 202.5 L 80.0 197.2 L 83.0 192.3 L 86.0 187.9 L 89.0 183.7 L 92.0 180.0 L 95.0 176.6 L 98.0 173.5 L 101.0 170.7 L 104.0 168.3 L 107.0 166.1 L 110.0 164.1 L 113.0 162.4 L 116.0 160.9 L 119.0 159.7 L 122.0 158.6 L 125.0 157.7 L 128.0 157.0 L 131.0 156.4 L 134.0 155.9 L 137.0 155.6 L 140.0 155.3 L 143.0 155.2 L 146.0 155.1 L 149.0 155.0 L 152.0 155.0 L 155.0 155.0 L 158.0 155.0 L 161.0 155.0 L 164.0 154.9 L 167.0 154.8 L 170.0 154.7 L 173.0 154.4 L 176.0 154.1 L 179.0 153.6 L 182.0 153.0 L 185.0 152.3 L 188.0 151.4 L 191.0 150.3 L 194.0 149.1 L 197.0 147.6 L 200.0 145.9 L 203.0 143.9 L 206.0 141.7 L 209.0 139.3 L 212.0 136.5 L 215.0 133.4 L 218.0 130.0 L 221.0 126.3 L 224.0 122.1 L 227.0 117.7 L 230.0 112.8 L 233.0 107.5 L 236.0 101.9 L 239.0 95.7 L 242.0 89.1 L 245.0 82.1 L 248.0 74.6 L 251.0 66.5 L 254.0 58.0 L 257.0 48.9 L 260.0 39.2 L 263.0 29.0 L 266.0 18.2 L 269.0 6.8 L 272.0 -5.2 L 275.0 -17.8 L 278.0 -31.1 L 281.0 -45.0 L 284.0 -59.7 L 287.0 -75.0 L 290.0 -91.0 L 293.0 -107.8 L 296.0 -125.3 L 299.0 -143.6 L 302.0 -162.7 L 305.0 -182.5" clip-path="url(#06-area-3-__clipPath-1)"/>
+  <path id="06-area-3-__path-1" stroke="blue" stroke-width="2" fill="none" d="M 5.0 305.0 L 8.0 302.0 L 11.0 299.0 L 14.0 296.0 L 17.0 293.0 L 20.0 290.0 L 23.0 287.0 L 26.0 284.0 L 29.0 281.0 L 32.0 278.0 L 35.0 275.0 L 38.0 272.0 L 41.0 269.0 L 44.0 266.0 L 47.0 263.0 L 50.0 260.0 L 53.0 257.0 L 56.0 254.0 L 59.0 251.0 L 62.0 248.0 L 65.0 245.0 L 68.0 242.0 L 71.0 239.0 L 74.0 236.0 L 77.0 233.0 L 80.0 230.0 L 83.0 227.0 L 86.0 224.0 L 89.0 221.0 L 92.0 218.0 L 95.0 215.0 L 98.0 212.0 L 101.0 209.0 L 104.0 206.0 L 107.0 203.0 L 110.0 200.0 L 113.0 197.0 L 116.0 194.0 L 119.0 191.0 L 122.0 188.0 L 125.0 185.0 L 128.0 182.0 L 131.0 179.0 L 134.0 176.0 L 137.0 173.0 L 140.0 170.0 L 143.0 167.0 L 146.0 164.0 L 149.0 161.0 L 152.0 158.0 L 155.0 155.0 L 158.0 152.0 L 161.0 149.0 L 164.0 146.0 L 167.0 143.0 L 170.0 140.0 L 173.0 137.0 L 176.0 134.0 L 179.0 131.0 L 182.0 128.0 L 185.0 125.0 L 188.0 122.0 L 191.0 119.0 L 194.0 116.0 L 197.0 113.0 L 200.0 110.0 L 203.0 107.0 L 206.0 104.0 L 209.0 101.0 L 212.0 98.0 L 215.0 95.0 L 218.0 92.0 L 221.0 89.0 L 224.0 86.0 L 227.0 83.0 L 230.0 80.0 L 233.0 77.0 L 236.0 74.0 L 239.0 71.0 L 242.0 68.0 L 245.0 65.0 L 248.0 62.0 L 251.0 59.0 L 254.0 56.0 L 257.0 53.0 L 260.0 50.0 L 263.0 47.0 L 266.0 44.0 L 269.0 41.0 L 272.0 38.0 L 275.0 35.0 L 278.0 32.0 L 281.0 29.0 L 284.0 26.0 L 287.0 23.0 L 290.0 20.0 L 293.0 17.0 L 296.0 14.0 L 299.0 11.0 L 302.0 8.0 L 305.0 5.0" clip-path="url(#06-area-3-__clipPath-1)"/>
+</svg>

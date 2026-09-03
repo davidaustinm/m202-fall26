@@ -269,6 +269,78 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                        "
+},
+{
+  "id": "activities-7",
+  "level": "1",
+  "url": "activities-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Area (Section 6.1)",
+  "body": " Area (Section 6.1)    Given the two parabolas and , sketch their graphs and find the area of the region between them.      Graph the functions and and find the area of one of the regions bounded by their graphs.      Find the area between the graphs of and .      The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?      Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .       Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.    "
+},
+{
+  "id": "activities-7-2",
+  "level": "2",
+  "url": "activities-7.html#activities-7-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Given the two parabolas and , sketch their graphs and find the area of the region between them.   "
+},
+{
+  "id": "activities-7-3",
+  "level": "2",
+  "url": "activities-7.html#activities-7-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Graph the functions and and find the area of one of the regions bounded by their graphs.   "
+},
+{
+  "id": "activities-7-4",
+  "level": "2",
+  "url": "activities-7.html#activities-7-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the area between the graphs of and .   "
+},
+{
+  "id": "activities-7-5",
+  "level": "2",
+  "url": "activities-7.html#activities-7-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x               "
+},
+{
+  "id": "activities-7-6",
+  "level": "2",
+  "url": "activities-7.html#activities-7-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?   "
+},
+{
+  "id": "activities-7-7",
+  "level": "2",
+  "url": "activities-7.html#activities-7-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .    "
+},
+{
+  "id": "activities-7-8",
+  "level": "2",
+  "url": "activities-7.html#activities-7-8",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.   "
 }
 ]
 

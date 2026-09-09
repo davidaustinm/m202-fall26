@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Antiderivatives using substitution (Section 5.3)",
-  "body": " Antiderivatives using substitution (Section 5.3)    The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.       Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                         "
+  "body": " Antiderivatives using substitution (Section 5.3)    The substitution technique helps us to undo the chain rule.     Find the derivative of .           Use your result to find the family of antiderivatives .    When we differentiated , we got something pretty close to . There's just an additional factor of 4 we wish weren't there. So we'll divide it out on both sides. .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?    Let's choose so that .      How can we transform into something involving ? Use this to find using substitution.    Since , we know that so that .       Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .    We'll choose so that the function looks like , which is on the table of antiderivatives. We then have . Therefore .       using the substitution     OK, this looks a little more complicated, but it's still the same idea. We have or . Then .         Hmm. Square roots are scary so let's try to turn this into . Let so that . Wow, that was fortunate, but this technique requires some luck. .         We don't know anything about an antiderivative of so let's substitute . Then or so that .          so that and .          so that . Therefore .         Choose so that . Then .          so that and .         Let so that . Then .     "
 },
 {
   "id": "activities-6-2",
@@ -259,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.    "
+  "body": "  The substitution technique helps us to undo the chain rule.     Find the derivative of .           Use your result to find the family of antiderivatives .    When we differentiated , we got something pretty close to . There's just an additional factor of 4 we wish weren't there. So we'll divide it out on both sides. .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?    Let's choose so that .      How can we transform into something involving ? Use this to find using substitution.    Since , we know that so that .    "
 },
 {
   "id": "activities-6-3",
@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                        "
+  "body": "  Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .    We'll choose so that the function looks like , which is on the table of antiderivatives. We then have . Therefore .       using the substitution     OK, this looks a little more complicated, but it's still the same idea. We have or . Then .         Hmm. Square roots are scary so let's try to turn this into . Let so that . Wow, that was fortunate, but this technique requires some luck. .         We don't know anything about an antiderivative of so let's substitute . Then or so that .          so that and .          so that . Therefore .         Choose so that . Then .          so that and .         Let so that . Then .    "
 },
 {
   "id": "activities-7",

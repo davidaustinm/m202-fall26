@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Antiderivatives using substitution (Section 5.3)",
-  "body": " Antiderivatives using substitution (Section 5.3)    The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.       Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                         "
+  "body": " Antiderivatives using substitution (Section 5.3)    The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.       Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                           Remember how the Second Fundamental Theorem of Calculus works. Suppose we have and that we define .     What is the derivative ?      Evaluate the integral defining to obtain an expression that does not involve an integral.      Find the derivative explicitly and verify your response to part a.     as expected.       Here are some more antiderivatives to find.                         "
 },
 {
   "id": "activities-6-2",
@@ -271,13 +271,31 @@ var ptx_lunr_docs = [
   "body": "  Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                        "
 },
 {
+  "id": "activities-6-4",
+  "level": "2",
+  "url": "activities-6.html#activities-6-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Remember how the Second Fundamental Theorem of Calculus works. Suppose we have and that we define .     What is the derivative ?      Evaluate the integral defining to obtain an expression that does not involve an integral.      Find the derivative explicitly and verify your response to part a.     as expected.    "
+},
+{
+  "id": "activities-6-5",
+  "level": "2",
+  "url": "activities-6.html#activities-6-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Here are some more antiderivatives to find.                        "
+},
+{
   "id": "activities-7",
   "level": "1",
   "url": "activities-7.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Area (Section 6.1)",
-  "body": " Area (Section 6.1)    Given the two parabolas and , sketch their graphs and find the area of the region between them.      Graph the functions and and find the area of one of the regions bounded by their graphs.      Find the area between the graphs of and .      The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?      Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .       Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.    "
+  "title": "Integration by parts (Section 5.4)",
+  "body": " Integration by parts (Section 5.4)    Find antiderivatives of these functions     .       . Hint: try and whatever is left over.      .      .      . (Suggestion: let and .)       Evaluate the definite integral .      Here are a few more antiderivatives for practice.     .      .       Suppose that and that .     Find .      Find an expression for that doesn't involve an integral.      Is an increasing or decreasing function when ? Explain your thinking.     "
 },
 {
   "id": "activities-7-2",
@@ -286,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Given the two parabolas and , sketch their graphs and find the area of the region between them.   "
+  "body": "  Find antiderivatives of these functions     .       . Hint: try and whatever is left over.      .      .      . (Suggestion: let and .)    "
 },
 {
   "id": "activities-7-3",
@@ -295,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Graph the functions and and find the area of one of the regions bounded by their graphs.   "
+  "body": "  Evaluate the definite integral .   "
 },
 {
   "id": "activities-7-4",
@@ -304,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Find the area between the graphs of and .   "
+  "body": "  Here are a few more antiderivatives for practice.     .      .    "
 },
 {
   "id": "activities-7-5",
@@ -313,30 +331,147 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
+  "body": "  Suppose that and that .     Find .      Find an expression for that doesn't involve an integral.      Is an increasing or decreasing function when ? Explain your thinking.    "
+},
+{
+  "id": "activities-8",
+  "level": "1",
+  "url": "activities-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 1, Due: Tuesday, September 22",
+  "body": " Lab 1, Due: Tuesday, September 22    Instructions: The exercises here should be completed in groups of 2 or 3 students. You only need to hand in one copy per group, but please include everyone's name.   Names:    Note: There are two aims for this lab. First, I want to introduce you to spreadsheets as a tool for understanding some ideas in calculus. At the beginning of the class, I will demonstrate for you some fundamental things: how to enter data in cells, how to refer to other cells and how to copy information from one cell to another. Second, I would like to review how definite integrals are constructed; namely, I would like for you to think of an integral as a fancy sum.     Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?       The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".    "
+},
+{
+  "id": "activities-8-2-1",
+  "level": "2",
+  "url": "activities-8.html#activities-8-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "activities-8-3",
+  "level": "2",
+  "url": "activities-8.html#activities-8-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?    "
+},
+{
+  "id": "activities-8-4",
+  "level": "2",
+  "url": "activities-8.html#activities-8-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".   "
+},
+{
+  "id": "activities-9",
+  "level": "1",
+  "url": "activities-9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 1, Due: Monday, September 21",
+  "body": " Lab 1, Due: Monday, September 21    Instructions: The exercises here should be completed in groups of 2 or 3 students. You only need to hand in one copy per group, but please include everyone's name.   Names:    Note: There are two aims for this lab. First, I want to introduce you to spreadsheets as a tool for understanding some ideas in calculus. At the beginning of the class, I will demonstrate for you some fundamental things: how to enter data in cells, how to refer to other cells and how to copy information from one cell to another. Second, I would like to review how definite integrals are constructed; namely, I would like for you to think of an integral as a fancy sum.     Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?       The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".    "
+},
+{
+  "id": "activities-9-2-1",
+  "level": "2",
+  "url": "activities-9.html#activities-9-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "activities-9-3",
+  "level": "2",
+  "url": "activities-9.html#activities-9-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?    "
+},
+{
+  "id": "activities-9-4",
+  "level": "2",
+  "url": "activities-9.html#activities-9-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".   "
+},
+{
+  "id": "activities-10",
+  "level": "1",
+  "url": "activities-10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Area (Section 6.1)",
+  "body": " Area (Section 6.1)    Given the two parabolas and , sketch their graphs and find the area of the region between them.      Graph the functions and and find the area of one of the regions bounded by their graphs.      Find the area between the graphs of and .      The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?      Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .       Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.    "
+},
+{
+  "id": "activities-10-2",
+  "level": "2",
+  "url": "activities-10.html#activities-10-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Given the two parabolas and , sketch their graphs and find the area of the region between them.   "
+},
+{
+  "id": "activities-10-3",
+  "level": "2",
+  "url": "activities-10.html#activities-10-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Graph the functions and and find the area of one of the regions bounded by their graphs.   "
+},
+{
+  "id": "activities-10-4",
+  "level": "2",
+  "url": "activities-10.html#activities-10-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the area between the graphs of and .   "
+},
+{
+  "id": "activities-10-5",
+  "level": "2",
+  "url": "activities-10.html#activities-10-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
   "body": "  The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x               "
 },
 {
-  "id": "activities-7-6",
+  "id": "activities-10-6",
   "level": "2",
-  "url": "activities-7.html#activities-7-6",
+  "url": "activities-10.html#activities-10-6",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
   "body": "  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?   "
 },
 {
-  "id": "activities-7-7",
+  "id": "activities-10-7",
   "level": "2",
-  "url": "activities-7.html#activities-7-7",
+  "url": "activities-10.html#activities-10-7",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
   "body": "  Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .    "
 },
 {
-  "id": "activities-7-8",
+  "id": "activities-10-8",
   "level": "2",
-  "url": "activities-7.html#activities-7-8",
+  "url": "activities-10.html#activities-10-8",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",

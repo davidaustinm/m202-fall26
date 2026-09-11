@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Antiderivatives using substitution (Section 5.3)",
-  "body": " Antiderivatives using substitution (Section 5.3)    The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.       Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                           Remember how the Second Fundamental Theorem of Calculus works. Suppose we have and that we define .     What is the derivative ?      Evaluate the integral defining to obtain an expression that does not involve an integral.      Find the derivative explicitly and verify your response to part a.     as expected.       Here are some more antiderivatives to find.                         "
+  "body": " Antiderivatives using substitution (Section 5.3)    The substitution technique helps us to undo the chain rule.     Find the derivative of .           Use your result to find the family of antiderivatives .    When we differentiated , we got something pretty close to . There's just an additional factor of 4 we wish weren't there. So we'll divide it out on both sides. .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?    Let's choose so that .      How can we transform into something involving ? Use this to find using substitution.    Since , we know that so that .       Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .    We'll choose so that the function looks like , which is on the table of antiderivatives. We then have . Therefore .       using the substitution     OK, this looks a little more complicated, but it's still the same idea. We have or . Then .         Hmm. Square roots are scary so let's try to turn this into . Let so that . Wow, that was fortunate, but this technique requires some luck. .         We don't know anything about an antiderivative of so let's substitute . Then or so that .          so that and .          so that . Therefore .         Choose so that . Then .          so that and .         Let so that . Then .       Remember how the Second Fundamental Theorem of Calculus works. Suppose we have and that we define .     What is the derivative ?    By the Second Fundamental Theorem of Calculus, .      Evaluate the integral defining to obtain an expression that does not involve an integral.    We will use a substitution so that . Then so that       Find the derivative explicitly and verify your response to part a.     as expected.       Here are some more antiderivatives to find.           so that . Then .            so that . Then .           First break the antiderivative up into two pieces: and make a substitution in the second so that .     "
 },
 {
   "id": "activities-6-2",
@@ -259,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  The substitution technique helps us to undo the chain rule.     Find the derivative of .      Use your result to find the family of antiderivatives .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?      How can we transform into something involving ? Use this to find using substitution.    "
+  "body": "  The substitution technique helps us to undo the chain rule.     Find the derivative of .           Use your result to find the family of antiderivatives .    When we differentiated , we got something pretty close to . There's just an additional factor of 4 we wish weren't there. So we'll divide it out on both sides. .      Let's do this using a substitution now. We know that so let's try the substitution . What is in terms of ?    Let's choose so that .      How can we transform into something involving ? Use this to find using substitution.    Since , we know that so that .    "
 },
 {
   "id": "activities-6-3",
@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .       using the substitution                                        "
+  "body": "  Here are some functions to antidifferentiate using substitution. In each case, identify an intermediate function to transform the integrand into something on the table of antiderivatives.     In the same way, find the following antiderivatives:  .    We'll choose so that the function looks like , which is on the table of antiderivatives. We then have . Therefore .       using the substitution     OK, this looks a little more complicated, but it's still the same idea. We have or . Then .         Hmm. Square roots are scary so let's try to turn this into . Let so that . Wow, that was fortunate, but this technique requires some luck. .         We don't know anything about an antiderivative of so let's substitute . Then or so that .          so that and .          so that . Therefore .         Choose so that . Then .          so that and .         Let so that . Then .    "
 },
 {
   "id": "activities-6-4",
@@ -277,7 +277,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Remember how the Second Fundamental Theorem of Calculus works. Suppose we have and that we define .     What is the derivative ?      Evaluate the integral defining to obtain an expression that does not involve an integral.      Find the derivative explicitly and verify your response to part a.     as expected.    "
+  "body": "  Remember how the Second Fundamental Theorem of Calculus works. Suppose we have and that we define .     What is the derivative ?    By the Second Fundamental Theorem of Calculus, .      Evaluate the integral defining to obtain an expression that does not involve an integral.    We will use a substitution so that . Then so that       Find the derivative explicitly and verify your response to part a.     as expected.    "
 },
 {
   "id": "activities-6-5",
@@ -286,7 +286,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Here are some more antiderivatives to find.                        "
+  "body": "  Here are some more antiderivatives to find.           so that . Then .            so that . Then .           First break the antiderivative up into two pieces: and make a substitution in the second so that .    "
 },
 {
   "id": "activities-7",
@@ -476,6 +476,114 @@ var ptx_lunr_docs = [
   "number": "7",
   "title": "",
   "body": "  Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.   "
+},
+{
+  "id": "activities-11",
+  "level": "1",
+  "url": "activities-11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Antidifferentiation Practice",
+  "body": " Antidifferentiation Practice                                                                               "
+},
+{
+  "id": "activities-11-2",
+  "level": "2",
+  "url": "activities-11.html#activities-11-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-3",
+  "level": "2",
+  "url": "activities-11.html#activities-11-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-4",
+  "level": "2",
+  "url": "activities-11.html#activities-11-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-5",
+  "level": "2",
+  "url": "activities-11.html#activities-11-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-6",
+  "level": "2",
+  "url": "activities-11.html#activities-11-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-7",
+  "level": "2",
+  "url": "activities-11.html#activities-11-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-8",
+  "level": "2",
+  "url": "activities-11.html#activities-11-8",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-9",
+  "level": "2",
+  "url": "activities-11.html#activities-11-9",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-10",
+  "level": "2",
+  "url": "activities-11.html#activities-11-10",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-11",
+  "level": "2",
+  "url": "activities-11.html#activities-11-11",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "activities-11-12",
+  "level": "2",
+  "url": "activities-11.html#activities-11-12",
+  "type": "Worksheet Exercise",
+  "number": "11",
+  "title": "",
+  "body": "      "
 }
 ]
 

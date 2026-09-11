@@ -17,14 +17,14 @@
     <line id="06-area-5-__line-2" x1="245.0" y1="168.0" x2="245.0" y2="162.0" stroke-width="2" stroke="black"/>
     <g id="06-area-5-__tick-mark-0" transform="translate(245.0,176.0) translate(-6.9,-0.0)">
       <g id="06-area-5-__g-1">
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="13.736px" height="12.744px" role="img" focusable="false" viewBox="0 -683 759 704" x="0.0" y="0.0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="13.736px" height="12.760px" role="img" focusable="false" viewBox="0 -683 759 705" x="0.0" y="0.0">
           <defs>
-            <path id="06-area-5-MJX-2-TEX-I-1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/>
+            <path id="06-area-5-MJX-2-NCM-I-1D445" d="M739 531C739 582 713 621 662 649C621 672 572 683 517 683L235 683C212 683 202 682 202 659C202 652 205 647 211 646C221 645 229 644 234 644C264 643 281 641 286 640C291 639 294 636 294 631C294 629 293 623 290 613L158 82C153 60 143 46 128 41C121 39 103 38 72 38C50 38 41 37 41 15C41 4 47-1 59 0L183 3L309 0C325-1 333 8 333 23C333 33 322 38 301 38C261 38 241 43 241 52C241 52 242 54 244 68L308 327L423 327C492 327 527 298 527 241C527 232 522 210 513 174C502 132 497 104 497 89C497 13 556-22 632-22C660-22 687-9 714 16C741 41 755 68 755 96C755 106 750 111 739 111C732 111 726 106 723 95C712 64 698 41 682 28C666 15 651 8 636 8C613 8 601 27 601 64C601 88 604 125 611 176C614 197 615 212 615 223C615 276 587 315 531 339C625 362 739 429 739 531M609 616C629 603 639 581 639 550C639 530 635 507 626 480C599 398 531 357 422 357L316 357L379 610C384 631 392 642 403 643C408 644 428 644 463 644C528 644 566 642 609 616Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper R">
-                <use data-c="1D445" xlink:href="#06-area-5-MJX-2-TEX-I-1D445"/>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:R" data-semantic-speech="upper R">
+                <use data-c="1D445" xlink:href="#06-area-5-MJX-2-NCM-I-1D445"/>
               </g>
             </g>
           </g>

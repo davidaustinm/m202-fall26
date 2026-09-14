@@ -295,7 +295,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Integration by parts (Section 5.4)",
-  "body": " Integration by parts (Section 5.4)    Find antiderivatives of these functions     .       . Hint: try and whatever is left over.      .      .      . (Suggestion: let and .)       Evaluate the definite integral .      Here are a few more antiderivatives for practice.     .      .       Suppose that and that .     Find .      Find an expression for that doesn't involve an integral.      Is an increasing or decreasing function when ? Explain your thinking.     "
+  "body": " Integration by parts (Section 5.4)    Find antiderivatives of these functions     .    Choose and so that . Then .       . Hint: try and whatever is left over.    This is a little strange, but we know how to differentiate and we don't know how to antidifferentiate it so: . Then .      .    Looks like a substitution may work better here: so that . Then .      .    Let's try integration by parts so that . Then . Now we need to use integration by part again! .      . (Suggestion: let and .)    Following the suggestion, we have . This means that where the last antiderivative is found using a substitution as in our last class meeting.       Evaluate the definite integral .    As in the earlier example we worked out, so an antiderivative is . This means that .      Here are a few more antiderivatives for practice.     .    As we have seen, so that .      .    We have a variety of techniques now so we need to think about which one applies. This looks like a substitution if we let . Then so that .       Suppose that and that .     Find .    The Second Fundamental Theorem of Calculus says that       Find an expression for that doesn't involve an integral.    We will use integration by parts with so that .      Is an increasing or decreasing function when ? Explain your thinking.     is always increasing on that interval because .     "
 },
 {
   "id": "activities-7-2",
@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Find antiderivatives of these functions     .       . Hint: try and whatever is left over.      .      .      . (Suggestion: let and .)    "
+  "body": "  Find antiderivatives of these functions     .    Choose and so that . Then .       . Hint: try and whatever is left over.    This is a little strange, but we know how to differentiate and we don't know how to antidifferentiate it so: . Then .      .    Looks like a substitution may work better here: so that . Then .      .    Let's try integration by parts so that . Then . Now we need to use integration by part again! .      . (Suggestion: let and .)    Following the suggestion, we have . This means that where the last antiderivative is found using a substitution as in our last class meeting.    "
 },
 {
   "id": "activities-7-3",
@@ -313,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Evaluate the definite integral .   "
+  "body": "  Evaluate the definite integral .    As in the earlier example we worked out, so an antiderivative is . This means that .   "
 },
 {
   "id": "activities-7-4",
@@ -322,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Here are a few more antiderivatives for practice.     .      .    "
+  "body": "  Here are a few more antiderivatives for practice.     .    As we have seen, so that .      .    We have a variety of techniques now so we need to think about which one applies. This looks like a substitution if we let . Then so that .    "
 },
 {
   "id": "activities-7-5",
@@ -331,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Suppose that and that .     Find .      Find an expression for that doesn't involve an integral.      Is an increasing or decreasing function when ? Explain your thinking.    "
+  "body": "  Suppose that and that .     Find .    The Second Fundamental Theorem of Calculus says that       Find an expression for that doesn't involve an integral.    We will use integration by parts with so that .      Is an increasing or decreasing function when ? Explain your thinking.     is always increasing on that interval because .    "
 },
 {
   "id": "activities-8",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Antidifferentiation Practice",
-  "body": " Antidifferentiation Practice                                                                               "
+  "body": " Antidifferentiation Practice                                                               remember that is a shorthand for .    "
 },
 {
   "id": "activities-11-2",
@@ -565,25 +565,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "9",
   "title": "",
-  "body": "      "
-},
-{
-  "id": "activities-11-11",
-  "level": "2",
-  "url": "activities-11.html#activities-11-11",
-  "type": "Worksheet Exercise",
-  "number": "10",
-  "title": "",
-  "body": "      "
-},
-{
-  "id": "activities-11-12",
-  "level": "2",
-  "url": "activities-11.html#activities-11-12",
-  "type": "Worksheet Exercise",
-  "number": "11",
-  "title": "",
-  "body": "      "
+  "body": "   remember that is a shorthand for .   "
 }
 ]
 

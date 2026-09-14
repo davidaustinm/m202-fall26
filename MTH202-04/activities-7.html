@@ -58,7 +58,7 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.10';
+eBookConfig.runestone_version = '8.2.12';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
@@ -66,7 +66,7 @@ eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
 <script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.561f7165d9bf3626.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -194,7 +194,10 @@ eBookConfig.enable_chatcodes =  false;
         </label><label><input type="radio" name="papersize" value="letter">Letter
         </label>
 </form>
-<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div></div>
+<div class="header-footer-options">
 <div class="header-option">
 <span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
 </div>
@@ -222,12 +225,66 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="activities-7-2-2-1-1">
 <span class="process-math">\(\ds \int x\sin x~dx\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-7-2-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-2-2-2-1">
+<div class="para">Choose <span class="process-math">\(u=x\)</span> and <span class="process-math">\(dv=\sin x~dx\)</span> so that</div>
+<div class="displaymath process-math" id="activities-7-2-2-2-1-3">
+\begin{equation*}
+\begin{array}{ll}
+u = x \amp du=dx \\
+dv = \sin x~dx \amp v = -\cos x \\
+\end{array}\text{.}
+\end{equation*}
+</div>
+<div class="para">Then</div>
+<div class="displaymath process-math" id="activities-7-2-2-2-1-4">
+\begin{equation*}
+\int x\sin x~dx = -x\cos x + \int \cos x~dx =
+-x\cos x + \sin x\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.a.1"><a tabindex="-1" href="#activities-7-2-2-2" title="Copy heading and permalink for Solution 1.a.1" aria-label="Copy heading and permalink for Solution 1.a.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1.25in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.a"><a tabindex="-1" href="#activities-7-2-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-7-2-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="activities-7-2-3-1-1">
 <span class="process-math">\(\ds \int x^2\ln x~dx\text{.}\)</span>  Hint:  try <span class="process-math">\(u=\ln x\)</span> and <span class="process-math">\(dv=\)</span> whatever is left over.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-7-2-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-2-3-2-1">
+<div class="para">This is a little strange, but we know how to differentiate <span class="process-math">\(\ln x\)</span> and we don’t know how to antidifferentiate it so:</div>
+<div class="displaymath process-math" id="activities-7-2-3-2-1-2">
+\begin{equation*}
+\begin{array}{ll}
+u=\ln x \amp du = \frac1x ~dx \\
+dv = x^2 ~dx \amp v=\frac13 x^3 \\
+\end{array}\text{.}
+\end{equation*}
+</div>
+<div class="para">Then</div>
+<div class="displaymath process-math" id="activities-7-2-3-2-1-3">
+\begin{align*}
+\int x^2\ln x~dx \amp =
+\frac13 x^3\ln x - \frac13 \int x^3\frac1x ~dx\\
+\amp = 
+\frac13 x^3\ln x - \frac13 \int x^2 ~dx\\
+\amp = 
+\frac13 x^3\ln x - \frac19 x^3\text{.}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.b.1"><a tabindex="-1" href="#activities-7-2-3-2" title="Copy heading and permalink for Solution 1.b.1" aria-label="Copy heading and permalink for Solution 1.b.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1.25in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.b"><a tabindex="-1" href="#activities-7-2-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
@@ -236,12 +293,64 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="activities-7-2-4-1-1">
 <span class="process-math">\(\ds \int x\sqrt{1-x^2}~dx\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-7-2-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-2-4-2-1">
+<div class="para">Looks like a substitution may work better here: <span class="process-math">\(u=1-x^2\)</span> so that <span class="process-math">\(du=-2x~dx\text{.}\)</span>  Then</div>
+<div class="displaymath process-math" id="activities-7-2-4-2-1-3">
+\begin{equation*}
+\int x\sqrt{1-x^2}~dx = -\frac12\int\sqrt{u}~du =
+-\frac 23 u^{3/2} = -\frac 23(1-x^2)^{3/2}+C\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.c.1"><a tabindex="-1" href="#activities-7-2-4-2" title="Copy heading and permalink for Solution 1.c.1" aria-label="Copy heading and permalink for Solution 1.c.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1.25in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.c"><a tabindex="-1" href="#activities-7-2-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-7-2-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
 <div class="para" id="activities-7-2-5-1-1">
 <span class="process-math">\(\ds \int x^2e^{-2x}~dx\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-7-2-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-2-5-2-1">
+<div class="para">Let’s try integration by parts so that</div>
+<div class="displaymath process-math" id="activities-7-2-5-2-1-1">
+\begin{equation*}
+\begin{array}{ll}
+u = x^2 \amp du = 2x~dx \\
+dv = e^{-2x}~dx \amp v = -\frac12 e^{-2x} \\
+\end{array}\text{.}
+\end{equation*}
+</div>
+<div class="para">Then</div>
+<div class="displaymath process-math" id="activities-7-2-5-2-1-2">
+\begin{equation*}
+\int x^2e^{-2x}~dx = -\frac12 x^2e^{-2x} + \frac12\int
+xe^{-2x}~dx\text{.}
+\end{equation*}
+</div>
+<div class="para">Now we need to use integration by part again!</div>
+<div class="displaymath process-math" id="activities-7-2-5-2-1-3">
+\begin{align*}
+\int x^2e^{-2x}~dx \amp = -\frac12 x^2e^{-2x} + \frac12\int
+xe^{-2x}~dx\\
+\amp = -\frac12 x^2e^{-2x} -\frac14xe^{-2x} + \frac14 \int
+e^{-2x}~dx\\
+\amp = -\frac12 x^2e^{-2x} -\frac14xe^{-2x} - \frac18
+e^{-2x}\text{.}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.d.1"><a tabindex="-1" href="#activities-7-2-5-2" title="Copy heading and permalink for Solution 1.d.1" aria-label="Copy heading and permalink for Solution 1.d.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1.75in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.d"><a tabindex="-1" href="#activities-7-2-5" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div>
@@ -250,6 +359,33 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="activities-7-2-6-1-1">
 <span class="process-math">\(\ds \int \arctan x~dx\text{.}\)</span>  (Suggestion:  let <span class="process-math">\(u=\arctan x\)</span> and <span class="process-math">\(dv = 1~dx\text{.}\)</span>)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-7-2-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-2-6-2-1">
+<div class="para">Following the suggestion, we have</div>
+<div class="displaymath process-math" id="activities-7-2-6-2-1-1">
+\begin{equation*}
+\begin{array}{ll}
+u = \arctan x \amp du =\frac1{1+x^2}~dx \\
+dv = 1~dx \amp v = x \\
+\end{array}\text{.}
+\end{equation*}
+</div>
+<div class="para">This means that</div>
+<div class="displaymath process-math" id="activities-7-2-6-2-1-2">
+\begin{align*}
+\int \arctan x~dx \amp = x\arctan x - \int\frac
+x{1+x^2}~dx\\
+\amp = x\arctan x - \frac 12\ln|1+x^2|
+\end{align*}
+</div>
+<div class="para">where the last antiderivative is found using a substitution <span class="process-math">\(w=1+x^2\)</span> as in our last class meeting.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-2-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.e.1"><a tabindex="-1" href="#activities-7-2-6-2" title="Copy heading and permalink for Solution 1.e.1" aria-label="Copy heading and permalink for Solution 1.e.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1.75in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.e"><a tabindex="-1" href="#activities-7-2-6" title="Copy heading and permalink for Task 1.e" aria-label="Copy heading and permalink for Task 1.e">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#activities-7-2" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
@@ -257,6 +393,41 @@ eBookConfig.enable_chatcodes =  false;
 <article class="exercise exercise-like" id="activities-7-3"><h2 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
 <div class="para" id="activities-7-3-1-1">Evaluate the definite integral <span class="process-math">\(\displaystyle \int_1^3 t\ln
 t~dt\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-7-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-3-2-1">
+<div class="para">As in the earlier example we worked out,</div>
+<div class="displaymath process-math" id="activities-7-3-2-1-1">
+\begin{equation*}
+\begin{array}{ll}
+u = \ln t \amp du = \frac 1t~dt \\
+dv = t~dt \amp v = \frac12 t^2 \\
+\end{array}
+\end{equation*}
+</div>
+<div class="para">so an antiderivative is</div>
+<div class="displaymath process-math" id="activities-7-3-2-1-2">
+\begin{align*}
+\int t\ln t~dt \amp = \frac12 t^2\ln t - \frac12 \int t~dt\\
+\amp = \frac12 t^2\ln t - \frac14 t^2\text{.}
+\end{align*}
+</div>
+<div class="para">This means that</div>
+<div class="displaymath process-math" id="activities-7-3-2-1-3">
+\begin{align*}
+\int_1^3 t\ln t~dt \amp = \left(\frac12 t^2\ln t - \frac14
+t^2\right)\Biggl|_1^3\\
+\amp = \frac12 \cdot 9\ln 3 - \frac 14\cdot 9 - \frac12\ln
+1 - \frac14\\
+\amp = \frac92 \ln 3 - 2\text{.}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.1"><a tabindex="-1" href="#activities-7-3-2" title="Copy heading and permalink for Solution 2.1" aria-label="Copy heading and permalink for Solution 2.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1.75in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2"><a tabindex="-1" href="#activities-7-3" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div>
@@ -270,12 +441,53 @@ t~dt\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-descript
 <div class="para" id="activities-7-4-2-1-1">
 <span class="process-math">\(\ds \int \ln t~dt\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-7-4-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-4-2-2-1">
+<div class="para">As we have seen,</div>
+<div class="displaymath process-math" id="activities-7-4-2-2-1-1">
+\begin{equation*}
+\begin{array}{ll}
+u = \ln t \amp du = \frac1t~dt \\
+dv = dt \amp v = t \\
+\end{array}
+\end{equation*}
+</div>
+<div class="para">so that</div>
+<div class="displaymath process-math" id="activities-7-4-2-2-1-2">
+\begin{equation*}
+\int \ln t~dt = t\ln t - \int \frac 1t\cdot t~dt = t\ln t
+- \int 1dt = t\ln t - t\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.a.1"><a tabindex="-1" href="#activities-7-4-2-2" title="Copy heading and permalink for Solution 3.a.1" aria-label="Copy heading and permalink for Solution 3.a.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1.75in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#activities-7-4-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-7-4-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="activities-7-4-3-1-1">
 <span class="process-math">\(\ds \int \frac {x}{1+x^2}~dx\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-7-4-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-4-3-2-1">
+<div class="para">We have a variety of techniques now so we need to think about which one applies. This looks like a substitution if we let <span class="process-math">\(u=1+x^2\text{.}\)</span> Then <span class="process-math">\(du=2x~dx\)</span> so that</div>
+<div class="displaymath process-math" id="activities-7-4-3-2-1-3">
+\begin{equation*}
+\int \frac {x}{1+x^2}~dx = \frac12 \int \frac 1u~du =
+\frac12 \ln |u| = \frac12 \ln|1+x^2|\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.b.1"><a tabindex="-1" href="#activities-7-4-3-2" title="Copy heading and permalink for Solution 3.b.1" aria-label="Copy heading and permalink for Solution 3.b.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1.75in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#activities-7-4-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
@@ -290,17 +502,70 @@ t~dt\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-descript
 <article class="task exercise-like" id="activities-7-5-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
 <div class="para" id="activities-7-5-2-1-1">Find <span class="process-math">\(F'(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-7-5-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-5-2-2-1">
+<div class="para">The Second Fundamental Theorem of Calculus says that</div>
+<div class="displaymath process-math" id="activities-7-5-2-2-1-1">
+\begin{equation*}
+F'(x) = f(x) = xe^{-3x}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-5-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 4.a.1"><a tabindex="-1" href="#activities-7-5-2-2" title="Copy heading and permalink for Solution 4.a.1" aria-label="Copy heading and permalink for Solution 4.a.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 4.a"><a tabindex="-1" href="#activities-7-5-2" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-7-5-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="activities-7-5-3-1-1">Find an expression for <span class="process-math">\(F(x)\)</span> that doesn’t involve an integral.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-7-5-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-7-5-3-2-1">
+<div class="para">We will use integration by parts with</div>
+<div class="displaymath process-math" id="activities-7-5-3-2-1-1">
+\begin{equation*}
+\begin{array}{ll}
+u = t \amp du = ~dt \\
+dv = e^{-3t}~dt \amp v = -\frac13 e^{-3t}
+\end{array}
+\end{equation*}
+</div>
+<div class="para">so that</div>
+<div class="displaymath process-math" id="activities-7-5-3-2-1-2">
+\begin{align*}
+\int te^{-3t}~dt \amp
+= -\frac13 te^{-3t} + \frac13 \int e^{-3t} =
+-\frac13 te^{-3t} - \frac19 e^{-3t}\\
+F(x) \amp = \left(-\frac13 te^{-3t} -
+\frac19 e^{-3t}\right)\Biggl|_0^x =
+-\frac13 xe^{-3x} - \frac19e^{-3t} + \frac19\text{.}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-5-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 4.b.1"><a tabindex="-1" href="#activities-7-5-3-2" title="Copy heading and permalink for Solution 4.b.1" aria-label="Copy heading and permalink for Solution 4.b.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 4.b"><a tabindex="-1" href="#activities-7-5-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-7-5-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
 <div class="para" id="activities-7-5-4-1-1">Is <span class="process-math">\(F\)</span> an increasing or decreasing function when <span class="process-math">\(x&gt;0\text{?}\)</span>  Explain your thinking.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-7-5-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-7-5-4-2-1">
+<span class="process-math">\(F\)</span> is always increasing on that interval because <span class="process-math">\(F'(x) = f(x)=xe^{-3x}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-7-5-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 4.c.1"><a tabindex="-1" href="#activities-7-5-4-2" title="Copy heading and permalink for Solution 4.c.1" aria-label="Copy heading and permalink for Solution 4.c.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 4.c"><a tabindex="-1" href="#activities-7-5-4" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div>

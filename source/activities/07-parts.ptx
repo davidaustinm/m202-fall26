@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Integration by parts (Section 5.4)</title>
+
+  <exercise>
+    <introduction>
+      <p>Find antiderivatives of these functions</p>
+    </introduction>
+    <task workspace="1.25in">
+      <statement>
+        <p><m>\ds \int x\sin x~dx</m>.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          Choose <m>u=x</m> and <m>dv=\sin x~dx</m> so that
+          <md>
+            \begin{array}{ll}
+            u = x \amp du=dx \\
+            dv = \sin x~dx \amp v = -\cos x \\
+            \end{array}
+          </md>.
+          Then
+          <md>
+            \int x\sin x~dx = -x\cos x + \int \cos x~dx =
+            -x\cos x + \sin x
+          </md>.
+        </p>
+      </solution>
+    </task>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          <m>\ds \int x^2\ln x~dx</m>.  Hint:  try <m>u=\ln x</m> and
+          <m>dv=</m> whatever is left over.
+        </p>
+      </statement>
+      <solution component="07">
+        <p>
+          This is a little strange, but we know how to differentiate
+          <m>\ln x</m> and we don't know how to antidifferentiate it
+          so: 
+          <md>
+            \begin{array}{ll}
+            u=\ln x \amp du = \frac1x ~dx \\
+            dv = x^2 ~dx \amp v=\frac13 x^3 \\
+            \end{array}
+          </md>.
+          Then
+          <md>
+            <mrow>
+              \int x^2\ln x~dx \amp =
+              \frac13 x^3\ln x - \frac13 \int x^3\frac1x ~dx
+            </mrow>
+            <mrow>
+              \amp = 
+              \frac13 x^3\ln x - \frac13 \int x^2 ~dx
+            </mrow>
+            <mrow>
+              \amp = 
+              \frac13 x^3\ln x - \frac19 x^3
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+    
+    <task workspace="1.25in">
+      <statement>
+        <p><m>\ds \int x\sqrt{1-x^2}~dx</m>.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          Looks like a substitution may work better here:
+          <m>u=1-x^2</m> so that <m>du=-2x~dx</m>.  Then
+          <md>
+            \int x\sqrt{1-x^2}~dx = -\frac12\int\sqrt{u}~du =
+            -\frac 23 u^{3/2} = -\frac 23(1-x^2)^{3/2}+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p><m>\ds \int x^2e^{-2x}~dx</m>.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          Let's try integration by parts so that
+          <md>
+            \begin{array}{ll}
+            u = x^2 \amp du = 2x~dx \\
+            dv = e^{-2x}~dx \amp v = -\frac12 e^{-2x} \\
+            \end{array}
+          </md>.
+          Then
+          <md>
+            \int x^2e^{-2x}~dx = -\frac12 x^2e^{-2x} + \frac12\int
+            xe^{-2x}~dx
+          </md>.
+          Now we need to use integration by part again!
+          <md>
+            <mrow>
+              \int x^2e^{-2x}~dx \amp = -\frac12 x^2e^{-2x} + \frac12\int
+              xe^{-2x}~dx
+            </mrow>
+            <mrow>
+              \amp = -\frac12 x^2e^{-2x} -\frac14xe^{-2x} + \frac14 \int
+              e^{-2x}~dx
+            </mrow>
+            <mrow>
+              \amp = -\frac12 x^2e^{-2x} -\frac14xe^{-2x} - \frac18
+              e^{-2x}
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+            
+    <task workspace="1.75in">
+      <statement>
+        <p><m>\ds \int \arctan x~dx</m>.  (Suggestion:  let
+        <m>u=\arctan x</m> and <m>dv = 1~dx</m>.)</p>
+      </statement>
+      <solution component="07">
+        <p>
+          Following the suggestion, we have
+          <md>
+            \begin{array}{ll}
+            u = \arctan x \amp du =\frac1{1+x^2}~dx \\
+            dv = 1~dx \amp v = x \\
+            \end{array}
+          </md>.
+          This means that
+          <md>
+            <mrow>
+              \int \arctan x~dx \amp = x\arctan x - \int\frac
+              x{1+x^2}~dx
+            </mrow>
+            <mrow>
+              \amp = x\arctan x - \frac 12\ln|1+x^2|
+            </mrow>
+          </md>
+          where the last antiderivative is found using a substitution
+          <m>w=1+x^2</m> as in our last class meeting.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p>Evaluate the definite integral <m>\displaystyle \int_1^3 t\ln
+      t~dt</m>.</p>
+    </statement>
+    <solution component="07">
+      <p>
+        As in the earlier example we worked out,
+        <md>
+          \begin{array}{ll}
+          u = \ln t \amp du = \frac 1t~dt \\
+          dv = t~dt \amp v = \frac12 t^2 \\
+          \end{array}
+        </md>
+        so an antiderivative is
+        <md>
+          <mrow>
+            \int t\ln t~dt \amp = \frac12 t^2\ln t - \frac12 \int t~dt
+          </mrow>
+          <mrow>
+            \amp = \frac12 t^2\ln t - \frac14 t^2
+          </mrow>
+        </md>.
+        This means that
+        <md>
+          <mrow>
+            \int_1^3 t\ln t~dt \amp = \left(\frac12 t^2\ln t - \frac14
+            t^2\right)\Biggl|_1^3
+          </mrow>
+          <mrow>
+            \amp = \frac12 \cdot 9\ln 3 - \frac 14\cdot 9 - \frac12\ln
+            1 - \frac14
+          </mrow>
+          <mrow>
+            \amp = \frac92 \ln 3 - 2
+          </mrow>
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Here are a few more antiderivatives for practice.
+      </p>
+    </introduction>
+    <task workspace="1.75in">
+      <statement>
+        <p><m>\ds \int \ln t~dt</m>.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          As we have seen,
+          <md>
+            \begin{array}{ll}
+            u = \ln t \amp du = \frac1t~dt \\
+            dv = dt \amp v = t \\
+            \end{array}
+          </md>
+          so that
+          <md>
+            \int \ln t~dt = t\ln t - \int \frac 1t\cdot t~dt = t\ln t
+            - \int 1dt = t\ln t - t
+          </md>.
+        </p>
+      </solution>
+    </task>
+    
+    <task workspace="1.75in">
+      <statement>
+        <p><m>\ds \int \frac {x}{1+x^2}~dx</m>.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          We have a variety of
+          techniques now so we need to think about which one applies.
+          This looks like a substitution if we let <m>u=1+x^2</m>.
+          Then <m>du=2x~dx</m> so that
+          <md>
+            \int \frac {x}{1+x^2}~dx = \frac12 \int \frac 1u~du =
+            \frac12 \ln |u| = \frac12 \ln|1+x^2|
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>Suppose that <m>f(t) = te^{-3t}</m> and that <m>F(x) =
+      \int_0^x f(t)~dt</m>.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Find <m>F'(x)</m>.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          The Second Fundamental Theorem of Calculus says that
+          <md>
+            F'(x) = f(x) = xe^{-3x}
+          </md>
+        </p>
+      </solution>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>Find an expression for <m>F(x)</m> that doesn't involve
+        an integral.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          We will use integration by parts with
+          <md>
+            \begin{array}{ll}
+            u = t \amp du = ~dt \\
+            dv = e^{-3t}~dt \amp v = -\frac13 e^{-3t}
+            \end{array}
+          </md>
+          so that
+          <md>
+            <mrow>
+              \int te^{-3t}~dt \amp
+              = -\frac13 te^{-3t} + \frac13 \int e^{-3t} =
+              -\frac13 te^{-3t} - \frac19 e^{-3t}
+            </mrow>
+            <mrow>
+              F(x) \amp = \left(-\frac13 te^{-3t} -
+              \frac19 e^{-3t}\right)\Biggl|_0^x =
+              -\frac13 xe^{-3x} - \frac19e^{-3t} + \frac19
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+    
+    <task workspace="1in">
+      <statement>
+        <p>Is <m>F</m> an increasing or decreasing function when
+        <m>x&gt;0</m>?  Explain your 
+        thinking.</p>
+      </statement>
+      <solution component="07">
+        <p>
+          <m>F</m> is always increasing on that interval because
+          <m>F'(x) = f(x)=xe^{-3x}</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

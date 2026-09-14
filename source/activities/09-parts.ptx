@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Integration by parts (Section 5.4)</title>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p>Find antiderivatives of these functions</p>
+      <p><m>\ds \int x\sin x~dx</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p><m>\ds \int x^2\ln x~dx</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p><m>\ds \int x\sqrt{1-x^2}~dx</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p><m>\ds \int x^2e^{-2x}~dx</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p><m>\ds \int \arctan x~dx</m>.  (Suggestion:  let
+  <m>u=\arctan x</m> and <m>dv = 1~dx</m>.)</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p>Evaluate the definite integral <m>\displaystyle \int_1^3 t\ln t~dt</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p><m>\ds \int \ln t~dt</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p><m>\ds \int \frac {x}{1+x^2}~dx</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>Suppose that <m>f(t) = te^{3t}</m> and that <m>F(x) = \int_0^x f(t)~dt</m>.</p>
+      <p>Find <m>F'(x)</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>Find an expression for <m>F(x)</m> that doesn't involve an integral.</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>Is <m>F</m> an increasing or decreasing function when <m>x&gt;0</m>?  Explain your
+thinking.</p>
+    </statement>
+  </exercise>
+
+</worksheet>

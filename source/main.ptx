@@ -62,7 +62,11 @@
       <xi:include href="./activities/03-ftc.ptx"/>
       <xi:include href="./activities/04-review.ptx"/>
       <xi:include href="./activities/05-substitution.ptx"/>
+      <xi:include href="./activities/07-parts.ptx"/>
+      <xi:include href="./activities/08-lab-1-02.ptx"/>
+      <xi:include href="./activities/08-lab-1-04.ptx"/>
       <xi:include href="./activities/06-area.ptx"/>
+      <xi:include href="./activities/09-int-general.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>

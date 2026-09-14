@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lab 1, Due: Monday, September 21</title>
+  <introduction>
+    <p>
+      <term>Instructions:</term> The exercises here should be completed
+      in groups of 2 or 3 students.  You only need to hand in one copy
+      per group, but please include everyone's name.
+    </p>
+    <p>
+      <alert>Names:</alert>
+    </p>
+
+    <p>
+      <alert>Note:</alert> There are two aims for this lab.  First, I
+      want to introduce you to spreadsheets as a tool for
+      understanding some ideas in calculus.  At the beginning of the
+      class, I will demonstrate for you some fundamental things: how
+      to enter data in cells, how to refer to other cells and how to
+      copy information from one cell to another.  Second, I would like
+      to review how definite integrals are constructed; namely, I
+      would like for you to think of an integral as a fancy sum.
+    </p>
+  </introduction>
+
+  <exercise>
+    <introduction>
+      <p>
+        Remember that if we have a function <m>f(x)</m>, we can
+        define the definite integral
+        <md>
+          \int_a^b f(x)~dx
+        </md>
+        by looking at either left sums <m>L_n</m> or right sums
+        <m>R_n</m>.  To form these, we choose some value for
+        <m>n</m> and define <m>\Delta x = \frac{b-a}{n}</m> and
+        the points <m>x_i=a+i\Delta x</m>.  The left and right
+        Riemann sums are
+        <md>
+          <mrow>
+            L_n\amp=\amp f(x_0)\Delta x + f(x_1)\Delta x + \ldots
+            + f(x_{n-1})\Delta x = \sum_{i=0}^{n-1}f(x_i)\Delta x
+          </mrow> 
+          <mrow>
+            R_n\amp=\amp f(x_1)\Delta x + f(x_2)\Delta x + \ldots
+            + f(x_{n})\Delta x = \sum_{i=1}^nf(x_i)\Delta x
+          </mrow>
+        </md>
+        The definite integral is then defined as
+        <md>
+          \int_a^b f(x)~dx  =\lim_{n\to\infty}L_n = \lim_{n\to\infty}R_n.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Let's now consider the function <m>f(x) = x^3</m> and the
+          definite integral
+          <md>
+            \int_0^1 x^3~dx
+          </md>.
+          First off, use the Fundamental Theorem of Calculus to evaluate
+          this integral exactly.
+        </p>
+      </statement>
+    </task>
+    
+    <task>
+      <statement>
+        <p>
+          Set up a Google sheet as shown below to evaluate the Riemann
+          sums with <m>n = 10</m>.  The first column is <m>\Delta x</m>.
+          The second column starts at <m>0</m> and each subsequent entry
+          is obtained by adding <m>\Delta x</m> to the entry above.
+          This generates the points <m>x_i</m>.  The third column is
+          simply the function <m>f(x)=x^3</m> evaluated at <m>x_i</m>.
+          The fourth column will add the terms for the left sum, and the
+          fifth column will add the terms for the right sum.  To obtain
+          the entry in one row, simply add the appropriate term
+          <m>f(x_i)\Delta x</m> to the entry directly above.
+        </p>
+        <p>
+          A convenient way to set this up is to enter 0.1 for
+          <m>\Delta x</m> in cell <term>A2</term>, enter "=A2" in cell
+          <term>A3</term> and copy that entry into the rest of the
+          column.  That way, if you change <m>\Delta x</m> in one
+          place, it will change everywhere.
+        </p>
+        <p>
+          <tabular>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center"/>
+            <row bottom="minor">
+              <cell><m>\Delta x</m></cell>
+              <cell><m>x_i</m></cell>
+              <cell><m>f(x_i)</m></cell>
+              <cell><m>L_n</m></cell>
+              <cell><m>R_n</m></cell>
+            </row>
+            <row>
+              <cell>0.1000</cell>
+              <cell>0.0000</cell>
+              <cell>0.0000</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>0.1000</cell>
+              <cell>0.1000</cell>
+              <cell>0.0010</cell>
+              <cell>0.0000</cell>
+              <cell>0.0001</cell>
+            </row>
+            <row>
+              <cell>0.1000</cell>
+              <cell>0.2000</cell>
+              <cell>0.0080</cell>
+              <cell>0.0001</cell>
+              <cell>0.0009</cell>
+            </row>
+            <row>
+              <cell>0.1000</cell>
+              <cell>0.3000</cell>
+              <cell>0.0270</cell>
+              <cell>0.0009</cell>
+              <cell>0.0036</cell>
+            </row>
+            <row>
+              <cell><m>\vdots</m></cell>
+              <cell><m>\vdots</m></cell>
+              <cell><m>\vdots</m></cell>
+              <cell><m>\vdots</m></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </p>
+        <p>
+          What do you find for the Riemann sums, <m>L_{10}</m> and
+          <m>R_{10}</m>?  Be sure that you have actually included exactly
+          10 terms in your approximations.  State your results with 6
+          digits after the decimal place.
+        </p>
+        <p>
+          <md>
+            <mrow>
+              L_{10} \amp = \underline{\hspace{2in}}
+            </mrow>
+            <intertext>
+            </intertext>
+            <mrow>
+              R_{10} \amp =\underline{\hspace{2in}}
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now repeat this using <m>n = 100</m>.  This corresponds to
+          <m>\Delta x = 0.01</m>.  If you set up your earlier worksheet
+          well, you should only need to change the entry for
+          <m>\Delta x</m> in one location.  What do you find for the
+          Riemann sums?  State your result with 6 digits after the
+          decimal place.
+        </p>
+        <p>
+          <md>
+            <mrow>
+              L_{100} \amp = \underline{\hspace{2in}}
+            </mrow>
+            <intertext>
+            </intertext>
+            <mrow>
+              R_{100} \amp =\underline{\hspace{2in}}
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Repeat using <m>n = 1000</m>.  What do you find for the
+          Riemann sums?  State your result with 6 digits after the
+          decimal place.
+        </p>
+        <p>
+          <md>
+            <mrow>
+              L_{1000} \amp = \underline{\hspace{2in}}
+            </mrow>
+            <intertext>
+            </intertext>
+            <mrow>
+              R_{1000} \amp =\underline{\hspace{2in}}
+            </mrow>
+          </md>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Shown below is the graph of the function <m>f(x)=x^3</m>.
+          Sketch in the rectangles you used in building the left Riemann
+          sum with <m>\Delta x = 0.1</m>.  Then use your figure to
+          explain why the approximations <m>L_n</m> and <m>R_n</m> to
+          the definite integral you found above are either too large or
+          too small.
+        </p>
+        <sidebyside width="45%" margins="0% 55%">
+          <image>
+            <prefigure xmlns="https://prefigure.org"
+                       label="08-lab1-cubic-04">
+              <xi:include href="prefigure/08-lab-1-cubic.xml"/>
+            </prefigure>
+          </image>
+        </sidebyside>
+      </statement>
+    </task>
+    <task workspace="0.2in">
+      <statement>
+        <p>Now fill in the following table:</p>
+        <p>
+          <tabular>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center"/>
+            <row bottom="minor">
+              <cell><m>\Delta x</m></cell>
+              <cell><m>L_n</m></cell>
+              <cell>Error</cell>
+            </row>
+            <row>
+              <cell>0.1 <m>\vphantom{\Huge M}</m></cell>
+              <cell><m>\hphantom{hello there hello}</m></cell>
+              <cell><m>\hphantom{hello there hello}</m></cell>
+            </row>
+            <row>
+              <cell>0.01 <m>\vphantom{\Huge p}</m></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>0.001 <m>\vphantom{\Huge p}</m></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </p>
+        <p>
+          What do you notice about the error?  Try to be quantitative
+          rather than just qualitative; that is, when the width of the
+          intervals <m>\Delta x</m> decreases by a factor of one tenth,
+          by roughly what factor does the error decrease?
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        The definite integral
+        <md>\int_0^1e^{-x^2}~dx</md>
+        cannot be evaluated using the Fundamental Theorem of Calculus
+        because there is not an antiderivative that can be found in
+        terms of familiar functions.
+      </p>
+      <p>
+        Using left and right Riemann sums, give an estimate of this
+        definite integral with an error of no more than <m>0.005</m>.
+        Explain how you've done this with left and right Riemann sums.
+        Do not evaluate the integral on your calculator to estimate
+        the error.
+      </p>
+      <p>
+        Note: to evaluate an exponential in a spreadsheet, use
+        "= EXP( ... )".
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>

@@ -1,0 +1,8 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 300)" margins="(40,30,5,5)">
+  <definition>f(x)=x^3</definition>
+  <coordinates bbox="(0,0,1,1)">
+    <grid-axes xlabel="x"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>

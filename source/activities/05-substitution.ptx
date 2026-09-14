@@ -233,4 +233,140 @@
     </task>
   </exercise>
 
+  <exercise>
+    <introduction>
+      <p>
+        Remember how the Second Fundamental Theorem of Calculus works.
+        Suppose we have
+        <md>
+          f(t) = t(t^2+4)^3
+        </md>
+        and that we define
+        <md>
+          F(x) = \int_1^x f(t)~dt
+        </md>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the derivative <m>F'(x)</m>?
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          By the Second Fundamental Theorem of Calculus, <m>F'(x)=f(x)
+          = x(x^2+4)^3</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Evaluate the integral defining <m>F(x)</m> to obtain an
+          expression that does not involve an integral.
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          We will use a substitution so that <m>u=t^2+4</m>.  Then
+          <m>du=2t~dt</m> so that
+          <md>
+            <mrow>
+              F(x)\amp =\int_1^x t(t^2+4)^3~dt
+            </mrow>
+            <mrow>
+              \amp = \int_1^x (t^2+4)^3 t~dt
+            </mrow>
+            <mrow>
+              \amp = \frac12 \int u^3~du
+            </mrow>
+            <mrow>
+              \amp = \frac18 u^4
+            </mrow>
+            <mrow>
+              \amp = \frac18(t^2+4)^4|_1^x
+            </mrow>
+            <mrow>
+              \amp = \frac18 (x^2+4)^4 - \frac{625}{4}
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the derivative <m>F'(x)</m> explicitly and verify your
+          response to part a.
+        </p>
+      </statement>
+      <solution workspace="1in">
+        <p>
+          <m>F'(x)=x(x^2+4)^3</m> as expected.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Here are some more antiderivatives to find.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int x^2e^{x^3-1}~dx</m>
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          <m>u=x^3-1</m> so that <m>du=3x^2~dx</m>.  Then
+          <md>
+            \int x^2e^{x^3-1}~dx = \frac13e^{x^3-1} + C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int \left(\cos(5x)\right)^3\sin(5x)~dx</m>
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          <m>u=\cos(5x)</m> so that <m>du=-5\sin(5x)~dx</m>.  Then
+          <md>
+            \int \left(\cos(5x)\right)^3\sin(5x)~dx
+            = -\frac1{20}\left(\cos(5x)\right)^4
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int \left(x^2 + 13\frac{x^{99}}{x^{100}+100}\right)~dx</m>
+        </p>
+      </statement>
+      <solution component="05">
+        <p>
+          First break the antiderivative up into two pieces:
+          <md>
+            \int x^2~dx + 13\int\frac{x^{99}}{x^{100}+100}~dx
+          </md>
+          and make a substitution <m>u=x^{100}+100</m> in the second
+          so that
+          <md>
+            \int \left(x^2 + 13\frac{x^{99}}{x^{100}+100}\right)~dx
+            = \frac13x^3 + \frac{13}{100}\ln|x^{100}+100| + C
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+        
 </worksheet>

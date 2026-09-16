@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Area (Section 6.1)",
-  "body": " Area (Section 6.1)    Given the two parabolas and , sketch their graphs and find the area of the region between them.      Graph the functions and and find the area of one of the regions bounded by their graphs.      Find the area between the graphs of and .      The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?      Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .       Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.    "
+  "body": " Area (Section 6.1)    Given the two parabolas and , sketch their graphs and find the area of the region between them.     A graph of two parabolas, one opening up and one opening down    f(x)=x^2-5  g(x)=3-x^2                 Graph the functions and and find the area of one of the regions bounded by their graphs.     A graph of sine x and cosine x    f(x)=cos(x)  g(x)=sin(x)                 Find the area between the graphs of and .     A graph of x cubed and a graph of x    f(x)=x^3  g(x)=x                 The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                The width of the rectangle is given by the difference in the coordinates so it is and the height is a small change in so . This means that the area of the rectangle is . The curves intersect when their coordinates are equal, which is when so and . This means that the area is .      Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?     Two graph of y equals square root of x    f(x)=sqrt(x)      R      Call the right endpoint where the paint runs out. We have       Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .           What does this tell you about the integral or the integral ?    The first is half the area of the circle so .      Apply the same kind of thinking to evaluate the integral .    Drawing a graph, this is the area of two triangles so .       Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.     .    "
 },
 {
   "id": "activities-10-2",
@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Given the two parabolas and , sketch their graphs and find the area of the region between them.   "
+  "body": "  Given the two parabolas and , sketch their graphs and find the area of the region between them.     A graph of two parabolas, one opening up and one opening down    f(x)=x^2-5  g(x)=3-x^2              "
 },
 {
   "id": "activities-10-3",
@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Graph the functions and and find the area of one of the regions bounded by their graphs.   "
+  "body": "  Graph the functions and and find the area of one of the regions bounded by their graphs.     A graph of sine x and cosine x    f(x)=cos(x)  g(x)=sin(x)              "
 },
 {
   "id": "activities-10-4",
@@ -439,7 +439,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Find the area between the graphs of and .   "
+  "body": "  Find the area between the graphs of and .     A graph of x cubed and a graph of x    f(x)=x^3  g(x)=x              "
 },
 {
   "id": "activities-10-5",
@@ -448,7 +448,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x               "
+  "body": "  The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                The width of the rectangle is given by the difference in the coordinates so it is and the height is a small change in so . This means that the area of the rectangle is . The curves intersect when their coordinates are equal, which is when so and . This means that the area is .   "
 },
 {
   "id": "activities-10-6",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?   "
+  "body": "  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?     Two graph of y equals square root of x    f(x)=sqrt(x)      R      Call the right endpoint where the paint runs out. We have    "
 },
 {
   "id": "activities-10-7",
@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "  Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .    "
+  "body": "  Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .           What does this tell you about the integral or the integral ?    The first is half the area of the circle so .      Apply the same kind of thinking to evaluate the integral .    Drawing a graph, this is the area of two triangles so .    "
 },
 {
   "id": "activities-10-8",
@@ -475,7 +475,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "  Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.   "
+  "body": "  Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.     .   "
 },
 {
   "id": "activities-11",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Antidifferentiation Practice",
-  "body": " Antidifferentiation Practice                                                               remember that is a shorthand for .    "
+  "body": " Antidifferentiation Practice          Substituting ,            Integration by parts with , :            Substituting ,                        Applying integration by parts twice,             Integration by parts with , :            Substituting ,            Integration by parts with , :        remember that is a shorthand for .    Substituting ,     "
 },
 {
   "id": "activities-11-2",
@@ -493,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "      "
+  "body": "       Substituting ,    "
 },
 {
   "id": "activities-11-3",
@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "      "
+  "body": "       Integration by parts with , :    "
 },
 {
   "id": "activities-11-4",
@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "      "
+  "body": "       Substituting ,    "
 },
 {
   "id": "activities-11-5",
@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "      "
+  "body": "           "
 },
 {
   "id": "activities-11-6",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "      "
+  "body": "       Applying integration by parts twice,    "
 },
 {
   "id": "activities-11-7",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "      "
+  "body": "       Integration by parts with , :    "
 },
 {
   "id": "activities-11-8",
@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "      "
+  "body": "       Substituting ,    "
 },
 {
   "id": "activities-11-9",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "",
-  "body": "      "
+  "body": "       Integration by parts with , :    "
 },
 {
   "id": "activities-11-10",
@@ -565,7 +565,79 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "9",
   "title": "",
-  "body": "   remember that is a shorthand for .   "
+  "body": "   remember that is a shorthand for .    Substituting ,    "
+},
+{
+  "id": "activities-12",
+  "level": "1",
+  "url": "activities-12.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Volume",
+  "body": " Volume   Section 6.2     Suppose that the region bounded by the graph and the -axis is rotated about the -axis. Determine the cross-sectional area of a typical slice and then compute the volume of the resulting solid.   The region between the parabola and the horizontal axis    f(x)=4-x^2              One way to obtain a sphere is to spin a circle about one of its diameters. Find the volume of a sphere of radius 2 by taking the top half of the circle of radius 2 centered at the origin and spinning it about the -axis. You may remember that the upper semicircle of radius 2 is the graph .   The upper semicircle of radius 2    f(x)=sqrt(abs(4-x^2))              Now imagine that we drill a hole out the sphere where the hole is centered on a diameter of the sphere and has radius 1. The solid is described by the rotating the region as shown below.  Sketch a typical cross-section, determine its area, and then find the volume of the resulting solid.   The area above the line y equals 1 and below the circle of radius 2    f(x)=sqrt(abs(4-x^2))  g(x)=1              Consider the region between the curve and the vertical axis. Find the volume of the solid that results by spinning this region about the vertical axis.   The region between a parabola opening to the left and the vertical axis    f(x)=4-(x-1)^2               "
+},
+{
+  "id": "activities-12-3",
+  "level": "2",
+  "url": "activities-12.html#activities-12-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that the region bounded by the graph and the -axis is rotated about the -axis. Determine the cross-sectional area of a typical slice and then compute the volume of the resulting solid.   The region between the parabola and the horizontal axis    f(x)=4-x^2           "
+},
+{
+  "id": "activities-12-4",
+  "level": "2",
+  "url": "activities-12.html#activities-12-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  One way to obtain a sphere is to spin a circle about one of its diameters. Find the volume of a sphere of radius 2 by taking the top half of the circle of radius 2 centered at the origin and spinning it about the -axis. You may remember that the upper semicircle of radius 2 is the graph .   The upper semicircle of radius 2    f(x)=sqrt(abs(4-x^2))           "
+},
+{
+  "id": "activities-12-5",
+  "level": "2",
+  "url": "activities-12.html#activities-12-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now imagine that we drill a hole out the sphere where the hole is centered on a diameter of the sphere and has radius 1. The solid is described by the rotating the region as shown below.  Sketch a typical cross-section, determine its area, and then find the volume of the resulting solid.   The area above the line y equals 1 and below the circle of radius 2    f(x)=sqrt(abs(4-x^2))  g(x)=1           "
+},
+{
+  "id": "activities-12-6",
+  "level": "2",
+  "url": "activities-12.html#activities-12-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Consider the region between the curve and the vertical axis. Find the volume of the solid that results by spinning this region about the vertical axis.   The region between a parabola opening to the left and the vertical axis    f(x)=4-(x-1)^2              "
+},
+{
+  "id": "activities-13",
+  "level": "1",
+  "url": "activities-13.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Some review",
+  "body": " Some review    Find antiderivatives for the following functions.      .       .       .       .       Remember to find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.     "
+},
+{
+  "id": "activities-13-2",
+  "level": "2",
+  "url": "activities-13.html#activities-13-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find antiderivatives for the following functions.      .       .       .       .    "
+},
+{
+  "id": "activities-13-3",
+  "level": "2",
+  "url": "activities-13.html#activities-13-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Remember to find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.    "
 }
 ]
 

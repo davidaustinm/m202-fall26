@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pf-10-volume-1-figure" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <clipPath id="pf-10-volume-1-__clipPath-0">
+      <rect x="5.0" y="5.0" width="250.0" height="250.0"/>
+    </clipPath>
+    <clipPath id="pf-10-volume-1-__clipPath-1">
+      <rect x="5.0" y="5.0" width="250.0" height="250.0"/>
+    </clipPath>
+  </defs>
+  <g id="pf-10-volume-1-grid" stroke="#ccc" stroke-width="1">
+    <line x1="30.0" y1="255.0" x2="30.0" y2="5.0"/>
+    <line x1="80.0" y1="255.0" x2="80.0" y2="5.0"/>
+    <line x1="130.0" y1="255.0" x2="130.0" y2="5.0"/>
+    <line x1="180.0" y1="255.0" x2="180.0" y2="5.0"/>
+    <line x1="230.0" y1="255.0" x2="230.0" y2="5.0"/>
+    <line x1="5.0" y1="230.0" x2="255.0" y2="230.0"/>
+    <line x1="5.0" y1="180.0" x2="255.0" y2="180.0"/>
+    <line x1="5.0" y1="130.0" x2="255.0" y2="130.0"/>
+    <line x1="5.0" y1="80.0" x2="255.0" y2="80.0"/>
+    <line x1="5.0" y1="30.0" x2="255.0" y2="30.0"/>
+  </g>
+  <path id="pf-10-volume-1-__path-0" d="M 30.0 230.0 L 30.0 230.0 L 32.0 222.1 L 34.0 214.3 L 36.0 206.7 L 38.0 199.3 L 40.0 192.0 L 42.0 184.9 L 44.0 177.9 L 46.0 171.1 L 48.0 164.5 L 50.0 158.0 L 52.0 151.7 L 54.0 145.5 L 56.0 139.5 L 58.0 133.7 L 60.0 128.0 L 62.0 122.5 L 64.0 117.1 L 66.0 111.9 L 68.0 106.9 L 70.0 102.0 L 72.0 97.3 L 74.0 92.7 L 76.0 88.3 L 78.0 84.1 L 80.0 80.0 L 82.0 76.1 L 84.0 72.3 L 86.0 68.7 L 88.0 65.3 L 90.0 62.0 L 92.0 58.9 L 94.0 55.9 L 96.0 53.1 L 98.0 50.5 L 100.0 48.0 L 102.0 45.7 L 104.0 43.5 L 106.0 41.5 L 108.0 39.7 L 110.0 38.0 L 112.0 36.5 L 114.0 35.1 L 116.0 33.9 L 118.0 32.9 L 120.0 32.0 L 122.0 31.3 L 124.0 30.7 L 126.0 30.3 L 128.0 30.1 L 130.0 30.0 L 132.0 30.1 L 134.0 30.3 L 136.0 30.7 L 138.0 31.3 L 140.0 32.0 L 142.0 32.9 L 144.0 33.9 L 146.0 35.1 L 148.0 36.5 L 150.0 38.0 L 152.0 39.7 L 154.0 41.5 L 156.0 43.5 L 158.0 45.7 L 160.0 48.0 L 162.0 50.5 L 164.0 53.1 L 166.0 55.9 L 168.0 58.9 L 170.0 62.0 L 172.0 65.3 L 174.0 68.7 L 176.0 72.3 L 178.0 76.1 L 180.0 80.0 L 182.0 84.1 L 184.0 88.3 L 186.0 92.7 L 188.0 97.3 L 190.0 102.0 L 192.0 106.9 L 194.0 111.9 L 196.0 117.1 L 198.0 122.5 L 200.0 128.0 L 202.0 133.7 L 204.0 139.5 L 206.0 145.5 L 208.0 151.7 L 210.0 158.0 L 212.0 164.5 L 214.0 171.1 L 216.0 177.9 L 218.0 184.9 L 220.0 192.0 L 222.0 199.3 L 224.0 206.7 L 226.0 214.3 L 228.0 222.1 L 230.0 230.0 L 230.0 230.0 L 228.0 230.0 L 226.0 230.0 L 224.0 230.0 L 222.0 230.0 L 220.0 230.0 L 218.0 230.0 L 216.0 230.0 L 214.0 230.0 L 212.0 230.0 L 210.0 230.0 L 208.0 230.0 L 206.0 230.0 L 204.0 230.0 L 202.0 230.0 L 200.0 230.0 L 198.0 230.0 L 196.0 230.0 L 194.0 230.0 L 192.0 230.0 L 190.0 230.0 L 188.0 230.0 L 186.0 230.0 L 184.0 230.0 L 182.0 230.0 L 180.0 230.0 L 178.0 230.0 L 176.0 230.0 L 174.0 230.0 L 172.0 230.0 L 170.0 230.0 L 168.0 230.0 L 166.0 230.0 L 164.0 230.0 L 162.0 230.0 L 160.0 230.0 L 158.0 230.0 L 156.0 230.0 L 154.0 230.0 L 152.0 230.0 L 150.0 230.0 L 148.0 230.0 L 146.0 230.0 L 144.0 230.0 L 142.0 230.0 L 140.0 230.0 L 138.0 230.0 L 136.0 230.0 L 134.0 230.0 L 132.0 230.0 L 130.0 230.0 L 128.0 230.0 L 126.0 230.0 L 124.0 230.0 L 122.0 230.0 L 120.0 230.0 L 118.0 230.0 L 116.0 230.0 L 114.0 230.0 L 112.0 230.0 L 110.0 230.0 L 108.0 230.0 L 106.0 230.0 L 104.0 230.0 L 102.0 230.0 L 100.0 230.0 L 98.0 230.0 L 96.0 230.0 L 94.0 230.0 L 92.0 230.0 L 90.0 230.0 L 88.0 230.0 L 86.0 230.0 L 84.0 230.0 L 82.0 230.0 L 80.0 230.0 L 78.0 230.0 L 76.0 230.0 L 74.0 230.0 L 72.0 230.0 L 70.0 230.0 L 68.0 230.0 L 66.0 230.0 L 64.0 230.0 L 62.0 230.0 L 60.0 230.0 L 58.0 230.0 L 56.0 230.0 L 54.0 230.0 L 52.0 230.0 L 50.0 230.0 L 48.0 230.0 L 46.0 230.0 L 44.0 230.0 L 42.0 230.0 L 40.0 230.0 L 38.0 230.0 L 36.0 230.0 L 34.0 230.0 L 32.0 230.0 L 30.0 230.0 Z" stroke="black" stroke-width="2" fill="#ccc"/>
+  <g id="pf-10-volume-1-axes" stroke="black" stroke-width="2">
+    <line id="pf-10-volume-1-__line-10" x1="5.0" y1="230.0" x2="255.0" y2="230.0" stroke="black" stroke-width="2"/>
+    <g>
+      <line id="pf-10-volume-1-__line-11" x1="30.0" y1="233.0" x2="30.0" y2="227.0"/>
+      <line id="pf-10-volume-1-__line-12" x1="80.0" y1="233.0" x2="80.0" y2="227.0"/>
+      <line id="pf-10-volume-1-__line-13" x1="180.0" y1="233.0" x2="180.0" y2="227.0"/>
+      <line id="pf-10-volume-1-__line-14" x1="230.0" y1="233.0" x2="230.0" y2="227.0"/>
+    </g>
+    <line id="pf-10-volume-1-__line-15" x1="130.0" y1="255.0" x2="130.0" y2="5.0" stroke="black" stroke-width="2"/>
+    <g>
+      <line id="pf-10-volume-1-__line-16" x1="127.0" y1="180.0" x2="133.0" y2="180.0"/>
+      <line id="pf-10-volume-1-__line-17" x1="127.0" y1="130.0" x2="133.0" y2="130.0"/>
+      <line id="pf-10-volume-1-__line-18" x1="127.0" y1="80.0" x2="133.0" y2="80.0"/>
+      <line id="pf-10-volume-1-__line-19" x1="127.0" y1="30.0" x2="133.0" y2="30.0"/>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-0" transform="translate(251.0,226.0) translate(-10.4,-8.2)">
+    <g id="pf-10-volume-1-__g-0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-2-NCM-I-1D465" d="M527 373C527 419 482 442 432 442C389 442 355 419 329 373C308 419 273 442 222 442C173 442 133 419 101 374C74 335 60 306 60 287C60 278 65 273 75 273C84 273 90 278 92 287C111 345 153 413 220 413C253 413 269 392 269 351C269 330 251 252 216 118C199 51 169 18 126 18C112 18 99 21 88 26C114 36 127 54 127 80C127 106 114 119 87 119C54 119 29 91 29 58C29 12 76-11 125-11C167-11 201 12 228 58C247 12 283-11 335-11C383-11 423 12 455 57C482 96 496 125 496 144C496 153 491 158 481 158C472 158 467 153 464 144C447 87 402 18 337 18C304 18 287 38 287 79C287 92 292 120 303 165L337 300C356 375 387 413 431 413C445 413 458 410 469 405C442 396 429 378 429 351C429 325 443 312 470 312C502 312 527 341 527 373Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:x" data-semantic-speech="x">
+              <use data-c="1D465" xlink:href="#pf-10-volume-1-MJX-2-NCM-I-1D465"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-1" transform="translate(134.0,9.0) translate(0.0,-0.0)">
+    <g id="pf-10-volume-1-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-3-NCM-I-1D466" d="M163 442C118 442 83 417 58 367C39 328 29 301 29 286C29 277 34 272 45 272C59 272 60 278 64 293C87 372 119 412 160 412C173 412 180 403 180 385C180 369 175 346 164 317C126 214 107 145 107 108C107 32 154-13 231-13C264-13 295-1 323 23C288-109 233-175 158-175C124-175 101-164 89-142C129-140 149-121 149-85C149-60 136-47 109-47C72-47 50-78 50-115C50-170 100-205 158-205C273-205 367-99 392-1L486 377C489 388 490 396 490 401C490 421 479 431 458 431C442 431 429 423 420 408C414 387 409 369 406 354L342 97C332 61 279 16 234 16C196 16 177 41 177 92C177 134 194 198 227 284C240 319 247 343 247 357C247 406 212 442 163 442Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:y" data-semantic-speech="y">
+              <use data-c="1D466" xlink:href="#pf-10-volume-1-MJX-3-NCM-I-1D466"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-2" transform="translate(30.0,241.0) translate(-7.5,-0.0)">
+    <g id="pf-10-volume-1-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-4-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="pf-10-volume-1-MJX-4-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-2}" data-semantic-speech="minus 2">
+              <use data-c="2D" xlink:href="#pf-10-volume-1-MJX-4-NCM-N-2D"/>
+              <use data-c="32" xlink:href="#pf-10-volume-1-MJX-4-NCM-N-32" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-3" transform="translate(80.0,241.0) translate(-7.5,-0.0)">
+    <g id="pf-10-volume-1-__g-3">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-5-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="pf-10-volume-1-MJX-5-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-1}" data-semantic-speech="minus 1">
+              <use data-c="2D" xlink:href="#pf-10-volume-1-MJX-5-NCM-N-2D"/>
+              <use data-c="31" xlink:href="#pf-10-volume-1-MJX-5-NCM-N-31" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-4" transform="translate(180.0,241.0) translate(-4.5,-0.0)">
+    <g id="pf-10-volume-1-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-6-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{1}" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#pf-10-volume-1-MJX-6-NCM-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-5" transform="translate(230.0,241.0) translate(-4.5,-0.0)">
+    <g id="pf-10-volume-1-__g-5">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-7-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+              <use data-c="32" xlink:href="#pf-10-volume-1-MJX-7-NCM-N-32"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-6" transform="translate(119.0,180.0) translate(-9.0,-6.0)">
+    <g id="pf-10-volume-1-__g-6">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-8-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{1}" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#pf-10-volume-1-MJX-8-NCM-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-7" transform="translate(119.0,130.0) translate(-9.0,-6.0)">
+    <g id="pf-10-volume-1-__g-7">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-9-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+              <use data-c="32" xlink:href="#pf-10-volume-1-MJX-9-NCM-N-32"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-8" transform="translate(119.0,80.0) translate(-9.0,-6.2)">
+    <g id="pf-10-volume-1-__g-8">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-10-NCM-N-33" d="M303 353C369 378 431 441 431 526C431 569 410 604 369 631C333 654 292 666 246 666C201 666 162 654 127 631C88 605 68 571 68 528C68 495 90 472 122 472C154 472 176 495 176 527C176 560 157 578 119 580C145 615 186 633 242 633C302 633 332 598 332 527C332 485 324 450 309 421C282 373 245 364 183 364C171 362 165 357 165 348C165 333 172 333 192 333L235 333C310 333 348 280 348 173C348 88 317 14 241 14C176 14 128 36 99 80C134 79 160 105 160 139C160 173 135 198 101 198C62 198 42 178 42 137C42 88 64 49 108 18C147-9 193-22 244-22C301-22 350-3 393 34C436 71 457 117 457 173C457 267 383 332 303 353Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{3}" data-semantic-speech="3">
+              <use data-c="33" xlink:href="#pf-10-volume-1-MJX-10-NCM-N-33"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-10-volume-1-__label-9" transform="translate(119.0,30.0) translate(-9.0,-6.1)">
+    <g id="pf-10-volume-1-__g-9">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-10-volume-1-MJX-11-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+              <use data-c="34" xlink:href="#pf-10-volume-1-MJX-11-NCM-N-34"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

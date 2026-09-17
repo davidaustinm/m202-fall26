@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Area (Section 6.1)",
-  "body": " Area (Section 6.1)    Given the two parabolas and , sketch their graphs and find the area of the region between them.      Graph the functions and and find the area of one of the regions bounded by their graphs.      Find the area between the graphs of and .      The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?      Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .       Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.    "
+  "body": " Area (Section 6.1)    Given the two parabolas and , sketch their graphs and find the area of the region between them.     A graph of two parabolas, one opening up and one opening down    f(x)=x^2-5  g(x)=3-x^2                 Graph the functions and and find the area of one of the regions bounded by their graphs.     A graph of sine x and cosine x    f(x)=cos(x)  g(x)=sin(x)                 Find the area between the graphs of and .     A graph of x cubed and a graph of x    f(x)=x^3  g(x)=x                 The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                The width of the rectangle is given by the difference in the coordinates so it is and the height is a small change in so . This means that the area of the rectangle is . The curves intersect when their coordinates are equal, which is when so and . This means that the area is .      Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?     Two graph of y equals square root of x    f(x)=sqrt(x)      R      Call the right endpoint where the paint runs out. We have       Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .           What does this tell you about the integral or the integral ?    The first is half the area of the circle so .      Apply the same kind of thinking to evaluate the integral .    Drawing a graph, this is the area of two triangles so .       Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.     .    "
 },
 {
   "id": "activities-10-2",
@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Given the two parabolas and , sketch their graphs and find the area of the region between them.   "
+  "body": "  Given the two parabolas and , sketch their graphs and find the area of the region between them.     A graph of two parabolas, one opening up and one opening down    f(x)=x^2-5  g(x)=3-x^2              "
 },
 {
   "id": "activities-10-3",
@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Graph the functions and and find the area of one of the regions bounded by their graphs.   "
+  "body": "  Graph the functions and and find the area of one of the regions bounded by their graphs.     A graph of sine x and cosine x    f(x)=cos(x)  g(x)=sin(x)              "
 },
 {
   "id": "activities-10-4",
@@ -439,7 +439,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Find the area between the graphs of and .   "
+  "body": "  Find the area between the graphs of and .     A graph of x cubed and a graph of x    f(x)=x^3  g(x)=x              "
 },
 {
   "id": "activities-10-5",
@@ -448,7 +448,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x               "
+  "body": "  The curve and the line are shown in the figure below. I would like for you to find the region between them by slicing the region into horizontal rectangles as shown. What is the width of each rectangle? What is the height? How do you then find the area?   Two curves where x is defined in terms of y    f(x)=x^2-12  g(x)=x                The width of the rectangle is given by the difference in the coordinates so it is and the height is a small change in so . This means that the area of the rectangle is . The curves intersect when their coordinates are equal, which is when so and . This means that the area is .   "
 },
 {
   "id": "activities-10-6",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?   "
+  "body": "  Suppose you need to paint the region between the graph and the -axis. You start painting at and work your way to the right. However, you only have enough paint to cover 18 square units of area. Where does your paint run out?     Two graph of y equals square root of x    f(x)=sqrt(x)      R      Call the right endpoint where the paint runs out. We have    "
 },
 {
   "id": "activities-10-7",
@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "  Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .      What does this tell you about the integral or the integral ?      Apply the same kind of thinking to evaluate the integral .    "
+  "body": "  Sometimes we can use area to help us evaluate a definite integral. For instance, the circle of radius 5 centered at the origin is described by .     Write the upper-half of this circle by solving for in terms of .           What does this tell you about the integral or the integral ?    The first is half the area of the circle so .      Apply the same kind of thinking to evaluate the integral .    Drawing a graph, this is the area of two triangles so .    "
 },
 {
   "id": "activities-10-8",
@@ -475,7 +475,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "  Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.   "
+  "body": "  Sometimes we want to be able to work with situations having an unknown parameter in them. For instance, if is some unknown constant, find the area between the graph and the -axis.     .   "
 },
 {
   "id": "activities-11",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Antidifferentiation Practice",
-  "body": " Antidifferentiation Practice                                                               remember that is a shorthand for .    "
+  "body": " Antidifferentiation Practice          Substituting ,            Integration by parts with , :            Substituting ,                        Applying integration by parts twice,             Integration by parts with , :            Substituting ,            Integration by parts with , :        remember that is a shorthand for .    Substituting ,     "
 },
 {
   "id": "activities-11-2",
@@ -493,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "      "
+  "body": "       Substituting ,    "
 },
 {
   "id": "activities-11-3",
@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "      "
+  "body": "       Integration by parts with , :    "
 },
 {
   "id": "activities-11-4",
@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "      "
+  "body": "       Substituting ,    "
 },
 {
   "id": "activities-11-5",
@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "      "
+  "body": "           "
 },
 {
   "id": "activities-11-6",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "      "
+  "body": "       Applying integration by parts twice,    "
 },
 {
   "id": "activities-11-7",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "      "
+  "body": "       Integration by parts with , :    "
 },
 {
   "id": "activities-11-8",
@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "      "
+  "body": "       Substituting ,    "
 },
 {
   "id": "activities-11-9",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "",
-  "body": "      "
+  "body": "       Integration by parts with , :    "
 },
 {
   "id": "activities-11-10",
@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "9",
   "title": "",
-  "body": "   remember that is a shorthand for .   "
+  "body": "   remember that is a shorthand for .    Substituting ,    "
 },
 {
   "id": "activities-12",
@@ -574,43 +574,52 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Volume",
-  "body": " Volume   Section 6.2     Suppose that the region bounded by the graph and the -axis is rotated about the -axis. Determine the cross-sectional area of a typical slice and then compute the volume of the resulting solid.   The region between the parabola and the horizontal axis    f(x)=4-x^2              One way to obtain a sphere is to spin a circle about one of its diameters. Find the volume of a sphere of radius 2 by taking the top half of the circle of radius 2 centered at the origin and spinning it about the -axis. You may remember that the upper semicircle of radius 2 is the graph .   The upper semicircle of radius 2    f(x)=sqrt(abs(4-x^2))              Now imagine that we drill a hole out the sphere where the hole is centered on a diameter of the sphere and has radius 1. The solid is described by the rotating the region as shown below.  Sketch a typical cross-section, determine its area, and then find the volume of the resulting solid.   The area above the line y equals 1 and below the circle of radius 2    f(x)=sqrt(abs(4-x^2))  g(x)=1              Consider the region between the curve and the vertical axis. Find the volume of the solid that results by spinning this region about the vertical axis.   The region between a parabola opening to the left and the vertical axis    f(x)=4-(x-1)^2               "
+  "body": " Volume    Section 6.2     Suppose that the region bounded by the graph and the -axis is rotated about the -axis. Determine the cross-sectional area of a typical slice and then compute the volume of the resulting solid.   The region between the parabola and the horizontal axis    f(x)=4-x^2              One way to obtain a sphere is to spin a circle about one of its diameters. Find the volume of a sphere of radius 2 by taking the top half of the circle of radius 2 centered at the origin and spinning it about the -axis. You may remember that the upper semicircle of radius 2 is the graph .   The upper semicircle of radius 2    f(x)=sqrt(abs(4-x^2))               Now imagine that we drill a hole out the sphere where the hole is centered on a diameter of the sphere and has radius 1. The solid is described by the rotating the region as shown below.  Sketch a typical cross-section, determine its area, and then find the volume of the resulting solid.   The area above the line y equals 1 and below the circle of radius 2    f(x)=sqrt(abs(4-x^2))  g(x)=1              Consider the region between the curve and the vertical axis. Find the volume of the solid that results by spinning this region about the vertical axis.   The region between a parabola opening to the left and the vertical axis    f(x)=4-(x-1)^2                 Suppose there is a water tank in the shape of a cone with the tip of the cone pointing downwards. The tank is three meters high and the top has a radius of one meter. If the tank currently holds one cubic meter of water, how deep is the water in the tank?    "
 },
 {
-  "id": "activities-12-3",
+  "id": "activities-12-2-2",
   "level": "2",
-  "url": "activities-12.html#activities-12-3",
+  "url": "activities-12.html#activities-12-2-2",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Suppose that the region bounded by the graph and the -axis is rotated about the -axis. Determine the cross-sectional area of a typical slice and then compute the volume of the resulting solid.   The region between the parabola and the horizontal axis    f(x)=4-x^2           "
 },
 {
-  "id": "activities-12-4",
+  "id": "activities-12-2-3",
   "level": "2",
-  "url": "activities-12.html#activities-12-4",
+  "url": "activities-12.html#activities-12-2-3",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  One way to obtain a sphere is to spin a circle about one of its diameters. Find the volume of a sphere of radius 2 by taking the top half of the circle of radius 2 centered at the origin and spinning it about the -axis. You may remember that the upper semicircle of radius 2 is the graph .   The upper semicircle of radius 2    f(x)=sqrt(abs(4-x^2))           "
 },
 {
-  "id": "activities-12-5",
+  "id": "activities-12-3",
   "level": "2",
-  "url": "activities-12.html#activities-12-5",
+  "url": "activities-12.html#activities-12-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": "  Now imagine that we drill a hole out the sphere where the hole is centered on a diameter of the sphere and has radius 1. The solid is described by the rotating the region as shown below.  Sketch a typical cross-section, determine its area, and then find the volume of the resulting solid.   The area above the line y equals 1 and below the circle of radius 2    f(x)=sqrt(abs(4-x^2))  g(x)=1           "
 },
 {
-  "id": "activities-12-6",
+  "id": "activities-12-4",
   "level": "2",
-  "url": "activities-12.html#activities-12-6",
+  "url": "activities-12.html#activities-12-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
   "body": "  Consider the region between the curve and the vertical axis. Find the volume of the solid that results by spinning this region about the vertical axis.   The region between a parabola opening to the left and the vertical axis    f(x)=4-(x-1)^2              "
+},
+{
+  "id": "activities-12-5",
+  "level": "2",
+  "url": "activities-12.html#activities-12-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Suppose there is a water tank in the shape of a cone with the tip of the cone pointing downwards. The tank is three meters high and the top has a radius of one meter. If the tank currently holds one cubic meter of water, how deep is the water in the tank?   "
 },
 {
   "id": "activities-13",
@@ -619,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Some review",
-  "body": " Some review    Find antiderivatives for the following functions.      .       .       .       .       Remember to find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.     "
+  "body": " Some review    Find antiderivatives for the following functions.      .       .       .       .       Remember to find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.       Here's an antiderivative we'll need later in the course: . Neither substitution or integration by parts will work, but we can simplify the function we're antidifferentiating by finding constants and such that . To do this, start with the right side and find a common denominator and then set the numerators equal. Then find and and the resulting antiderivative.     , which means that . This has to be true for all so when , we have and when , we have . Therefore, .    "
 },
 {
   "id": "activities-13-2",
@@ -638,6 +647,60 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Remember to find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.    "
+},
+{
+  "id": "activities-13-4",
+  "level": "2",
+  "url": "activities-13.html#activities-13-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Here's an antiderivative we'll need later in the course: . Neither substitution or integration by parts will work, but we can simplify the function we're antidifferentiating by finding constants and such that . To do this, start with the right side and find a common denominator and then set the numerators equal. Then find and and the resulting antiderivative.     , which means that . This has to be true for all so when , we have and when , we have . Therefore, .   "
+},
+{
+  "id": "activities-14",
+  "level": "1",
+  "url": "activities-14.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Working with mass",
+  "body": " Working with mass    Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?     w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?     w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?       Suppose that our beam has density where . What is the mass of the beam?      Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.                 a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?        Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis. Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.   Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?     "
+},
+{
+  "id": "activities-14-2",
+  "level": "2",
+  "url": "activities-14.html#activities-14-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?     w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?     w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    "
+},
+{
+  "id": "activities-14-3",
+  "level": "2",
+  "url": "activities-14.html#activities-14-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that our beam has density where . What is the mass of the beam?   "
+},
+{
+  "id": "activities-14-4",
+  "level": "2",
+  "url": "activities-14.html#activities-14-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.                 a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?    "
+},
+{
+  "id": "activities-14-5",
+  "level": "2",
+  "url": "activities-14.html#activities-14-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "   Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis. Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.   Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?    "
 }
 ]
 

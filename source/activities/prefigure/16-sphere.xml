@@ -1,0 +1,9 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)" margins="5">
+  <coordinates bbox="(-1,-1.5,2.3,1.8)">
+    <definition>f(t)=1.25*(cos(t),sin(t))</definition>
+    <axes xlabel="x" ylabel="y" decorations="no"/>
+    <parametric-curve function="f" domain="(-pi/2,pi/2)"
+                      stroke="blue"/>
+  </coordinates>
+</diagram>

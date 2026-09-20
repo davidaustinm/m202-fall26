@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Centers of Mass</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose you have a beam whose length is <m>L</m> sitting on
+        the <m>x</m>-axis so that <m>0\leq x \leq L</m>.  Suppose
+        also that the density is constantly 1; that is,
+        <m>\rho(x) = 1</m> grams per centimeter.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Sketch the
+          density function <m>\rho(x)</m>.  Then find the mass and
+          center of mass of the beam.  Does your result make
+          intuitive sense?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          If we take a slice at <m>x</m>, then the mass of the slice
+          is <m>dm=\rho(x)~dx = dx</m>.  The mass is therefore
+          <md>
+            M=\int_0^L dx = L
+          </md>.
+          We also find that
+          <md>
+            \int x~dm = \int_0^L x~dx = \frac{L^2}2
+          </md>
+          so that
+          <md>
+            \xbar=\frac{L^2/2}{L} = \frac L2
+          </md>.
+          In other words, the center of mass is right in the center of
+          the bar, which is what we expect.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the mass and center of mass of a beam whose density
+          is <m>\rho(x)=x^3</m> where <m>0\leq x\leq L</m>.  Sketch
+          the density function and check that your result makes
+          sense.
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          We have <m>dm=x^3~dx</m>.  Therefore
+          <md>
+            <mrow>
+              M = \int ~dm \amp = \int_0^L x^3~dx = \frac14 L^4
+            </mrow>
+            <mrow>
+              \int x~dm \amp = \int_0^L x^4~dx = \frac 15 L^5
+            </mrow>
+          </md>.
+          To find the center of mass, take
+          <md>
+            \xbar=\frac{L^5/5}{L^4/4} = \frac45 L
+          </md>,
+          which shows that the center of mass is four-fifths of the
+          way toward the right side of the beam.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the mass and center of mass of a beam whose density
+          is <m>\rho(x)=e^{-x}</m> where <m>0\leq x\leq 1</m>.
+          Sketch the density function and check that your result
+          makes sense.
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <m>dm=e^{-x}~dx</m> so that
+          <md>
+            <mrow>
+              M = \int dm \amp = \int_0^1e^{-x}~dx = -e^{-x}|_0^1 =
+              1-e^{-1}
+            </mrow>
+            <mrow>
+              \int x~dm = \amp = \int_0^1xe^{-x}~dx =
+              (-xe^{-x}-e^{-x})|_0^1 = 1-2e^{-1}
+            </mrow>
+          </md>
+          The center of mass is then
+          <md>
+            \xbar = \frac{1-2e^{-1}}{1-e^{-1}}=0.42
+          </md>
+          so the center of mass is a little to the left of the
+          center, which makes sense because the left side is more
+          dense.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's now consider a 2-dimensional version of center of
+        mass.  Suppose a plate in the triangular shape shown below
+        on the left is made out of a uniform material whose
+        density is 2 grams per square centimeter.  We would like
+        to find the balancing point, which we call the center of
+        mass, of the plate.
+      </p>
+      <sidebyside widths="20% 20%">
+        <image>
+          <shortdescription>A triangular plate</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="14-plate-1">
+            <xi:include href="prefigure/12-plate-1.xml"/>
+          </prefigure>
+        </image>
+        <image>
+          <shortdescription>A triangular plate with a vertical
+          slice</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="14-plate-2">
+            <xi:include href="prefigure/12-plate-2.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Let's find the center of mass in the following way:
+          first, take a vertical slice as shown on the right above.
+          What is the area <m>dA</m> of the slice taken at position
+          <m>x</m> if the width is <m>dx</m>?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <m>dA = 2x~dx</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is the mass <m>dm</m> of this slice if the density
+          is 2 grams per square centimeter?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <m>dm=\rho ~dm = 4x~dx</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the total mass <m>M</m> of the plate?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <md>
+            M=\int dm = \int_0^1 4x~dx = 2
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is <m>\overline{x}</m>, the <m>x</m> coordinate of
+          the center of mass?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <md>
+            \xbar = \frac{\int x~dm}{M} = \frac{\int_0^1 4x^2~dx}{2}
+            =\frac23
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is <m>\overline{y}</m>, the <m>y</m> coordinate of
+          the center of mass?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          Now we'll slice horizontally so that <m>dA = (1-\frac
+          y2)~dy</m> and <m>dm=(2-y)~dy</m>.  This gives
+          <md>
+            \ybar = \frac{\int y~dm}{M} = \frac{\int_0^2 y(2-y)~dy}{2}
+            =\frac43
+          </md>
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that a cone is formed by spinning the region
+        bounded by the <m>y</m>-axis, the line <m>y=x</m> and
+        the line <m>y=4</m> about the <m>y</m>-axis.  The units
+        on the axes are in centimeters.  Suppose also that the
+        material out of which the cone is made has a density of
+        3 grams per cubic centimeter.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose you slice the cone horizontally to create a
+          cylinder of height <m>dy</m>.  What is the volume
+          <m>dV</m> of this slice?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          The cross sectional area is <m>A(y)=\pi y^2</m> so <m>dV=\pi
+          y^2~dy</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the mass <m>dm</m> of this slice?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <m>dm=\rho~dV = 3\pi y^2~dy</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the total mass of the cone?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <md>
+            M=\int dm = \int_0^4 3\pi y^2~dy = 64\pi
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the <m>y</m> coordinate of the center of mass?
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <md>
+            \int y~dm = \int_0^4 3\pi y^3~dy = 192\pi
+          </md>,
+          which implies that
+          <md>
+            \ybar = \frac{192\pi}{64\pi}=3
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose now that the cone is filled with water containing
+          a dissolved substance so that the density is
+          <m>\rho(y) = 5-y</m> grams per cubic centimeter.  Find the
+          <m>y</m> coordinate of the center of mass.
+        </p>
+      </statement>
+      <solution component="14">
+        <p>
+          <m>dm=(5-y)\pi y^2~dy</m> so that
+          <md>
+            M = \int ~dm = \int_0^4(5-y)\pi y^2~dy = 134.0
+          </md>.
+          Also
+          <md>
+            \int y~dm = \int_0^4y(5-y)\pi y^2~dy = 361.9
+          </md>
+          so that
+          <md>
+            \ybar = \frac{361.9}{134.0}=2.7
+          </md>.
+          This makes sense because the water is more dense for smaller
+          <m>y</m> values so the center of mass is dragged down a bit
+          from <m>\ybar = 3</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

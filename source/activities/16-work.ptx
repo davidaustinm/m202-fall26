@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Computing work</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Imagine that a cable, 50 meters long and having mass 150
+        kilograms, is hanging from the top of a building.  We
+        will compute the amount of work needed to lift the entire
+        cable to the top of the building.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Assuming that the cable is uniform, how much mass is in
+          every meter of the cable?  That is, what is the density
+          of the cable in kilograms per meter?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          Density is mass divided by length so <m>\rho=150/50=3</m>
+          kilograms per meter.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Let's set up a coordinate system: <m>y</m> will measure
+          the vertical distance upwards from the bottom of the
+          cable.
+        </p>
+        <image width="8%">
+          <prefigure xmlns="https://prefigure.org"
+                     label="16-cable-1">
+            <xi:include href="prefigure/16-cable.xml"/>
+          </prefigure>
+        </image>
+        <p>
+          Imagine that we take a super thin slice of width
+          <m>dy</m> at location <m>y</m>.  Sketch the slice above
+          and use the density to determine the mass <m>dm</m> of
+          this slice.
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          Mass equals density times length so <m>dm=3~dy</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Imagine that the segment is very thin.  How far does
+          this segment need to be lifted when <m>y = 10</m>?
+          <m>y = 20</m>?  <m>y = 30</m>?  for a general value
+          of <m>y</m>?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          If <m>y=10</m>, the slice needs to be raised by 40 meters.
+          In general, the distance is <m>50-y</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How much work <m>dW</m> is performed in lifting just
+          this segment to the top of the building?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          <m>dW = (50-y)g~dm = g(50-y)3~dy</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Now that you know the amount of work required to lift
+          each segment to the top of the building, determine the
+          total work required to raise the entire cable to the top
+          of the building.
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          <md>
+            W = \int dW = 3g\int_0^{50}(50-y)~dy = 36750
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+        <p>
+          Here is a similar problem.  Consider a cone whose height
+          and base radius are each 2 meters.  You may imagine
+          creating this cone by taking the line <m>y=x</m> between
+          <m>0\leq x\leq 2</m> and spinning it about the
+          <m>y</m>-axis.  Now imagine that this cone is filled with
+          water and we want to know how much work is required to
+          pump the water up to the top of the cone.
+        </p>
+    </introduction>
+    <task workspace="0.7in">
+      <statement>
+        <p>
+          Imagine we take a thin horizontal cylindrical slice of
+          the cone at position <m>y</m> and of height <m>dy</m>.
+          What is the volume <m>dV</m> of this slice?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          The cross sectional radius of the cone is <m>y</m> so
+          <m>dV = \pi y^2~dy</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.7in">
+      <statement>
+        <p>
+          The density of water is <m>1000</m> kg/m<m>^3</m>.
+          What is the mass <m>dm</m> of this slice?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          <m>dm=1000~dV = 1000\pi y^2~dy</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.7in">
+      <statement>
+        <p>
+          How far does this slice need to be lifted to raise it to
+          the top of the cone?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          The distance is <m>2-y</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.7in">
+      <statement>
+        <p>
+          How much work <m>dW</m> is required to raise this slice
+          to the top of the cone?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          <m>dW = g(2-y)~dm = 1000g\pi(2-y)y^2~dy</m>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How much work is required to pump all the water out of
+          the cone?
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          <md>
+            W = \int dW = 1000g\pi \int_0^2 (2-y)y^2~dy = 41050
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose now that we have a spherical water tank of radius
+        3 meters.  You may imagine forming this tank by spinning
+        the right half of a circle <m>x^2+y^2=9</m> about the
+        <m>y</m>-axis.  Suppose that the tank is filled with
+        water to a depth of one meter and that the density of the
+        water is <m>1000-y</m> kilograms per cubic meter.
+      </p>
+      <image width="25%">
+        <prefigure xmlns="https://prefigure.org"
+                   label="16-sphere">
+          <xi:include href="prefigure/16-sphere.xml"/>
+        </prefigure>
+      </image>
+    </introduction>
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          Find the volume of water in the tank.
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          In the given coordinate system, we have
+          <m>x=\sqrt{9-y^2}</m> so <m>dV = \pi(9-y^2)~dy</m>.  Then
+          <md>
+            V = \int dV = \int_{-3}^{-2} \pi(9-y^2)~dy = 8.38
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          Find the center of mass of water in the tank.
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          First we need to find the mass where <m>dm=(1000-y)~dV =
+          (1000-y)\pi(9-y^2)~dy</m>.  Then
+          <md>
+            M=\int dm = \int_{-3}^{-2}(1000-y)\pi(9-y^2)~dy = 
+            8397.2
+          </md>.
+          Then
+          <md>
+            \int y~dm = \int_{-3}^{-2}(1000-y)\pi(9-y^2)y~dy = -19681
+          </md>
+          so that
+          <md>
+            \ybar = \frac{-19681}{8397.2} = -2.34
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2.25in">
+      <statement>
+        <p>
+          Find the amount of work required to pump all of the
+          water to the top of the tank.
+        </p>
+      </statement>
+      <solution component="16">
+        <p>
+          <m>dW = (3-y)g~dm</m> so
+          <md>
+            W = \int_{-3}^{-2} (1000-y)g(3-y)(9-y^2)~dy = 44873
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

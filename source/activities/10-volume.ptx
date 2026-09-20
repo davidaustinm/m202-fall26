@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Volume</title>
+
+  <page>
+  <p>
+    <alert>Section 6.2</alert>
+  </p>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Suppose that the region bounded by the graph <m>y=4-x^2</m>
+        and the <m>x</m>-axis is rotated about the <m>x</m>-axis.
+        Determine the cross-sectional area of a typical slice and
+        then compute the volume of the resulting solid.
+      </p>
+      <image width="30%" margins="0% 70%">
+        <shortdescription>The region between the parabola and the
+        horizontal axis</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="pf-10-volume-1">
+          <xi:include href="prefigure/10-volume-1.xml"/>
+        </prefigure>
+      </image>
+    </statement>
+    <solution component="10">
+      <p>
+        A typical cross section has radius <m>4-x^2</m> so that the
+        cross sectional area is <m>A(x)=\pi(4-x^2)^2</m>.  This gives
+        the volume element <m>dV=\pi(4-x^2)^2~dx</m> and so the total
+        volume is
+        <md>
+          V = \int_{-2}^2 \pi(4-x^2)^2~dx = 107.23
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        One way to obtain a sphere is to spin a circle about one of
+        its diameters.  Find the volume of a sphere of radius 2 by
+        taking the top half of the circle of radius 2 centered at the
+        origin and spinning it about the <m>x</m>-axis.  You may
+        remember that the upper semicircle of radius 2 is the graph
+        <m>y = \sqrt{4-x^2}</m>.
+      </p>
+      <image width="30%" margins="0% 70%">
+        <shortdescription>The upper semicircle of radius
+        2</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="pf-10-volume-2">
+          <xi:include href="prefigure/10-volume-2.xml"/>
+        </prefigure>
+      </image>
+    </statement>
+    <solution component="10">
+      <p>
+        A typical cross section has radius <m>\sqrt{4-x^2}</m> so that the
+        cross sectional area is <m>A(x)=\pi(4-x^2)</m>.  This gives
+        the volume element <m>dV=\pi(4-x^2)~dx</m> and so the total
+        volume is
+        <md>
+          V = \int_{-2}^2 \pi(4-x^2)~dx = \frac{32\pi}3
+        </md>,
+        which agrees with the formula <m>V=\frac43\pi r^3</m> for the
+        volume of a sphere having radius <m>r</m>.
+      </p>
+    </solution>
+  </exercise>
+  </page>
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Now imagine that we drill a hole out the sphere where the hole
+        is centered on a diameter of the sphere and has radius 1.  The
+        solid is described by the rotating the region as shown below.
+      </p>
+      <p>
+        Sketch a typical cross-section, determine its area, and then
+        find the volume of the resulting solid.
+      </p>
+      <image width="30%" margins="0% 70%">
+        <shortdescription>The area above the line y equals 1 and below
+        the circle of radius 2</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="pf-10-volume-3">
+          <xi:include href="prefigure/10-volume-3.xml"/>
+        </prefigure>
+      </image>
+    </statement>
+    <solution component="10">
+      <p>
+        A typical cross section is a larger circle of radius
+        <m>\sqrt{4-x^2}</m> with a smaller circle of radius 1 removed.
+        This gives the
+        cross sectional area
+        <md>
+          A(x)=\pi(4-x^2)-\pi = \pi(3-x^2)
+        </md>
+        and
+        the volume element <m>dV=\pi(3-x^2)~dx</m> and so the total
+        volume is
+        <md>
+          V = \int_{-\sqrt{3}}^{\sqrt{3}} \pi(3-x^2)~dx = 21.77
+        </md>,
+        which agrees with the formula <m>V=\frac43\pi r^3</m> for the
+        volume of a sphere having radius <m>r</m>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Consider the region between the curve <m>x=4-(y-1)^2</m> and
+        the vertical axis.  Find the volume of the solid that results
+        by spinning this region about the vertical axis.
+      </p>
+      <image width="30%" margins="0% 70%">
+        <shortdescription>The region between a parabola opening to the
+        left and the vertical axis</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="pf-10-volume-4">
+          <xi:include href="prefigure/10-volume-4.xml"/>
+        </prefigure>
+      </image>
+    </statement>
+    <solution component="10">
+      <p>
+        Now we want to slice the region with horizontal slices so that
+        the cross sections are circles having radius <m>4-(y-1)^2</m>.
+        This gives the volume element
+        <md>
+          dV = \pi\left(4-(y-1)^2\right)^2 =
+          \pi\left(16-8(y-1)^2+(y-1)^4\right)
+        </md>.
+        Therefore
+        <md>
+          V = \int_{-1}^3 \pi\left(16-8(y-1)^2+(y-1)^4\right) =
+          107.23
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Suppose there is a water tank in the shape of a cone with the
+        tip of the cone pointing downwards.  The tank is three meters
+        high and the top has a radius of one meter.  If the tank
+        currently holds one cubic meter of water, how deep is the
+        water in the tank?
+      </p>
+    </statement>
+    <solution component="10">
+      <p>
+        Draw a picture of the cone to see that it can be generated by
+        spinning the line <m>y=3x</m> about the vertical axis.
+        The cross sectional areas are
+        <md>
+          A(y)=\pi(y/3)^2=\frac{\pi}{9}y^2
+        </md>.
+        If <m>h</m> is the height to which the water is filled, then
+        <md>
+          V = \int_0^h \frac{\pi}9y^2 = \frac{\pi}{27}h^3 = 1
+        </md>
+        so
+        <md>
+          h=\left(\frac{27}{\pi}\right)^{1/3} \approx 2.05
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+</worksheet>

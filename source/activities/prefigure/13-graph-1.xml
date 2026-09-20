@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,200)" margins="5">
+  <definition>f(x)=x^2</definition>
+  <definition>g(x)=1</definition>
+  <coordinates bbox="(-0.5,-0.5,1.5,1.5)">
+    <grid-axes spacings="((-1,1,1),(-1,1,1))"
+               hlabels="(0,1,1)" vlabels="(0,1,1)"
+               xlabel="x" ylabel="y"/>
+    <area-between-curves functions="(g,f)" domain="(0,1)"
+                         fill="lightgray" stroke="blue"/>
+  </coordinates>
+</diagram>
+         

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lab 2: Numerical Approximations</title>
+
+  <introduction>
+    <p component="prod-02"><term>Due: Tuesday, October 6</term></p>
+    <p component="prod-04"><term>Due: Monday, October 5</term></p>
+
+    <p>
+      <alert>Names:</alert>
+    </p>
+    
+    <p>
+      <term>Instructions:</term> The exercises here should be
+      completed in groups of 2 or 3 students with one write-up
+      submitted from each group.  Be sure to include everyone's name
+      on the write-up.
+    </p>
+    <p>
+      Remember that there are some functions, like <m>e^{-x^2}</m>,
+      for which we will never
+      be able to find an antiderivative expressed in terms of familiar
+      functions.  If we want to evaluate a definite integral of such a
+      function, we need to form a numerical approximation.
+    </p>
+    <p>
+      In our first lab, we studied Riemann sums and how they provide a
+      means of approximating definite integrals.  In this lab, we'll
+      explore some techniques for making better approximations of
+      definite integrals.
+    </p>
+  </introduction>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Evaluate the definite integral
+        <md>
+          \int_0^1 \frac{4}{1+x^2}~dx
+        </md>
+        <em>exactly</em>; that is, do not give a decimal
+        approximation to the integral.  (You will need to remember
+        one fact from trigonometry; ask if you don't remember.)
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        In this lab, we will explore three ways of approximating
+        definite integrals.  This is typically done when the
+        integrand cannot practically be antidifferentiated.
+        However, we will study the integral above; since we know
+        the exact answer, we can determine how accurate our
+        approximations are.
+      </p>
+      <p>
+        First, we'll use <em>right</em> endpoints to approximate
+        the definite integral.  This means that the height of the
+        rectangles we use to approximate the definite integral are
+        computed using the right endpoints of the smaller intervals
+        as shown below (<m>\Delta x</m> here is 0.25 so that the
+        rectangles appear clearly):
+      </p>
+      <image width="50%">
+        <shortdescription>The rectangles in a right Riemann
+        sum</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="15-right">
+          <xi:include href="prefigure/15-right.xml"/>
+        </prefigure>
+      </image>
+      <p>
+        Set up a Google sheet, as you did in the last lab, to use
+        right endpoints to approximate the integral using
+        <m>n = 10</m> rectangles.  The first part of your
+        worksheet might look like this:
+      </p>
+      <tabular>
+        <col halign="right" right="minor"/>
+        <col halign="right" right="minor"/>
+        <col halign="right" right="minor"/>
+        <col halign="right"/>
+        <row bottom="minor">
+          <cell><m>\Delta x</m></cell>
+          <cell><m>x_i</m></cell>
+          <cell><m>f(x_i)</m></cell>
+          <cell><m>\sum f(x_i) \Delta x</m></cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.0</cell>
+          <cell>4.0000</cell><cell></cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.1</cell>
+          <cell>3.9603</cell><cell>0.396039</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.2</cell>
+          <cell>3.8461</cell><cell>0.780654</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.3</cell>
+          <cell>3.6697</cell><cell>1.147627</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.4</cell>
+          <cell>3.4482</cell><cell>1.492455</cell>
+        </row>
+        <!--
+        <row>
+          <cell>0.1</cell><cell>0.5</cell>
+          <cell>3.2000</cell><cell>1.812455</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.6</cell>
+          <cell>2.9411</cell><cell>2.106572</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.7</cell>
+          <cell>2.6845</cell><cell>2.375029</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.8</cell>
+          <cell>2.4390</cell><cell>2.618931</cell>
+          </row>
+          -->
+      </tabular>
+      <p>
+        Using <em>right</em> endpoints, find the approximations to
+        the definite integral when <m>n=10</m>
+        (<m>\Delta x=0.1</m>), <m>n=20</m>
+        (<m>\Delta x=0.05</m>), and <m>n=40</m>
+        (<m>\Delta x=0.025</m>).  For each case, record the
+        approximation and the error.  (Note: if you set up your
+        worksheet well, you should only have to change one entry to
+        study the different cases.)
+      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>\Delta x</m></cell>
+          <cell>Approximation</cell>
+          <cell>Error</cell>
+        </row>
+        <row>
+          <cell>0.1</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.05</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.025</cell>
+          <cell>
+            <m>\vphantom{\Huge{\frac{M}{M}}}</m>
+            <m>\hphantom{\Huge{MMMMM}}</m>
+          </cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        We will now study a new method, called the Midpoint Rule,
+        in which we use the midpoints of the small intervals rather
+        than the right endpoints.  That is, the height of the
+        rectangles are computed by looking at the middle of each
+        interval as shown below:
+      </p>
+      <image width="50%">
+        <shortdescription>The rectangles that appear in the midpoint
+        rule</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="15-mid">
+          <xi:include href="prefigure/15-mid.xml"/>
+        </prefigure>
+      </image>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>\Delta x</m></cell>
+          <cell><m>x_i</m></cell>
+          <cell><m>f(x_i)</m></cell>
+          <cell><m>\sum f(x_i)\Delta x</m></cell>
+        </row>
+        <row>
+          <cell>0.1000</cell><cell>0.0500</cell>
+          <cell>3.9900</cell><cell>0.399002</cell>
+        </row>
+        <row>
+          <cell>0.1000</cell><cell>0.1500</cell>
+          <cell>3.9120</cell><cell>0.790201</cell>
+        </row>
+        <row>
+          <cell>0.1000</cell><cell>0.2500</cell>
+          <cell>3.7647</cell><cell>1.166671</cell>
+        </row>
+        <row>
+          <cell>0.1000</cell><cell>0.3500</cell>
+          <cell>3.5635</cell><cell>1.523019</cell>
+        </row>
+        <!--
+        <row>
+          <cell>0.1000</cell><cell>0.4500</cell>
+          <cell>3.3264</cell><cell>1.855659</cell>
+        </row>
+        <row>
+          <cell>0.1000</cell><cell>0.5500</cell>
+          <cell>3.0710</cell><cell>2.162761</cell>
+        </row>
+        <row>
+          <cell>0.1000</cell><cell>0.6500</cell>
+          <cell>2.8120</cell><cell>2.443956</cell>
+        </row>
+        <row>
+          <cell>0.1000</cell><cell>0.7500</cell>
+          <cell>2.5600</cell><cell>2.699956</cell>
+          </row>
+          -->
+      </tabular>
+      <p>
+        Use the Midpoint Rule with <m>n=10</m>, <m>20</m>, and
+        <m>40</m> to approximate the integral.  For each value of
+        <m>n</m>, record your approximation and the error.
+      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>\Delta x</m></cell>
+          <cell>Approximation</cell>
+          <cell>Error</cell>
+        </row>
+        <row>
+          <cell>0.1</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.05</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.025</cell>
+          <cell>
+            <m>\vphantom{\Huge{\frac{M}{M}}}</m>
+            <m>\hphantom{\Huge{MMMMM}}</m>
+          </cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Finally, we will consider the <em>Trapezoidal Rule.</em>
+        Now instead of just using rectangles, we will use
+        trapezoids to approximate the integral as shown below:
+      </p>
+      <image width="50%">
+        <shortdescription>The trapezoids that appear in the trapezoidal
+        rule</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="15-trap">
+          <xi:include href="prefigure/15-trap.xml"/>
+        </prefigure>
+      </image>
+      <sidebyside widths="40% 15%" margins="0% 45%">
+        <p>
+          You may have seen this before, but it's helpful to remember
+          that the area of the trapezoid shown below is
+          <md>
+            \frac{h}{2}(y_0+y_1).
+          </md>
+        </p>
+        <image>
+          <shortdescription>A single trapezoid</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="15-single-trap">
+            <xi:include href="prefigure/15-single-trap.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+      <p>
+        Now build a Google sheet to compute an approximation to the
+        definite integral using <m>n = 10</m> trapezoids
+        (<m>\Delta x = 0.1</m>).  The fourth column should contain
+        the cumulative sum of trapezoid areas.  Your worksheet
+        should begin something like this:
+      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>\Delta x</m></cell>
+          <cell><m>x_i</m></cell>
+          <cell><m>f(x_i)</m></cell>
+          <cell>Area of trapezoids</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.0</cell>
+          <cell>4.000000</cell><cell></cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.1</cell>
+          <cell>3.960396</cell><cell>0.398019</cell>
+        </row>
+        <row>
+          <cell>0.1</cell><cell>0.2</cell>
+          <cell>3.846153</cell><cell>0.788347</cell>
+        </row>
+      </tabular>
+      <p>
+        Now find the approximations and errors when <m>n=10</m>,
+        <m>n=20</m>, and <m>n=40</m>.  Record your observations
+        below.
+      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>\Delta x</m></cell>
+          <cell>Approximation</cell>
+          <cell>Error</cell>
+        </row>
+        <row>
+          <cell>0.1</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.05</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.025</cell>
+          <cell>
+            <m>\vphantom{\Huge{\frac{M}{M}}}</m>
+            <m>\hphantom{\Huge{MMMMM}}</m>
+          </cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Now summarize your results by building a table of the
+        errors in the three methods.
+      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>\Delta x</m></cell>
+          <cell>Error in right endpoints</cell>
+          <cell>Error in Midpoint Rule</cell>
+          <cell>Error in Trapezoidal rule</cell>
+        </row>
+        <row>
+          <cell>0.1</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.05</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+        <row>
+          <cell>0.025</cell>
+          <cell><m>\vphantom{\Huge{\frac{M}{M}}}</m></cell>
+          <cell><m>\hphantom{\Huge{MMMMM}}</m></cell>
+        </row>
+      </tabular>
+      <p>
+        Describe anything that you notice.  In particular, consider
+        what happens when you halve <m>\Delta x</m>.  By
+        approximately what factor does the error decrease when you
+        use right endpoints?  when you use midpoints?  when you use
+        trapezoids?  Which method or methods are better for
+        approximating definite integrals?  Explain your findings by
+        considering how the approximations are constructed
+        geometrically.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>

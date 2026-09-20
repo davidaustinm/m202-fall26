@@ -75,7 +75,7 @@
           <m>u=1-x^2</m> so that <m>du=-2x~dx</m>.  Then
           <md>
             \int x\sqrt{1-x^2}~dx = -\frac12\int\sqrt{u}~du =
-            -\frac 23 u^{3/2} = -\frac 23(1-x^2)^{3/2}+C
+            -\frac 13 u^{3/2} = -\frac 13(1-x^2)^{3/2}+C
           </md>.
         </p>
       </solution>
@@ -96,21 +96,21 @@
           </md>.
           Then
           <md>
-            \int x^2e^{-2x}~dx = -\frac12 x^2e^{-2x} + \frac12\int
+            \int x^2e^{-2x}~dx = -\frac12 x^2e^{-2x} + \int
             xe^{-2x}~dx
           </md>.
-          Now we need to use integration by part again!
+          Now we need to use integration by parts again!
           <md>
             <mrow>
-              \int x^2e^{-2x}~dx \amp = -\frac12 x^2e^{-2x} + \frac12\int
+              \int x^2e^{-2x}~dx \amp = -\frac12 x^2e^{-2x} + \int
               xe^{-2x}~dx
             </mrow>
             <mrow>
-              \amp = -\frac12 x^2e^{-2x} -\frac14xe^{-2x} + \frac14 \int
+              \amp = -\frac12 x^2e^{-2x} -\frac12xe^{-2x} + \frac12 \int
               e^{-2x}~dx
             </mrow>
             <mrow>
-              \amp = -\frac12 x^2e^{-2x} -\frac14xe^{-2x} - \frac18
+              \amp = -\frac12 x^2e^{-2x} -\frac12xe^{-2x} - \frac14
               e^{-2x}
             </mrow>
           </md>.

@@ -67,23 +67,14 @@
       <xi:include href="./activities/08-lab-1-04.ptx"/>
       <xi:include href="./activities/06-area.ptx"/>
       <xi:include href="./activities/09-int-general.ptx"/>
-
-      <!-- Add more xi:include files here to include them in the main course -->
+      <xi:include href="./activities/10-volume.ptx"/>
+      <xi:include href="./activities/11-review.ptx"/>
+      <xi:include href="./activities/12-mass.ptx"/>
+      <xi:include href="./activities/13-volume.ptx"/>
+      <xi:include href="./activities/14-centers.ptx"/>
+      <xi:include href="./activities/15-lab-2.ptx"/>
+      <xi:include href="./activities/16-work.ptx"/>
     </chapter>
 
-    <!--
-    <chapter xml:id="handouts">
-      <title>Handouts</title>
-      <xi:include href="./handouts/handout-filename.ptx"/>
-    </chapter>
-
-    <chapter xml:id="homework">
-      <title>Homework</title>
-      <xi:include href="./homework/homework01.ptx"/>
-    </chapter>
-    -->
-
-    <!-- Include additional chapters for other categories -->
-
-    </book>
-  </pretext>
+  </book>
+</pretext>

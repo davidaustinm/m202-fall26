@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+    dimensions="(300, 100)" margins="5">
+  <definition>w=10</definition>
+  <definition>h=0.8</definition>
+  <definition>side=0.5</definition>
+  <definition>f(t)=(side*cos(t), h*sin(t))</definition>
+  <coordinates bbox="(-1,-1,12,1)">
+    <line endpoints="((-1,0),(12,0))" stroke="gray" arrows="1"/>
+    <parametric-curve function="f" domain="(0,2*pi)" stroke="black"/>
+    <transform>
+      <translate by="(10,0)"/>
+      <parametric-curve function="f" domain="(-pi/2,pi/2)" stroke="black"/>
+      <parametric-curve function="f" domain="(pi/2,3*pi/2)" stroke="gray"/>
+    </transform>
+    <line endpoints="((0,h),(10,h))" stroke="black"/>
+    <line endpoints="((0,-h),(10,-h))" stroke="black"/>
+    <label anchor="(11.8,0)" alignment="nw">
+      <m>x</m>
+    </label>
+  </coordinates>
+</diagram>

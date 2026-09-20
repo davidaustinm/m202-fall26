@@ -1,0 +1,9 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,200)" margins="5">
+  <definition>f(x)=x^2/4</definition>
+  <coordinates bbox="(-1,-1,5,5)">
+    <grid-axes/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+         

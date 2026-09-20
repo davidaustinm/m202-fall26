@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(100,150)" margins="5">
+  <definition>y0=2</definition>
+  <definition>y1=1.5</definition>
+  <coordinates bbox="(-0.5,-0.5,1.5,2.5)">
+    <polygon points="((0,0),(1,0),(1,y1),(0,y0))"
+               closed="yes"
+               fill="lightgray" stroke="black"/>
+    <label anchor="(0.5,0)" alignment="south">
+      <m>h</m>
+    </label>
+    <label anchor="(0,y0/2)" alignment="west">
+      <m>y_0</m>
+    </label>
+    <label anchor="(1,y1/2)" alignment="east">
+      <m>y_1</m>
+    </label>
+  </coordinates>
+</diagram>

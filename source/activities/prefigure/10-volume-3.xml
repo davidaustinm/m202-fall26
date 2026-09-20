@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(250,150)" margins="5">
+  <definition>f(x)=sqrt(abs(4-x^2))</definition>
+  <definition>g(x)=1</definition>
+  <coordinates bbox="(-2.5,-0.5,2.5,2.5)">
+    <grid spacings="((-2,1,2),(0,1,4))"/>
+    <area-between-curves functions="(f,g)"
+                      fill="lightgray" stroke="black"
+                      domain="(-sqrt(3),sqrt(3))"/>
+    <axes xlabel="x" ylabel="y"/>
+  </coordinates>
+</diagram>
+               

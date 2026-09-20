@@ -1,0 +1,39 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 100)" margins="5">
+  <definition>w=10</definition>
+  <definition>h=0.8</definition>
+  <definition>side=0.5</definition>
+  <definition>f(t)=(side*cos(t), h*sin(t))</definition>
+  <definition>s=6</definition>
+  <definition>d=0.4</definition>
+  <coordinates bbox="(-1,-1.2,12,0.8)">
+    <line endpoints="((-1,0),(12,0))" stroke="gray" arrows="1"/>
+    <parametric-curve function="f" domain="(0,2*pi)" stroke="black"/>
+    <transform>
+      <translate by="(10,0)"/>
+      <parametric-curve function="f" domain="(-pi/2,pi/2)" stroke="black"/>
+      <parametric-curve function="f" domain="(pi/2,3*pi/2)" stroke="gray"/>
+    </transform>
+    <transform>
+      <translate by="(s+d,0)"/>
+      <path start="f(-pi/2)" closed="yes" fill="#777" stroke="black">
+        <parametric-curve function="f" domain="(-pi/2,pi/2)"/>
+        <lineto point="(-d,h)"/>
+        <lineto point="(-d,-h)"/>
+      </path>
+      <translate by="(-d,0)"/>
+      <parametric-curve function="f" domain="(0,2*pi)" fill="lightgray" stroke="gray"/>
+      <parametric-curve function="f" domain="(pi/2,3*pi/2)" fill="lightgray" stroke="gray"/>
+      <parametric-curve function="f" domain="(-pi/2,pi/2)" fill="none" stroke="black"/>
+      <line endpoints="((0,0),(-1,0))" stroke="gray"/>
+    </transform>
+    <line endpoints="((0,h),(10,h))" stroke="black"/>
+    <line endpoints="((0,-h),(10,-h))" stroke="black"/>
+    <label anchor="(11.8,0)" alignment="nw">
+      <m>x</m>
+    </label>
+    <label anchor="(s+d/2,-h)" alignment="south">
+      <m>dx</m>
+    </label>
+  </coordinates>
+</diagram>

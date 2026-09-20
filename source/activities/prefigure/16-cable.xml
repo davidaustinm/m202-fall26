@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(50, 150)" margins="5">
+  <coordinates bbox="(-2,0,1.5,60)">
+    <rectangle lower-left="(1,0)" dimensions="(0.5,50)"
+               fill="lightgray" stroke="black"/>
+    <line endpoints="((0,0),(0,60))" stroke="black"
+          arrows="1"/>
+    <tick-mark axis="vertical" location="0">0</tick-mark>
+    <tick-mark axis="vertical" location="50">50</tick-mark>
+    <label anchor="(0,60)" alignment="se"><m>y</m></label>
+  </coordinates>
+</diagram>

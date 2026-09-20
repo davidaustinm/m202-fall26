@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,175)" margins="5">
+  <definition>f(x)=4/(1+x^2)</definition>
+  <coordinates bbox="(-0.25,-1,1.25,4.5)">
+    <axes hlabels="(0,0.25,1)"/>
+    <definition>dx=0.25</definition>
+    <repeat parameter="k=0..3">
+      <rectangle lower-left="(k/4,0)" dimensions="(dx,f(k/4+dx/2))"
+                 fill="lightgray" stroke="black"/>
+    </repeat>
+    <graph function="f" domain="(0,1)"/>
+  </coordinates>
+</diagram>

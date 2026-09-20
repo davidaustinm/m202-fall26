@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Working with mass</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that we have a thin beam laid out horizontally on
+        the <m>x</m>-axis, like the one shown below, and that the
+        density is constantly <m>\rho = 3</m> grams per centimeter
+        and that the beam is 10 centimeters long.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is the mass
+          of the beam?  What is the general recipe for finding the
+          mass if you know the length and the density?
+        </p>
+        <image width="40%" margins="0% 60%">
+          <shortdescription>A long thin bar</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="12-bar-1">
+            <xi:include href="prefigure/12-bar-1.xml"/>
+          </prefigure>
+        </image>
+      </statement>
+      <solution component="12">
+        <p>
+          Mass equals density times length so <m>M=3\cdot 10=30</m>
+          grams.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Suppose now that the beam is composed of a material whose
+          density varies from left to right.  This means that the
+          density depends on <m>x</m>, and we have
+          <m>\rho(x)=x+3</m> where the beam is between
+          <m>0\leq x\leq 10</m>.  If we take a slice of the beam at
+          position <m>x</m> and width <m>dx</m>, as shown below,
+          what is the amount of mass <m>dm</m> in the slice?
+        </p>
+        <image width="40%" margins="0% 60%">
+          <shortdescription>A long thin bar with a cross sectional
+          slice</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="12-bar-2">
+            <xi:include href="prefigure/12-bar-2.xml"/>
+          </prefigure>
+        </image>
+      </statement>
+      <solution component="12">
+        <p>
+          The mass of a slice is <m>dm=\rho(x)dx = (x+3)~dx</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now that we know the mass of each slice, how may we find
+          the total mass?  What is the total mass of this beam?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          Add the mass of each slice to obtain
+          <md>
+            M=\int_0^{10} (x+3)~dx = 80
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Suppose that our beam has density
+        <m>\rho(x) = e^{-x/10}</m> where <m>0\leq x \leq 10</m>.
+        What is the mass of the beam?
+      </p>
+    </statement>
+    <solution component="12">
+      <p>
+        <md>
+          M=\int_0^{10}e^{-x/10}~dx =-10e^{-x/10}|_0^{10} =
+          10(1-e^{-1}) = 6.32
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's now look at a two-dimensional example and suppose
+        that we have manufactured a triangular plate shown below on
+        the left.  The density of the material varies from left to
+        right as <m>\rho(x) = x</m> grams per square centimeter.
+      </p>
+      <sidebyside widths="20% 20%">
+        <image>
+          <shortdescription>A triangular plate</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="12-plate-1">
+            <xi:include href="prefigure/12-plate-1.xml"/>
+          </prefigure>
+        </image>
+        <image>
+          <shortdescription>A triangular plate with a vertical
+          slice</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="12-plate-2">
+            <xi:include href="prefigure/12-plate-2.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose we take a vertical slice of width <m>dx</m> as
+          shown on the right.  What is the area <m>dA</m> of this
+          slice?  What is its mass?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          <m>dA = 2x~dx</m> so that <m>dm=\rho(x)~dA = 2x^2~dx</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the total mass of the plate?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          <md>M=\int ~dm = \int_0^12x^2~dx = \frac{2}3</md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose we make a bowl by spinning the portion of the graph
+        of the function <m>y=x^2/4</m>, where <m>0\leq x \leq 4</m>
+        about the <m>y</m>-axis.
+      </p>
+      <image width="40%">
+        <shortdescription>The graph of y equals x squared over
+        4</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="12-tank-1">
+          <xi:include href="prefigure/12-tank-1.xml"/>
+        </prefigure>
+      </image>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the volume <m>dV</m> of a
+          horizontal slice of thickness <m>dy</m> and use this to
+          find the total volume of the bowl.
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          We have <m>x=2\sqrt{y}</m> so that the radius of a slice is
+          <m>2\sqrt{y}</m>.  Therefore, the cross sectional area is
+          <m>A(y)=4\pi y</m> and the volume is <m>dV=4\piy~dy</m>.  The
+          volume is
+          <md>
+            V = \int_0^4 4\pi y~dy = 2y^2|_0^4 = 32\pi
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose that we fill the bowl with a liquid and that some
+          sediments in the liquid settle out over time so that the
+          density is given by <m>\rho(y) = 8-y</m> grams per unit
+          volume.  Since you know <m>dV</m>, the volume of a
+          horizontal slice, what is the mass of a horizontal slice
+          of the liquid?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          Now the mass of a slice is <m>dm=\rho(y)~dV =
+          4\pi(8-y)y~dy</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the total mass of the liquid in the bowl?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          <md>
+            M=\int_0^44\pi(8-y)y~dy = 536.17
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the average density of the liquid?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          The average density is the mass divided by the volume of
+          <md>
+            \rho = M/V = 536.17/(32\pi) = 5.33
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Now suppose that we scoop off the top of the liquid
+          removing half of its volume.  What is the depth of the
+          liquid now?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          We'll set up an equation for the height <m>H</m>:
+          <md>
+            <mrow>
+              \int_0^H 4\pi y~dy \amp = \frac12 \int_0^44\pi y~dy
+            </mrow>
+            <mrow>
+              H^2 \amp = 8
+            </mrow>
+          </md>
+          so that <m>H=\sqrt{H}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the mass of the remaining liquid?
+        </p>
+      </statement>
+      <solution component="12">
+        <p>
+          <md>
+            M=\int_0^{\sqrt{8}}4\pi(8-y)y~dy = 307.34
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

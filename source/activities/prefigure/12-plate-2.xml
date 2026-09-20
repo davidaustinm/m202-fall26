@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+    dimensions="(140, 200)" margins="(5,25,5,5)">
+  <coordinates bbox="(-0.2,0,1.2,2)">
+    <definition>a=0.6</definition>
+    <axes xlabel="x" ylabel="y" vlabels="(0,1,2)" hlabels="(0,1,1)"/>
+    <polygon points="((0,0),(1,0),(1,2))" closed="yes"
+             fill="lightgray" stroke="black"/>
+    <rectangle lower-left="(a,0)" dimensions="(0.05,2*a)"
+               fill="gray" stroke="black"/>
+    
+  </coordinates>
+</diagram>

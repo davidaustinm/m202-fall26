@@ -213,14 +213,12 @@
           the definite integral you found above are either too large or
           too small.
         </p>
-        <sidebyside width="45%" margins="0% 55%">
-          <image>
-            <prefigure xmlns="https://prefigure.org"
-                       label="08-lab1-cubic-02">
-              <xi:include href="prefigure/08-lab-1-cubic.xml"/>
-            </prefigure>
-          </image>
-        </sidebyside>
+        <image width="45%" margins="0% 55%">
+          <prefigure xmlns="https://prefigure.org"
+                     label="08-lab1-cubic-02">
+            <xi:include href="prefigure/08-lab-1-cubic.xml"/>
+          </prefigure>
+        </image>
       </statement>
     </task>
     <task workspace="0.2in">

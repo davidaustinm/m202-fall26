@@ -1,0 +1,8 @@
+<diagram xmlns="https://prefigure.org"
+    dimensions="(140, 200)" margins="(5,25,5,5)">
+  <coordinates bbox="(-0.2,0,1.2,2)">
+    <axes xlabel="x" ylabel="y" vlabels="(0,1,2)" hlabels="(0,1,1)"/>
+    <polygon points="((0,0),(1,0),(1,2))" closed="yes"
+             fill="lightgray" stroke="black"/>
+  </coordinates>
+</diagram>

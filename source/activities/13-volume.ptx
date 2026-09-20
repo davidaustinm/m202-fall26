@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Volume (again)</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the region in the plane that is bounded by
+        <m>y=x^2</m> and the lines <m>y=1</m> and <m>x=0</m>.
+      </p>
+      <image width="40%">
+        <prefigure xmlns="https://prefigure.org"
+                   label="13-graph-1">
+          <xi:include href="prefigure/13-graph-1.xml"/>
+        </prefigure>
+      </image>
+    </introduction>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+          Find the resulting volume when this region is spun about
+          the <m>x</m>-axis.
+        </p>
+      </statement>
+      <solution component="13">
+        <p>
+          A cross section looks like a circle of radius 1 with a
+          circle of radius <m>x^2</m> removed.  Therefore,
+          <md>
+            A(x)=\pi-\pi (x^2)^2 = \pi(1-x^4)
+          </md>
+          and <m>dV = \pi(1-x^4)~dx</m> so that the volume is
+          <md>
+            V = \int_0^1\pi(1-x^4)~dx=2.51
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="3in">
+      <statement>
+        <p>
+          Find the volume if the region is spun about the
+          <m>y</m>-axis.
+        </p>
+      </statement>
+      <solution component="13">
+        <p>
+          Now the cross sections are circles whose radius is
+          <m>\sqrt{y}</m> so that <m>dV = \pi y~dy</m> and
+          <md>
+            V = \int_0^1\pi y~dy = \frac{\pi}{2} = 1.57
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2.5in">
+      <statement>
+        <p>
+          Now find the volume if it's spun about the line
+          <m>y=3</m>.
+        </p>
+      </statement>
+      <solution component="13">
+        <p>
+          Cross sections are circles of radius <m>3-x^2</m> with a
+          circle of radius <m>2</m> removed so that
+          <m>A(x) = \pi(3-x^2)^2-4\pi</m> and
+          <md>
+            V = \pi \int_0^1 \left((3-x^2)^2-4\right)~dx = 10.05
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2.5in">
+      <statement>
+        <p>
+          And finally, find the volume if the region is spun about
+          <m>x=3</m>.
+        </p>
+      </statement>
+      <solution component="13">
+        <p>
+          Cross sections are circles of radius <m>3</m> with a circle
+          of radius <m>3-\sqrt{y}</m> removed.  Therefore
+          <m>A(y)=9\pi - \pi(3-\sqrt{y})^2</m> and
+          <md>
+            V = \pi\int_0^1\left(9-(3-\sqrt{y})^2\right)~dy = 11.00
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Suppose that the area bounded by the horizontal line
+        <m>y=1</m>, the graph <m>y=1/x^2</m>, and the vertical
+        line <m>x=S</m> has area 9/4.  Find the value of
+        <m>S</m>.
+      </p>
+    </statement>
+    <solution component="13">
+      <p>
+        <md>
+          <mrow>
+            A = \int_1^S \left(1-\frac{1}{x^2}\right)~dx \amp =
+            \frac94
+          </mrow>
+          <mrow>
+            (x+\frac1x)|_1^S \amp = \frac 94
+          </mrow>
+          <mrow>
+            (S+\frac1S) - 2 \amp = \frac94
+          </mrow>
+        </md>
+        so that <m>S=4</m>.
+      </p>
+    </solution>
+  </exercise>
+
+</worksheet>

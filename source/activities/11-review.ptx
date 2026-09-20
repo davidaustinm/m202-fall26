@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Some review</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Find antiderivatives for the following functions.
+      </p>
+    </introduction>
+    <task workspace="1.15in">
+      <statement>
+        <p>
+          <m>\ds \int\frac{x^2}{(x^3+8)^3}~dx</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          Let's try a substitution:  <m>u=(x^3+8)</m> so that
+          <m>du=3x^2~dx</m>.  Then
+          <md>
+            \int\frac{x^2}{(x^3+8)^3}~dx = \frac13\int u^{-3}~du =
+            -\frac16u^{-2}=-\frac16\frac1{(x^3+8)^2} + C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.15in">
+      <statement>
+        <p>
+          <m>\ds \int xe^{-x^2}~dx</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          Let's try a substitution:  <m>u=-x^2</m> so that
+          <m>du=-2x~dx</m>.  Then
+          <md>
+            \int xe^{-x^2}~dx = -\frac12\int e^u~du =
+            -\frac12 e^u=-\frac12 e^{-x^2} + C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.15in">
+      <statement>
+        <p>
+          <m>\ds \int x^2\cos(x)~dx</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          Let's try integration by parts:
+          <md>
+            \begin{array}{ll}
+            u=x^2 \amp du=2x~dx \\
+            dv = \cos(x)~dx \amp v=\sin(x) \\
+            \end{array}
+          </md>
+          so that
+          <md>
+            \int x^2\cos(x)~dx = x^2\sin(x)-2\int x\sin(x)~dx
+          </md>
+          so we need to integrate by parts again:
+          <md>
+            \int x^2\cos(x)~dx = x^2\sin(x)+2x\cos(x)-2\sin(x)+C
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds \int \frac1{1+x^2}~dx</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          Yay! This is on the table of antiderivatives:
+          <md>
+            \int \frac1{1+x^2}~dx = \arctan(x)+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Remember that we find the area of a region by slicing in some
+        convenient way.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the area of the region between the graph <m>y=e^x</m>,
+          the line <m>y=1</m>, and the line <m>x=3</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          We have
+          <md>
+            A = \int_0^3 (e^x-1)~dx = (e^x-x)|_0^3 = e^3-4
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the area of the region between the curve <m>x=y^3-3y</m>
+          and the lines <m>x=4</m>, <m>y=-2</m> and <m>y=2</m>.
+        </p>
+        <image width="30%" margins="0% 70%">
+          <shortdescription>The region between a cubic curve and three
+          lines</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="pf-11-volume-1">
+            <xi:include href="prefigure/11-volume-1.xml"/>
+          </prefigure>
+        </image>
+      </statement>
+      <solution component="11">
+        <p>
+          Slicing the region horizontally, we have
+          <md>
+            A = \int_{-2}^2 \left(4-(y^3-3y)\right)~dy = 8
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose that the region in the previous question is spun
+          about the line <m>y=4</m>.  Set an integral that finds the
+          resulting volume.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          The radius of a cross section is <m>4-(y^3-3y)</m> so
+          <md>
+            dV = \pi(4-(y^3-3y))^2~dy
+          </md>
+          and
+          <md>
+            V = \pi\int_{-2}^2 \left(4-(y^3-3y)\right)^2~dy = 326.0
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's consider the function
+        <md>F(x)=\int_0^x \cos(t^2)~dt</md>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find <m>F(0)</m>, <m>F(1)</m>, and <m>F(2)</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          The first is straightforward: <m>F(0)=\int_0^0\cos(t^2)~dt =
+          0</m>. For the others, we can use Desmos:
+          <md>
+            <mrow>
+              F(1)\amp = \int_0^1\cos(t^2)~dt = 0.905
+            </mrow>
+            <mrow>
+              F(2)\amp = \int_0^2\cos(t^2)~dt = 0.461
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Without drawing a graph of <m>F(x)</m>, determine whether
+          <m>F</m> is increasing or decreasing at <m>x=1</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          Since <m>F'(x)=\cos(x^2)</m>, we see that
+          <m>F'(1)=\cos(1^2) = 0.54 \gt 0</m> so <m>F</m> is
+          increasing there.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the first critical point of <m>F</m> to the right of
+          <m>x=0</m>.
+        </p>
+      </statement>
+      <solution component="11">
+        <p>
+          <m>F'(x)=\cos(x^2) = 0</m> when <m>x^2=\frac \pi2</m> so
+          <m>x=\sqrt{\pi/2} = 1.25</m>.
+        </p>
+      </solution>
+    </task>
+
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Here's an antiderivative we'll need later in the course:
+        <md>
+          \int \frac1{x^2-x}~dx = \int\frac{1}{x(x-1)}~dx
+        </md>.
+        Neither substitution or integration by parts will work, but we
+        can simplify the function we're antidifferentiating by finding
+        constants <m>A</m> and <m>B</m> such that
+        <md>
+          \frac{1}{x(x-1)} = \frac Ax + \frac B{x-1}
+        </md>.
+        To do this, start with the right side and find a common
+        denominator and then set the numerators equal.  Then find
+        <m>A</m> and <m>B</m> and the resulting antiderivative.
+      </p>
+    </statement>
+    <solution componet="11">
+      <p>
+        <md>
+          \frac Ax + \frac B{x-1} = \frac{A(x-1) + Bx}{x(x-1)} =
+          \frac1{x(x-1)}
+        </md>,
+        which means that
+        <md>
+          A(x-1) + Bx = 1
+        </md>.
+        This has to be true for all <m>x</m> so when <m>x=1</m>, we
+        have <m>B=1</m> and when <m>x=0</m>, we have <m>A=-1</m>.
+        Therefore,
+        <md>
+          <mrow>
+            \int \frac1{x^2-x}~dx \amp = \int\frac{1}{x(x-1)}~dx
+          </mrow>
+          <mrow>
+            \amp = \int \left(-\frac1x + \frac1{x-1}\right)~dx
+          </mrow>
+          <mrow>
+            \amp = -\ln|x| + \ln|x+1|
+          </mrow>
+          <mrow>
+            \amp = \ln\left|\frac{x+1}{x}\right|
+          </mrow>
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+</worksheet>

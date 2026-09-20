@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(250,250)" margins="5">
+  <definition>f(x)=x^3-3*x</definition>
+  <definition>g(x)=4</definition>
+  <coordinates bbox="(-3,-4,5,4)">
+    <grid/>
+    <transform>
+      <change-basis basis="((0,1),(1,0))"/>
+      <area-between-curves functions="(g,f)"
+                        fill="lightgray" stroke="black"
+                        domain="(-2,2)"/>
+    </transform>
+    <axes xlabel="x" ylabel="y"/>
+  </coordinates>
+</diagram>
+               

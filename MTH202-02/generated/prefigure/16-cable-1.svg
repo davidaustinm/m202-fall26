@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="16-cable-1-figure" width="60" height="160" viewBox="0 0 60 160">
+  <defs>
+    <clipPath id="16-cable-1-__clipPath-0">
+      <rect x="5.0" y="5.0" width="50.0" height="150.0"/>
+    </clipPath>
+    <clipPath id="16-cable-1-__clipPath-1">
+      <rect x="5.0" y="5.0" width="50.0" height="150.0"/>
+    </clipPath>
+    <marker id="16-cable-1-arrow-head-end-2_None_24_60-black" markerWidth="9.0" markerHeight="8.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="6.5" refY="4.0">
+      <path d="M 9.0 4.0L 0.0 8.0L 1.7 5.0L 1.7 3.0L 0.0 0.0Z" fill="black" stroke="none"/>
+    </marker>
+    <marker id="16-cable-1-arrow-head-end-2_None_24_60-black-outline" markerWidth="13.0" markerHeight="12.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="8.5" refY="6.0">
+      <path d="M 11.8 7.8 L 2.8 11.8 A 2 2 0 0 1 0.0 10.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 11.8 4.2 A 2 2 0 0 1 11.8 7.8 Z" fill="white" stroke="none"/>
+    </marker>
+  </defs>
+  <path id="16-cable-1-__path-0" d="M 47.9 155.0 L 55.0 155.0 L 55.0 30.0 L 47.9 30.0 Z" stroke="black" stroke-width="2" fill="#ccc"/>
+  <line id="16-cable-1-__line-0" x1="33.6" y1="155.0" x2="33.6" y2="7.4" stroke="black" stroke-width="2" fill="none" marker-end="url(#16-cable-1-arrow-head-end-2_None_24_60-black)"/>
+  <g id="16-cable-1-__g-0">
+    <line id="16-cable-1-__line-1" x1="30.6" y1="155.0" x2="36.6" y2="155.0" stroke-width="2" stroke="black"/>
+    <g id="16-cable-1-__tick-mark-0" transform="translate(22.6,155.0) translate(-8.0,-5.1)">
+      <g id="16-cable-1-__g-2">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.2">0</text>
+      </g>
+    </g>
+  </g>
+  <g id="16-cable-1-__g-1">
+    <line id="16-cable-1-__line-2" x1="30.6" y1="30.0" x2="36.6" y2="30.0" stroke-width="2" stroke="black"/>
+    <g id="16-cable-1-__tick-mark-1" transform="translate(22.6,30.0) translate(-16.0,-5.1)">
+      <g id="16-cable-1-__g-3">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.2">50</text>
+      </g>
+    </g>
+  </g>
+  <g id="16-cable-1-__label-0" transform="translate(37.6,9.0) translate(0.0,-0.0)">
+    <g id="16-cable-1-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+        <defs>
+          <path id="16-cable-1-MJX-2-NCM-I-1D466" d="M163 442C118 442 83 417 58 367C39 328 29 301 29 286C29 277 34 272 45 272C59 272 60 278 64 293C87 372 119 412 160 412C173 412 180 403 180 385C180 369 175 346 164 317C126 214 107 145 107 108C107 32 154-13 231-13C264-13 295-1 323 23C288-109 233-175 158-175C124-175 101-164 89-142C129-140 149-121 149-85C149-60 136-47 109-47C72-47 50-78 50-115C50-170 100-205 158-205C273-205 367-99 392-1L486 377C489 388 490 396 490 401C490 421 479 431 458 431C442 431 429 423 420 408C414 387 409 369 406 354L342 97C332 61 279 16 234 16C196 16 177 41 177 92C177 134 194 198 227 284C240 319 247 343 247 357C247 406 212 442 163 442Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:y" data-semantic-speech="y">
+              <use data-c="1D466" xlink:href="#16-cable-1-MJX-2-NCM-I-1D466"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

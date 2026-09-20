@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="12-tank-1-figure" width="210" height="210" viewBox="0 0 210 210">
+  <defs>
+    <clipPath id="12-tank-1-__clipPath-0">
+      <rect x="5.0" y="5.0" width="200.0" height="200.0"/>
+    </clipPath>
+    <clipPath id="12-tank-1-__clipPath-1">
+      <rect x="5.0" y="5.0" width="200.0" height="200.0"/>
+    </clipPath>
+  </defs>
+  <g id="12-tank-1-grid-axes">
+    <g id="12-tank-1-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="205.0" x2="5.0" y2="5.0"/>
+      <line x1="38.3" y1="205.0" x2="38.3" y2="5.0"/>
+      <line x1="71.7" y1="205.0" x2="71.7" y2="5.0"/>
+      <line x1="105.0" y1="205.0" x2="105.0" y2="5.0"/>
+      <line x1="138.3" y1="205.0" x2="138.3" y2="5.0"/>
+      <line x1="171.7" y1="205.0" x2="171.7" y2="5.0"/>
+      <line x1="205.0" y1="205.0" x2="205.0" y2="5.0"/>
+      <line x1="5.0" y1="205.0" x2="205.0" y2="205.0"/>
+      <line x1="5.0" y1="171.7" x2="205.0" y2="171.7"/>
+      <line x1="5.0" y1="138.3" x2="205.0" y2="138.3"/>
+      <line x1="5.0" y1="105.0" x2="205.0" y2="105.0"/>
+      <line x1="5.0" y1="71.7" x2="205.0" y2="71.7"/>
+      <line x1="5.0" y1="38.3" x2="205.0" y2="38.3"/>
+      <line x1="5.0" y1="5.0" x2="205.0" y2="5.0"/>
+    </g>
+    <g id="12-tank-1-axes" stroke="black" stroke-width="2">
+      <line id="12-tank-1-__line-14" x1="5.0" y1="171.7" x2="205.0" y2="171.7" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="12-tank-1-__line-15" x1="105.0" y1="174.7" x2="105.0" y2="168.7"/>
+        <line id="12-tank-1-__line-16" x1="171.7" y1="174.7" x2="171.7" y2="168.7"/>
+      </g>
+      <line id="12-tank-1-__line-17" x1="38.3" y1="205.0" x2="38.3" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="12-tank-1-__line-18" x1="35.3" y1="105.0" x2="41.3" y2="105.0"/>
+        <line id="12-tank-1-__line-19" x1="35.3" y1="38.3" x2="41.3" y2="38.3"/>
+      </g>
+    </g>
+    <g id="12-tank-1-__label-0" transform="translate(105.0,182.7) translate(-4.5,-0.0)">
+      <g id="12-tank-1-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="12-tank-1-MJX-2-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#12-tank-1-MJX-2-NCM-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="12-tank-1-__label-1" transform="translate(171.7,182.7) translate(-4.5,-0.0)">
+      <g id="12-tank-1-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="12-tank-1-MJX-3-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#12-tank-1-MJX-3-NCM-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="12-tank-1-__label-2" transform="translate(27.3,105.0) translate(-9.0,-6.0)">
+      <g id="12-tank-1-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="12-tank-1-MJX-4-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#12-tank-1-MJX-4-NCM-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="12-tank-1-__label-3" transform="translate(27.3,38.3) translate(-9.0,-6.1)">
+      <g id="12-tank-1-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="12-tank-1-MJX-5-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#12-tank-1-MJX-5-NCM-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="12-tank-1-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 5.0 163.3 L 7.0 164.3 L 9.0 165.2 L 11.0 166.1 L 13.0 166.9 L 15.0 167.6 L 17.0 168.3 L 19.0 168.9 L 21.0 169.4 L 23.0 169.9 L 25.0 170.3 L 27.0 170.7 L 29.0 171.0 L 31.0 171.3 L 33.0 171.5 L 35.0 171.6 L 37.0 171.7 L 39.0 171.7 L 41.0 171.6 L 43.0 171.5 L 45.0 171.3 L 47.0 171.1 L 49.0 170.8 L 51.0 170.5 L 53.0 170.1 L 55.0 169.6 L 57.0 169.1 L 59.0 168.5 L 61.0 167.8 L 63.0 167.1 L 65.0 166.3 L 67.0 165.5 L 69.0 164.6 L 71.0 163.7 L 73.0 162.7 L 75.0 161.6 L 77.0 160.5 L 79.0 159.3 L 81.0 158.0 L 83.0 156.7 L 85.0 155.3 L 87.0 153.9 L 89.0 152.4 L 91.0 150.9 L 93.0 149.3 L 95.0 147.6 L 97.0 145.9 L 99.0 144.1 L 101.0 142.2 L 103.0 140.3 L 105.0 138.3 L 107.0 136.3 L 109.0 134.2 L 111.0 132.1 L 113.0 129.9 L 115.0 127.6 L 117.0 125.3 L 119.0 122.9 L 121.0 120.4 L 123.0 117.9 L 125.0 115.3 L 127.0 112.7 L 129.0 110.0 L 131.0 107.3 L 133.0 104.5 L 135.0 101.6 L 137.0 98.7 L 139.0 95.7 L 141.0 92.6 L 143.0 89.5 L 145.0 86.3 L 147.0 83.1 L 149.0 79.8 L 151.0 76.5 L 153.0 73.1 L 155.0 69.6 L 157.0 66.1 L 159.0 62.5 L 161.0 58.8 L 163.0 55.1 L 165.0 51.3 L 167.0 47.5 L 169.0 43.6 L 171.0 39.7 L 173.0 35.7 L 175.0 31.6 L 177.0 27.5 L 179.0 23.3 L 181.0 19.0 L 183.0 14.7 L 185.0 10.3 L 187.0 5.9 L 189.0 1.4 L 191.0 -3.1 L 193.0 -7.7 L 195.0 -12.4 L 197.0 -17.1 L 199.0 -21.9 L 201.0 -26.8 L 203.0 -31.7 L 205.0 -36.7" clip-path="url(#12-tank-1-__clipPath-1)"/>
+</svg>

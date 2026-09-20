@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Lab 1, Due: Tuesday, September 22",
-  "body": " Lab 1, Due: Tuesday, September 22    Instructions: The exercises here should be completed in groups of 2 or 3 students. You only need to hand in one copy per group, but please include everyone's name.   Names:    Note: There are two aims for this lab. First, I want to introduce you to spreadsheets as a tool for understanding some ideas in calculus. At the beginning of the class, I will demonstrate for you some fundamental things: how to enter data in cells, how to refer to other cells and how to copy information from one cell to another. Second, I would like to review how definite integrals are constructed; namely, I would like for you to think of an integral as a fancy sum.     Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?       The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".    "
+  "body": " Lab 1, Due: Tuesday, September 22    Instructions: The exercises here should be completed in groups of 2 or 3 students. You only need to hand in one copy per group, but please include everyone's name.   Names:    Note: There are two aims for this lab. First, I want to introduce you to spreadsheets as a tool for understanding some ideas in calculus. At the beginning of the class, I will demonstrate for you some fundamental things: how to enter data in cells, how to refer to other cells and how to copy information from one cell to another. Second, I would like to review how definite integrals are constructed; namely, I would like for you to think of an integral as a fancy sum.     Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.     f(x)=x^3             Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?       The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".    "
 },
 {
   "id": "activities-8-2-1",
@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?    "
+  "body": "  Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.     f(x)=x^3             Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?    "
 },
 {
   "id": "activities-8-4",
@@ -376,7 +376,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Lab 1, Due: Monday, September 21",
-  "body": " Lab 1, Due: Monday, September 21    Instructions: The exercises here should be completed in groups of 2 or 3 students. You only need to hand in one copy per group, but please include everyone's name.   Names:    Note: There are two aims for this lab. First, I want to introduce you to spreadsheets as a tool for understanding some ideas in calculus. At the beginning of the class, I will demonstrate for you some fundamental things: how to enter data in cells, how to refer to other cells and how to copy information from one cell to another. Second, I would like to review how definite integrals are constructed; namely, I would like for you to think of an integral as a fancy sum.     Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?       The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".    "
+  "body": " Lab 1, Due: Monday, September 21    Instructions: The exercises here should be completed in groups of 2 or 3 students. You only need to hand in one copy per group, but please include everyone's name.   Names:    Note: There are two aims for this lab. First, I want to introduce you to spreadsheets as a tool for understanding some ideas in calculus. At the beginning of the class, I will demonstrate for you some fundamental things: how to enter data in cells, how to refer to other cells and how to copy information from one cell to another. Second, I would like to review how definite integrals are constructed; namely, I would like for you to think of an integral as a fancy sum.     Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.     f(x)=x^3             Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?       The definite integral cannot be evaluated using the Fundamental Theorem of Calculus because there is not an antiderivative that can be found in terms of familiar functions.  Using left and right Riemann sums, give an estimate of this definite integral with an error of no more than . Explain how you've done this with left and right Riemann sums. Do not evaluate the integral on your calculator to estimate the error.  Note: to evaluate an exponential in a spreadsheet, use \"= EXP( ... )\".    "
 },
 {
   "id": "activities-9-2-1",
@@ -394,7 +394,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.      f(x)=x^3              Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?    "
+  "body": "  Remember that if we have a function , we can define the definite integral by looking at either left sums or right sums . To form these, we choose some value for and define and the points . The left and right Riemann sums are The definite integral is then defined as      Let's now consider the function and the definite integral . First off, use the Fundamental Theorem of Calculus to evaluate this integral exactly.      Set up a Google sheet as shown below to evaluate the Riemann sums with . The first column is . The second column starts at and each subsequent entry is obtained by adding to the entry above. This generates the points . The third column is simply the function evaluated at . The fourth column will add the terms for the left sum, and the fifth column will add the terms for the right sum. To obtain the entry in one row, simply add the appropriate term to the entry directly above.  A convenient way to set this up is to enter 0.1 for in cell A2 , enter \"=A2\" in cell A3 and copy that entry into the rest of the column. That way, if you change in one place, it will change everywhere.                 0.1000  0.0000  0.0000      0.1000  0.1000  0.0010  0.0000  0.0001    0.1000  0.2000  0.0080  0.0001  0.0009    0.1000  0.3000  0.0270  0.0009  0.0036            What do you find for the Riemann sums, and ? Be sure that you have actually included exactly 10 terms in your approximations. State your results with 6 digits after the decimal place.          Now repeat this using . This corresponds to . If you set up your earlier worksheet well, you should only need to change the entry for in one location. What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Repeat using . What do you find for the Riemann sums? State your result with 6 digits after the decimal place.          Shown below is the graph of the function . Sketch in the rectangles you used in building the left Riemann sum with . Then use your figure to explain why the approximations and to the definite integral you found above are either too large or too small.     f(x)=x^3             Now fill in the following table:          Error    0.1      0.01      0.001       What do you notice about the error? Try to be quantitative rather than just qualitative; that is, when the width of the intervals decreases by a factor of one tenth, by roughly what factor does the error decrease?    "
 },
 {
   "id": "activities-9-4",
@@ -628,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Some review",
-  "body": " Some review    Find antiderivatives for the following functions.      .       .       .       .       Remember to find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.       Here's an antiderivative we'll need later in the course: . Neither substitution or integration by parts will work, but we can simplify the function we're antidifferentiating by finding constants and such that . To do this, start with the right side and find a common denominator and then set the numerators equal. Then find and and the resulting antiderivative.     , which means that . This has to be true for all so when , we have and when , we have . Therefore, .    "
+  "body": " Some review    Find antiderivatives for the following functions.      .       .       .       .       Remember that we find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.       Let's consider the function .     Find , , and .      Without drawing a graph of , determine whether is increasing or decreasing at .      Find the first critical point of to the right of .       Here's an antiderivative we'll need later in the course: . Neither substitution or integration by parts will work, but we can simplify the function we're antidifferentiating by finding constants and such that . To do this, start with the right side and find a common denominator and then set the numerators equal. Then find and and the resulting antiderivative.     , which means that . This has to be true for all so when , we have and when , we have . Therefore, .    "
 },
 {
   "id": "activities-13-2",
@@ -646,7 +646,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Remember to find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.    "
+  "body": "  Remember that we find the area of a region by slicing in some convenient way.     Find the area of the region between the graph , the line , and the line .      Find the area of the region between the curve and the lines , and .   The region between a cubic curve and three lines    f(x)=x^3-3*x  g(x)=4                 Suppose that the region in the previous question is spun about the line . Set an integral that finds the resulting volume.    "
 },
 {
   "id": "activities-13-4",
@@ -655,7 +655,295 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
+  "body": "  Let's consider the function .     Find , , and .      Without drawing a graph of , determine whether is increasing or decreasing at .      Find the first critical point of to the right of .    "
+},
+{
+  "id": "activities-13-5",
+  "level": "2",
+  "url": "activities-13.html#activities-13-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
   "body": "  Here's an antiderivative we'll need later in the course: . Neither substitution or integration by parts will work, but we can simplify the function we're antidifferentiating by finding constants and such that . To do this, start with the right side and find a common denominator and then set the numerators equal. Then find and and the resulting antiderivative.     , which means that . This has to be true for all so when , we have and when , we have . Therefore, .   "
+},
+{
+  "id": "activities-14",
+  "level": "1",
+  "url": "activities-14.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Working with mass",
+  "body": " Working with mass    Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?       Suppose that our beam has density where . What is the mass of the beam?      Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?       Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?     "
+},
+{
+  "id": "activities-14-2",
+  "level": "2",
+  "url": "activities-14.html#activities-14-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    "
+},
+{
+  "id": "activities-14-3",
+  "level": "2",
+  "url": "activities-14.html#activities-14-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that our beam has density where . What is the mass of the beam?   "
+},
+{
+  "id": "activities-14-4",
+  "level": "2",
+  "url": "activities-14.html#activities-14-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?    "
+},
+{
+  "id": "activities-14-5",
+  "level": "2",
+  "url": "activities-14.html#activities-14-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?    "
+},
+{
+  "id": "activities-15",
+  "level": "1",
+  "url": "activities-15.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Volume (again)",
+  "body": " Volume (again)    Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.      Find the volume if the region is spun about the -axis.      Now find the volume if it's spun about the line .      And finally, find the volume if the region is spun about .       Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .    "
+},
+{
+  "id": "activities-15-2",
+  "level": "2",
+  "url": "activities-15.html#activities-15-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.      Find the volume if the region is spun about the -axis.      Now find the volume if it's spun about the line .      And finally, find the volume if the region is spun about .    "
+},
+{
+  "id": "activities-15-3",
+  "level": "2",
+  "url": "activities-15.html#activities-15-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .   "
+},
+{
+  "id": "activities-16",
+  "level": "1",
+  "url": "activities-16.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Centers of Mass",
+  "body": " Centers of Mass    Suppose you have a beam whose length is sitting on the -axis so that . Suppose also that the density is constantly 1; that is, grams per centimeter.     Sketch the density function . Then find the mass and center of mass of the beam. Does your result make intuitive sense?      Find the mass and center of mass of a beam whose density is where . Sketch the density function and check that your result makes sense.      Find the mass and center of mass of a beam whose density is where . Sketch the density function and check that your result makes sense.       Let's now consider a 2-dimensional version of center of mass. Suppose a plate in the triangular shape shown below on the left is made out of a uniform material whose density is 2 grams per square centimeter. We would like to find the balancing point, which we call the center of mass, of the plate.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Let's find the center of mass in the following way: first, take a vertical slice as shown on the right above. What is the area of the slice taken at position if the width is ?      What is the mass of this slice if the density is 2 grams per square centimeter?      What is the total mass of the plate?      What is , the coordinate of the center of mass?      What is , the coordinate of the center of mass?       Suppose that a cone is formed by spinning the region bounded by the -axis, the line and the line about the -axis. The units on the axes are in centimeters. Suppose also that the material out of which the cone is made has a density of 3 grams per cubic centimeter.     Suppose you slice the cone horizontally to create a cylinder of height . What is the volume of this slice?      What is the mass of this slice?      What is the total mass of the cone?      What is the coordinate of the center of mass?      Suppose now that the cone is filled with water containing a dissolved substance so that the density is grams per cubic centimeter. Find the coordinate of the center of mass.     "
+},
+{
+  "id": "activities-16-2",
+  "level": "2",
+  "url": "activities-16.html#activities-16-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose you have a beam whose length is sitting on the -axis so that . Suppose also that the density is constantly 1; that is, grams per centimeter.     Sketch the density function . Then find the mass and center of mass of the beam. Does your result make intuitive sense?      Find the mass and center of mass of a beam whose density is where . Sketch the density function and check that your result makes sense.      Find the mass and center of mass of a beam whose density is where . Sketch the density function and check that your result makes sense.    "
+},
+{
+  "id": "activities-16-3",
+  "level": "2",
+  "url": "activities-16.html#activities-16-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let's now consider a 2-dimensional version of center of mass. Suppose a plate in the triangular shape shown below on the left is made out of a uniform material whose density is 2 grams per square centimeter. We would like to find the balancing point, which we call the center of mass, of the plate.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Let's find the center of mass in the following way: first, take a vertical slice as shown on the right above. What is the area of the slice taken at position if the width is ?      What is the mass of this slice if the density is 2 grams per square centimeter?      What is the total mass of the plate?      What is , the coordinate of the center of mass?      What is , the coordinate of the center of mass?    "
+},
+{
+  "id": "activities-16-4",
+  "level": "2",
+  "url": "activities-16.html#activities-16-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose that a cone is formed by spinning the region bounded by the -axis, the line and the line about the -axis. The units on the axes are in centimeters. Suppose also that the material out of which the cone is made has a density of 3 grams per cubic centimeter.     Suppose you slice the cone horizontally to create a cylinder of height . What is the volume of this slice?      What is the mass of this slice?      What is the total mass of the cone?      What is the coordinate of the center of mass?      Suppose now that the cone is filled with water containing a dissolved substance so that the density is grams per cubic centimeter. Find the coordinate of the center of mass.    "
+},
+{
+  "id": "activities-17",
+  "level": "1",
+  "url": "activities-17.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 2: Numerical Approximations",
+  "body": " Lab 2: Numerical Approximations   Due: Monday, October 5   Names:    Instructions: The exercises here should be completed in groups of 2 or 3 students with one write-up submitted from each group. Be sure to include everyone's name on the write-up.  Remember that there are some functions, like , for which we will never be able to find an antiderivative expressed in terms of familiar functions. If we want to evaluate a definite integral of such a function, we need to form a numerical approximation.  In our first lab, we studied Riemann sums and how they provide a means of approximating definite integrals. In this lab, we'll explore some techniques for making better approximations of definite integrals.     Evaluate the definite integral  exactly ; that is, do not give a decimal approximation to the integral. (You will need to remember one fact from trigonometry; ask if you don't remember.)      In this lab, we will explore three ways of approximating definite integrals. This is typically done when the integrand cannot practically be antidifferentiated. However, we will study the integral above; since we know the exact answer, we can determine how accurate our approximations are.  First, we'll use right endpoints to approximate the definite integral. This means that the height of the rectangles we use to approximate the definite integral are computed using the right endpoints of the smaller intervals as shown below ( here is 0.25 so that the rectangles appear clearly):   The rectangles in a right Riemann sum    f(x)=4\/(1+x^2)    dx=0.25          Set up a Google sheet, as you did in the last lab, to use right endpoints to approximate the integral using rectangles. The first part of your worksheet might look like this:              0.1 0.0  4.0000    0.1 0.1  3.9603 0.396039    0.1 0.2  3.8461 0.780654    0.1 0.3  3.6697 1.147627    0.1 0.4  3.4482 1.492455     Using right endpoints, find the approximations to the definite integral when ( ), ( ), and ( ). For each case, record the approximation and the error. (Note: if you set up your worksheet well, you should only have to change one entry to study the different cases.)        Approximation  Error    0.1      0.05      0.025             We will now study a new method, called the Midpoint Rule, in which we use the midpoints of the small intervals rather than the right endpoints. That is, the height of the rectangles are computed by looking at the middle of each interval as shown below:   The rectangles that appear in the midpoint rule    f(x)=4\/(1+x^2)    dx=0.25                      0.1000 0.0500  3.9900 0.399002    0.1000 0.1500  3.9120 0.790201    0.1000 0.2500  3.7647 1.166671    0.1000 0.3500  3.5635 1.523019     Use the Midpoint Rule with , , and to approximate the integral. For each value of , record your approximation and the error.        Approximation  Error    0.1      0.05      0.025             Finally, we will consider the Trapezoidal Rule. Now instead of just using rectangles, we will use trapezoids to approximate the integral as shown below:   The trapezoids that appear in the trapezoidal rule    f(x)=4\/(1+x^2)    dx=0.25           You may have seen this before, but it's helpful to remember that the area of the trapezoid shown below is    A single trapezoid    y0=2  y1=1.5     h    y_0    y_1        Now build a Google sheet to compute an approximation to the definite integral using trapezoids ( ). The fourth column should contain the cumulative sum of trapezoid areas. Your worksheet should begin something like this:           Area of trapezoids    0.1 0.0  4.000000    0.1 0.1  3.960396 0.398019    0.1 0.2  3.846153 0.788347    Now find the approximations and errors when , , and . Record your observations below.        Approximation  Error    0.1      0.05      0.025             Now summarize your results by building a table of the errors in the three methods.         Error in right endpoints  Error in Midpoint Rule  Error in Trapezoidal rule    0.1      0.05      0.025      Describe anything that you notice. In particular, consider what happens when you halve . By approximately what factor does the error decrease when you use right endpoints? when you use midpoints? when you use trapezoids? Which method or methods are better for approximating definite integrals? Explain your findings by considering how the approximations are constructed geometrically.    "
+},
+{
+  "id": "activities-17-2-1",
+  "level": "2",
+  "url": "activities-17.html#activities-17-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Due: Monday, October 5 "
+},
+{
+  "id": "activities-17-2-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "activities-17-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Evaluate the definite integral  exactly ; that is, do not give a decimal approximation to the integral. (You will need to remember one fact from trigonometry; ask if you don't remember.)   "
+},
+{
+  "id": "activities-17-4",
+  "level": "2",
+  "url": "activities-17.html#activities-17-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  In this lab, we will explore three ways of approximating definite integrals. This is typically done when the integrand cannot practically be antidifferentiated. However, we will study the integral above; since we know the exact answer, we can determine how accurate our approximations are.  First, we'll use right endpoints to approximate the definite integral. This means that the height of the rectangles we use to approximate the definite integral are computed using the right endpoints of the smaller intervals as shown below ( here is 0.25 so that the rectangles appear clearly):   The rectangles in a right Riemann sum    f(x)=4\/(1+x^2)    dx=0.25          Set up a Google sheet, as you did in the last lab, to use right endpoints to approximate the integral using rectangles. The first part of your worksheet might look like this:              0.1 0.0  4.0000    0.1 0.1  3.9603 0.396039    0.1 0.2  3.8461 0.780654    0.1 0.3  3.6697 1.147627    0.1 0.4  3.4482 1.492455     Using right endpoints, find the approximations to the definite integral when ( ), ( ), and ( ). For each case, record the approximation and the error. (Note: if you set up your worksheet well, you should only have to change one entry to study the different cases.)        Approximation  Error    0.1      0.05      0.025          "
+},
+{
+  "id": "activities-17-5",
+  "level": "2",
+  "url": "activities-17.html#activities-17-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  We will now study a new method, called the Midpoint Rule, in which we use the midpoints of the small intervals rather than the right endpoints. That is, the height of the rectangles are computed by looking at the middle of each interval as shown below:   The rectangles that appear in the midpoint rule    f(x)=4\/(1+x^2)    dx=0.25                      0.1000 0.0500  3.9900 0.399002    0.1000 0.1500  3.9120 0.790201    0.1000 0.2500  3.7647 1.166671    0.1000 0.3500  3.5635 1.523019     Use the Midpoint Rule with , , and to approximate the integral. For each value of , record your approximation and the error.        Approximation  Error    0.1      0.05      0.025          "
+},
+{
+  "id": "activities-17-6",
+  "level": "2",
+  "url": "activities-17.html#activities-17-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Finally, we will consider the Trapezoidal Rule. Now instead of just using rectangles, we will use trapezoids to approximate the integral as shown below:   The trapezoids that appear in the trapezoidal rule    f(x)=4\/(1+x^2)    dx=0.25           You may have seen this before, but it's helpful to remember that the area of the trapezoid shown below is    A single trapezoid    y0=2  y1=1.5     h    y_0    y_1        Now build a Google sheet to compute an approximation to the definite integral using trapezoids ( ). The fourth column should contain the cumulative sum of trapezoid areas. Your worksheet should begin something like this:           Area of trapezoids    0.1 0.0  4.000000    0.1 0.1  3.960396 0.398019    0.1 0.2  3.846153 0.788347    Now find the approximations and errors when , , and . Record your observations below.        Approximation  Error    0.1      0.05      0.025          "
+},
+{
+  "id": "activities-17-7",
+  "level": "2",
+  "url": "activities-17.html#activities-17-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Now summarize your results by building a table of the errors in the three methods.         Error in right endpoints  Error in Midpoint Rule  Error in Trapezoidal rule    0.1      0.05      0.025      Describe anything that you notice. In particular, consider what happens when you halve . By approximately what factor does the error decrease when you use right endpoints? when you use midpoints? when you use trapezoids? Which method or methods are better for approximating definite integrals? Explain your findings by considering how the approximations are constructed geometrically.   "
+},
+{
+  "id": "activities-18",
+  "level": "1",
+  "url": "activities-18.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Computing work",
+  "body": " Computing work    Imagine that a cable, 50 meters long and having mass 150 kilograms, is hanging from the top of a building. We will compute the amount of work needed to lift the entire cable to the top of the building.     Assuming that the cable is uniform, how much mass is in every meter of the cable? That is, what is the density of the cable in kilograms per meter?      Let's set up a coordinate system: will measure the vertical distance upwards from the bottom of the cable.        0  50  y      Imagine that we take a super thin slice of width at location . Sketch the slice above and use the density to determine the mass of this slice.      Imagine that the segment is very thin. How far does this segment need to be lifted when ? ? ? for a general value of ?      How much work is performed in lifting just this segment to the top of the building?      Now that you know the amount of work required to lift each segment to the top of the building, determine the total work required to raise the entire cable to the top of the building.       Here is a similar problem. Consider a cone whose height and base radius are each 2 meters. You may imagine creating this cone by taking the line between and spinning it about the -axis. Now imagine that this cone is filled with water and we want to know how much work is required to pump the water up to the top of the cone.     Imagine we take a thin horizontal cylindrical slice of the cone at position and of height . What is the volume of this slice?      The density of water is kg\/m . What is the mass of this slice?      How far does this slice need to be lifted to raise it to the top of the cone?      How much work is required to raise this slice to the top of the cone?      How much work is required to pump all the water out of the cone?       Suppose now that we have a spherical water tank of radius 3 meters. You may imagine forming this tank by spinning the right half of a circle about the -axis. Suppose that the tank is filled with water to a depth of one meter and that the density of the water is kilograms per cubic meter.      f(t)=1.25*(cos(t),sin(t))           Find the volume of water in the tank.      Find the center of mass of water in the tank.      Find the amount of work required to pump all of the water to the top of the tank.     "
+},
+{
+  "id": "activities-18-2",
+  "level": "2",
+  "url": "activities-18.html#activities-18-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Imagine that a cable, 50 meters long and having mass 150 kilograms, is hanging from the top of a building. We will compute the amount of work needed to lift the entire cable to the top of the building.     Assuming that the cable is uniform, how much mass is in every meter of the cable? That is, what is the density of the cable in kilograms per meter?      Let's set up a coordinate system: will measure the vertical distance upwards from the bottom of the cable.        0  50  y      Imagine that we take a super thin slice of width at location . Sketch the slice above and use the density to determine the mass of this slice.      Imagine that the segment is very thin. How far does this segment need to be lifted when ? ? ? for a general value of ?      How much work is performed in lifting just this segment to the top of the building?      Now that you know the amount of work required to lift each segment to the top of the building, determine the total work required to raise the entire cable to the top of the building.    "
+},
+{
+  "id": "activities-18-3",
+  "level": "2",
+  "url": "activities-18.html#activities-18-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Here is a similar problem. Consider a cone whose height and base radius are each 2 meters. You may imagine creating this cone by taking the line between and spinning it about the -axis. Now imagine that this cone is filled with water and we want to know how much work is required to pump the water up to the top of the cone.     Imagine we take a thin horizontal cylindrical slice of the cone at position and of height . What is the volume of this slice?      The density of water is kg\/m . What is the mass of this slice?      How far does this slice need to be lifted to raise it to the top of the cone?      How much work is required to raise this slice to the top of the cone?      How much work is required to pump all the water out of the cone?    "
+},
+{
+  "id": "activities-18-4",
+  "level": "2",
+  "url": "activities-18.html#activities-18-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose now that we have a spherical water tank of radius 3 meters. You may imagine forming this tank by spinning the right half of a circle about the -axis. Suppose that the tank is filled with water to a depth of one meter and that the density of the water is kilograms per cubic meter.      f(t)=1.25*(cos(t),sin(t))           Find the volume of water in the tank.      Find the center of mass of water in the tank.      Find the amount of work required to pump all of the water to the top of the tank.    "
+},
+{
+  "id": "activities-19",
+  "level": "1",
+  "url": "activities-19.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Review",
+  "body": " Review    Suppose that a water tank is formed by rotating the portion of the graph between about the -axis. The units on the axes are meters.      f(t)=t^2            Find the total volume of the tank.      Suppose that the tank is filled to a depth of 3 meters with water whose density is 1000 kg\/m . Find the mass of the water in the tank.      Find the center of mass of the water.      How much work is required to pump all the water to a height of one meter above the top of the tank?      Suppose the pump breaks down after 300,000 Joules of work has been done. What is the height of water left in the tank?      Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.    "
+},
+{
+  "id": "activities-19-3",
+  "level": "2",
+  "url": "activities-19.html#activities-19-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the total volume of the tank.   "
+},
+{
+  "id": "activities-19-4",
+  "level": "2",
+  "url": "activities-19.html#activities-19-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that the tank is filled to a depth of 3 meters with water whose density is 1000 kg\/m . Find the mass of the water in the tank.   "
+},
+{
+  "id": "activities-19-5",
+  "level": "2",
+  "url": "activities-19.html#activities-19-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the center of mass of the water.   "
+},
+{
+  "id": "activities-19-6",
+  "level": "2",
+  "url": "activities-19.html#activities-19-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  How much work is required to pump all the water to a height of one meter above the top of the tank?   "
+},
+{
+  "id": "activities-19-7",
+  "level": "2",
+  "url": "activities-19.html#activities-19-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Suppose the pump breaks down after 300,000 Joules of work has been done. What is the height of water left in the tank?   "
+},
+{
+  "id": "activities-19-8",
+  "level": "2",
+  "url": "activities-19.html#activities-19-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.   "
 }
 ]
 

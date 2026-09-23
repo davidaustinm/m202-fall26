@@ -673,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Working with mass",
-  "body": " Working with mass    Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?       Suppose that our beam has density where . What is the mass of the beam?      Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?       Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?     "
+  "body": " Working with mass    Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x         Mass equals density times length so grams.      Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx         The mass of a slice is .      Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    Add the mass of each slice to obtain .       Suppose that our beam has density where . What is the mass of the beam?     .      Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?     so that .      What is the total mass of the plate?     .       Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.    We have so that the radius of a slice is . Therefore, the cross sectional area is and the volume is . The volume is .      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?    Now the mass of a slice is .      What is the total mass of the liquid in the bowl?     .      What is the average density of the liquid?    The average density is the mass divided by the volume of       Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?    We'll set up an equation for the height : so that .      What is the mass of the remaining liquid?     .     "
 },
 {
   "id": "activities-14-2",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    "
+  "body": "  Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x         Mass equals density times length so grams.      Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx         The mass of a slice is .      Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    Add the mass of each slice to obtain .    "
 },
 {
   "id": "activities-14-3",
@@ -691,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Suppose that our beam has density where . What is the mass of the beam?   "
+  "body": "  Suppose that our beam has density where . What is the mass of the beam?     .   "
 },
 {
   "id": "activities-14-4",
@@ -700,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?    "
+  "body": "  Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?     so that .      What is the total mass of the plate?     .    "
 },
 {
   "id": "activities-14-5",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?    "
+  "body": "  Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.    We have so that the radius of a slice is . Therefore, the cross sectional area is and the volume is . The volume is .      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?    Now the mass of a slice is .      What is the total mass of the liquid in the bowl?     .      What is the average density of the liquid?    The average density is the mass divided by the volume of       Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?    We'll set up an equation for the height : so that .      What is the mass of the remaining liquid?     .    "
 },
 {
   "id": "activities-15",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Volume (again)",
-  "body": " Volume (again)    Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.      Find the volume if the region is spun about the -axis.      Now find the volume if it's spun about the line .      And finally, find the volume if the region is spun about .       Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .    "
+  "body": " Volume (again)    Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.    A cross section looks like a circle of radius 1 with a circle of radius removed. Therefore, and so that the volume is .      Find the volume if the region is spun about the -axis.    Now the cross sections are circles whose radius is so that and .      Now find the volume if it's spun about the line .    Cross sections are circles of radius with a circle of radius removed so that and .      And finally, find the volume if the region is spun about .    Cross sections are circles of radius with a circle of radius removed. Therefore and .       Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .     so that .    "
 },
 {
   "id": "activities-15-2",
@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.      Find the volume if the region is spun about the -axis.      Now find the volume if it's spun about the line .      And finally, find the volume if the region is spun about .    "
+  "body": "  Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.    A cross section looks like a circle of radius 1 with a circle of radius removed. Therefore, and so that the volume is .      Find the volume if the region is spun about the -axis.    Now the cross sections are circles whose radius is so that and .      Now find the volume if it's spun about the line .    Cross sections are circles of radius with a circle of radius removed so that and .      And finally, find the volume if the region is spun about .    Cross sections are circles of radius with a circle of radius removed. Therefore and .    "
 },
 {
   "id": "activities-15-3",
@@ -736,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .   "
+  "body": "  Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .     so that .   "
 },
 {
   "id": "activities-16",

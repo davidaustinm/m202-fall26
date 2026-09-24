@@ -46,6 +46,15 @@ var ptx_lunr_docs = [
   "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use substitution to find antiderivatives.  I can use integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can use definite integrals to find the volume of a solid of revolution and the mass given its density.   I can apply an appropriate technique to approximate a definite integral.  I can use definite integrals to represent key quantities in applications such as work, finance, and probability.  I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can express real world situations as differential equations, determine any stable or unstable equilibrium solutions, and explain the significance of the equilibrium solutions in context.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
 },
 {
+  "id": "course-documents-7",
+  "level": "1",
+  "url": "course-documents-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Preparing for Exam 1",
+  "body": " Preparing for Exam 1  Our first exam is Wednesday, October 7 during our usual class meeting time. We will take some time on Monday, October 5 to review a bit, but it would be a good idea to start earlier.   Topics  The exam will cover everything that we've done in the course up to this point. One of the best things to do is to work through the in-class activities and make sure that you feel comfortable with everything. Solutions to all of those activities are available on Blackboard, but you can also print new copies using the printer icon and work through them again.   Remember: The most important thing is for you to focus on concepts. It's also great to find an answer, but be sure that you understand all the steps that you've taken to get there and how they fit together. If you have this kind of understanding, you should be able to deal with situations that may be slightly new.  Here is a list of topics that we have studied.   This is something from Calculus I, but it's important to remember how to evaluate a definite integral. In particular, if is an antiderivative of .    Antiderivatives:   We have seen how to use an integral to define an antiderivative of a function. We called this the Second Fundamental Theorem of Calculus. That is, if , then , which means that is an antiderivative of .    We have also seen three techniques for symbolically finding antiderivatives:  Table of antiderivatives  Substitution  Integration by parts         We have also seen some ways of approximating definite integrals:   Left and right Riemann sums    The midpoint rule    The trapezoidal rule       Slice-compute-add: This is our main principle for looking at applications. Integrals show up in many, many places and in many, many disciplines so it's important to be familiar with how to set up integrals using this principle. We have applied this to the following   Area    Volume    Mass    Centers of mass    Work          Time  Just a reminder: I realize that in-class exams can be stressful because of the time constraints. I take this seriously and will design the exam so that you can easily complete it in our class meeting (one hour, fifty minutes). Your job is to make sure you are prepared.   "
+},
+{
   "id": "activities-2",
   "level": "1",
   "url": "activities-2.html",
@@ -944,6 +953,96 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.    We now have so that . Also so that .   "
+},
+{
+  "id": "activities-20",
+  "level": "1",
+  "url": "activities-20.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Numerical Techniques",
+  "body": " Numerical Techniques    A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .           Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.    Because the velocity is decreasing, right endpoints will be an underestimate as will the trapezoidal rule. It's unclear whether the midpoint rule is an over- or underestimate.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?    We'll use the midpoint rule to estimate the distance traveled. Then feet per second.       The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.     cubic feet.      Estimate the amount of water released using the trapezoidal rule.     cubic feet.      Estimate the average flow rate.    We will again use the midpoint rule to estimate cubic feet per second.       Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.    We first have to estimate the area so let's use the trapezoidal rule: square feet. So the amount of fertilizer is pounds.      Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48      We have so that the midpoint rule gives cubic meters.    "
+},
+{
+  "id": "activities-20-2",
+  "level": "2",
+  "url": "activities-20.html#activities-20-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .           Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.    Because the velocity is decreasing, right endpoints will be an underestimate as will the trapezoidal rule. It's unclear whether the midpoint rule is an over- or underestimate.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?    We'll use the midpoint rule to estimate the distance traveled. Then feet per second.    "
+},
+{
+  "id": "activities-20-3",
+  "level": "2",
+  "url": "activities-20.html#activities-20-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.     cubic feet.      Estimate the amount of water released using the trapezoidal rule.     cubic feet.      Estimate the average flow rate.    We will again use the midpoint rule to estimate cubic feet per second.    "
+},
+{
+  "id": "activities-20-4",
+  "level": "2",
+  "url": "activities-20.html#activities-20-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.    We first have to estimate the area so let's use the trapezoidal rule: square feet. So the amount of fertilizer is pounds.   "
+},
+{
+  "id": "activities-20-5",
+  "level": "2",
+  "url": "activities-20.html#activities-20-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48      We have so that the midpoint rule gives cubic meters.   "
+},
+{
+  "id": "activities-21",
+  "level": "1",
+  "url": "activities-21.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Exam review",
+  "body": " Exam review    Suppose that we define a function .     Find . Is increasing or decreasing at ?    Since , we have so is increasing.      Find . Is concave up or down at ?    Since , it follows that so that so the graph of is concave down.      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.     at .      Determine the value of at the first critical point that you found.    Using Desmos, .       Find antiderivatives of the following functions.          Let's try the substitution so that . Then .           With the same substitution , .           This isn't on the table of antiderivatives, and a substitution isn't going to help. Let's try integration by parts where we differentiate : so that .                              Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x                      Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.          If the tank is filled with a fluid whose density is given by , find the mass of fluid.          Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.          If you siphon off half of the volume, how deep is the fluid remaining?         "
+},
+{
+  "id": "activities-21-2",
+  "level": "2",
+  "url": "activities-21.html#activities-21-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that we define a function .     Find . Is increasing or decreasing at ?    Since , we have so is increasing.      Find . Is concave up or down at ?    Since , it follows that so that so the graph of is concave down.      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.     at .      Determine the value of at the first critical point that you found.    Using Desmos, .    "
+},
+{
+  "id": "activities-21-3",
+  "level": "2",
+  "url": "activities-21.html#activities-21-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find antiderivatives of the following functions.          Let's try the substitution so that . Then .           With the same substitution , .           This isn't on the table of antiderivatives, and a substitution isn't going to help. Let's try integration by parts where we differentiate : so that .                          "
+},
+{
+  "id": "activities-21-4",
+  "level": "2",
+  "url": "activities-21.html#activities-21-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "   Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x                   "
+},
+{
+  "id": "activities-21-5",
+  "level": "2",
+  "url": "activities-21.html#activities-21-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.          If the tank is filled with a fluid whose density is given by , find the mass of fluid.          Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.          If you siphon off half of the volume, how deep is the fluid remaining?        "
 }
 ]
 

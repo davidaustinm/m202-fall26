@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Working with mass",
-  "body": " Working with mass    Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?       Suppose that our beam has density where . What is the mass of the beam?      Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?       Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?     "
+  "body": " Working with mass    Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x         Mass equals density times length so grams.      Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx         The mass of a slice is .      Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    Add the mass of each slice to obtain .       Suppose that our beam has density where . What is the mass of the beam?     .      Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?     so that .      What is the total mass of the plate?     .       Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.    We have so that the radius of a slice is . Therefore, the cross sectional area is and the volume is . The volume is .      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?    Now the mass of a slice is .      What is the total mass of the liquid in the bowl?     .      What is the average density of the liquid?    The average density is the mass divided by the volume of       Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?    We'll set up an equation for the height : so that .      What is the mass of the remaining liquid?     .     "
 },
 {
   "id": "activities-14-2",
@@ -691,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x           Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx           Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    "
+  "body": "  Suppose that we have a thin beam laid out horizontally on the -axis, like the one shown below, and that the density is constantly grams per centimeter and that the beam is 10 centimeters long.     What is the mass of the beam? What is the general recipe for finding the mass if you know the length and the density?   A long thin bar    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))             x         Mass equals density times length so grams.      Suppose now that the beam is composed of a material whose density varies from left to right. This means that the density depends on , and we have where the beam is between . If we take a slice of the beam at position and width , as shown below, what is the amount of mass in the slice?   A long thin bar with a cross sectional slice    w=10  h=0.8  side=0.5  f(t)=(side*cos(t), h*sin(t))  s=6  d=0.4                          x    dx         The mass of a slice is .      Now that we know the mass of each slice, how may we find the total mass? What is the total mass of this beam?    Add the mass of each slice to obtain .    "
 },
 {
   "id": "activities-14-3",
@@ -700,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Suppose that our beam has density where . What is the mass of the beam?   "
+  "body": "  Suppose that our beam has density where . What is the mass of the beam?     .   "
 },
 {
   "id": "activities-14-4",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?      What is the total mass of the plate?    "
+  "body": "  Let's now look at a two-dimensional example and suppose that we have manufactured a triangular plate shown below on the left. The density of the material varies from left to right as grams per square centimeter.    A triangular plate            A triangular plate with a vertical slice     a=0.6             Suppose we take a vertical slice of width as shown on the right. What is the area of this slice? What is its mass?     so that .      What is the total mass of the plate?     .    "
 },
 {
   "id": "activities-14-5",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?      What is the total mass of the liquid in the bowl?      What is the average density of the liquid?      Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?      What is the mass of the remaining liquid?    "
+  "body": "  Suppose we make a bowl by spinning the portion of the graph of the function , where about the -axis.   The graph of y equals x squared over 4    f(x)=x^2\/4            Find the volume of a horizontal slice of thickness and use this to find the total volume of the bowl.    We have so that the radius of a slice is . Therefore, the cross sectional area is and the volume is . The volume is .      Suppose that we fill the bowl with a liquid and that some sediments in the liquid settle out over time so that the density is given by grams per unit volume. Since you know , the volume of a horizontal slice, what is the mass of a horizontal slice of the liquid?    Now the mass of a slice is .      What is the total mass of the liquid in the bowl?     .      What is the average density of the liquid?    The average density is the mass divided by the volume of       Now suppose that we scoop off the top of the liquid removing half of its volume. What is the depth of the liquid now?    We'll set up an equation for the height : so that .      What is the mass of the remaining liquid?     .    "
 },
 {
   "id": "activities-15",
@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Volume (again)",
-  "body": " Volume (again)    Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.      Find the volume if the region is spun about the -axis.      Now find the volume if it's spun about the line .      And finally, find the volume if the region is spun about .       Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .    "
+  "body": " Volume (again)    Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.    A cross section looks like a circle of radius 1 with a circle of radius removed. Therefore, and so that the volume is .      Find the volume if the region is spun about the -axis.    Now the cross sections are circles whose radius is so that and .      Now find the volume if it's spun about the line .    Cross sections are circles of radius with a circle of radius removed so that and .      And finally, find the volume if the region is spun about .    Cross sections are circles of radius with a circle of radius removed. Therefore and .       Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .     so that .    "
 },
 {
   "id": "activities-15-2",
@@ -736,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.      Find the volume if the region is spun about the -axis.      Now find the volume if it's spun about the line .      And finally, find the volume if the region is spun about .    "
+  "body": "  Consider the region in the plane that is bounded by and the lines and .     f(x)=x^2  g(x)=1            Find the resulting volume when this region is spun about the -axis.    A cross section looks like a circle of radius 1 with a circle of radius removed. Therefore, and so that the volume is .      Find the volume if the region is spun about the -axis.    Now the cross sections are circles whose radius is so that and .      Now find the volume if it's spun about the line .    Cross sections are circles of radius with a circle of radius removed so that and .      And finally, find the volume if the region is spun about .    Cross sections are circles of radius with a circle of radius removed. Therefore and .    "
 },
 {
   "id": "activities-15-3",
@@ -745,7 +745,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .   "
+  "body": "  Suppose that the area bounded by the horizontal line , the graph , and the vertical line has area 9\/4. Find the value of .     so that .   "
 },
 {
   "id": "activities-16",
@@ -953,6 +953,96 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.   "
+},
+{
+  "id": "activities-20",
+  "level": "1",
+  "url": "activities-20.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Numerical Techniques",
+  "body": " Numerical Techniques    A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .      Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?       The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.      Estimate the amount of water released using the trapezoidal rule.      Estimate the average flow rate.       Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.      Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48      "
+},
+{
+  "id": "activities-20-2",
+  "level": "2",
+  "url": "activities-20.html#activities-20-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .      Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?    "
+},
+{
+  "id": "activities-20-3",
+  "level": "2",
+  "url": "activities-20.html#activities-20-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.      Estimate the amount of water released using the trapezoidal rule.      Estimate the average flow rate.    "
+},
+{
+  "id": "activities-20-4",
+  "level": "2",
+  "url": "activities-20.html#activities-20-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.   "
+},
+{
+  "id": "activities-20-5",
+  "level": "2",
+  "url": "activities-20.html#activities-20-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48     "
+},
+{
+  "id": "activities-21",
+  "level": "1",
+  "url": "activities-21.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Exam review",
+  "body": " Exam review    Suppose that we define a function .     Find . Is increasing or decreasing at ?      Find . Is concave up or down at ?      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.      Determine the value of at the first critical point that you found.       Find antiderivatives of the following functions.                                          Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x                  Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.      If the tank is filled with a fluid whose density is given by , find the mass of fluid.      Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.      If you siphon off half of the volume, how deep is the fluid remaining?     "
+},
+{
+  "id": "activities-21-2",
+  "level": "2",
+  "url": "activities-21.html#activities-21-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that we define a function .     Find . Is increasing or decreasing at ?      Find . Is concave up or down at ?      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.      Determine the value of at the first critical point that you found.    "
+},
+{
+  "id": "activities-21-3",
+  "level": "2",
+  "url": "activities-21.html#activities-21-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find antiderivatives of the following functions.                                      "
+},
+{
+  "id": "activities-21-4",
+  "level": "2",
+  "url": "activities-21.html#activities-21-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "   Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x               "
+},
+{
+  "id": "activities-21-5",
+  "level": "2",
+  "url": "activities-21.html#activities-21-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.      If the tank is filled with a fluid whose density is given by , find the mass of fluid.      Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.      If you siphon off half of the volume, how deep is the fluid remaining?    "
 }
 ]
 

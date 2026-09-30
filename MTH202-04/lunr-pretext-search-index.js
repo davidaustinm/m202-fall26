@@ -862,7 +862,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Computing work",
-  "body": " Computing work    Imagine that a cable, 50 meters long and having mass 150 kilograms, is hanging from the top of a building. We will compute the amount of work needed to lift the entire cable to the top of the building.     Assuming that the cable is uniform, how much mass is in every meter of the cable? That is, what is the density of the cable in kilograms per meter?      Let's set up a coordinate system: will measure the vertical distance upwards from the bottom of the cable.        0  50  y      Imagine that we take a super thin slice of width at location . Sketch the slice above and use the density to determine the mass of this slice.      Imagine that the segment is very thin. How far does this segment need to be lifted when ? ? ? for a general value of ?      How much work is performed in lifting just this segment to the top of the building?      Now that you know the amount of work required to lift each segment to the top of the building, determine the total work required to raise the entire cable to the top of the building.       Here is a similar problem. Consider a cone whose height and base radius are each 2 meters. You may imagine creating this cone by taking the line between and spinning it about the -axis. Now imagine that this cone is filled with water and we want to know how much work is required to pump the water up to the top of the cone.     Imagine we take a thin horizontal cylindrical slice of the cone at position and of height . What is the volume of this slice?      The density of water is kg\/m . What is the mass of this slice?      How far does this slice need to be lifted to raise it to the top of the cone?      How much work is required to raise this slice to the top of the cone?      How much work is required to pump all the water out of the cone?       Suppose now that we have a spherical water tank of radius 3 meters. You may imagine forming this tank by spinning the right half of a circle about the -axis. Suppose that the tank is filled with water to a depth of one meter and that the density of the water is kilograms per cubic meter.      f(t)=1.25*(cos(t),sin(t))           Find the volume of water in the tank.      Find the center of mass of water in the tank.      Find the amount of work required to pump all of the water to the top of the tank.     "
+  "body": " Computing work    Imagine that a cable, 50 meters long and having mass 150 kilograms, is hanging from the top of a building. We will compute the amount of work needed to lift the entire cable to the top of the building.     Assuming that the cable is uniform, how much mass is in every meter of the cable? That is, what is the density of the cable in kilograms per meter?    Density is mass divided by length so kilograms per meter.      Let's set up a coordinate system: will measure the vertical distance upwards from the bottom of the cable.        0  50  y      Imagine that we take a super thin slice of width at location . Sketch the slice above and use the density to determine the mass of this slice.    Mass equals density times length so .      Imagine that the segment is very thin. How far does this segment need to be lifted when ? ? ? for a general value of ?    If , the slice needs to be raised by 40 meters. In general, the distance is .      How much work is performed in lifting just this segment to the top of the building?           Now that you know the amount of work required to lift each segment to the top of the building, determine the total work required to raise the entire cable to the top of the building.     .       Here is a similar problem. Consider a cone whose height and base radius are each 2 meters. You may imagine creating this cone by taking the line between and spinning it about the -axis. Now imagine that this cone is filled with water and we want to know how much work is required to pump the water up to the top of the cone.     Imagine we take a thin horizontal cylindrical slice of the cone at position and of height . What is the volume of this slice?    The cross sectional radius of the cone is so .      The density of water is kg\/m . What is the mass of this slice?           How far does this slice need to be lifted to raise it to the top of the cone?    The distance is .      How much work is required to raise this slice to the top of the cone?           How much work is required to pump all the water out of the cone?     .       Suppose now that we have a spherical water tank of radius 3 meters. You may imagine forming this tank by spinning the right half of a circle about the -axis. Suppose that the tank is filled with water to a depth of one meter and that the density of the water is kilograms per cubic meter.      f(t)=1.25*(cos(t),sin(t))           Find the volume of water in the tank.    In the given coordinate system, we have so . Then .      Find the center of mass of water in the tank.    First we need to find the mass where . Then . Then so that .      Find the amount of work required to pump all of the water to the top of the tank.     so .     "
 },
 {
   "id": "activities-18-2",
@@ -871,7 +871,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Imagine that a cable, 50 meters long and having mass 150 kilograms, is hanging from the top of a building. We will compute the amount of work needed to lift the entire cable to the top of the building.     Assuming that the cable is uniform, how much mass is in every meter of the cable? That is, what is the density of the cable in kilograms per meter?      Let's set up a coordinate system: will measure the vertical distance upwards from the bottom of the cable.        0  50  y      Imagine that we take a super thin slice of width at location . Sketch the slice above and use the density to determine the mass of this slice.      Imagine that the segment is very thin. How far does this segment need to be lifted when ? ? ? for a general value of ?      How much work is performed in lifting just this segment to the top of the building?      Now that you know the amount of work required to lift each segment to the top of the building, determine the total work required to raise the entire cable to the top of the building.    "
+  "body": "  Imagine that a cable, 50 meters long and having mass 150 kilograms, is hanging from the top of a building. We will compute the amount of work needed to lift the entire cable to the top of the building.     Assuming that the cable is uniform, how much mass is in every meter of the cable? That is, what is the density of the cable in kilograms per meter?    Density is mass divided by length so kilograms per meter.      Let's set up a coordinate system: will measure the vertical distance upwards from the bottom of the cable.        0  50  y      Imagine that we take a super thin slice of width at location . Sketch the slice above and use the density to determine the mass of this slice.    Mass equals density times length so .      Imagine that the segment is very thin. How far does this segment need to be lifted when ? ? ? for a general value of ?    If , the slice needs to be raised by 40 meters. In general, the distance is .      How much work is performed in lifting just this segment to the top of the building?           Now that you know the amount of work required to lift each segment to the top of the building, determine the total work required to raise the entire cable to the top of the building.     .    "
 },
 {
   "id": "activities-18-3",
@@ -880,7 +880,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Here is a similar problem. Consider a cone whose height and base radius are each 2 meters. You may imagine creating this cone by taking the line between and spinning it about the -axis. Now imagine that this cone is filled with water and we want to know how much work is required to pump the water up to the top of the cone.     Imagine we take a thin horizontal cylindrical slice of the cone at position and of height . What is the volume of this slice?      The density of water is kg\/m . What is the mass of this slice?      How far does this slice need to be lifted to raise it to the top of the cone?      How much work is required to raise this slice to the top of the cone?      How much work is required to pump all the water out of the cone?    "
+  "body": "  Here is a similar problem. Consider a cone whose height and base radius are each 2 meters. You may imagine creating this cone by taking the line between and spinning it about the -axis. Now imagine that this cone is filled with water and we want to know how much work is required to pump the water up to the top of the cone.     Imagine we take a thin horizontal cylindrical slice of the cone at position and of height . What is the volume of this slice?    The cross sectional radius of the cone is so .      The density of water is kg\/m . What is the mass of this slice?           How far does this slice need to be lifted to raise it to the top of the cone?    The distance is .      How much work is required to raise this slice to the top of the cone?           How much work is required to pump all the water out of the cone?     .    "
 },
 {
   "id": "activities-18-4",
@@ -889,7 +889,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Suppose now that we have a spherical water tank of radius 3 meters. You may imagine forming this tank by spinning the right half of a circle about the -axis. Suppose that the tank is filled with water to a depth of one meter and that the density of the water is kilograms per cubic meter.      f(t)=1.25*(cos(t),sin(t))           Find the volume of water in the tank.      Find the center of mass of water in the tank.      Find the amount of work required to pump all of the water to the top of the tank.    "
+  "body": "  Suppose now that we have a spherical water tank of radius 3 meters. You may imagine forming this tank by spinning the right half of a circle about the -axis. Suppose that the tank is filled with water to a depth of one meter and that the density of the water is kilograms per cubic meter.      f(t)=1.25*(cos(t),sin(t))           Find the volume of water in the tank.    In the given coordinate system, we have so . Then .      Find the center of mass of water in the tank.    First we need to find the mass where . Then . Then so that .      Find the amount of work required to pump all of the water to the top of the tank.     so .    "
 },
 {
   "id": "activities-19",
@@ -898,7 +898,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Review",
-  "body": " Review    Suppose that a water tank is formed by rotating the portion of the graph between about the -axis. The units on the axes are meters.      f(t)=t^2            Find the total volume of the tank.      Suppose that the tank is filled to a depth of 3 meters with water whose density is 1000 kg\/m . Find the mass of the water in the tank.      Find the center of mass of the water.      How much work is required to pump all the water to a height of one meter above the top of the tank?      Suppose the pump breaks down after 300,000 Joules of work has been done. What is the height of water left in the tank?      Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.    "
+  "body": " Review    Suppose that a water tank is formed by rotating the portion of the graph between about the -axis. The units on the axes are meters.      f(t)=t^2            Find the total volume of the tank.    We will take horizontal slices whose cross sectional radii are . Then and . Therefore, .      Suppose that the tank is filled to a depth of 3 meters with water whose density is 1000 kg\/m . Find the mass of the water in the tank.    The mass of a horizontal slice is . This gives .      Find the center of mass of the water.    We need to find so that .      How much work is required to pump all the water to a height of one meter above the top of the tank?    The top of the tank is at so one meter above the top is . A typical slice at the location therefore needs to be raised a distance . This gives       Suppose the pump breaks down after 300,000 Joules of work has been done. What is the height of water left in the tank?    We will use to denote the height of water in the tank. Since we pump water from the top, we have . We can use Desmos to find .      Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.    We now have so that . Also so that .    "
 },
 {
   "id": "activities-19-3",
@@ -907,7 +907,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Find the total volume of the tank.   "
+  "body": "  Find the total volume of the tank.    We will take horizontal slices whose cross sectional radii are . Then and . Therefore, .   "
 },
 {
   "id": "activities-19-4",
@@ -916,7 +916,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Suppose that the tank is filled to a depth of 3 meters with water whose density is 1000 kg\/m . Find the mass of the water in the tank.   "
+  "body": "  Suppose that the tank is filled to a depth of 3 meters with water whose density is 1000 kg\/m . Find the mass of the water in the tank.    The mass of a horizontal slice is . This gives .   "
 },
 {
   "id": "activities-19-5",
@@ -925,7 +925,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Find the center of mass of the water.   "
+  "body": "  Find the center of mass of the water.    We need to find so that .   "
 },
 {
   "id": "activities-19-6",
@@ -934,7 +934,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  How much work is required to pump all the water to a height of one meter above the top of the tank?   "
+  "body": "  How much work is required to pump all the water to a height of one meter above the top of the tank?    The top of the tank is at so one meter above the top is . A typical slice at the location therefore needs to be raised a distance . This gives    "
 },
 {
   "id": "activities-19-7",
@@ -943,7 +943,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Suppose the pump breaks down after 300,000 Joules of work has been done. What is the height of water left in the tank?   "
+  "body": "  Suppose the pump breaks down after 300,000 Joules of work has been done. What is the height of water left in the tank?    We will use to denote the height of water in the tank. Since we pump water from the top, we have . We can use Desmos to find .   "
 },
 {
   "id": "activities-19-8",
@@ -952,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "  Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.   "
+  "body": "  Suppose that a more careful analysis shows that the density varies as . Find the center of mass now.    We now have so that . Also so that .   "
 },
 {
   "id": "activities-20",

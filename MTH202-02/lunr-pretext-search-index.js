@@ -961,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Numerical Techniques",
-  "body": " Numerical Techniques    A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .      Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?       The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.      Estimate the amount of water released using the trapezoidal rule.      Estimate the average flow rate.       Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.      Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48      "
+  "body": " Numerical Techniques    A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .           Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.    Because the velocity is decreasing, right endpoints will be an underestimate as will the trapezoidal rule. It's unclear whether the midpoint rule is an over- or underestimate.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?    We'll use the midpoint rule to estimate the distance traveled. Then feet per second.       The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.     cubic feet.      Estimate the amount of water released using the trapezoidal rule.     cubic feet.      Estimate the average flow rate.    We will again use the midpoint rule to estimate cubic feet per second.       Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.    We first have to estimate the area so let's use the trapezoidal rule: square feet. So the amount of fertilizer is pounds.      Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48      We have so that the midpoint rule gives cubic meters.    "
 },
 {
   "id": "activities-20-2",
@@ -970,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .      Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?    "
+  "body": "  A car traveling along a straight road is braking and its velocity is measured at several different points in time, as given in the following table. Assume that is continuous, always decreasing, and always decreasing at a decreasing rate, as is suggested by the data.            seconds,  0  0.3  0.6  0.9  1.2  1.5  1.8    Velocity in ft\/sec,  100  99  96  90  80  50  0       Plot the given data below with time on the horizontal axis and the velocity on the vertical axis.   An empty coordinate plane for plotting               Estimate the total distance traveled on by computing , , and .           Given what you know about this situation, consider each method and determine whether it is an overestimate or an underestimate or whether you have enough information to determine that.    Because the velocity is decreasing, right endpoints will be an underestimate as will the trapezoidal rule. It's unclear whether the midpoint rule is an over- or underestimate.      What is your best estimate of the average velocity of the car on ? Why? What are the units on this quantity?    We'll use the midpoint rule to estimate the distance traveled. Then feet per second.    "
 },
 {
   "id": "activities-20-3",
@@ -979,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.      Estimate the amount of water released using the trapezoidal rule.      Estimate the average flow rate.    "
+  "body": "  The rate at which water flows over a dam is measured in cubic feet per second (CFS). As the floodgates are opened, the flow rate is given by            seconds,  0  10  20  30  40  50  60    flow in CFS,  2000  2100  2400  3000  3900  5100  6500       Estimate the amount of water released using a midpoint approximation.     cubic feet.      Estimate the amount of water released using the trapezoidal rule.     cubic feet.      Estimate the average flow rate.    We will again use the midpoint rule to estimate cubic feet per second.    "
 },
 {
   "id": "activities-20-4",
@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.   "
+  "body": "  Shown below is the layout of a fairway on a golf course where all the measurements are in feet.   The measurements of a fairway on a golf course     widths = (0,80,85,95,110,105,100,100,105,110,0)  points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], [300, 122], [200, 133], [100, 150], [0, 90])    p=points[k]  q=points[-k-1]   ${widths[k]}          A pound of fertilizer covers 200 square feet of grass. Estimate how much fertilizer is required for this fairway.    We first have to estimate the area so let's use the trapezoidal rule: square feet. So the amount of fertilizer is pounds.   "
 },
 {
   "id": "activities-20-5",
@@ -997,7 +997,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48     "
+  "body": "  Suppose you cut a fallen tree, whose length is 10 meters, at 1-meter intervals. Its cross sections are circle whose radii at positions meters from the end are given below. Using the following data, apply the midpoint rule to estimate the volume of the tree.                 0  1  2  3  4  5  6  7  8  9  10     0.68  0.65  0.64  0.61  0.58  0.59  0.53  0.55  0.52  0.50  0.48      We have so that the midpoint rule gives cubic meters.   "
 },
 {
   "id": "activities-21",
@@ -1006,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Exam review",
-  "body": " Exam review    Suppose that we define a function .     Find . Is increasing or decreasing at ?      Find . Is concave up or down at ?      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.      Determine the value of at the first critical point that you found.       Find antiderivatives of the following functions.                                          Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x                  Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.      If the tank is filled with a fluid whose density is given by , find the mass of fluid.      Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.      If you siphon off half of the volume, how deep is the fluid remaining?     "
+  "body": " Exam review    Suppose that we define a function .     Find . Is increasing or decreasing at ?    Since , we have so is increasing.      Find . Is concave up or down at ?    Since , it follows that so that so the graph of is concave down.      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.     at .      Determine the value of at the first critical point that you found.    Using Desmos, .       Find antiderivatives of the following functions.          Let's try the substitution so that . Then .           With the same substitution , .           This isn't on the table of antiderivatives, and a substitution isn't going to help. Let's try integration by parts where we differentiate : so that .           Let's try integration by parts: so that .           Let's try integration by parts: so that . Now .        Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x                We could look at the area under the graph between and then add in the area of the triangle. So .      Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.    We will slice horizontal so that the cross sectional radius is . Then and . Then .      If the tank is filled with a fluid whose density is given by , find the mass of fluid.     so .      Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.    A slice at location needs to be raised to so the distance is . Therefore, so that Joules.      If you siphon off half of the volume, how deep is the fluid remaining?     meters.     "
 },
 {
   "id": "activities-21-2",
@@ -1015,7 +1015,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Suppose that we define a function .     Find . Is increasing or decreasing at ?      Find . Is concave up or down at ?      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.      Determine the value of at the first critical point that you found.    "
+  "body": "  Suppose that we define a function .     Find . Is increasing or decreasing at ?    Since , we have so is increasing.      Find . Is concave up or down at ?    Since , it follows that so that so the graph of is concave down.      Find the first three critical points of to the right of and determine whether they are relative maxima or minima.     at .      Determine the value of at the first critical point that you found.    Using Desmos, .    "
 },
 {
   "id": "activities-21-3",
@@ -1024,7 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Find antiderivatives of the following functions.                                      "
+  "body": "  Find antiderivatives of the following functions.          Let's try the substitution so that . Then .           With the same substitution , .           This isn't on the table of antiderivatives, and a substitution isn't going to help. Let's try integration by parts where we differentiate : so that .           Let's try integration by parts: so that .           Let's try integration by parts: so that . Now .    "
 },
 {
   "id": "activities-21-4",
@@ -1033,7 +1033,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "   Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x               "
+  "body": "   Shown on the right is the graph of the function . Find the area of the shaded region.      f(x)=x^3-3*x^2-x+3  g(x)=3-x                We could look at the area under the graph between and then add in the area of the triangle. So .   "
 },
 {
   "id": "activities-21-5",
@@ -1042,7 +1042,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.      If the tank is filled with a fluid whose density is given by , find the mass of fluid.      Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.      If you siphon off half of the volume, how deep is the fluid remaining?    "
+  "body": "  Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.    We will slice horizontal so that the cross sectional radius is . Then and . Then .      If the tank is filled with a fluid whose density is given by , find the mass of fluid.     so .      Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.    A slice at location needs to be raised to so the distance is . Therefore, so that Joules.      If you siphon off half of the volume, how deep is the fluid remaining?     meters.    "
 }
 ]
 

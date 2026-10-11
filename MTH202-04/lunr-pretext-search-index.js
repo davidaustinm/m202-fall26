@@ -1043,6 +1043,141 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Consider a tank that is obtained by spinning the graph between about the vertical axis.     Find the volume of the water tank.    We will slice horizontal so that the cross sectional radius is . Then and . Then .      If the tank is filled with a fluid whose density is given by , find the mass of fluid.     so .      Assume the dimensions are in meters and the density is in kilograms per cubic meter. Find the amount of work required to pump all of the fluid to the a location one meter above the top of the tank.    A slice at location needs to be raised to so the distance is . Therefore, so that Joules.      If you siphon off half of the volume, how deep is the fluid remaining?     meters.    "
+},
+{
+  "id": "activities-22",
+  "level": "1",
+  "url": "activities-22.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Finance",
+  "body": " Finance   Remember that if you invest dollars at an annual interest rate compounded continuously, then after years, you will have      Suppose that you invest $1000 at 7%. How much will you have after 10 years?      After you successfully finish Math 202, you get a job computing volumes all day, and you are able to save $10,000 a year (this is called an income stream ).  Suppose that you will retire in 30 years, continually saving $10,000 a year and investing it in an account at an annual interest rate of 7%. We would like to determine how much money you will have at the end of 30 years.  Shown below is a representation of the 30-year interval during which you will be working. Time represents the amount of time since you start working.     a=4  dx=0.1    Start work  Retirement     t   dt         How much money would you save (i.e. put into the account) during a 10-year interval? During a 2-year interval?      In the timeline above, a time interval of length is shown. How much money do you save during this time interval of length ?      If you deposit this money years after you start working, how long is it in the account before your retirement?      What is its value when you retire?      What is the total amount of money that you have when you retire? This is called the future value of the income stream.      On the day you begin working, you learn that you've won the lottery. Your first thought is to quit work and invest the winnings at 7%. How much would you need to have won so that, after 30 years, you have the same amount you would have had if you worked and saved? This is called the present value of the income stream.       Let's imagine a different scenario: the longer you work, the more money you make and hence the more money you save. For instance, suppose that you save at a rate of dollars per year. How much will you have when you retire after 30 years?      If you would like to retire after 25 years with one million dollars, at what constant rate should you save money?      Suppose that you save $5000 per year and you want to retire with one million dollars. How long do you need to work?      Suppose that in your work for an oil company, you discover an oil field. Initially, it is easy to take oil from the field, but it becomes more difficult over time. Therefore, the rate at which you can extract oil is millions of barrels per year.     How long does it take to remove all the oil?      How much oil is there in the field?      Assuming that the price of oil stays constant at $50 per barrel and an annual investment interest rate of 8%, what is the future value of the oil field?      Suppose you want to sell the oil field. Why would you want to know the present value of the field? What is the present value?     "
+},
+{
+  "id": "activities-22-3",
+  "level": "2",
+  "url": "activities-22.html#activities-22-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that you invest $1000 at 7%. How much will you have after 10 years?   "
+},
+{
+  "id": "activities-22-4",
+  "level": "2",
+  "url": "activities-22.html#activities-22-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  After you successfully finish Math 202, you get a job computing volumes all day, and you are able to save $10,000 a year (this is called an income stream ).  Suppose that you will retire in 30 years, continually saving $10,000 a year and investing it in an account at an annual interest rate of 7%. We would like to determine how much money you will have at the end of 30 years.  Shown below is a representation of the 30-year interval during which you will be working. Time represents the amount of time since you start working.     a=4  dx=0.1    Start work  Retirement     t   dt         How much money would you save (i.e. put into the account) during a 10-year interval? During a 2-year interval?      In the timeline above, a time interval of length is shown. How much money do you save during this time interval of length ?      If you deposit this money years after you start working, how long is it in the account before your retirement?      What is its value when you retire?      What is the total amount of money that you have when you retire? This is called the future value of the income stream.      On the day you begin working, you learn that you've won the lottery. Your first thought is to quit work and invest the winnings at 7%. How much would you need to have won so that, after 30 years, you have the same amount you would have had if you worked and saved? This is called the present value of the income stream.    "
+},
+{
+  "id": "activities-22-5",
+  "level": "2",
+  "url": "activities-22.html#activities-22-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let's imagine a different scenario: the longer you work, the more money you make and hence the more money you save. For instance, suppose that you save at a rate of dollars per year. How much will you have when you retire after 30 years?   "
+},
+{
+  "id": "activities-22-6",
+  "level": "2",
+  "url": "activities-22.html#activities-22-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  If you would like to retire after 25 years with one million dollars, at what constant rate should you save money?   "
+},
+{
+  "id": "activities-22-7",
+  "level": "2",
+  "url": "activities-22.html#activities-22-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Suppose that you save $5000 per year and you want to retire with one million dollars. How long do you need to work?   "
+},
+{
+  "id": "activities-22-8",
+  "level": "2",
+  "url": "activities-22.html#activities-22-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Suppose that in your work for an oil company, you discover an oil field. Initially, it is easy to take oil from the field, but it becomes more difficult over time. Therefore, the rate at which you can extract oil is millions of barrels per year.     How long does it take to remove all the oil?      How much oil is there in the field?      Assuming that the price of oil stays constant at $50 per barrel and an annual investment interest rate of 8%, what is the future value of the oil field?      Suppose you want to sell the oil field. Why would you want to know the present value of the field? What is the present value?    "
+},
+{
+  "id": "activities-23",
+  "level": "1",
+  "url": "activities-23.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Working with probability",
+  "body": " Working with probability    Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .     What fraction of the data lies in the interval ?      What fraction of the data lies in the interval ?      Compute the integral . What does this integral represent? Why should we have known its value before doing the computation?      For what value of does 75% of the data lie below ? This is known as the third quartile .      The median is the point where half of the data is less than and half is more than . What is the median?      The cumulative distribution function measures the fraction of data in the range . Find an expression for .      What is ? Why should we have known this before doing the computation?       Suppose that is a probability density function where and is some constant.     What do you know about the integral ? Use that observation to determine .      Sketch a graph of . Near what value of are outcomes most likely?      Find the median .      Find and sketch the cumulative distribution function .       Suppose that the results of an experiment are described by the cumulative distribution function where the outcomes satisfy .     What fraction of the data is less than 2? What fraction of the data is more than 2?      What is the median ?      What is the first quartile , the point where 25% of the data is less than ?      What fraction of the data lies between 1 and 2?      What is the probability density function?     "
+},
+{
+  "id": "activities-23-2",
+  "level": "2",
+  "url": "activities-23.html#activities-23-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .     What fraction of the data lies in the interval ?      What fraction of the data lies in the interval ?      Compute the integral . What does this integral represent? Why should we have known its value before doing the computation?      For what value of does 75% of the data lie below ? This is known as the third quartile .      The median is the point where half of the data is less than and half is more than . What is the median?      The cumulative distribution function measures the fraction of data in the range . Find an expression for .      What is ? Why should we have known this before doing the computation?    "
+},
+{
+  "id": "activities-23-3",
+  "level": "2",
+  "url": "activities-23.html#activities-23-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that is a probability density function where and is some constant.     What do you know about the integral ? Use that observation to determine .      Sketch a graph of . Near what value of are outcomes most likely?      Find the median .      Find and sketch the cumulative distribution function .    "
+},
+{
+  "id": "activities-23-4",
+  "level": "2",
+  "url": "activities-23.html#activities-23-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose that the results of an experiment are described by the cumulative distribution function where the outcomes satisfy .     What fraction of the data is less than 2? What fraction of the data is more than 2?      What is the median ?      What is the first quartile , the point where 25% of the data is less than ?      What fraction of the data lies between 1 and 2?      What is the probability density function?    "
+},
+{
+  "id": "activities-24",
+  "level": "1",
+  "url": "activities-24.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Probability density functions",
+  "body": " Probability density functions    Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .  Find the median of the data and the average .      Two fast food restaurants collect data about how long customers wait before their order is taken. One restaurant finds that the waiting time is described by the probability density function where is measured in minutes. The second restaurant finds the probability density function      Verify that is a probability density function; that is, check that .      For the first restaurant, what fraction of patrons waits less than one minute? What fraction waits between 1 and 2 minutes?      Sketch the graphs of the two functions and on the same plot. Based only on these graphs, which restaurant offers generally faster service? Explain your response.      Now find the average waiting time for the two restaurants. Does your result confirm what you saw in the graphs?      Suppose that is the cumulative distribution function for the first restaurant. Explain what this function measures.      Find the cumulative distribution function and use it to find the median waiting time of the first restaurant.      Is this median lower or higher than the average waiting time?      How do the medians of the two restaurants compare?       Suppose there is a company that makes phones, and they study how long it takes for a phone to fail. A typical probability distribution in this case is a \"Gamma distribution,\" such as      Graph this function and determine the most likely time for a phone to fail.      What is the chance that a phone lasts longer than 4 years?      What is the average time it takes a phone to fail?      At what point will 50% of phones have failed? What's another word for this time?     "
+},
+{
+  "id": "activities-24-2",
+  "level": "2",
+  "url": "activities-24.html#activities-24-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .  Find the median of the data and the average .   "
+},
+{
+  "id": "activities-24-3",
+  "level": "2",
+  "url": "activities-24.html#activities-24-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Two fast food restaurants collect data about how long customers wait before their order is taken. One restaurant finds that the waiting time is described by the probability density function where is measured in minutes. The second restaurant finds the probability density function      Verify that is a probability density function; that is, check that .      For the first restaurant, what fraction of patrons waits less than one minute? What fraction waits between 1 and 2 minutes?      Sketch the graphs of the two functions and on the same plot. Based only on these graphs, which restaurant offers generally faster service? Explain your response.      Now find the average waiting time for the two restaurants. Does your result confirm what you saw in the graphs?      Suppose that is the cumulative distribution function for the first restaurant. Explain what this function measures.      Find the cumulative distribution function and use it to find the median waiting time of the first restaurant.      Is this median lower or higher than the average waiting time?      How do the medians of the two restaurants compare?    "
+},
+{
+  "id": "activities-24-4",
+  "level": "2",
+  "url": "activities-24.html#activities-24-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose there is a company that makes phones, and they study how long it takes for a phone to fail. A typical probability distribution in this case is a \"Gamma distribution,\" such as      Graph this function and determine the most likely time for a phone to fail.      What is the chance that a phone lasts longer than 4 years?      What is the average time it takes a phone to fail?      At what point will 50% of phones have failed? What's another word for this time?    "
 }
 ]
 

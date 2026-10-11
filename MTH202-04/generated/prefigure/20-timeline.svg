@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="20-timeline-figure" width="310" height="110" viewBox="0 0 310 110">
+  <defs>
+    <clipPath id="20-timeline-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="100.0"/>
+    </clipPath>
+    <clipPath id="20-timeline-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="100.0"/>
+    </clipPath>
+    <marker id="20-timeline-arrow-head-end-2_None_24_60-black" markerWidth="9.0" markerHeight="8.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="6.5" refY="4.0">
+      <path d="M 9.0 4.0L 0.0 8.0L 1.7 5.0L 1.7 3.0L 0.0 0.0Z" fill="black" stroke="none"/>
+    </marker>
+    <marker id="20-timeline-arrow-head-end-2_None_24_60-black-outline" markerWidth="13.0" markerHeight="12.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="8.5" refY="6.0">
+      <path d="M 11.8 7.8 L 2.8 11.8 A 2 2 0 0 1 0.0 10.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 11.8 4.2 A 2 2 0 0 1 11.8 7.8 Z" fill="white" stroke="none"/>
+    </marker>
+  </defs>
+  <line id="20-timeline-__line-0" x1="30.0" y1="38.3" x2="280.0" y2="38.3" stroke="black" stroke-width="2" fill="none"/>
+  <g id="20-timeline-__g-0">
+    <line id="20-timeline-__line-1" x1="30.0" y1="41.3" x2="30.0" y2="35.3" stroke-width="2" stroke="black"/>
+    <g id="20-timeline-__tick-mark-0" transform="translate(40.0,47.3) translate(-33.9,-0.0)">
+      <g id="20-timeline-__g-2">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.6">Start work</text>
+      </g>
+    </g>
+  </g>
+  <g id="20-timeline-__g-1">
+    <line id="20-timeline-__line-2" x1="280.0" y1="41.3" x2="280.0" y2="35.3" stroke-width="2" stroke="black"/>
+    <g id="20-timeline-__tick-mark-1" transform="translate(270.0,47.3) translate(-36.8,-0.0)">
+      <g id="20-timeline-__g-3">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.3">Retirement</text>
+      </g>
+    </g>
+  </g>
+  <path id="20-timeline-__path-0" d="M 127.5 45.0 L 132.5 45.0 L 132.5 31.7 L 127.5 31.7 Z" stroke="none" stroke-width="2" fill="black"/>
+  <line id="20-timeline-__line-3" x1="32.4" y1="25.0" x2="127.6" y2="25.0" stroke="black" stroke-width="2" fill="none" marker-end="url(#20-timeline-arrow-head-end-2_None_24_60-black)" marker-start="url(#20-timeline-arrow-head-end-2_None_24_60-black)"/>
+  <g id="20-timeline-__label-0" transform="translate(80.0,25.0) translate(-3.3,-5.8)">
+    <rect x="-6" y="-6" width="18.536" height="23.528" stroke="none" fill="white"/>
+    <g id="20-timeline-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+        <defs>
+          <path id="20-timeline-MJX-2-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:t" data-semantic-speech="t">
+              <use data-c="1D461" xlink:href="#20-timeline-MJX-2-NCM-I-1D461"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="20-timeline-__label-1" transform="translate(130.0,53.0) translate(-8.0,-0.0)">
+    <g id="20-timeline-__g-5">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="15.944px" height="12.760px" role="img" focusable="false" viewBox="0 -694 881 705" x="0.0" y="0.0">
+        <defs>
+          <path id="20-timeline-MJX-3-NCM-I-1D451" d="M429 632L370 389C349 426 320 445 281 445C216 445 159 412 109 345C63 283 40 218 40 151C40 63 91-11 175-11C218-11 260 12 300 59C311 21 345-11 392-11C461-11 483 71 498 145C498 154 493 159 483 159C474 159 468 152 465 138C445 59 421 19 394 19C377 19 368 33 368 60C368 75 370 91 374 107L516 679L516 683C513 690 507 694 499 694C476 694 434 690 374 683C363 682 357 674 357 660C357 650 366 645 384 645C403 645 429 646 429 632M341 376C351 355 356 341 356 332C355 328 354 323 353 316L304 122C301 111 294 99 285 87C248 42 212 19 177 19C138 19 118 49 118 108C118 132 124 168 136 216C157 301 187 359 224 390C244 407 263 415 282 415C309 415 329 402 341 376Z"/>
+          <path id="20-timeline-MJX-3-NCM-N-2062" d=""/>
+          <path id="20-timeline-MJX-3-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:1" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2" data-semantic-attributes="latex:dt" data-semantic-speech="d t">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="3" data-semantic-attributes="latex:d" data-semantic-speech="d">
+              <use data-c="1D451" xlink:href="#20-timeline-MJX-3-NCM-I-1D451"/>
+            </g>
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(520,0)">
+              <use data-c="2062" xlink:href="#20-timeline-MJX-3-NCM-N-2062"/>
+            </g>
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="3" data-semantic-attributes="latex:t" data-semantic-speech="t" transform="translate(520,0)">
+              <use data-c="1D461" xlink:href="#20-timeline-MJX-3-NCM-I-1D461"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

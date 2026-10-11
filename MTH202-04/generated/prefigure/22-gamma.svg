@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="22-gamma-figure" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <clipPath id="22-gamma-__clipPath-0">
+      <rect x="5.0" y="5.0" width="250.0" height="250.0"/>
+    </clipPath>
+    <clipPath id="22-gamma-__clipPath-1">
+      <rect x="5.0" y="5.0" width="250.0" height="250.0"/>
+    </clipPath>
+  </defs>
+  <g id="22-gamma-grid-axes">
+    <g id="22-gamma-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="255.0" x2="5.0" y2="5.0"/>
+      <line x1="32.8" y1="255.0" x2="32.8" y2="5.0"/>
+      <line x1="60.6" y1="255.0" x2="60.6" y2="5.0"/>
+      <line x1="88.3" y1="255.0" x2="88.3" y2="5.0"/>
+      <line x1="116.1" y1="255.0" x2="116.1" y2="5.0"/>
+      <line x1="143.9" y1="255.0" x2="143.9" y2="5.0"/>
+      <line x1="171.7" y1="255.0" x2="171.7" y2="5.0"/>
+      <line x1="199.4" y1="255.0" x2="199.4" y2="5.0"/>
+      <line x1="227.2" y1="255.0" x2="227.2" y2="5.0"/>
+      <line x1="255.0" y1="255.0" x2="255.0" y2="5.0"/>
+      <line x1="5.0" y1="255.0" x2="255.0" y2="255.0"/>
+      <line x1="5.0" y1="205.0" x2="255.0" y2="205.0"/>
+      <line x1="5.0" y1="155.0" x2="255.0" y2="155.0"/>
+      <line x1="5.0" y1="105.0" x2="255.0" y2="105.0"/>
+      <line x1="5.0" y1="55.0" x2="255.0" y2="55.0"/>
+      <line x1="5.0" y1="5.0" x2="255.0" y2="5.0"/>
+    </g>
+    <g id="22-gamma-axes" stroke="black" stroke-width="2">
+      <line id="22-gamma-__line-16" x1="5.0" y1="205.0" x2="255.0" y2="205.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="22-gamma-__line-17" x1="88.3" y1="208.0" x2="88.3" y2="202.0"/>
+        <line id="22-gamma-__line-18" x1="143.9" y1="208.0" x2="143.9" y2="202.0"/>
+        <line id="22-gamma-__line-19" x1="199.4" y1="208.0" x2="199.4" y2="202.0"/>
+      </g>
+      <line id="22-gamma-__line-20" x1="32.8" y1="255.0" x2="32.8" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="22-gamma-__line-21" x1="29.8" y1="105.0" x2="35.8" y2="105.0"/>
+      </g>
+    </g>
+    <g id="22-gamma-__label-0" transform="translate(251.0,201.0) translate(-6.5,-11.5)">
+      <g id="22-gamma-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+          <defs>
+            <path id="22-gamma-MJX-2-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:t" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#22-gamma-MJX-2-NCM-I-1D461"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="22-gamma-__label-1" transform="translate(88.3,216.0) translate(-4.5,-0.0)">
+      <g id="22-gamma-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="22-gamma-MJX-3-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#22-gamma-MJX-3-NCM-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="22-gamma-__label-2" transform="translate(143.9,216.0) translate(-4.5,-0.0)">
+      <g id="22-gamma-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="22-gamma-MJX-4-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#22-gamma-MJX-4-NCM-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="22-gamma-__label-3" transform="translate(199.4,216.0) translate(-4.5,-0.0)">
+      <g id="22-gamma-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="22-gamma-MJX-5-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{6}" data-semantic-speech="6">
+                <use data-c="36" xlink:href="#22-gamma-MJX-5-NCM-N-36"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="22-gamma-__label-4" transform="translate(21.8,105.0) translate(-23.1,-6.2)">
+      <g id="22-gamma-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
+          <defs>
+            <path id="22-gamma-MJX-6-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+            <path id="22-gamma-MJX-6-NCM-N-2E" d="M192 53C192 82 168 106 139 106C110 106 86 82 86 53C86 24 110 0 139 0C168 0 192 24 192 53Z"/>
+            <path id="22-gamma-MJX-6-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{0.1}" data-semantic-speech="0.1">
+                <use data-c="30" xlink:href="#22-gamma-MJX-6-NCM-N-30"/>
+                <use data-c="2E" xlink:href="#22-gamma-MJX-6-NCM-N-2E" transform="translate(500,0)"/>
+                <use data-c="31" xlink:href="#22-gamma-MJX-6-NCM-N-31" transform="translate(778,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="22-gamma-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 32.8 205.0 L 35.0 204.6 L 37.2 203.5 L 39.4 201.8 L 41.7 199.5 L 43.9 196.8 L 46.1 193.7 L 48.3 190.2 L 50.6 186.4 L 52.8 182.4 L 55.0 178.2 L 57.2 173.8 L 59.4 169.4 L 61.7 164.8 L 63.9 160.2 L 66.1 155.6 L 68.3 151.0 L 70.6 146.4 L 72.8 141.9 L 75.0 137.5 L 77.2 133.1 L 79.4 128.8 L 81.7 124.7 L 83.9 120.7 L 86.1 116.8 L 88.3 113.0 L 90.6 109.4 L 92.8 106.0 L 95.0 102.7 L 97.2 99.5 L 99.4 96.6 L 101.7 93.8 L 103.9 91.1 L 106.1 88.6 L 108.3 86.3 L 110.6 84.2 L 112.8 82.2 L 115.0 80.3 L 117.2 78.7 L 119.4 77.2 L 121.7 75.8 L 123.9 74.6 L 126.1 73.5 L 128.3 72.6 L 130.6 71.8 L 132.8 71.1 L 135.0 70.6 L 137.2 70.2 L 139.4 69.9 L 141.7 69.7 L 143.9 69.7 L 146.1 69.7 L 148.3 69.9 L 150.6 70.1 L 152.8 70.5 L 155.0 70.9 L 157.2 71.5 L 159.4 72.1 L 161.7 72.8 L 163.9 73.5 L 166.1 74.4 L 168.3 75.3 L 170.6 76.2 L 172.8 77.3 L 175.0 78.3 L 177.2 79.5 L 179.4 80.7 L 181.7 81.9 L 183.9 83.2 L 186.1 84.5 L 188.3 85.8 L 190.6 87.2 L 192.8 88.6 L 195.0 90.0 L 197.2 91.5 L 199.4 93.0 L 201.7 94.5 L 203.9 96.0 L 206.1 97.5 L 208.3 99.1 L 210.6 100.6 L 212.8 102.2 L 215.0 103.8 L 217.2 105.4 L 219.4 107.0 L 221.7 108.6 L 223.9 110.1 L 226.1 111.7 L 228.3 113.3 L 230.6 114.9 L 232.8 116.5 L 235.0 118.0 L 237.2 119.6 L 239.4 121.2 L 241.7 122.7 L 243.9 124.2 L 246.1 125.8 L 248.3 127.3 L 250.6 128.8 L 252.8 130.3 L 255.0 131.7" clip-path="url(#22-gamma-__clipPath-1)"/>
+</svg>

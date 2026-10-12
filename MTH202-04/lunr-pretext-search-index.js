@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Learning targets",
-  "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use substitution to find antiderivatives.  I can use integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can use definite integrals to find the volume of a solid of revolution and the mass given its density.   I can apply an appropriate technique to approximate a definite integral.  I can use definite integrals to represent key quantities in applications such as work, finance, and probability.  I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can express real world situations as differential equations, determine any stable or unstable equilibrium solutions, and explain the significance of the equilibrium solutions in context.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
+  "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use substitution to find antiderivatives.  I can use integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can use definite integrals to find the volume of a solid of revolution and the mass given its density.  I can use definite integrals to find physical quantities such as centers of mass and work.  I can apply an appropriate technique to approximate a definite integral.  I can use definite integrals to represent key quantities in other applications such as finance and probability.  I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can express real world situations as differential equations, determine any stable or unstable equilibrium solutions, and explain the significance of the equilibrium solutions in context.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
 },
 {
   "id": "course-documents-7",
@@ -1051,7 +1051,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Finance",
-  "body": " Finance   Remember that if you invest dollars at an annual interest rate compounded continuously, then after years, you will have      Suppose that you invest $1000 at 7%. How much will you have after 10 years?      After you successfully finish Math 202, you get a job computing volumes all day, and you are able to save $10,000 a year (this is called an income stream ).  Suppose that you will retire in 30 years, continually saving $10,000 a year and investing it in an account at an annual interest rate of 7%. We would like to determine how much money you will have at the end of 30 years.  Shown below is a representation of the 30-year interval during which you will be working. Time represents the amount of time since you start working.     a=4  dx=0.1    Start work  Retirement     t   dt         How much money would you save (i.e. put into the account) during a 10-year interval? During a 2-year interval?      In the timeline above, a time interval of length is shown. How much money do you save during this time interval of length ?      If you deposit this money years after you start working, how long is it in the account before your retirement?      What is its value when you retire?      What is the total amount of money that you have when you retire? This is called the future value of the income stream.      On the day you begin working, you learn that you've won the lottery. Your first thought is to quit work and invest the winnings at 7%. How much would you need to have won so that, after 30 years, you have the same amount you would have had if you worked and saved? This is called the present value of the income stream.       Let's imagine a different scenario: the longer you work, the more money you make and hence the more money you save. For instance, suppose that you save at a rate of dollars per year. How much will you have when you retire after 30 years?      If you would like to retire after 25 years with one million dollars, at what constant rate should you save money?      Suppose that you save $5000 per year and you want to retire with one million dollars. How long do you need to work?      Suppose that in your work for an oil company, you discover an oil field. Initially, it is easy to take oil from the field, but it becomes more difficult over time. Therefore, the rate at which you can extract oil is millions of barrels per year.     How long does it take to remove all the oil?      How much oil is there in the field?      Assuming that the price of oil stays constant at $50 per barrel and an annual investment interest rate of 8%, what is the future value of the oil field?      Suppose you want to sell the oil field. Why would you want to know the present value of the field? What is the present value?     "
+  "body": " Finance   Remember that if you invest dollars at an annual interest rate compounded continuously, then after years, you will have      Suppose that you invest $1000 at 7%. How much will you have after 10 years?    We'd have .      After you successfully finish Math 202, you get a job computing volumes all day, and you are able to save $10,000 a year (this is called an income stream ).  Suppose that you will retire in 30 years, continually saving $10,000 a year and investing it in an account at an annual interest rate of 7%. We would like to determine how much money you will have at the end of 30 years.  Shown below is a representation of the 30-year interval during which you will be working. Time represents the amount of time since you start working.     a=4  dx=0.1    Start work  Retirement     t   dt         How much money would you save (i.e. put into the account) during a 10-year interval? During a 2-year interval?    We save $10,000 per year so in 10 years, we would save $100,000. In 2 years, we would save $20,000.      In the timeline above, a time interval of length is shown. How much money do you save during this time interval of length ?           If you deposit this money years after you start working, how long is it in the account before your retirement?     years.      What is its value when you retire?           What is the total amount of money that you have when you retire? This is called the future value of the income stream.           On the day you begin working, you learn that you've won the lottery. Your first thought is to quit work and invest the winnings at 7%. How much would you need to have won so that, after 30 years, you have the same amount you would have had if you worked and saved? This is called the present value of the income stream.     so .       Let's imagine a different scenario: the longer you work, the more money you make and hence the more money you save. For instance, suppose that you save at a rate of dollars per year. How much will you have when you retire after 30 years?           If you would like to retire after 25 years with one million dollars, at what constant rate should you save money?    Call the savings rate so that so per year.      Suppose that you save $5000 per year and you want to retire with one million dollars. How long do you need to work?    Let be the amount of time that you work so that years.      Suppose that in your work for an oil company, you discover an oil field. Initially, it is easy to take oil from the field, but it becomes more difficult over time. Therefore, the rate at which you can extract oil is millions of barrels per year.     How long does it take to remove all the oil?     so years.      How much oil is there in the field?     million barrels.      Assuming that the price of oil stays constant at $50 per barrel and an annual investment interest rate of 8%, what is the future value of the oil field?     billion dollars.      Suppose you want to sell the oil field. Why would you want to know the present value of the field? What is the present value?     so billion.     "
 },
 {
   "id": "activities-22-3",
@@ -1060,7 +1060,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Suppose that you invest $1000 at 7%. How much will you have after 10 years?   "
+  "body": "  Suppose that you invest $1000 at 7%. How much will you have after 10 years?    We'd have .   "
 },
 {
   "id": "activities-22-4",
@@ -1069,7 +1069,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  After you successfully finish Math 202, you get a job computing volumes all day, and you are able to save $10,000 a year (this is called an income stream ).  Suppose that you will retire in 30 years, continually saving $10,000 a year and investing it in an account at an annual interest rate of 7%. We would like to determine how much money you will have at the end of 30 years.  Shown below is a representation of the 30-year interval during which you will be working. Time represents the amount of time since you start working.     a=4  dx=0.1    Start work  Retirement     t   dt         How much money would you save (i.e. put into the account) during a 10-year interval? During a 2-year interval?      In the timeline above, a time interval of length is shown. How much money do you save during this time interval of length ?      If you deposit this money years after you start working, how long is it in the account before your retirement?      What is its value when you retire?      What is the total amount of money that you have when you retire? This is called the future value of the income stream.      On the day you begin working, you learn that you've won the lottery. Your first thought is to quit work and invest the winnings at 7%. How much would you need to have won so that, after 30 years, you have the same amount you would have had if you worked and saved? This is called the present value of the income stream.    "
+  "body": "  After you successfully finish Math 202, you get a job computing volumes all day, and you are able to save $10,000 a year (this is called an income stream ).  Suppose that you will retire in 30 years, continually saving $10,000 a year and investing it in an account at an annual interest rate of 7%. We would like to determine how much money you will have at the end of 30 years.  Shown below is a representation of the 30-year interval during which you will be working. Time represents the amount of time since you start working.     a=4  dx=0.1    Start work  Retirement     t   dt         How much money would you save (i.e. put into the account) during a 10-year interval? During a 2-year interval?    We save $10,000 per year so in 10 years, we would save $100,000. In 2 years, we would save $20,000.      In the timeline above, a time interval of length is shown. How much money do you save during this time interval of length ?           If you deposit this money years after you start working, how long is it in the account before your retirement?     years.      What is its value when you retire?           What is the total amount of money that you have when you retire? This is called the future value of the income stream.           On the day you begin working, you learn that you've won the lottery. Your first thought is to quit work and invest the winnings at 7%. How much would you need to have won so that, after 30 years, you have the same amount you would have had if you worked and saved? This is called the present value of the income stream.     so .    "
 },
 {
   "id": "activities-22-5",
@@ -1078,7 +1078,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Let's imagine a different scenario: the longer you work, the more money you make and hence the more money you save. For instance, suppose that you save at a rate of dollars per year. How much will you have when you retire after 30 years?   "
+  "body": "  Let's imagine a different scenario: the longer you work, the more money you make and hence the more money you save. For instance, suppose that you save at a rate of dollars per year. How much will you have when you retire after 30 years?        "
 },
 {
   "id": "activities-22-6",
@@ -1087,7 +1087,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  If you would like to retire after 25 years with one million dollars, at what constant rate should you save money?   "
+  "body": "  If you would like to retire after 25 years with one million dollars, at what constant rate should you save money?    Call the savings rate so that so per year.   "
 },
 {
   "id": "activities-22-7",
@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Suppose that you save $5000 per year and you want to retire with one million dollars. How long do you need to work?   "
+  "body": "  Suppose that you save $5000 per year and you want to retire with one million dollars. How long do you need to work?    Let be the amount of time that you work so that years.   "
 },
 {
   "id": "activities-22-8",
@@ -1105,7 +1105,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "  Suppose that in your work for an oil company, you discover an oil field. Initially, it is easy to take oil from the field, but it becomes more difficult over time. Therefore, the rate at which you can extract oil is millions of barrels per year.     How long does it take to remove all the oil?      How much oil is there in the field?      Assuming that the price of oil stays constant at $50 per barrel and an annual investment interest rate of 8%, what is the future value of the oil field?      Suppose you want to sell the oil field. Why would you want to know the present value of the field? What is the present value?    "
+  "body": "  Suppose that in your work for an oil company, you discover an oil field. Initially, it is easy to take oil from the field, but it becomes more difficult over time. Therefore, the rate at which you can extract oil is millions of barrels per year.     How long does it take to remove all the oil?     so years.      How much oil is there in the field?     million barrels.      Assuming that the price of oil stays constant at $50 per barrel and an annual investment interest rate of 8%, what is the future value of the oil field?     billion dollars.      Suppose you want to sell the oil field. Why would you want to know the present value of the field? What is the present value?     so billion.    "
 },
 {
   "id": "activities-23",
@@ -1114,7 +1114,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Working with probability",
-  "body": " Working with probability    Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .     What fraction of the data lies in the interval ?      What fraction of the data lies in the interval ?      Compute the integral . What does this integral represent? Why should we have known its value before doing the computation?      For what value of does 75% of the data lie below ? This is known as the third quartile .      The median is the point where half of the data is less than and half is more than . What is the median?      The cumulative distribution function measures the fraction of data in the range . Find an expression for .      What is ? Why should we have known this before doing the computation?       Suppose that is a probability density function where and is some constant.     What do you know about the integral ? Use that observation to determine .      Sketch a graph of . Near what value of are outcomes most likely?      Find the median .      Find and sketch the cumulative distribution function .       Suppose that the results of an experiment are described by the cumulative distribution function where the outcomes satisfy .     What fraction of the data is less than 2? What fraction of the data is more than 2?      What is the median ?      What is the first quartile , the point where 25% of the data is less than ?      What fraction of the data lies between 1 and 2?      What is the probability density function?     "
+  "body": " Working with probability    Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .     What fraction of the data lies in the interval ?     so 9%.      What fraction of the data lies in the interval ?    Since all the data is between 0 and 10, then 91% would be between 3 and 10.      Compute the integral . What does this integral represent? Why should we have known its value before doing the computation?    This represents the fraction of data that lies in . Since all the data lies in that interval, that value will be 100% so that .      For what value of does 75% of the data lie below ? This is known as the third quartile .    We will call it so that so .      The median is the point where half of the data is less than and half is more than . What is the median?     so .      The cumulative distribution function measures the fraction of data in the range . Find an expression for .           What is ? Why should we have known this before doing the computation?     . In other words, is an antiderivative of , which we already knew by the Second FUNdamental Theorem of Calculus.       Suppose that is a probability density function where and is some constant.     What do you know about the integral ? Use that observation to determine .    We know that since all the data is between 0 and 9. Therefore, so that .      Sketch a graph of . Near what value of are outcomes most likely?    The probability density function has a maximum where , which happens where .      Find the median .    We need to solve for       Find and sketch the cumulative distribution function .            Suppose that the results of an experiment are described by the cumulative distribution function where the outcomes satisfy .     What fraction of the data is less than 2? What fraction of the data is more than 2?           What is the median ?     so so .      What is the first quartile , the point where 25% of the data is less than ?     so .      What fraction of the data lies between 1 and 2?     so 27.9%.      What is the probability density function?          "
 },
 {
   "id": "activities-23-2",
@@ -1123,7 +1123,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .     What fraction of the data lies in the interval ?      What fraction of the data lies in the interval ?      Compute the integral . What does this integral represent? Why should we have known its value before doing the computation?      For what value of does 75% of the data lie below ? This is known as the third quartile .      The median is the point where half of the data is less than and half is more than . What is the median?      The cumulative distribution function measures the fraction of data in the range . Find an expression for .      What is ? Why should we have known this before doing the computation?    "
+  "body": "  Suppose that you perform an experiment with outcomes and that your data is described by the probability density function .     What fraction of the data lies in the interval ?     so 9%.      What fraction of the data lies in the interval ?    Since all the data is between 0 and 10, then 91% would be between 3 and 10.      Compute the integral . What does this integral represent? Why should we have known its value before doing the computation?    This represents the fraction of data that lies in . Since all the data lies in that interval, that value will be 100% so that .      For what value of does 75% of the data lie below ? This is known as the third quartile .    We will call it so that so .      The median is the point where half of the data is less than and half is more than . What is the median?     so .      The cumulative distribution function measures the fraction of data in the range . Find an expression for .           What is ? Why should we have known this before doing the computation?     . In other words, is an antiderivative of , which we already knew by the Second FUNdamental Theorem of Calculus.    "
 },
 {
   "id": "activities-23-3",
@@ -1132,7 +1132,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Suppose that is a probability density function where and is some constant.     What do you know about the integral ? Use that observation to determine .      Sketch a graph of . Near what value of are outcomes most likely?      Find the median .      Find and sketch the cumulative distribution function .    "
+  "body": "  Suppose that is a probability density function where and is some constant.     What do you know about the integral ? Use that observation to determine .    We know that since all the data is between 0 and 9. Therefore, so that .      Sketch a graph of . Near what value of are outcomes most likely?    The probability density function has a maximum where , which happens where .      Find the median .    We need to solve for       Find and sketch the cumulative distribution function .         "
 },
 {
   "id": "activities-23-4",
@@ -1141,7 +1141,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Suppose that the results of an experiment are described by the cumulative distribution function where the outcomes satisfy .     What fraction of the data is less than 2? What fraction of the data is more than 2?      What is the median ?      What is the first quartile , the point where 25% of the data is less than ?      What fraction of the data lies between 1 and 2?      What is the probability density function?    "
+  "body": "  Suppose that the results of an experiment are described by the cumulative distribution function where the outcomes satisfy .     What fraction of the data is less than 2? What fraction of the data is more than 2?           What is the median ?     so so .      What is the first quartile , the point where 25% of the data is less than ?     so .      What fraction of the data lies between 1 and 2?     so 27.9%.      What is the probability density function?         "
 },
 {
   "id": "activities-24",
@@ -1178,6 +1178,42 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Suppose there is a company that makes phones, and they study how long it takes for a phone to fail. A typical probability distribution in this case is a \"Gamma distribution,\" such as      Graph this function and determine the most likely time for a phone to fail.      What is the chance that a phone lasts longer than 4 years?      What is the average time it takes a phone to fail?      At what point will 50% of phones have failed? What's another word for this time?    "
+},
+{
+  "id": "activities-25",
+  "level": "1",
+  "url": "activities-25.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Normal distributions",
+  "body": " Normal distributions    Let's begin with the function which defines a ``normal distribution.'' Plot this function and verify that it has the shape of a bell curve centered about the point .  One inconvenience in dealing with this function is that it does not have an antiderivative in terms of functions that are familiar to us. Therefore, any definite integrals that we would like to evaluate involving this function require the use of a numerical method. That means that you'll need to use Desmos to evaluate any definite integrals of this function.     Since this is a probability density function, what should be the value of Verify that this is the case.      What is the probability that a data point will lie between and ?       Suppose that we measure the heights of men in the United States and find the normal distribution where is measured in inches.     Plot this function (what is a reasonable range of values?) and discuss the significance of the graph.      Find the average height.      Then find the fraction of men whose height is between 70 and 72 inches.      What fraction of men are taller than 74 inches?      What is the median height?      If is the mean of the density function, the standard deviation , which measures the spread in the data, is given by Notice that this is defining so you'll need to take the square root of the integral. Find the standard deviation of this distribution.       The general form of the normal distribution is . Average annual snowfall in Grand Rapids is 72.4 inches with a standard deviation of 16 inches.     A few years ago, we had a lot of snow with 109 inches recorded. What is the chance that there is more than 109 inches of snow?      What is the chance that there is 40 or fewer inches of snow in a year?      What is the chance that the snowfall is more than the average?      What is the chance that the snowfall is more than one standard deviation above the average?     "
+},
+{
+  "id": "activities-25-2",
+  "level": "2",
+  "url": "activities-25.html#activities-25-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let's begin with the function which defines a ``normal distribution.'' Plot this function and verify that it has the shape of a bell curve centered about the point .  One inconvenience in dealing with this function is that it does not have an antiderivative in terms of functions that are familiar to us. Therefore, any definite integrals that we would like to evaluate involving this function require the use of a numerical method. That means that you'll need to use Desmos to evaluate any definite integrals of this function.     Since this is a probability density function, what should be the value of Verify that this is the case.      What is the probability that a data point will lie between and ?    "
+},
+{
+  "id": "activities-25-3",
+  "level": "2",
+  "url": "activities-25.html#activities-25-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that we measure the heights of men in the United States and find the normal distribution where is measured in inches.     Plot this function (what is a reasonable range of values?) and discuss the significance of the graph.      Find the average height.      Then find the fraction of men whose height is between 70 and 72 inches.      What fraction of men are taller than 74 inches?      What is the median height?      If is the mean of the density function, the standard deviation , which measures the spread in the data, is given by Notice that this is defining so you'll need to take the square root of the integral. Find the standard deviation of this distribution.    "
+},
+{
+  "id": "activities-25-4",
+  "level": "2",
+  "url": "activities-25.html#activities-25-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The general form of the normal distribution is . Average annual snowfall in Grand Rapids is 72.4 inches with a standard deviation of 16 inches.     A few years ago, we had a lot of snow with 109 inches recorded. What is the chance that there is more than 109 inches of snow?      What is the chance that there is 40 or fewer inches of snow in a year?      What is the chance that the snowfall is more than the average?      What is the chance that the snowfall is more than one standard deviation above the average?    "
 }
 ]
 

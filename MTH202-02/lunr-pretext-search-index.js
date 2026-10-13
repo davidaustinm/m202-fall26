@@ -1178,6 +1178,42 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Suppose there is a company that makes phones, and they study how long it takes for a phone to fail. A typical probability distribution in this case is a \"Gamma distribution,\" such as      Graph this function and determine the most likely time for a phone to fail.      What is the chance that a phone lasts longer than 4 years?      What is the average time it takes a phone to fail?      At what point will 50% of phones have failed? What's another word for this time?    "
+},
+{
+  "id": "activities-25",
+  "level": "1",
+  "url": "activities-25.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Normal distributions",
+  "body": " Normal distributions    Let's begin with the function which defines a ``normal distribution.'' Plot this function and verify that it has the shape of a bell curve centered about the point .  One inconvenience in dealing with this function is that it does not have an antiderivative in terms of functions that are familiar to us. Therefore, any definite integrals that we would like to evaluate involving this function require the use of a numerical method. That means that you'll need to use Desmos to evaluate any definite integrals of this function.     Since this is a probability density function, what should be the value of Verify that this is the case.      What is the probability that a data point will lie between and ?       Suppose that we measure the heights of men in the United States and find the normal distribution where is measured in inches.     Plot this function (what is a reasonable range of values?) and discuss the significance of the graph.      Find the average height.      Then find the fraction of men whose height is between 70 and 72 inches.      What fraction of men are taller than 74 inches?      What is the median height?      If is the mean of the density function, the standard deviation , which measures the spread in the data, is given by Notice that this is defining so you'll need to take the square root of the integral. Find the standard deviation of this distribution.       The general form of the normal distribution is . Average annual snowfall in Grand Rapids is 72.4 inches with a standard deviation of 16 inches.     A few years ago, we had a lot of snow with 109 inches recorded. What is the chance that there is more than 109 inches of snow?      What is the chance that there is 40 or fewer inches of snow in a year?      What is the chance that the snowfall is more than the average?      What is the chance that the snowfall is more than one standard deviation above the average?     "
+},
+{
+  "id": "activities-25-2",
+  "level": "2",
+  "url": "activities-25.html#activities-25-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let's begin with the function which defines a ``normal distribution.'' Plot this function and verify that it has the shape of a bell curve centered about the point .  One inconvenience in dealing with this function is that it does not have an antiderivative in terms of functions that are familiar to us. Therefore, any definite integrals that we would like to evaluate involving this function require the use of a numerical method. That means that you'll need to use Desmos to evaluate any definite integrals of this function.     Since this is a probability density function, what should be the value of Verify that this is the case.      What is the probability that a data point will lie between and ?    "
+},
+{
+  "id": "activities-25-3",
+  "level": "2",
+  "url": "activities-25.html#activities-25-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that we measure the heights of men in the United States and find the normal distribution where is measured in inches.     Plot this function (what is a reasonable range of values?) and discuss the significance of the graph.      Find the average height.      Then find the fraction of men whose height is between 70 and 72 inches.      What fraction of men are taller than 74 inches?      What is the median height?      If is the mean of the density function, the standard deviation , which measures the spread in the data, is given by Notice that this is defining so you'll need to take the square root of the integral. Find the standard deviation of this distribution.    "
+},
+{
+  "id": "activities-25-4",
+  "level": "2",
+  "url": "activities-25.html#activities-25-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The general form of the normal distribution is . Average annual snowfall in Grand Rapids is 72.4 inches with a standard deviation of 16 inches.     A few years ago, we had a lot of snow with 109 inches recorded. What is the chance that there is more than 109 inches of snow?      What is the chance that there is 40 or fewer inches of snow in a year?      What is the chance that the snowfall is more than the average?      What is the chance that the snowfall is more than one standard deviation above the average?    "
 }
 ]
 

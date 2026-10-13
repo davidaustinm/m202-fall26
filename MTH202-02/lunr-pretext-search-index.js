@@ -1214,6 +1214,33 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  The general form of the normal distribution is . Average annual snowfall in Grand Rapids is 72.4 inches with a standard deviation of 16 inches.     A few years ago, we had a lot of snow with 109 inches recorded. What is the chance that there is more than 109 inches of snow?      What is the chance that there is 40 or fewer inches of snow in a year?      What is the chance that the snowfall is more than the average?      What is the chance that the snowfall is more than one standard deviation above the average?    "
+},
+{
+  "id": "activities-26",
+  "level": "1",
+  "url": "activities-26.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Introduction to differential equations",
+  "body": " Introduction to differential equations    Suppose that represents the temperature, in degrees Fahrenheit, of a cup of coffee set out in a room as a function of time , measured in minutes. The derivative measures the rate at which the temperature is changing. Newton's Law of Cooling tells us that .     Suppose that at . What does the differential equation tell us is at ? What are the units on ?      Is increasing or decreasing? That is, is the cup of coffee warming up or cooling down?      Approximately what is the temperature when ?      Make a plot of versus .               Looking at the graph, for what values of does increase and for what values does it decrease?      What do you think will happen if ?      What do you think the temperature of the room is?      What do you think should happen to the temperature as no matter what the initial temperature is?      Which of the following functions are solutions to this differential equation? Check .      Check .      Check .      Check .      For each of the functions above that you found were solutions, describe a scenario to which your solution could apply.       Here are a few differential equations and potential solutions. For each, determine whether the potential solutions are in fact solutions.                                                                                        "
+},
+{
+  "id": "activities-26-2",
+  "level": "2",
+  "url": "activities-26.html#activities-26-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that represents the temperature, in degrees Fahrenheit, of a cup of coffee set out in a room as a function of time , measured in minutes. The derivative measures the rate at which the temperature is changing. Newton's Law of Cooling tells us that .     Suppose that at . What does the differential equation tell us is at ? What are the units on ?      Is increasing or decreasing? That is, is the cup of coffee warming up or cooling down?      Approximately what is the temperature when ?      Make a plot of versus .               Looking at the graph, for what values of does increase and for what values does it decrease?      What do you think will happen if ?      What do you think the temperature of the room is?      What do you think should happen to the temperature as no matter what the initial temperature is?      Which of the following functions are solutions to this differential equation? Check .      Check .      Check .      Check .      For each of the functions above that you found were solutions, describe a scenario to which your solution could apply.    "
+},
+{
+  "id": "activities-26-3",
+  "level": "2",
+  "url": "activities-26.html#activities-26-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Here are a few differential equations and potential solutions. For each, determine whether the potential solutions are in fact solutions.                                                                                       "
 }
 ]
 

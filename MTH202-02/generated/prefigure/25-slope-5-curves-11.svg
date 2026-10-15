@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="25-slope-5-curves-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="25-slope-5-curves-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="25-slope-5-curves-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="25-slope-5-curves-grid-axes">
+    <g id="25-slope-5-curves-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="42.5" y1="305.0" x2="42.5" y2="5.0"/>
+      <line x1="80.0" y1="305.0" x2="80.0" y2="5.0"/>
+      <line x1="117.5" y1="305.0" x2="117.5" y2="5.0"/>
+      <line x1="155.0" y1="305.0" x2="155.0" y2="5.0"/>
+      <line x1="192.5" y1="305.0" x2="192.5" y2="5.0"/>
+      <line x1="230.0" y1="305.0" x2="230.0" y2="5.0"/>
+      <line x1="267.5" y1="305.0" x2="267.5" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="267.5" x2="305.0" y2="267.5"/>
+      <line x1="5.0" y1="230.0" x2="305.0" y2="230.0"/>
+      <line x1="5.0" y1="192.5" x2="305.0" y2="192.5"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="117.5" x2="305.0" y2="117.5"/>
+      <line x1="5.0" y1="80.0" x2="305.0" y2="80.0"/>
+      <line x1="5.0" y1="42.5" x2="305.0" y2="42.5"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="25-slope-5-curves-axes" stroke="black" stroke-width="2">
+      <line id="25-slope-5-curves-__line-18" x1="5.0" y1="230.0" x2="305.0" y2="230.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="25-slope-5-curves-__line-19" x1="117.5" y1="233.0" x2="117.5" y2="227.0"/>
+        <line id="25-slope-5-curves-__line-20" x1="192.5" y1="233.0" x2="192.5" y2="227.0"/>
+        <line id="25-slope-5-curves-__line-21" x1="267.5" y1="233.0" x2="267.5" y2="227.0"/>
+      </g>
+      <line id="25-slope-5-curves-__line-22" x1="42.5" y1="305.0" x2="42.5" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="25-slope-5-curves-__line-23" x1="39.5" y1="155.0" x2="45.5" y2="155.0"/>
+        <line id="25-slope-5-curves-__line-24" x1="39.5" y1="80.0" x2="45.5" y2="80.0"/>
+      </g>
+    </g>
+    <g id="25-slope-5-curves-__label-0" transform="translate(301.0,226.0) translate(-8.9,-11.7)">
+      <g id="25-slope-5-curves-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="25-slope-5-curves-MJX-2-NCM-I-1D466" d="M163 442C118 442 83 417 58 367C39 328 29 301 29 286C29 277 34 272 45 272C59 272 60 278 64 293C87 372 119 412 160 412C173 412 180 403 180 385C180 369 175 346 164 317C126 214 107 145 107 108C107 32 154-13 231-13C264-13 295-1 323 23C288-109 233-175 158-175C124-175 101-164 89-142C129-140 149-121 149-85C149-60 136-47 109-47C72-47 50-78 50-115C50-170 100-205 158-205C273-205 367-99 392-1L486 377C489 388 490 396 490 401C490 421 479 431 458 431C442 431 429 423 420 408C414 387 409 369 406 354L342 97C332 61 279 16 234 16C196 16 177 41 177 92C177 134 194 198 227 284C240 319 247 343 247 357C247 406 212 442 163 442Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:y" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#25-slope-5-curves-MJX-2-NCM-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="25-slope-5-curves-__label-1" transform="translate(46.5,9.0) translate(0.0,-0.0)">
+      <g id="25-slope-5-curves-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="25-slope-5-curves-MJX-3-NCM-I-1D466" d="M163 442C118 442 83 417 58 367C39 328 29 301 29 286C29 277 34 272 45 272C59 272 60 278 64 293C87 372 119 412 160 412C173 412 180 403 180 385C180 369 175 346 164 317C126 214 107 145 107 108C107 32 154-13 231-13C264-13 295-1 323 23C288-109 233-175 158-175C124-175 101-164 89-142C129-140 149-121 149-85C149-60 136-47 109-47C72-47 50-78 50-115C50-170 100-205 158-205C273-205 367-99 392-1L486 377C489 388 490 396 490 401C490 421 479 431 458 431C442 431 429 423 420 408C414 387 409 369 406 354L342 97C332 61 279 16 234 16C196 16 177 41 177 92C177 134 194 198 227 284C240 319 247 343 247 357C247 406 212 442 163 442Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:y" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#25-slope-5-curves-MJX-3-NCM-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="25-slope-5-curves-__label-2" transform="translate(117.5,241.0) translate(-4.5,-0.0)">
+      <g id="25-slope-5-curves-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="25-slope-5-curves-MJX-4-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#25-slope-5-curves-MJX-4-NCM-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="25-slope-5-curves-__label-3" transform="translate(192.5,241.0) translate(-4.5,-0.0)">
+      <g id="25-slope-5-curves-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="25-slope-5-curves-MJX-5-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#25-slope-5-curves-MJX-5-NCM-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="25-slope-5-curves-__label-4" transform="translate(267.5,241.0) translate(-4.5,-0.0)">
+      <g id="25-slope-5-curves-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="25-slope-5-curves-MJX-6-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{6}" data-semantic-speech="6">
+                <use data-c="36" xlink:href="#25-slope-5-curves-MJX-6-NCM-N-36"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="25-slope-5-curves-__label-5" transform="translate(31.5,155.0) translate(-9.0,-6.0)">
+      <g id="25-slope-5-curves-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="25-slope-5-curves-MJX-7-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#25-slope-5-curves-MJX-7-NCM-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="25-slope-5-curves-__label-6" transform="translate(31.5,80.0) translate(-9.0,-6.1)">
+      <g id="25-slope-5-curves-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="25-slope-5-curves-MJX-8-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#25-slope-5-curves-MJX-8-NCM-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <g id="25-slope-5-curves-__slope-field-0">
+    <line id="25-slope-5-curves-__line-25" x1="3.4" y1="295.6" x2="6.6" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-26" x1="1.2" y1="258.1" x2="8.8" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-27" x1="-4.4" y1="230.0" x2="14.4" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-28" x1="-1.3" y1="201.9" x2="11.3" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-29" x1="0.3" y1="164.4" x2="9.7" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-30" x1="-1.3" y1="126.9" x2="11.3" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-31" x1="-4.4" y1="80.0" x2="14.4" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-32" x1="1.2" y1="33.1" x2="8.8" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-33" x1="3.4" y1="-4.4" x2="6.6" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-34" x1="40.9" y1="295.6" x2="44.1" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-35" x1="38.8" y1="258.1" x2="46.2" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-36" x1="33.1" y1="230.0" x2="51.9" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-37" x1="36.2" y1="201.9" x2="48.8" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-38" x1="37.8" y1="164.4" x2="47.2" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-39" x1="36.2" y1="126.9" x2="48.8" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-40" x1="33.1" y1="80.0" x2="51.9" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-41" x1="38.8" y1="33.1" x2="46.2" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-42" x1="40.9" y1="-4.4" x2="44.1" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-43" x1="78.4" y1="295.6" x2="81.6" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-44" x1="76.2" y1="258.1" x2="83.8" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-45" x1="70.6" y1="230.0" x2="89.4" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-46" x1="73.7" y1="201.9" x2="86.3" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-47" x1="75.3" y1="164.4" x2="84.7" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-48" x1="73.7" y1="126.9" x2="86.3" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-49" x1="70.6" y1="80.0" x2="89.4" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-50" x1="76.2" y1="33.1" x2="83.8" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-51" x1="78.4" y1="-4.4" x2="81.6" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-52" x1="115.9" y1="295.6" x2="119.1" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-53" x1="113.8" y1="258.1" x2="121.2" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-54" x1="108.1" y1="230.0" x2="126.9" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-55" x1="111.2" y1="201.9" x2="123.8" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-56" x1="112.8" y1="164.4" x2="122.2" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-57" x1="111.2" y1="126.9" x2="123.8" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-58" x1="108.1" y1="80.0" x2="126.9" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-59" x1="113.8" y1="33.1" x2="121.2" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-60" x1="115.9" y1="-4.4" x2="119.1" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-61" x1="153.4" y1="295.6" x2="156.6" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-62" x1="151.2" y1="258.1" x2="158.8" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-63" x1="145.6" y1="230.0" x2="164.4" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-64" x1="148.7" y1="201.9" x2="161.3" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-65" x1="150.3" y1="164.4" x2="159.7" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-66" x1="148.7" y1="126.9" x2="161.3" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-67" x1="145.6" y1="80.0" x2="164.4" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-68" x1="151.2" y1="33.1" x2="158.8" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-69" x1="153.4" y1="-4.4" x2="156.6" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-70" x1="190.9" y1="295.6" x2="194.1" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-71" x1="188.8" y1="258.1" x2="196.2" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-72" x1="183.1" y1="230.0" x2="201.9" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-73" x1="186.2" y1="201.9" x2="198.8" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-74" x1="187.8" y1="164.4" x2="197.2" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-75" x1="186.2" y1="126.9" x2="198.8" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-76" x1="183.1" y1="80.0" x2="201.9" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-77" x1="188.8" y1="33.1" x2="196.2" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-78" x1="190.9" y1="-4.4" x2="194.1" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-79" x1="228.4" y1="295.6" x2="231.6" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-80" x1="226.2" y1="258.1" x2="233.8" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-81" x1="220.6" y1="230.0" x2="239.4" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-82" x1="223.7" y1="201.9" x2="236.3" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-83" x1="225.3" y1="164.4" x2="234.7" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-84" x1="223.7" y1="126.9" x2="236.3" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-85" x1="220.6" y1="80.0" x2="239.4" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-86" x1="226.2" y1="33.1" x2="233.8" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-87" x1="228.4" y1="-4.4" x2="231.6" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-88" x1="265.9" y1="295.6" x2="269.1" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-89" x1="263.8" y1="258.1" x2="271.2" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-90" x1="258.1" y1="230.0" x2="276.9" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-91" x1="261.2" y1="201.9" x2="273.8" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-92" x1="262.8" y1="164.4" x2="272.2" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-93" x1="261.2" y1="126.9" x2="273.8" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-94" x1="258.1" y1="80.0" x2="276.9" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-95" x1="263.8" y1="33.1" x2="271.2" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-96" x1="265.9" y1="-4.4" x2="269.1" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-97" x1="303.4" y1="295.6" x2="306.6" y2="314.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-98" x1="301.2" y1="258.1" x2="308.8" y2="276.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-99" x1="295.6" y1="230.0" x2="314.4" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-100" x1="298.7" y1="201.9" x2="311.3" y2="183.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-101" x1="300.3" y1="164.4" x2="309.7" y2="145.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-102" x1="298.7" y1="126.9" x2="311.3" y2="108.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-103" x1="295.6" y1="80.0" x2="314.4" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-104" x1="301.2" y1="33.1" x2="308.8" y2="51.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="25-slope-5-curves-__line-105" x1="303.4" y1="-4.4" x2="306.6" y2="14.4" stroke="blue" stroke-width="2" fill="none"/>
+  </g>
+  <g id="25-slope-5-curves-__group-0">
+    <path id="25-slope-5-curves-__path-0-k_0" stroke="orange" stroke-width="2" fill="none" d="M 42.5 267.5 L 45.2 274.9 L 47.8 284.3 L 50.5 296.1 L 53.1 311.4 L 55.8 332.3 L 58.4 361.6 L 61.1 404.8 L 63.7 474.8 L 66.4 604.3 L 69.0 925.6 L 71.7 2943.8" clip-path="url(#25-slope-5-curves-__clipPath-1)"/>
+    <path id="25-slope-5-curves-__path-1-k_1" stroke="orange" stroke-width="2" fill="none" d="M 42.5 230.0 L 45.2 230.0 L 47.8 230.0 L 50.5 230.0 L 53.1 230.0 L 55.8 230.0 L 58.4 230.0 L 61.1 230.0 L 63.7 230.0 L 66.4 230.0 L 69.0 230.0 L 71.7 230.0 L 74.3 230.0 L 77.0 230.0 L 79.6 230.0 L 82.3 230.0 L 84.9 230.0 L 87.6 230.0 L 90.2 230.0 L 92.9 230.0 L 95.5 230.0 L 98.2 230.0 L 100.8 230.0 L 103.5 230.0 L 106.1 230.0 L 108.8 230.0 L 111.4 230.0 L 114.1 230.0 L 116.7 230.0 L 119.4 230.0 L 122.0 230.0 L 124.7 230.0 L 127.3 230.0 L 130.0 230.0 L 132.7 230.0 L 135.3 230.0 L 138.0 230.0 L 140.6 230.0 L 143.3 230.0 L 145.9 230.0 L 148.6 230.0 L 151.2 230.0 L 153.9 230.0 L 156.5 230.0 L 159.2 230.0 L 161.8 230.0 L 164.5 230.0 L 167.1 230.0 L 169.8 230.0 L 172.4 230.0 L 175.1 230.0 L 177.7 230.0 L 180.4 230.0 L 183.0 230.0 L 185.7 230.0 L 188.3 230.0 L 191.0 230.0 L 193.6 230.0 L 196.3 230.0 L 198.9 230.0 L 201.6 230.0 L 204.2 230.0 L 206.9 230.0 L 209.5 230.0 L 212.2 230.0 L 214.8 230.0 L 217.5 230.0 L 220.2 230.0 L 222.8 230.0 L 225.5 230.0 L 228.1 230.0 L 230.8 230.0 L 233.4 230.0 L 236.1 230.0 L 238.7 230.0 L 241.4 230.0 L 244.0 230.0 L 246.7 230.0 L 249.3 230.0 L 252.0 230.0 L 254.6 230.0 L 257.3 230.0 L 259.9 230.0 L 262.6 230.0 L 265.2 230.0 L 267.9 230.0 L 270.5 230.0 L 273.2 230.0 L 275.8 230.0 L 278.5 230.0 L 281.1 230.0 L 283.8 230.0 L 286.4 230.0 L 289.1 230.0 L 291.7 230.0 L 294.4 230.0 L 297.0 230.0 L 299.7 230.0 L 302.3 230.0 L 305.0 230.0" clip-path="url(#25-slope-5-curves-__clipPath-1)"/>
+    <path id="25-slope-5-curves-__path-2-k_2" stroke="orange" stroke-width="2" fill="none" d="M 42.5 192.5 L 45.2 188.4 L 47.8 184.0 L 50.5 179.4 L 53.1 174.5 L 55.8 169.5 L 58.4 164.3 L 61.1 159.1 L 63.7 153.8 L 66.4 148.5 L 69.0 143.3 L 71.7 138.1 L 74.3 133.2 L 77.0 128.4 L 79.6 123.9 L 82.3 119.6 L 84.9 115.6 L 87.6 111.9 L 90.2 108.5 L 92.9 105.3 L 95.5 102.5 L 98.2 99.9 L 100.8 97.6 L 103.5 95.5 L 106.1 93.7 L 108.8 92.0 L 111.4 90.6 L 114.1 89.3 L 116.7 88.1 L 119.4 87.1 L 122.0 86.2 L 124.7 85.4 L 127.3 84.7 L 130.0 84.1 L 132.7 83.6 L 135.3 83.1 L 138.0 82.7 L 140.6 82.4 L 143.3 82.1 L 145.9 81.8 L 148.6 81.5 L 151.2 81.3 L 153.9 81.2 L 156.5 81.0 L 159.2 80.9 L 161.8 80.8 L 164.5 80.7 L 167.1 80.6 L 169.8 80.5 L 172.4 80.4 L 175.1 80.4 L 177.7 80.3 L 180.4 80.3 L 183.0 80.2 L 185.7 80.2 L 188.3 80.2 L 191.0 80.2 L 193.6 80.1 L 196.3 80.1 L 198.9 80.1 L 201.6 80.1 L 204.2 80.1 L 206.9 80.1 L 209.5 80.1 L 212.2 80.1 L 214.8 80.0 L 217.5 80.0 L 220.2 80.0 L 222.8 80.0 L 225.5 80.0 L 228.1 80.0 L 230.8 80.0 L 233.4 80.0 L 236.1 80.0 L 238.7 80.0 L 241.4 80.0 L 244.0 80.0 L 246.7 80.0 L 249.3 80.0 L 252.0 80.0 L 254.6 80.0 L 257.3 80.0 L 259.9 80.0 L 262.6 80.0 L 265.2 80.0 L 267.9 80.0 L 270.5 80.0 L 273.2 80.0 L 275.8 80.0 L 278.5 80.0 L 281.1 80.0 L 283.8 80.0 L 286.4 80.0 L 289.1 80.0 L 291.7 80.0 L 294.4 80.0 L 297.0 80.0 L 299.7 80.0 L 302.3 80.0 L 305.0 80.0" clip-path="url(#25-slope-5-curves-__clipPath-1)"/>
+    <path id="25-slope-5-curves-__path-3-k_3" stroke="orange" stroke-width="2" fill="none" d="M 42.5 155.0 L 45.2 149.7 L 47.8 144.5 L 50.5 139.3 L 53.1 134.4 L 55.8 129.6 L 58.4 125.0 L 61.1 120.7 L 63.7 116.6 L 66.4 112.9 L 69.0 109.3 L 71.7 106.1 L 74.3 103.2 L 77.0 100.5 L 79.6 98.2 L 82.3 96.0 L 84.9 94.1 L 87.6 92.4 L 90.2 90.9 L 92.9 89.5 L 95.5 88.3 L 98.2 87.3 L 100.8 86.4 L 103.5 85.6 L 106.1 84.8 L 108.8 84.2 L 111.4 83.7 L 114.1 83.2 L 116.7 82.8 L 119.4 82.4 L 122.0 82.1 L 124.7 81.8 L 127.3 81.6 L 130.0 81.4 L 132.7 81.2 L 135.3 81.1 L 138.0 80.9 L 140.6 80.8 L 143.3 80.7 L 145.9 80.6 L 148.6 80.5 L 151.2 80.4 L 153.9 80.4 L 156.5 80.3 L 159.2 80.3 L 161.8 80.3 L 164.5 80.2 L 167.1 80.2 L 169.8 80.2 L 172.4 80.2 L 175.1 80.1 L 177.7 80.1 L 180.4 80.1 L 183.0 80.1 L 185.7 80.1 L 188.3 80.1 L 191.0 80.1 L 193.6 80.0 L 196.3 80.0 L 198.9 80.0 L 201.6 80.0 L 204.2 80.0 L 206.9 80.0 L 209.5 80.0 L 212.2 80.0 L 214.8 80.0 L 217.5 80.0 L 220.2 80.0 L 222.8 80.0 L 225.5 80.0 L 228.1 80.0 L 230.8 80.0 L 233.4 80.0 L 236.1 80.0 L 238.7 80.0 L 241.4 80.0 L 244.0 80.0 L 246.7 80.0 L 249.3 80.0 L 252.0 80.0 L 254.6 80.0 L 257.3 80.0 L 259.9 80.0 L 262.6 80.0 L 265.2 80.0 L 267.9 80.0 L 270.5 80.0 L 273.2 80.0 L 275.8 80.0 L 278.5 80.0 L 281.1 80.0 L 283.8 80.0 L 286.4 80.0 L 289.1 80.0 L 291.7 80.0 L 294.4 80.0 L 297.0 80.0 L 299.7 80.0 L 302.3 80.0 L 305.0 80.0" clip-path="url(#25-slope-5-curves-__clipPath-1)"/>
+    <path id="25-slope-5-curves-__path-4-k_4" stroke="orange" stroke-width="2" fill="none" d="M 42.5 117.5 L 45.2 113.7 L 47.8 110.1 L 50.5 106.9 L 53.1 103.9 L 55.8 101.2 L 58.4 98.7 L 61.1 96.5 L 63.7 94.5 L 66.4 92.8 L 69.0 91.2 L 71.7 89.8 L 74.3 88.6 L 77.0 87.5 L 79.6 86.6 L 82.3 85.7 L 84.9 85.0 L 87.6 84.4 L 90.2 83.8 L 92.9 83.3 L 95.5 82.9 L 98.2 82.5 L 100.8 82.2 L 103.5 81.9 L 106.1 81.6 L 108.8 81.4 L 111.4 81.2 L 114.1 81.1 L 116.7 80.9 L 119.4 80.8 L 122.0 80.7 L 124.7 80.6 L 127.3 80.5 L 130.0 80.5 L 132.7 80.4 L 135.3 80.3 L 138.0 80.3 L 140.6 80.3 L 143.3 80.2 L 145.9 80.2 L 148.6 80.2 L 151.2 80.2 L 153.9 80.1 L 156.5 80.1 L 159.2 80.1 L 161.8 80.1 L 164.5 80.1 L 167.1 80.1 L 169.8 80.1 L 172.4 80.0 L 175.1 80.0 L 177.7 80.0 L 180.4 80.0 L 183.0 80.0 L 185.7 80.0 L 188.3 80.0 L 191.0 80.0 L 193.6 80.0 L 196.3 80.0 L 198.9 80.0 L 201.6 80.0 L 204.2 80.0 L 206.9 80.0 L 209.5 80.0 L 212.2 80.0 L 214.8 80.0 L 217.5 80.0 L 220.2 80.0 L 222.8 80.0 L 225.5 80.0 L 228.1 80.0 L 230.8 80.0 L 233.4 80.0 L 236.1 80.0 L 238.7 80.0 L 241.4 80.0 L 244.0 80.0 L 246.7 80.0 L 249.3 80.0 L 252.0 80.0 L 254.6 80.0 L 257.3 80.0 L 259.9 80.0 L 262.6 80.0 L 265.2 80.0 L 267.9 80.0 L 270.5 80.0 L 273.2 80.0 L 275.8 80.0 L 278.5 80.0 L 281.1 80.0 L 283.8 80.0 L 286.4 80.0 L 289.1 80.0 L 291.7 80.0 L 294.4 80.0 L 297.0 80.0 L 299.7 80.0 L 302.3 80.0 L 305.0 80.0" clip-path="url(#25-slope-5-curves-__clipPath-1)"/>
+    <path id="25-slope-5-curves-__path-5-k_5" stroke="orange" stroke-width="2" fill="none" d="M 42.5 80.0 L 45.2 80.0 L 47.8 80.0 L 50.5 80.0 L 53.1 80.0 L 55.8 80.0 L 58.4 80.0 L 61.1 80.0 L 63.7 80.0 L 66.4 80.0 L 69.0 80.0 L 71.7 80.0 L 74.3 80.0 L 77.0 80.0 L 79.6 80.0 L 82.3 80.0 L 84.9 80.0 L 87.6 80.0 L 90.2 80.0 L 92.9 80.0 L 95.5 80.0 L 98.2 80.0 L 100.8 80.0 L 103.5 80.0 L 106.1 80.0 L 108.8 80.0 L 111.4 80.0 L 114.1 80.0 L 116.7 80.0 L 119.4 80.0 L 122.0 80.0 L 124.7 80.0 L 127.3 80.0 L 130.0 80.0 L 132.7 80.0 L 135.3 80.0 L 138.0 80.0 L 140.6 80.0 L 143.3 80.0 L 145.9 80.0 L 148.6 80.0 L 151.2 80.0 L 153.9 80.0 L 156.5 80.0 L 159.2 80.0 L 161.8 80.0 L 164.5 80.0 L 167.1 80.0 L 169.8 80.0 L 172.4 80.0 L 175.1 80.0 L 177.7 80.0 L 180.4 80.0 L 183.0 80.0 L 185.7 80.0 L 188.3 80.0 L 191.0 80.0 L 193.6 80.0 L 196.3 80.0 L 198.9 80.0 L 201.6 80.0 L 204.2 80.0 L 206.9 80.0 L 209.5 80.0 L 212.2 80.0 L 214.8 80.0 L 217.5 80.0 L 220.2 80.0 L 222.8 80.0 L 225.5 80.0 L 228.1 80.0 L 230.8 80.0 L 233.4 80.0 L 236.1 80.0 L 238.7 80.0 L 241.4 80.0 L 244.0 80.0 L 246.7 80.0 L 249.3 80.0 L 252.0 80.0 L 254.6 80.0 L 257.3 80.0 L 259.9 80.0 L 262.6 80.0 L 265.2 80.0 L 267.9 80.0 L 270.5 80.0 L 273.2 80.0 L 275.8 80.0 L 278.5 80.0 L 281.1 80.0 L 283.8 80.0 L 286.4 80.0 L 289.1 80.0 L 291.7 80.0 L 294.4 80.0 L 297.0 80.0 L 299.7 80.0 L 302.3 80.0 L 305.0 80.0" clip-path="url(#25-slope-5-curves-__clipPath-1)"/>
+    <path id="25-slope-5-curves-__path-6-k_6" stroke="orange" stroke-width="2" fill="none" d="M 42.5 42.5 L 45.2 48.5 L 47.8 53.4 L 50.5 57.5 L 53.1 60.8 L 55.8 63.6 L 58.4 65.9 L 61.1 67.8 L 63.7 69.5 L 66.4 70.9 L 69.0 72.2 L 71.7 73.3 L 74.3 74.2 L 77.0 75.0 L 79.6 75.6 L 82.3 76.2 L 84.9 76.7 L 87.6 77.2 L 90.2 77.6 L 92.9 77.9 L 95.5 78.2 L 98.2 78.4 L 100.8 78.6 L 103.5 78.8 L 106.1 78.9 L 108.8 79.1 L 111.4 79.2 L 114.1 79.3 L 116.7 79.4 L 119.4 79.5 L 122.0 79.6 L 124.7 79.6 L 127.3 79.7 L 130.0 79.7 L 132.7 79.7 L 135.3 79.8 L 138.0 79.8 L 140.6 79.8 L 143.3 79.8 L 145.9 79.9 L 148.6 79.9 L 151.2 79.9 L 153.9 79.9 L 156.5 79.9 L 159.2 79.9 L 161.8 80.0 L 164.5 80.0 L 167.1 80.0 L 169.8 80.0 L 172.4 80.0 L 175.1 80.0 L 177.7 80.0 L 180.4 80.0 L 183.0 80.0 L 185.7 80.0 L 188.3 80.0 L 191.0 80.0 L 193.6 80.0 L 196.3 80.0 L 198.9 80.0 L 201.6 80.0 L 204.2 80.0 L 206.9 80.0 L 209.5 80.0 L 212.2 80.0 L 214.8 80.0 L 217.5 80.0 L 220.2 80.0 L 222.8 80.0 L 225.5 80.0 L 228.1 80.0 L 230.8 80.0 L 233.4 80.0 L 236.1 80.0 L 238.7 80.0 L 241.4 80.0 L 244.0 80.0 L 246.7 80.0 L 249.3 80.0 L 252.0 80.0 L 254.6 80.0 L 257.3 80.0 L 259.9 80.0 L 262.6 80.0 L 265.2 80.0 L 267.9 80.0 L 270.5 80.0 L 273.2 80.0 L 275.8 80.0 L 278.5 80.0 L 281.1 80.0 L 283.8 80.0 L 286.4 80.0 L 289.1 80.0 L 291.7 80.0 L 294.4 80.0 L 297.0 80.0 L 299.7 80.0 L 302.3 80.0 L 305.0 80.0" clip-path="url(#25-slope-5-curves-__clipPath-1)"/>
+  </g>
+</svg>

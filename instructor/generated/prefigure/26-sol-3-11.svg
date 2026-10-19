@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="26-sol-3-figure" width="340" height="310" viewBox="0 0 340 310">
+  <defs>
+    <clipPath id="26-sol-3-__clipPath-0">
+      <rect x="35.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="26-sol-3-__clipPath-1">
+      <rect x="35.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="26-sol-3-grid-axes">
+    <g id="26-sol-3-grid" stroke="#ccc" stroke-width="1">
+      <line x1="35.0" y1="305.0" x2="35.0" y2="5.0"/>
+      <line x1="85.0" y1="305.0" x2="85.0" y2="5.0"/>
+      <line x1="135.0" y1="305.0" x2="135.0" y2="5.0"/>
+      <line x1="185.0" y1="305.0" x2="185.0" y2="5.0"/>
+      <line x1="235.0" y1="305.0" x2="235.0" y2="5.0"/>
+      <line x1="285.0" y1="305.0" x2="285.0" y2="5.0"/>
+      <line x1="335.0" y1="305.0" x2="335.0" y2="5.0"/>
+      <line x1="35.0" y1="305.0" x2="335.0" y2="305.0"/>
+      <line x1="35.0" y1="255.0" x2="335.0" y2="255.0"/>
+      <line x1="35.0" y1="205.0" x2="335.0" y2="205.0"/>
+      <line x1="35.0" y1="155.0" x2="335.0" y2="155.0"/>
+      <line x1="35.0" y1="105.0" x2="335.0" y2="105.0"/>
+      <line x1="35.0" y1="55.0" x2="335.0" y2="55.0"/>
+      <line x1="35.0" y1="5.0" x2="335.0" y2="5.0"/>
+    </g>
+    <g id="26-sol-3-axes" stroke="black" stroke-width="2">
+      <line id="26-sol-3-__line-14" x1="35.0" y1="205.0" x2="335.0" y2="205.0" stroke="black" stroke-width="2"/>
+      <line id="26-sol-3-__line-15" x1="35.0" y1="305.0" x2="35.0" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="26-sol-3-__line-16" x1="32.0" y1="255.0" x2="38.0" y2="255.0"/>
+        <line id="26-sol-3-__line-17" x1="32.0" y1="155.0" x2="38.0" y2="155.0"/>
+        <line id="26-sol-3-__line-18" x1="32.0" y1="105.0" x2="38.0" y2="105.0"/>
+        <line id="26-sol-3-__line-19" x1="32.0" y1="55.0" x2="38.0" y2="55.0"/>
+      </g>
+    </g>
+    <g id="26-sol-3-__label-0" transform="translate(24.0,255.0) translate(-29.2,-6.2)">
+      <g id="26-sol-3-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="29.160px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1611 688" x="0.0" y="0.0">
+          <defs>
+            <path id="26-sol-3-MJX-2-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+            <path id="26-sol-3-MJX-2-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+            <path id="26-sol-3-MJX-2-NCM-N-2E" d="M192 53C192 82 168 106 139 106C110 106 86 82 86 53C86 24 110 0 139 0C168 0 192 24 192 53Z"/>
+            <path id="26-sol-3-MJX-2-NCM-N-35" d="M118 315C123 315 129 319 134 326C164 371 205 393 257 393C292 393 319 373 337 332C348 305 354 264 354 209C354 146 346 102 331 76C306 35 272 14 229 14C162 14 109 62 91 114C94 113 96 114 100 114C130 114 155 137 155 167C155 198 130 219 100 219C65 219 50 200 50 163C50 63 131-22 231-22C292-22 344 0 386 44C428 88 449 141 449 202C449 260 432 310 398 353C361 400 315 423 259 423C212 423 171 408 138 378L138 556C165 548 191 544 218 544C264 544 304 555 338 578C369 597 390 616 402 634C408 642 411 648 411 651C411 661 406 666 396 666C341 645 294 634 256 634C211 634 168 643 127 662C122 664 118 665 114 665C105 665 100 656 100 637L100 345C100 324 100 315 118 315Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-0.5}" data-semantic-speech="minus 0.5">
+                <use data-c="2D" xlink:href="#26-sol-3-MJX-2-NCM-N-2D"/>
+                <use data-c="30" xlink:href="#26-sol-3-MJX-2-NCM-N-30" transform="translate(333,0)"/>
+                <use data-c="2E" xlink:href="#26-sol-3-MJX-2-NCM-N-2E" transform="translate(833,0)"/>
+                <use data-c="35" xlink:href="#26-sol-3-MJX-2-NCM-N-35" transform="translate(1111,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="26-sol-3-__label-1" transform="translate(24.0,155.0) translate(-23.1,-6.2)">
+      <g id="26-sol-3-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
+          <defs>
+            <path id="26-sol-3-MJX-3-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+            <path id="26-sol-3-MJX-3-NCM-N-2E" d="M192 53C192 82 168 106 139 106C110 106 86 82 86 53C86 24 110 0 139 0C168 0 192 24 192 53Z"/>
+            <path id="26-sol-3-MJX-3-NCM-N-35" d="M118 315C123 315 129 319 134 326C164 371 205 393 257 393C292 393 319 373 337 332C348 305 354 264 354 209C354 146 346 102 331 76C306 35 272 14 229 14C162 14 109 62 91 114C94 113 96 114 100 114C130 114 155 137 155 167C155 198 130 219 100 219C65 219 50 200 50 163C50 63 131-22 231-22C292-22 344 0 386 44C428 88 449 141 449 202C449 260 432 310 398 353C361 400 315 423 259 423C212 423 171 408 138 378L138 556C165 548 191 544 218 544C264 544 304 555 338 578C369 597 390 616 402 634C408 642 411 648 411 651C411 661 406 666 396 666C341 645 294 634 256 634C211 634 168 643 127 662C122 664 118 665 114 665C105 665 100 656 100 637L100 345C100 324 100 315 118 315Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{0.5}" data-semantic-speech="0.5">
+                <use data-c="30" xlink:href="#26-sol-3-MJX-3-NCM-N-30"/>
+                <use data-c="2E" xlink:href="#26-sol-3-MJX-3-NCM-N-2E" transform="translate(500,0)"/>
+                <use data-c="35" xlink:href="#26-sol-3-MJX-3-NCM-N-35" transform="translate(778,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="26-sol-3-__label-2" transform="translate(24.0,105.0) translate(-9.0,-6.0)">
+      <g id="26-sol-3-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="26-sol-3-MJX-4-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{1}" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#26-sol-3-MJX-4-NCM-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="26-sol-3-__label-3" transform="translate(24.0,55.0) translate(-23.1,-6.2)">
+      <g id="26-sol-3-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
+          <defs>
+            <path id="26-sol-3-MJX-5-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+            <path id="26-sol-3-MJX-5-NCM-N-2E" d="M192 53C192 82 168 106 139 106C110 106 86 82 86 53C86 24 110 0 139 0C168 0 192 24 192 53Z"/>
+            <path id="26-sol-3-MJX-5-NCM-N-35" d="M118 315C123 315 129 319 134 326C164 371 205 393 257 393C292 393 319 373 337 332C348 305 354 264 354 209C354 146 346 102 331 76C306 35 272 14 229 14C162 14 109 62 91 114C94 113 96 114 100 114C130 114 155 137 155 167C155 198 130 219 100 219C65 219 50 200 50 163C50 63 131-22 231-22C292-22 344 0 386 44C428 88 449 141 449 202C449 260 432 310 398 353C361 400 315 423 259 423C212 423 171 408 138 378L138 556C165 548 191 544 218 544C264 544 304 555 338 578C369 597 390 616 402 634C408 642 411 648 411 651C411 661 406 666 396 666C341 645 294 634 256 634C211 634 168 643 127 662C122 664 118 665 114 665C105 665 100 656 100 637L100 345C100 324 100 315 118 315Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{1.5}" data-semantic-speech="1.5">
+                <use data-c="31" xlink:href="#26-sol-3-MJX-5-NCM-N-31"/>
+                <use data-c="2E" xlink:href="#26-sol-3-MJX-5-NCM-N-2E" transform="translate(500,0)"/>
+                <use data-c="35" xlink:href="#26-sol-3-MJX-5-NCM-N-35" transform="translate(778,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <g id="26-sol-3-__slope-field-0">
+    <line id="26-sol-3-__line-20" x1="22.5" y1="317.5" x2="47.5" y2="292.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-21" x1="22.5" y1="261.2" x2="47.5" y2="248.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-22" x1="22.5" y1="205.0" x2="47.5" y2="205.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-23" x1="22.5" y1="148.8" x2="47.5" y2="161.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-24" x1="22.5" y1="92.5" x2="47.5" y2="117.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-25" x1="26.7" y1="42.5" x2="43.3" y2="67.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-26" x1="28.8" y1="-7.5" x2="41.2" y2="17.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-27" x1="76.7" y1="317.5" x2="93.3" y2="292.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-28" x1="72.5" y1="267.5" x2="97.5" y2="242.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-29" x1="72.5" y1="211.2" x2="97.5" y2="198.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-30" x1="72.5" y1="155.0" x2="97.5" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-31" x1="72.5" y1="98.8" x2="97.5" y2="111.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-32" x1="72.5" y1="42.5" x2="97.5" y2="67.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-33" x1="76.7" y1="-7.5" x2="93.3" y2="17.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-34" x1="128.8" y1="317.5" x2="141.2" y2="292.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-35" x1="126.7" y1="267.5" x2="143.3" y2="242.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-36" x1="122.5" y1="217.5" x2="147.5" y2="192.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-37" x1="122.5" y1="161.2" x2="147.5" y2="148.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-38" x1="122.5" y1="105.0" x2="147.5" y2="105.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-39" x1="122.5" y1="48.8" x2="147.5" y2="61.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-40" x1="122.5" y1="-7.5" x2="147.5" y2="17.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-41" x1="180.0" y1="317.5" x2="190.0" y2="292.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-42" x1="178.8" y1="267.5" x2="191.2" y2="242.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-43" x1="176.7" y1="217.5" x2="193.3" y2="192.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-44" x1="172.5" y1="167.5" x2="197.5" y2="142.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-45" x1="172.5" y1="111.2" x2="197.5" y2="98.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-46" x1="172.5" y1="55.0" x2="197.5" y2="55.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-47" x1="172.5" y1="-1.2" x2="197.5" y2="11.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-48" x1="230.8" y1="317.5" x2="239.2" y2="292.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-49" x1="230.0" y1="267.5" x2="240.0" y2="242.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-50" x1="228.8" y1="217.5" x2="241.2" y2="192.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-51" x1="226.7" y1="167.5" x2="243.3" y2="142.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-52" x1="222.5" y1="117.5" x2="247.5" y2="92.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-53" x1="222.5" y1="61.2" x2="247.5" y2="48.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-54" x1="222.5" y1="5.0" x2="247.5" y2="5.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-55" x1="281.4" y1="317.5" x2="288.6" y2="292.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-56" x1="280.8" y1="267.5" x2="289.2" y2="242.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-57" x1="280.0" y1="217.5" x2="290.0" y2="192.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-58" x1="278.8" y1="167.5" x2="291.2" y2="142.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-59" x1="276.7" y1="117.5" x2="293.3" y2="92.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-60" x1="272.5" y1="67.5" x2="297.5" y2="42.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-61" x1="272.5" y1="11.2" x2="297.5" y2="-1.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-62" x1="331.9" y1="317.5" x2="338.1" y2="292.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-63" x1="331.4" y1="267.5" x2="338.6" y2="242.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-64" x1="330.8" y1="217.5" x2="339.2" y2="192.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-65" x1="330.0" y1="167.5" x2="340.0" y2="142.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-66" x1="328.8" y1="117.5" x2="341.2" y2="92.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-67" x1="326.7" y1="67.5" x2="343.3" y2="42.5" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="26-sol-3-__line-68" x1="322.5" y1="17.5" x2="347.5" y2="-7.5" stroke="blue" stroke-width="2" fill="none"/>
+  </g>
+  <path id="26-sol-3-__path-0" stroke="orange" stroke-width="2" fill="none" d="M 35.0 105.0 L 38.0 107.9 L 41.1 110.7 L 44.1 113.3 L 47.1 115.7 L 50.2 118.0 L 53.2 120.1 L 56.2 122.0 L 59.2 123.8 L 62.3 125.5 L 65.3 127.0 L 68.3 128.4 L 71.4 129.6 L 74.4 130.8 L 77.4 131.8 L 80.5 132.6 L 83.5 133.4 L 86.5 134.0 L 89.5 134.6 L 92.6 135.0 L 95.6 135.3 L 98.6 135.5 L 101.7 135.7 L 104.7 135.7 L 107.7 135.6 L 110.8 135.5 L 113.8 135.2 L 116.8 134.9 L 119.8 134.5 L 122.9 134.0 L 125.9 133.5 L 128.9 132.9 L 132.0 132.2 L 135.0 131.4 L 138.0 130.6 L 141.1 129.7 L 144.1 128.7 L 147.1 127.7 L 150.2 126.6 L 153.2 125.5 L 156.2 124.3 L 159.2 123.0 L 162.3 121.7 L 165.3 120.4 L 168.3 118.9 L 171.4 117.5 L 174.4 116.0 L 177.4 114.4 L 180.5 112.8 L 183.5 111.2 L 186.5 109.5 L 189.5 107.8 L 192.6 106.0 L 195.6 104.2 L 198.6 102.4 L 201.7 100.5 L 204.7 98.6 L 207.7 96.7 L 210.8 94.7 L 213.8 92.7 L 216.8 90.7 L 219.8 88.7 L 222.9 86.6 L 225.9 84.4 L 228.9 82.3 L 232.0 80.1 L 235.0 77.9 L 238.0 75.7 L 241.1 73.5 L 244.1 71.2 L 247.1 68.9 L 250.2 66.6 L 253.2 64.3 L 256.2 61.9 L 259.2 59.5 L 262.3 57.1 L 265.3 54.7 L 268.3 52.3 L 271.4 49.8 L 274.4 47.3 L 277.4 44.9 L 280.5 42.4 L 283.5 39.8 L 286.5 37.3 L 289.5 34.7 L 292.6 32.2 L 295.6 29.6 L 298.6 27.0 L 301.7 24.4 L 304.7 21.8 L 307.7 19.2 L 310.8 16.5 L 313.8 13.9 L 316.8 11.2 L 319.8 8.6 L 322.9 5.9 L 325.9 3.2 L 328.9 0.5 L 332.0 -2.2 L 335.0 -5.0" clip-path="url(#26-sol-3-__clipPath-1)"/>
+</svg>

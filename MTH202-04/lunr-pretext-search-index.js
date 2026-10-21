@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Learning targets",
-  "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use substitution to find antiderivatives.  I can use integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can use definite integrals to find the volume of a solid of revolution and the mass given its density.  I can use definite integrals to find physical quantities such as centers of mass and work.  I can use definite integrals to represent key quantities in other applications such as finance and probability.  I can apply an appropriate technique to approximate a definite integral.  I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can express real world situations as differential equations, determine any stable or unstable equilibrium solutions, and explain the significance of the equilibrium solutions in context.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
+  "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use substitution to find antiderivatives.  I can use integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can use definite integrals to find the volume of a solid of revolution and the mass given its density.  I can use definite integrals to find physical quantities such as centers of mass and work.  I can use definite integrals to represent key quantities in other applications such as finance and probability.   I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can express real world situations as differential equations, determine any stable or unstable equilibrium solutions, and explain the significance of the equilibrium solutions in context.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
 },
 {
   "id": "course-documents-7",
@@ -1313,6 +1313,33 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Now consider the equation .     Sketch the slope field below along with the solution with initial value .   A diagram for sketching the slope field    f(t,y)=1\/2*(4*y-y^2)            Now use Euler's method with a step size of to approximate the value of the solution at .              0.0  1.0      0.25       0.50       0.75       1.00           Check that the function is the solution to this differential equation with this initial value.      What is and how does it compare to your approximation?    "
+},
+{
+  "id": "activities-29",
+  "level": "1",
+  "url": "activities-29.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Differential Equations",
+  "body": " Differential Equations    Suppose that describes the population of a particular species, where is represented in millions. Suppose also that the change in the population is determined by the differential equation where is the function graphed below.   A graph of the function f of P    f(x)=-x*(x-1)*(x-3)  a = 1            For what values of the population does the population increase? For what values of the population does the population decrease?      Identify any equilibrium populations.      Sketch a slope field for the differential equation .      Determine whether the equilibrium populations you have found are either stable or unstable.      If , what happens to this species eventually?      If , what happens eventually?       Suppose that describes the population of a particular species of fish in a lake where is measured in thousands and is measured in months. Suppose that the change in the population is given by the differential equation      Sketch a graph of the function and use it to determine any equilibrium solutions. Determine whether these equilibria are stable or unstable.      What happens to the population of fish eventually?      Suppose that the lake is opened to fishing and that one thousand fish per month are removed from the lake (remember that is measured in thousands of fish). Modify the differential equation to take this into account.      Determine the new equilibrium solutions and their stability.      What happens to the fish after a long time?     "
+},
+{
+  "id": "activities-29-2",
+  "level": "2",
+  "url": "activities-29.html#activities-29-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that describes the population of a particular species, where is represented in millions. Suppose also that the change in the population is determined by the differential equation where is the function graphed below.   A graph of the function f of P    f(x)=-x*(x-1)*(x-3)  a = 1            For what values of the population does the population increase? For what values of the population does the population decrease?      Identify any equilibrium populations.      Sketch a slope field for the differential equation .      Determine whether the equilibrium populations you have found are either stable or unstable.      If , what happens to this species eventually?      If , what happens eventually?    "
+},
+{
+  "id": "activities-29-3",
+  "level": "2",
+  "url": "activities-29.html#activities-29-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that describes the population of a particular species of fish in a lake where is measured in thousands and is measured in months. Suppose that the change in the population is given by the differential equation      Sketch a graph of the function and use it to determine any equilibrium solutions. Determine whether these equilibria are stable or unstable.      What happens to the population of fish eventually?      Suppose that the lake is opened to fishing and that one thousand fish per month are removed from the lake (remember that is measured in thousands of fish). Modify the differential equation to take this into account.      Determine the new equilibrium solutions and their stability.      What happens to the fish after a long time?    "
 }
 ]
 

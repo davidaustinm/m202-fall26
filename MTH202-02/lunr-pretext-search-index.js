@@ -1340,6 +1340,78 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Suppose that describes the population of a particular species of fish in a lake where is measured in thousands and is measured in months. Suppose that the change in the population is given by the differential equation      Sketch a graph of the function and use it to determine any equilibrium solutions. Determine whether these equilibria are stable or unstable.      What happens to the population of fish eventually?      Suppose that the lake is opened to fishing and that one thousand fish per month are removed from the lake (remember that is measured in thousands of fish). Modify the differential equation to take this into account.      Determine the new equilibrium solutions and their stability.      What happens to the fish after a long time?    "
+},
+{
+  "id": "activities-30",
+  "level": "1",
+  "url": "activities-30.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Separable Differential Equations",
+  "body": " Separable Differential Equations    Solve the initial value problem:       Solve the initial value problem:       Suppose that a cup of coffee is initially at a temperature of 105 F and is placed in a 75 F room. Newton's law of cooling says that where is a constant of proportionality.     Suppose you know that the coffee is cooling at one degree per minute when it is brought into the room. Use this to determine the value of the constant .      Find all solutions to the differential equation.      What happens to all the solutions as ? Explain how this agrees with your intuition.      Find the solution with . What is the temperature of the cup of coffee after 20 minutes?      How long does it take to cool to 80 ?       Over time, a sample of a radioactive material will decay at a rate proportional to its mass. If we call the mass of the radioactive substance, we can express this fact by      Find the general solution of the differential equation. (Your solution will depend on the constant of proportionality .)      Now find the solution where the initial mass is .      The half-life of a radioactive substance is the amount of time required for half the mass to decay. Carbon-14 has a half-life of 5730 years. What is the value of for Carbon-14?      If the mass of a Carbon-14 sample is initially 20 grams, how long does it take until there are only 5 grams left?     "
+},
+{
+  "id": "activities-30-2",
+  "level": "2",
+  "url": "activities-30.html#activities-30-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Solve the initial value problem:    "
+},
+{
+  "id": "activities-30-3",
+  "level": "2",
+  "url": "activities-30.html#activities-30-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Solve the initial value problem:    "
+},
+{
+  "id": "activities-30-4",
+  "level": "2",
+  "url": "activities-30.html#activities-30-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose that a cup of coffee is initially at a temperature of 105 F and is placed in a 75 F room. Newton's law of cooling says that where is a constant of proportionality.     Suppose you know that the coffee is cooling at one degree per minute when it is brought into the room. Use this to determine the value of the constant .      Find all solutions to the differential equation.      What happens to all the solutions as ? Explain how this agrees with your intuition.      Find the solution with . What is the temperature of the cup of coffee after 20 minutes?      How long does it take to cool to 80 ?    "
+},
+{
+  "id": "activities-30-5",
+  "level": "2",
+  "url": "activities-30.html#activities-30-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Over time, a sample of a radioactive material will decay at a rate proportional to its mass. If we call the mass of the radioactive substance, we can express this fact by      Find the general solution of the differential equation. (Your solution will depend on the constant of proportionality .)      Now find the solution where the initial mass is .      The half-life of a radioactive substance is the amount of time required for half the mass to decay. Carbon-14 has a half-life of 5730 years. What is the value of for Carbon-14?      If the mass of a Carbon-14 sample is initially 20 grams, how long does it take until there are only 5 grams left?    "
+},
+{
+  "id": "activities-31",
+  "level": "1",
+  "url": "activities-31.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Differential Equations Review",
+  "body": " Differential Equations Review    The differential equation describes the height of an object suspended by a spring. Which of the following functions are solutions of this equation?     Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.       The velocity of a falling object is described by the differential equation      Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.      For what velocities does the velocity increase? For what velocities does the velocity decrease?      Sketch a slope field for this differential equation.      Identify any equilibrium solutions and determine whether they are stable or unstable.      What does this equilibrium solution mean in terms of the falling object?      Suppose that is measured in meters per second and is measured in seconds. We will develop a numerical approximation of the solution with initial value . What is the rate of change at this time? What are the units on this rate of change?      If we take time steps of seconds, by approximately how much does the velocity change from to ?      What is the estimated velocity when ?      Repeat this process to continue estimating the velocity using Euler's method.              0  0      0.1       0.2       0.3       0.4           Verify that is the solution to the initial value problem given by this differential equation and the initial condition .      Compare your estimate of to the exact value of .      "
+},
+{
+  "id": "activities-31-2",
+  "level": "2",
+  "url": "activities-31.html#activities-31-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The differential equation describes the height of an object suspended by a spring. Which of the following functions are solutions of this equation?     Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.    "
+},
+{
+  "id": "activities-31-3",
+  "level": "2",
+  "url": "activities-31.html#activities-31-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The velocity of a falling object is described by the differential equation      Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.      For what velocities does the velocity increase? For what velocities does the velocity decrease?      Sketch a slope field for this differential equation.      Identify any equilibrium solutions and determine whether they are stable or unstable.      What does this equilibrium solution mean in terms of the falling object?      Suppose that is measured in meters per second and is measured in seconds. We will develop a numerical approximation of the solution with initial value . What is the rate of change at this time? What are the units on this rate of change?      If we take time steps of seconds, by approximately how much does the velocity change from to ?      What is the estimated velocity when ?      Repeat this process to continue estimating the velocity using Euler's method.              0  0      0.1       0.2       0.3       0.4           Verify that is the solution to the initial value problem given by this differential equation and the initial condition .      Compare your estimate of to the exact value of .    "
 }
 ]
 

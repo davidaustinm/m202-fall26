@@ -1340,6 +1340,132 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Suppose that describes the population of a particular species of fish in a lake where is measured in thousands and is measured in months. Suppose that the change in the population is given by the differential equation      Sketch a graph of the function and use it to determine any equilibrium solutions. Determine whether these equilibria are stable or unstable.       f(x)=x*(6-x)         The equilibria are (unstable, since nearby positive populations move away) and (stable).      What happens to the population of fish eventually?    If , the fish population eventually stabilizes at thousand.      Suppose that the lake is opened to fishing and that one thousand fish per month are removed from the lake (remember that is measured in thousands of fish). Modify the differential equation to take this into account.           Determine the new equilibrium solutions and their stability.    Setting gives , so . The upper equilibrium is stable; the lower equilibrium is unstable.      What happens to the fish after a long time?    If the initial population exceeds thousand, the population stabilizes around thousand fish. If the initial population begins below thousand, then the fish go extinct.    "
+},
+{
+  "id": "activities-30",
+  "level": "1",
+  "url": "activities-30.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Separable Differential Equations",
+  "body": " Separable Differential Equations    Solve the initial value problem:       Solve the initial value problem:       Suppose that a cup of coffee is initially at a temperature of 105 F and is placed in a 75 F room. Newton's law of cooling says that where is a constant of proportionality.     Suppose you know that the coffee is cooling at one degree per minute when it is brought into the room. Use this to determine the value of the constant .      Find all solutions to the differential equation.      What happens to all the solutions as ? Explain how this agrees with your intuition.      Find the solution with . What is the temperature of the cup of coffee after 20 minutes?      How long does it take to cool to 80 ?       Over time, a sample of a radioactive material will decay at a rate proportional to its mass. If we call the mass of the radioactive substance, we can express this fact by      Find the general solution of the differential equation. (Your solution will depend on the constant of proportionality .)      Now find the solution where the initial mass is .      The half-life of a radioactive substance is the amount of time required for half the mass to decay. Carbon-14 has a half-life of 5730 years. What is the value of for Carbon-14?      If the mass of a Carbon-14 sample is initially 20 grams, how long does it take until there are only 5 grams left?     "
+},
+{
+  "id": "activities-30-2",
+  "level": "2",
+  "url": "activities-30.html#activities-30-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Solve the initial value problem:    "
+},
+{
+  "id": "activities-30-3",
+  "level": "2",
+  "url": "activities-30.html#activities-30-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Solve the initial value problem:    "
+},
+{
+  "id": "activities-30-4",
+  "level": "2",
+  "url": "activities-30.html#activities-30-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose that a cup of coffee is initially at a temperature of 105 F and is placed in a 75 F room. Newton's law of cooling says that where is a constant of proportionality.     Suppose you know that the coffee is cooling at one degree per minute when it is brought into the room. Use this to determine the value of the constant .      Find all solutions to the differential equation.      What happens to all the solutions as ? Explain how this agrees with your intuition.      Find the solution with . What is the temperature of the cup of coffee after 20 minutes?      How long does it take to cool to 80 ?    "
+},
+{
+  "id": "activities-30-5",
+  "level": "2",
+  "url": "activities-30.html#activities-30-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Over time, a sample of a radioactive material will decay at a rate proportional to its mass. If we call the mass of the radioactive substance, we can express this fact by      Find the general solution of the differential equation. (Your solution will depend on the constant of proportionality .)      Now find the solution where the initial mass is .      The half-life of a radioactive substance is the amount of time required for half the mass to decay. Carbon-14 has a half-life of 5730 years. What is the value of for Carbon-14?      If the mass of a Carbon-14 sample is initially 20 grams, how long does it take until there are only 5 grams left?    "
+},
+{
+  "id": "activities-31",
+  "level": "1",
+  "url": "activities-31.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Differential Equations Review",
+  "body": " Differential Equations Review    The differential equation describes the height of an object suspended by a spring. Which of the following functions are solutions of this equation?     Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.       The velocity of a falling object is described by the differential equation      Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.      For what velocities does the velocity increase? For what velocities does the velocity decrease?      Sketch a slope field for this differential equation.      Identify any equilibrium solutions and determine whether they are stable or unstable.      What does this equilibrium solution mean in terms of the falling object?      Suppose that is measured in meters per second and is measured in seconds. We will develop a numerical approximation of the solution with initial value . What is the rate of change at this time? What are the units on this rate of change?      If we take time steps of seconds, by approximately how much does the velocity change from to ?      What is the estimated velocity when ?      Repeat this process to continue estimating the velocity using Euler's method.              0  0      0.1       0.2       0.3       0.4           Verify that is the solution to the initial value problem given by this differential equation and the initial condition .      Compare your estimate of to the exact value of .      "
+},
+{
+  "id": "activities-31-2",
+  "level": "2",
+  "url": "activities-31.html#activities-31-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The differential equation describes the height of an object suspended by a spring. Which of the following functions are solutions of this equation?     Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.    "
+},
+{
+  "id": "activities-31-3",
+  "level": "2",
+  "url": "activities-31.html#activities-31-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The velocity of a falling object is described by the differential equation      Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.      For what velocities does the velocity increase? For what velocities does the velocity decrease?      Sketch a slope field for this differential equation.      Identify any equilibrium solutions and determine whether they are stable or unstable.      What does this equilibrium solution mean in terms of the falling object?      Suppose that is measured in meters per second and is measured in seconds. We will develop a numerical approximation of the solution with initial value . What is the rate of change at this time? What are the units on this rate of change?      If we take time steps of seconds, by approximately how much does the velocity change from to ?      What is the estimated velocity when ?      Repeat this process to continue estimating the velocity using Euler's method.              0  0      0.1       0.2       0.3       0.4           Verify that is the solution to the initial value problem given by this differential equation and the initial condition .      Compare your estimate of to the exact value of .    "
+},
+{
+  "id": "activities-32",
+  "level": "1",
+  "url": "activities-32.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 3: Euler’s Method",
+  "body": " Lab 3: Euler's Method   Due: Monday, November 9   Names:    Instructions: The exercises here should be completed in groups of 2 or 3 students with one write-up submitted from each group. Be sure to include everyone's name on the write-up.  We have used Euler's method to help us approximate solutions to differential equations. Today we will use spreadsheets to implement Euler's method ( Oiler's method ).  Remember: the derivative gives the instantaneous rate of change. When we move forward in time, the change in is approximately      We'll begin by considering the differential equation with the initial value .  We would like to approximate the solution over the interval .     Verify that is a solution to this differential equation with the appropriate initial value.      Since we now have an explicit formula for the solution, we don't really need to build a numerical approximation to the solution. However, this is a good problem to start with since we can test the accuracy of our approximation.  We will walk from to taking steps of size ; that is, we will approximate the solution at . We can do the first steps as follows.  Since and , what is at this time? By approximately how much does change when we move from to ? Approximately what is ?      Now we have an approximation for . What is at this time? By approximately how much does change when we move from to ? Approximately what is ?       Now we will build a Google sheet that continues this approximation process as shown below. Remember that the differential equation gives the slope of the tangent lines.     A convenient way to set up the spreadsheet is shown below.               Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000        0.1000  0.2000        0.1000  0.3000        Now that you have the change in , how do you find the next value, ?             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000       0.1000  0.2000        0.1000  0.3000        Now continue this process:             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000  7.2000  0.7200  3.6642    0.1000  0.2000  4.3200  8.6400  0.8640  4.4755    0.1000  0.3000  5.1840  10.3680  1.0368  5.4664    What does Euler's method give for the approximate value of ?      Now repeat using a step size of . If your worksheet is set up efficiently, you should only have to change one entry. What does Euler's method give for the approximate value of ?      Finally, repeat again using a step size of . What is your approximation for the value of ?      Fill in the table below ( Error is just the difference between the exact value and your approximation):       Step size  Approximate value of  Error    0.1      0.01      0.001      Describe quantitatively how the error changes as the step size changes.       Now we'll consider the differential equation .     Plot below a graph of versus and sketch a slope field.      If we look at the solution with the initial value , what do you expect to happen over a very long time?      If we look at the solution with the initial value , what do you expect to happen over a very long time?      Now build a Google sheet implementing Euler's method to find the solution to this differential equation with using a step size of over the range . Plot the approximate solution as a function of time and include a sketch below. Does this verify your expectation from above? Explain.      By looking at the graph of your approximate solution, what is the value of when the slope is the greatest? Offer an explanation of this by looking at your graph of versus .      Now look at the solution with . If you have your worksheet set up efficiently, you should only have to change one entry. Include a sketch of your solution below. Does the long-term behavior verify your expectation?     "
+},
+{
+  "id": "activities-32-2-1",
+  "level": "2",
+  "url": "activities-32.html#activities-32-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Due: Monday, November 9 "
+},
+{
+  "id": "activities-32-2-3",
+  "level": "2",
+  "url": "activities-32.html#activities-32-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "activities-32-3",
+  "level": "2",
+  "url": "activities-32.html#activities-32-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  We'll begin by considering the differential equation with the initial value .  We would like to approximate the solution over the interval .     Verify that is a solution to this differential equation with the appropriate initial value.      Since we now have an explicit formula for the solution, we don't really need to build a numerical approximation to the solution. However, this is a good problem to start with since we can test the accuracy of our approximation.  We will walk from to taking steps of size ; that is, we will approximate the solution at . We can do the first steps as follows.  Since and , what is at this time? By approximately how much does change when we move from to ? Approximately what is ?      Now we have an approximation for . What is at this time? By approximately how much does change when we move from to ? Approximately what is ?    "
+},
+{
+  "id": "activities-32-4",
+  "level": "2",
+  "url": "activities-32.html#activities-32-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Now we will build a Google sheet that continues this approximation process as shown below. Remember that the differential equation gives the slope of the tangent lines.     A convenient way to set up the spreadsheet is shown below.               Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000        0.1000  0.2000        0.1000  0.3000        Now that you have the change in , how do you find the next value, ?             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000       0.1000  0.2000        0.1000  0.3000        Now continue this process:             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000  7.2000  0.7200  3.6642    0.1000  0.2000  4.3200  8.6400  0.8640  4.4755    0.1000  0.3000  5.1840  10.3680  1.0368  5.4664    What does Euler's method give for the approximate value of ?      Now repeat using a step size of . If your worksheet is set up efficiently, you should only have to change one entry. What does Euler's method give for the approximate value of ?      Finally, repeat again using a step size of . What is your approximation for the value of ?      Fill in the table below ( Error is just the difference between the exact value and your approximation):       Step size  Approximate value of  Error    0.1      0.01      0.001      Describe quantitatively how the error changes as the step size changes.    "
+},
+{
+  "id": "activities-32-5",
+  "level": "2",
+  "url": "activities-32.html#activities-32-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now we'll consider the differential equation .     Plot below a graph of versus and sketch a slope field.      If we look at the solution with the initial value , what do you expect to happen over a very long time?      If we look at the solution with the initial value , what do you expect to happen over a very long time?      Now build a Google sheet implementing Euler's method to find the solution to this differential equation with using a step size of over the range . Plot the approximate solution as a function of time and include a sketch below. Does this verify your expectation from above? Explain.      By looking at the graph of your approximate solution, what is the value of when the slope is the greatest? Offer an explanation of this by looking at your graph of versus .      Now look at the solution with . If you have your worksheet set up efficiently, you should only have to change one entry. Include a sketch of your solution below. Does the long-term behavior verify your expectation?    "
 }
 ]
 

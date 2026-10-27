@@ -1412,6 +1412,60 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  The velocity of a falling object is described by the differential equation      Determine whether is a solution.      Determine whether is a solution.      Determine whether is a solution.      For what velocities does the velocity increase? For what velocities does the velocity decrease?      Sketch a slope field for this differential equation.      Identify any equilibrium solutions and determine whether they are stable or unstable.      What does this equilibrium solution mean in terms of the falling object?      Suppose that is measured in meters per second and is measured in seconds. We will develop a numerical approximation of the solution with initial value . What is the rate of change at this time? What are the units on this rate of change?      If we take time steps of seconds, by approximately how much does the velocity change from to ?      What is the estimated velocity when ?      Repeat this process to continue estimating the velocity using Euler's method.              0  0      0.1       0.2       0.3       0.4           Verify that is the solution to the initial value problem given by this differential equation and the initial condition .      Compare your estimate of to the exact value of .    "
+},
+{
+  "id": "activities-32",
+  "level": "1",
+  "url": "activities-32.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 3: Euler’s Method",
+  "body": " Lab 3: Euler's Method   Due: Tuesday, November 10   Names:    Instructions: The exercises here should be completed in groups of 2 or 3 students with one write-up submitted from each group. Be sure to include everyone's name on the write-up.  We have used Euler's method to help us approximate solutions to differential equations. Today we will use spreadsheets to implement Euler's method ( Oiler's method ).  Remember: the derivative gives the instantaneous rate of change. When we move forward in time, the change in is approximately      We'll begin by considering the differential equation with the initial value .  We would like to approximate the solution over the interval .     Verify that is a solution to this differential equation with the appropriate initial value.      Since we now have an explicit formula for the solution, we don't really need to build a numerical approximation to the solution. However, this is a good problem to start with since we can test the accuracy of our approximation.  We will walk from to taking steps of size ; that is, we will approximate the solution at . We can do the first steps as follows.  Since and , what is at this time? By approximately how much does change when we move from to ? Approximately what is ?      Now we have an approximation for . What is at this time? By approximately how much does change when we move from to ? Approximately what is ?       Now we will build a Google sheet that continues this approximation process as shown below. Remember that the differential equation gives the slope of the tangent lines.     A convenient way to set up the spreadsheet is shown below.               Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000        0.1000  0.2000        0.1000  0.3000        Now that you have the change in , how do you find the next value, ?             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000       0.1000  0.2000        0.1000  0.3000        Now continue this process:             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000  7.2000  0.7200  3.6642    0.1000  0.2000  4.3200  8.6400  0.8640  4.4755    0.1000  0.3000  5.1840  10.3680  1.0368  5.4664    What does Euler's method give for the approximate value of ?      Now repeat using a step size of . If your worksheet is set up efficiently, you should only have to change one entry. What does Euler's method give for the approximate value of ?      Finally, repeat again using a step size of . What is your approximation for the value of ?      Fill in the table below ( Error is just the difference between the exact value and your approximation):       Step size  Approximate value of  Error    0.1      0.01      0.001      Describe quantitatively how the error changes as the step size changes.       Now we'll consider the differential equation .     Plot below a graph of versus and sketch a slope field.      If we look at the solution with the initial value , what do you expect to happen over a very long time?      If we look at the solution with the initial value , what do you expect to happen over a very long time?      Now build a Google sheet implementing Euler's method to find the solution to this differential equation with using a step size of over the range . Plot the approximate solution as a function of time and include a sketch below. Does this verify your expectation from above? Explain.      By looking at the graph of your approximate solution, what is the value of when the slope is the greatest? Offer an explanation of this by looking at your graph of versus .      Now look at the solution with . If you have your worksheet set up efficiently, you should only have to change one entry. Include a sketch of your solution below. Does the long-term behavior verify your expectation?     "
+},
+{
+  "id": "activities-32-2-1",
+  "level": "2",
+  "url": "activities-32.html#activities-32-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Due: Tuesday, November 10 "
+},
+{
+  "id": "activities-32-2-3",
+  "level": "2",
+  "url": "activities-32.html#activities-32-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "activities-32-3",
+  "level": "2",
+  "url": "activities-32.html#activities-32-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  We'll begin by considering the differential equation with the initial value .  We would like to approximate the solution over the interval .     Verify that is a solution to this differential equation with the appropriate initial value.      Since we now have an explicit formula for the solution, we don't really need to build a numerical approximation to the solution. However, this is a good problem to start with since we can test the accuracy of our approximation.  We will walk from to taking steps of size ; that is, we will approximate the solution at . We can do the first steps as follows.  Since and , what is at this time? By approximately how much does change when we move from to ? Approximately what is ?      Now we have an approximation for . What is at this time? By approximately how much does change when we move from to ? Approximately what is ?    "
+},
+{
+  "id": "activities-32-4",
+  "level": "2",
+  "url": "activities-32.html#activities-32-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Now we will build a Google sheet that continues this approximation process as shown below. Remember that the differential equation gives the slope of the tangent lines.     A convenient way to set up the spreadsheet is shown below.               Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000        0.1000  0.2000        0.1000  0.3000        Now that you have the change in , how do you find the next value, ?             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000       0.1000  0.2000        0.1000  0.3000        Now continue this process:             Slope   Exact solution    0.1000  0.0000  3.0000  6.0000  0.6000  3.0000    0.1000  0.1000  3.6000  7.2000  0.7200  3.6642    0.1000  0.2000  4.3200  8.6400  0.8640  4.4755    0.1000  0.3000  5.1840  10.3680  1.0368  5.4664    What does Euler's method give for the approximate value of ?      Now repeat using a step size of . If your worksheet is set up efficiently, you should only have to change one entry. What does Euler's method give for the approximate value of ?      Finally, repeat again using a step size of . What is your approximation for the value of ?      Fill in the table below ( Error is just the difference between the exact value and your approximation):       Step size  Approximate value of  Error    0.1      0.01      0.001      Describe quantitatively how the error changes as the step size changes.    "
+},
+{
+  "id": "activities-32-5",
+  "level": "2",
+  "url": "activities-32.html#activities-32-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now we'll consider the differential equation .     Plot below a graph of versus and sketch a slope field.      If we look at the solution with the initial value , what do you expect to happen over a very long time?      If we look at the solution with the initial value , what do you expect to happen over a very long time?      Now build a Google sheet implementing Euler's method to find the solution to this differential equation with using a step size of over the range . Plot the approximate solution as a function of time and include a sketch below. Does this verify your expectation from above? Explain.      By looking at the graph of your approximate solution, what is the value of when the slope is the greatest? Offer an explanation of this by looking at your graph of versus .      Now look at the solution with . If you have your worksheet set up efficiently, you should only have to change one entry. Include a sketch of your solution below. Does the long-term behavior verify your expectation?    "
 }
 ]
 

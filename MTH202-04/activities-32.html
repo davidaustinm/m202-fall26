@@ -308,9 +308,9 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <article class="task exercise-like" id="activities-32-3-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="activities-32-3-2-1-1">Verify that <span class="process-math">\(y(t) = 3e^{2t}\)</span> is a solution to this differential equation with the appropriate initial value.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-32-3-2-1-1">Find the solution to this differential equation with the appropriate initial value.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="0.5in"></div>
+<div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.a"><a tabindex="-1" href="#activities-32-3-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-32-3-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
@@ -318,7 +318,7 @@ eBookConfig.enable_chatcodes =  false;
 </div> 
 <div class="para" id="activities-32-3-3-1-2">We will walk from <span class="process-math">\(t=0\)</span> to <span class="process-math">\(t=1\)</span> taking steps of size <span class="process-math">\(h=0.1\text{;}\)</span> that is, we will approximate the solution at <span class="process-math">\(t=0.1, 0.2, 0.3, \ldots, 1\text{.}\)</span>  We can do the first steps as follows.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-3-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
-<div class="para" id="activities-32-3-3-1-3">Since <span class="process-math">\(y(0) = 3\)</span> and <span class="process-math">\(dy/dt = 2y\text{,}\)</span> what is <span class="process-math">\(dy/dt\)</span> at this time?  By approximately how much does <span class="process-math">\(y\)</span> change when we move from <span class="process-math">\(t=0\)</span> to <span class="process-math">\(t=0.1\text{?}\)</span>  Approximately what is <span class="process-math">\(y(0.1)\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-3-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-32-3-3-1-3">Since <span class="process-math">\(y(0) = 3\)</span> and <span class="process-math">\(dy/dt = 2y\text{,}\)</span> what is <span class="process-math">\(dy/dt\)</span> when <span class="process-math">\(t=0\text{?}\)</span> By approximately how much does <span class="process-math">\(y\)</span> change when we move from <span class="process-math">\(t=0\)</span> to <span class="process-math">\(t=0.1\text{?}\)</span>  Approximately what is <span class="process-math">\(y(0.1)\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-3-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.b"><a tabindex="-1" href="#activities-32-3-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
@@ -492,17 +492,20 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b1 r0 l0 t0 lines">Error</td>
 </tr>
 <tr>
-<td class="c m b0 r1 l0 t0 lines">0.1</td>
+<td class="c m b0 r1 l0 t0 lines">0.1<span class="process-math">\(\vtab\)</span>
+</td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\htab\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\htab\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r1 l0 t0 lines">0.01<span class="process-math">\(\vtab\)</span>
+</td>
 <td class="c m b0 r1 l0 t0 lines"></td>
 <td class="c m b0 r0 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b0 r1 l0 t0 lines">0.01</td>
-<td class="c m b0 r1 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-</tr>
-<tr>
-<td class="c m b0 r1 l0 t0 lines">0.001</td>
+<td class="c m b0 r1 l0 t0 lines">0.001<span class="process-math">\(\vtab\)</span>
+</td>
 <td class="c m b0 r1 l0 t0 lines"></td>
 <td class="c m b0 r0 l0 t0 lines"></td>
 </tr>
@@ -528,7 +531,7 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="activities-32-5-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
 <div class="para" id="activities-32-5-2-1-1">Plot below a graph of <span class="process-math">\(\frac{dy}{dt}\)</span> versus <span class="process-math">\(y\)</span> and sketch a slope field.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="1.5in"></div>
+<div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#activities-32-5-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-32-5-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
@@ -546,13 +549,13 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="activities-32-5-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
 <div class="para" id="activities-32-5-5-1-1">Now build a Google sheet implementing Euler’s method to find the solution to this differential equation with <span class="process-math">\(y(0) = 1\)</span> using a step size of <span class="process-math">\(h = 0.1\)</span> over the range <span class="process-math">\(0 \leq t \leq 12\text{.}\)</span>  Plot the approximate solution as a function of time and include a sketch below.  Does this verify your expectation from above? Explain.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="1.5in"></div>
+<div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.d"><a tabindex="-1" href="#activities-32-5-5" title="Copy heading and permalink for Task 3.d" aria-label="Copy heading and permalink for Task 3.d">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-32-5-6"><h3 class="heading"><span class="codenumber">(e)</span></h3>
 <div class="para" id="activities-32-5-6-1-1">By looking at the graph of your approximate solution, what is the value of <span class="process-math">\(y\)</span> when the slope is the greatest?  Offer an explanation of this by looking at your graph of <span class="process-math">\(\frac{dy}{dt}\)</span> versus <span class="process-math">\(y\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-32-5-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="workspace" data-space="1.5in"></div>
+<div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.e"><a tabindex="-1" href="#activities-32-5-6" title="Copy heading and permalink for Task 3.e" aria-label="Copy heading and permalink for Task 3.e">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-32-5-7"><h3 class="heading"><span class="codenumber">(f)</span></h3>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Differential Equations Review</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        The differential equation
+        <md>
+          y'' = -16y
+        </md>
+        describes the height of an object suspended by
+        a spring.  Which of the following functions are
+        solutions of this equation?
+      </p>
+    </introduction>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Determine whether <m>y=-16\sin(t)</m> is a
+          solution.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>y'' = 16\sin(t)</m> but
+          <m>-16y = 256\sin(t)</m>.  These are
+          not equal, so this is <em>not</em> a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Determine whether <m>y=-16\sin(4t)</m> is a
+          solution.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>y'' = 256\sin(4t)</m> and
+          <m>-16y = -16(-16\sin(4t)) = 256\sin(4t)</m>,
+          so this <em>is</em> a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Determine whether <m>y=-16\cos(4t)</m> is a
+          solution.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>y'' = 256\cos(4t)</m> and
+          <m>-16y = -16(-16\cos(4t)) = 256\cos(4t)</m>,
+          so this <em>is</em> a solution.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        The velocity of a falling object is described
+        by the differential equation
+        <md>
+          v' = 9.8 - 2v.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Determine whether <m>v = 9.8t - t^2</m> is a
+          solution.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>v' = 9.8 - 2t</m> but
+          <m>9.8 - 2v = 9.8 - 2(9.8t - t^2)
+          = 9.8 - 19.6t + 2t^2</m>.
+          These are not equal, so this is
+          <em>not</em> a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Determine whether <m>v = 4.9 + 3e^{-2t}</m>
+          is a solution.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>v' = -6e^{-2t}</m> and
+          <m>9.8 - 2v = 9.8 - 2(4.9 + 3e^{-2t})
+          = -6e^{-2t}</m>, so this <em>is</em>
+          a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Determine whether <m>v = 4.9</m> is a
+          solution.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>v' = 0</m> and
+          <m>9.8 - 2(4.9) = 0</m>, so this
+          <em>is</em> a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          For what velocities does the velocity
+          increase?  For what velocities does the
+          velocity decrease?
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>v' = 9.8 - 2v \gt 0</m> when
+          <m>v \lt 4.9</m>, so the velocity increases.
+          <m>v' \lt 0</m> when <m>v \gt 4.9</m>,
+          so the velocity decreases.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Sketch a slope field for this differential
+          equation.
+        </p>
+      </statement>
+      <solution component="29">
+        <image width="40%">
+          <xi:include href="prefigure/29-slope.xml"/>
+        </image>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Identify any equilibrium solutions and
+          determine whether they are stable or unstable.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>v = 4.9</m> m/s is the only equilibrium
+          solution and it is stable.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What does this equilibrium solution mean in
+          terms of the falling object?
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          The equilibrium <m>v = 4.9</m> m/s is the terminal velocity.
+          At that velocity, air resistance eventually balances gravity
+          and the object falls at a constant speed.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose that <m>v</m> is measured in meters
+          per second and <m>t</m> is measured in
+          seconds.  We will develop a numerical
+          approximation of the solution with initial
+          value <m>v(0) = 0</m>.  What is the rate of
+          change <m>dv/dt</m> at this time?  What are
+          the units on this rate of change?
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>dv/dt = 9.8 - 2(0) = 9.8</m> m/s per
+          second (m/s²).
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If we take time steps of
+          <m>\Delta t = 0.1</m> seconds, by
+          approximately how much does the velocity
+          change from <m>t=0</m> to <m>t=0.1</m>?
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>\Delta v = 9.8 \cdot 0.1 = 0.98</m> m/s.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the estimated velocity when
+          <m>t=0.1</m>?
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>v(0.1) \approx 0 + 0.98 = 0.98</m> m/s.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Repeat this process to continue estimating
+          the velocity using Euler's method.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>v</m></cell>
+            <cell><m>dv/dt</m></cell>
+            <cell><m>\Delta v</m></cell>
+          </row>
+          <row>
+            <cell>0<m>\vtab</m></cell>
+            <cell>0<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.1<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+          </row>
+          <row>
+            <cell>0.2<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.3<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.4<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="29">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>v</m></cell>
+            <cell><m>dv/dt</m></cell>
+            <cell><m>\Delta v</m></cell>
+          </row>
+          <row>
+            <cell>0.0</cell>
+            <cell>0.000</cell>
+            <cell>9.800</cell>
+            <cell>0.980</cell>
+          </row>
+          <row>
+            <cell>0.1</cell>
+            <cell>0.980</cell>
+            <cell>7.840</cell>
+            <cell>0.784</cell>
+          </row>
+          <row>
+            <cell>0.2</cell>
+            <cell>1.764</cell>
+            <cell>6.272</cell>
+            <cell>0.627</cell>
+          </row>
+          <row>
+            <cell>0.3</cell>
+            <cell>2.391</cell>
+            <cell>5.018</cell>
+            <cell>0.502</cell>
+          </row>
+          <row>
+            <cell>0.4</cell>
+            <cell>2.893</cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Verify that <m>v(t) = 4.9 - 4.9e^{-2t}</m>
+          is the solution to the initial value problem
+          given by this differential equation and the
+          initial condition <m>v(0) = 0</m>.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          The left-hand side is <m>v'(t) = 9.8e^{-2t}</m>
+          and the right-hand side is
+          <m>9.8 - 2v = 9.8 - 2(4.9-4.9e^{-2t})
+          = 9.8e^{-2t}</m>.
+          Also <m>v(0) = 4.9 - 4.9 = 0</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Compare your estimate of <m>v(0.4)</m> to
+          the exact value of <m>v(0.4)</m>.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>v(0.4) = 4.9 - 4.9e^{-0.8}
+          \approx 2.70</m> m/s.  The estimate from Euler's method
+          is 2.893 m/s which overestimates the actual value by a
+          little bit.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <!--
+  <exercise>
+    <introduction>
+      <p>
+        Convert the following statements into
+        differential equations.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <q>The rate of change of the balance of the
+          account equals 6% of the balance.</q>  Write
+          this as a differential equation for the
+          balance <m>B(t)</m>.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>\frac{dB}{dt} = 0.06B</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <q>The population of a town is decreasing at
+          the rate of 2% per year.</q>  Write this as a
+          differential equation for the population
+          <m>P(t)</m>.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>\frac{dP}{dt} = -0.02P</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <q>You have a mortgage that grows by 5% every
+          year at the same time that you are decreasing
+          it by paying $10,000 per year.</q>  Write
+          this as a differential equation for
+          <m>M(t)</m>, the balance of the mortgage.
+        </p>
+      </statement>
+      <solution component="29">
+        <p>
+          <m>\frac{dM}{dt} = 0.05M - 10000</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+  -->
+</worksheet>

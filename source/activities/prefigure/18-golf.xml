@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(500, 250)" margins="(15,5,25,5)">
+  <coordinates bbox="(0,-20, 1000, 150)">
+    <definition>widths = (0,80,85,95,110,105,100,100,105,110,0)</definition>
+    <definition>points=([0, 70], [100, 40], [200, 28], [300, 22], [400, 12], 
+      [500, 15], [600, 22], [700, 30], [800, 25], [900, 28], [1000, 40], 
+      [900, 108], [800, 110], [700, 125], [600, 132], [500, 120], [400, 112], 
+      [300, 122], [200, 133], [100, 150], [0, 90])
+    </definition>
+ 
+    <axes hticks="(0,100,1000)" hlabels="(0,200,1000)" axes="horizontal"/>
+    <repeat parameter="k=1..9">
+      <definition>p=points[k]</definition>
+      <definition>q=points[-k-1]</definition>
+      <line endpoints="(points[k], points[-k-1])" stroke="lightgray"/>
+      <label anchor="midpoint(p,q)" alignment="east">${widths[k]}</label>
+    </repeat>
+       <path start="(0,70)" closed="yes" stroke="black" cliptobbox="no">
+      <spline points="points" N="1000" closed="no"/>
+    </path>
+  </coordinates>
+</diagram>

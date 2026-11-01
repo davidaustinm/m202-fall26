@@ -1,0 +1,9 @@
+<prefigure xmlns="https://prefigure.org"
+           label="25-slope-4-blank">
+  <diagram dimensions="(300,300)" margins="5">
+  <definition>f(t,y)=t-y</definition>
+    <coordinates bbox="(-4,-4,4,4)">
+      <grid-axes xlabel="t" ylabel="y"/>
+    </coordinates>
+  </diagram>
+</prefigure>

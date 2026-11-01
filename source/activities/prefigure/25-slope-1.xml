@@ -1,0 +1,8 @@
+<prefigure xmlns="https://prefigure.org"
+           label="25-slope-1">
+  <diagram dimensions="(320,200)" margins="5">
+    <coordinates bbox="(-1,-2,7,3)">
+      <grid-axes spacings="((-1,1,7),(-2,1,3))" xlabel="y" ylabel="dy/dt"/>
+    </coordinates>
+  </diagram>
+</prefigure>

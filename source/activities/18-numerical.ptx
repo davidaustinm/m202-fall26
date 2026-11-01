@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Numerical Techniques</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        A car traveling along a straight road is braking and its
+        velocity is measured at several different points in time,
+        as given in the following table.  Assume that <m>v</m> is
+        continuous, always decreasing, and always decreasing at a
+        decreasing rate, as is suggested by the data.
+      </p>
+      <tabular>
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell>seconds, <m>t</m></cell>
+          <cell>0</cell>
+          <cell>0.3</cell>
+          <cell>0.6</cell>
+          <cell>0.9</cell>
+          <cell>1.2</cell>
+          <cell>1.5</cell>
+          <cell>1.8</cell>
+        </row>
+        <row>
+          <cell>Velocity in ft/sec, <m>v(t)</m></cell>
+          <cell>100</cell>
+          <cell>99</cell>
+          <cell>96</cell>
+          <cell>90</cell>
+          <cell>80</cell>
+          <cell>50</cell>
+          <cell>0</cell>
+        </row>
+      </tabular>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Plot the given data below with time on the horizontal
+          axis and the velocity on the vertical axis.
+        </p>
+        <image width="50%">
+          <shortdescription>An empty coordinate plane for plotting</shortdescription>
+          <prefigure xmlns="https://prefigure.org"
+                     label="18-dataplot">
+            <xi:include href="prefigure/18-dataplot.xml"/>
+          </prefigure>
+        </image>
+      </statement>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Estimate the total distance traveled on <m>[0,1.8]</m>
+          by computing <m>R_3</m>, <m>T_3</m>, and <m>M_3</m>.
+        </p>
+      </statement>
+      <solution component="18">
+        <p>
+          <md>
+            <mrow>
+              R_3 \amp = 96(0.6)+80(0.6)+0(0.6) \amp = 105.6
+            </mrow>
+            <mrow>
+              T_3 \amp = \frac{0.6}2\left(100 +
+              2(96) + 2(80)+0\right) \amp = 135.6
+            </mrow>
+            <mrow>
+              M_3 \amp = 99(0.6)+90(0.6)+50(0.6) \amp = 143.4
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Given what you know about this situation, consider each
+          method and determine whether it is an overestimate or an
+          underestimate or whether you have enough information to
+          determine that.
+        </p>
+      </statement>
+      <solution component="18">
+        <p>
+          Because the velocity is decreasing, right endpoints will be
+          an underestimate as will the trapezoidal rule.  It's unclear
+          whether the midpoint rule is an over- or underestimate.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          What is your best estimate of the average velocity of
+          the car on <m>[0,1.8]</m>?  Why?  What are the units on
+          this quantity?
+        </p>
+      </statement>
+      <solution component="18">
+        <p>
+          We'll use the midpoint rule to estimate the distance
+          traveled.  Then
+          <md>
+            AV = \frac{143.4}{1.8} = 79.7
+          </md>
+          feet per second.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        The rate at which water flows over a dam is measured in
+        cubic feet per second (CFS).  As the floodgates are
+        opened, the flow rate <m>r(t)</m> is given by
+      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell>seconds, <m>t</m></cell>
+          <cell>0</cell>
+          <cell>10</cell>
+          <cell>20</cell>
+          <cell>30</cell>
+          <cell>40</cell>
+          <cell>50</cell>
+          <cell>60</cell>
+        </row>
+        <row>
+          <cell>flow in CFS, <m>r(t)</m></cell>
+          <cell>2000</cell>
+          <cell>2100</cell>
+          <cell>2400</cell>
+          <cell>3000</cell>
+          <cell>3900</cell>
+          <cell>5100</cell>
+          <cell>6500</cell>
+        </row>
+      </tabular>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Estimate the amount of water released using a midpoint
+          approximation.
+        </p>
+      </statement>
+      <solution component="18">
+        <p>
+          <md>
+            M_3 = 2100(20) + 3000(20) + 5100(20)=204,000
+          </md>
+          cubic feet.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Estimate the amount of water released using the trapezoidal
+          rule.
+        </p>
+      </statement>
+      <solution component="18">
+        <p>
+          <md>
+            T_3 =
+            \frac{10}{2}\left[2000+2(2100)+2(2400)+
+            2(3000)+2(3900)+2(5100)+6500\right] = 207,500
+          </md>
+          cubic feet.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Estimate the average flow rate.
+        </p>
+      </statement>
+      <solution component="18">
+        <p>
+          We will again use the midpoint rule to estimate
+          <md>
+            AV = \frac{204000}{60} = 3400
+          </md>
+          cubic feet per second.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Shown below is the layout of a fairway on a golf course
+        where all the measurements are in feet.
+      </p>
+      <image width="50%">
+        <shortdescription>The measurements of a fairway on a golf course</shortdescription>
+        <prefigure xmlns="https://prefigure.org"
+                   label="18-golf">
+          <xi:include href="prefigure/18-golf.xml"/>
+        </prefigure>
+      </image>
+      <p>
+        A pound of fertilizer covers 200 square feet of grass.
+        Estimate how much fertilizer is required for this fairway.
+      </p>
+    </statement>
+    <solution component="18">
+      <p>
+        We first have to estimate the area so let's use the
+        trapezoidal rule:
+        <md>
+          A \approx \frac{50}{2}\left[0 + 2(80)+2(85)+2(95)
+          + 2(110) + 2(105) + 2(100) + 2(100) + 2(105) + 2(110)
+          + 0\right] = 89,000
+        </md>
+        square feet.  So the amount of fertilizer is
+        <md>
+          \frac{89000}{200} = 445
+        </md>
+        pounds.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Suppose you cut a fallen tree, whose length is 10 meters, at
+        1-meter intervals.  Its cross sections are circle whose radii
+        <m>r</m> at positions <m>x</m> meters from the end are given
+        below.  Using the following data, apply the midpoint rule to
+        estimate the volume of the tree.
+      </p>
+      <tabular>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row bottom="minor">
+          <cell><m>x</m></cell>
+          <cell>0</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>3</cell>
+          <cell>4</cell>
+          <cell>5</cell>
+          <cell>6</cell>
+          <cell>7</cell>
+          <cell>8</cell>
+          <cell>9</cell>
+          <cell>10</cell>
+        </row>
+        <row>
+          <cell><m>r</m></cell>
+          <cell>0.68</cell>
+          <cell>0.65</cell>
+          <cell>0.64</cell>
+          <cell>0.61</cell>
+          <cell>0.58</cell>
+          <cell>0.59</cell>
+          <cell>0.53</cell>
+          <cell>0.55</cell>
+          <cell>0.52</cell>
+          <cell>0.50</cell>
+          <cell>0.48</cell>
+        </row>
+      </tabular>
+    </statement>
+    <solution component="18">
+      <p>
+        We have <m>V=\int_0^{10} \pi r^2~dx</m> so that the midpoint
+        rule gives
+        <md>
+          V \approx \pi\left(0.65^2(2) + 0.61^2(2) +
+          0.59^2(2)+0.55^2(2)+0.50^2(2)\right)
+          = 10.65
+        </md>
+        cubic meters.
+      </p>
+    </solution>
+  </exercise>
+
+</worksheet>

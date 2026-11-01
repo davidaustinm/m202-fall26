@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to differential equations</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that <m>T(t)</m> represents the temperature, in
+        degrees Fahrenheit, of a cup of coffee set out in a room
+        as a function of time <m>t</m>, measured in minutes.  The
+        derivative <m>dT/dt</m> measures the rate at which the
+        temperature is changing.  Newton's Law of Cooling tells us
+        that
+        <md>
+          \frac{dT}{dt} = -\frac 1{15}T + 5
+        </md>.
+      </p>
+    </introduction>
+      
+    <task workspace="0.4in">
+      <statement>
+        <p>
+          Suppose that <m>T = 105</m> at <m>t=0</m>.  What does the
+          differential equation tell us is <m>dT/dt</m> at
+          <m>t=0</m>?  What are the units on <m>dT/dt</m>?
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <md>
+            \frac{dT}{dt}\bigg|_{t=0} = -\frac{1}{15}(105) + 5 = -2
+          </md>
+          degrees per minute.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.4in">
+      <statement>
+        <p>
+          Is <m>T</m> increasing or decreasing?  That is, is the cup
+          of coffee warming up or cooling down?
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          Since <m>dT/dt = -2 \lt 0</m>, the temperature is
+          decreasing; the coffee is cooling down.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.4in">
+      <statement>
+        <p>
+          Approximately what is the temperature when <m>t=1</m>?
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <m>T(1) \approx 105 + (-2)(1) = 103</m>°F.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Make a plot of <m>\frac{dT}{dt}</m> versus <m>T</m>.
+        </p>
+        <image width="50%">
+          <prefigure xmlns="https://prefigure.org"
+                     label="24-axes">
+            <xi:include href="prefigure/24-axes.xml"/>
+          </prefigure>
+        </image>
+      </statement>
+      <solution component="24">
+        <image width="50%">
+          <prefigure xmlns="https://prefigure.org"
+                     label="24-graph">
+            <xi:include href="prefigure/24-graph.xml"/>
+          </prefigure>
+        </image>
+      </solution>
+    </task>
+    <task workspace="0.4in">
+      <statement>
+        <p>
+          Looking at the graph, for what values of <m>T</m> does
+          <m>T</m> increase and for what values does it decrease?
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <m>dT/dt = 0</m> when <m>T = 75</m>.  The temperature
+          increases when <m>T \lt 75</m> and decreases when
+          <m>T \gt 75</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.4in">
+      <statement>
+        <p>
+          What do you think will happen if <m>T(0)=75</m>?
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          If <m>T(0) = 75</m>, then <m>dT/dt = 0</m>, so <m>T</m>
+          remains constant at <m>75^\circ</m> F.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What do you think the temperature of the room is?
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          The room temperature is <m>75^\circ</m> F since coffee at
+          that temperature will not change.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What do you think should happen to the temperature
+          <m>T</m> as <m>t\to\infty</m> no matter what the initial
+          temperature is?
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          Regardless of the initial temperature,
+          <m>T \to 75^\circ</m> F as <m>t \to \infty</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Which of the following functions are solutions to this
+          differential equation?
+          Check <m>T(t) = t^{15} - 5</m>.
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <m>dT/dt = 15t^{14}</m>, but
+          <m>-\frac{1}{15}(t^{15}-5)+5 \neq 15t^{14}</m>,
+          so this is not a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Check <m>T(t) = 75 + 30e^{-t/15}</m>.
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <m>dT/dt = -2e^{-t/15}</m> and
+          <m>-\frac{1}{15}(75+30e^{-t/15})+5 = -2e^{-t/15}</m>,
+          so this is a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Check <m>T(t) = 75</m>.
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <m>dT/dt = 0</m> and
+          <m>-\frac{1}{15}(75)+5 = 0</m>,
+          so this is a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Check <m>T(t) = 75 - 30e^{-t/15}</m>.
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <m>dT/dt = 2e^{-t/15}</m> and
+          <m>-\frac{1}{15}(75-30e^{-t/15})+5 = 2e^{-t/15}</m>,
+          so this is a solution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          For each of the functions above that you found were
+          solutions, describe a scenario to which your solution
+          could apply.
+        </p>
+      </statement>
+      <solution component="24">
+        <p>
+          <m>T(t) = 75 + 30e^{-t/15}</m>: Coffee starting at
+          <m>105^\circ</m> F and cooling to room temperature.
+        </p>
+        <p>
+          <m>T(t) = 75</m> so the coffee is already at room
+          temperature and doesn't change.
+        </p>
+        <p>
+          <m>T(t) = 75 - 30e^{-t/15}</m>, a cold drink starting
+          at <m>45^\circ</m> F and warming to room temperature.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Here are a few differential equations and potential
+        solutions.  For each, determine whether the potential
+        solutions are in fact solutions.
+      </p>
+    </introduction>
+    <task>
+      <introduction>
+        <p>
+          <m>y'' = -9y</m>
+        </p>
+      </introduction>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>y = 9\sin(t)</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>y'' = -9\sin(t)</m> but
+            <m>-9y = -81\sin(t)</m>,
+            so this is not a solution.
+          </p>
+        </solution>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>y = \sin(3t)</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>y'' = -9\sin(3t) = -9y</m>,
+            so this is a solution.
+          </p>
+        </solution>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>y = 4\cos(3t)</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>y'' = -36\cos(3t) = -9y</m>,
+            so this is a solution.
+          </p>
+        </solution>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>
+          <m>v' = 9.8 - 2v</m>
+        </p>
+      </introduction>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>v = 7.8</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>v' = 0</m> but
+            <m>9.8 - 2(7.8) = -5.8 \neq 0</m>,
+            so this is not a solution.
+          </p>
+        </solution>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>v = 4.9 + 3e^{-2t}</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>v' = -6e^{-2t}</m> and
+            <m>9.8 - 2(4.9+3e^{-2t}) = -6e^{-2t}</m>,
+            so this is a solution.
+          </p>
+        </solution>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>v = 4.9 - 10e^{-2t}</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>v' = 20e^{-2t}</m> and
+            <m>9.8 - 2(4.9-10e^{-2t}) = 20e^{-2t}</m>,
+            so this is a solution.
+          </p>
+        </solution>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>
+          <m>y' = t - y</m>
+        </p>
+      </introduction>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>y = t - 1</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>y' = 1</m> and
+            <m>t - y = t-(t-1) = 1</m>,
+            so this is a solution.
+          </p>
+        </solution>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>y = t + 1</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>y' = 1</m> but
+            <m>t - y = t-(t+1) = -1 \neq 1</m>,
+            so this is not a solution.
+          </p>
+        </solution>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>y = t - 1 + 4e^{-t}</m>
+          </p>
+        </statement>
+        <solution component="24">
+          <p>
+            <m>y' = 1 - 4e^{-t}</m> and
+            <m>t - y = t-(t-1+4e^{-t}) = 1-4e^{-t}</m>,
+            so this is a solution.
+          </p>
+        </solution>
+      </task>
+    </task>
+  </exercise>
+
+</worksheet>

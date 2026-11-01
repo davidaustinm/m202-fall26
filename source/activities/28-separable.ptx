@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Separable Differential Equations</title>
+
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Solve the initial value problem:
+        <md>
+          <mrow>\frac{dy}{dt} \amp = 2y^2</mrow>
+          <mrow>y(-1) \amp = 2</mrow>
+        </md>
+      </p>
+    </statement>
+    <solution component="28">
+      <p>
+        Separating variables and integrating:
+        <md>
+          <mrow>
+            \int y^{-2}\,dy \amp = \int 2\,dt
+          </mrow>
+          <mrow>
+            -\frac{1}{y} \amp = 2t + C
+          </mrow>
+        </md>.
+        This is a good place to solve for the constant <m>C</m>, which
+        we do using the fact that
+        <m>y(-1) = 2</m>.  This means that
+        <md>
+          -\frac12 = 2(-1)+C
+        </md>
+        so <m>C = \frac{3}{2}</m>.  This means that
+        <md>
+          <mrow>
+            -\frac1y \amp = 2t+\frac32
+          </mrow>
+          <mrow>
+            y \amp = -\frac{1}{2t+\frac32} = -\frac2{4t+3}
+          </mrow>
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Solve the initial value problem:
+        <md>
+          <mrow>
+            \frac{dy}{dt} \amp = -\frac{t}{y}
+          </mrow>
+          <mrow>y(0) \amp = 5</mrow>
+        </md>
+      </p>
+    </statement>
+    <solution component="28">
+      <p>
+        Separating variables:
+        <md>
+          <mrow>
+            y\frac{dy}{dt} \amp = -t
+          </mrow>
+          <mrow>
+            \int y~dy \amp =-\int t~dt
+          </mrow>
+          <mrow>
+            \frac12y^2 \amp =-\frac12t^2 + C
+          </mrow>
+          <mrow>
+            y^2 \amp =-t^2 + C
+          </mrow>
+        </md>.
+        Since
+        <m>y(0) = 5</m>, we have <m>C = 25</m>, which leaves us with
+        <md>
+          y = \sqrt{25 - t^2}
+        </md>.
+        Notice we take the positive square root since <m>y(0)=5\gt
+        0</m>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that a cup of coffee is initially at
+        a temperature of 105<m>^\circ</m> F and is
+        placed in a 75<m>^\circ</m> F room.  Newton's
+        law of cooling says that
+        <md>
+          \frac{dT}{dt} = -k(T-75),
+        </md>
+        where <m>k</m> is a constant of
+        proportionality.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Suppose you know that the coffee is cooling
+          at one degree per minute when it is brought
+          into the room.  Use this to determine the
+          value of the constant <m>k</m>.
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          At <m>t=0</m>, <m>T=105</m> and
+          <m>dT/dt = -1</m>, so
+          <m>-1 = -k(105-75) = -30k</m>, giving
+          <m>k = \frac{1}{30}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Find all solutions to the differential
+          equation.
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          Separating variables:
+          <md>
+            <mrow>
+              \frac{1}{T-75}\frac{dT}{dt} \amp = -\frac1{30}
+            </mrow>
+            <mrow>
+              \int\frac{1}{T-75}~dT \amp = -\int\frac1{30}~dt
+            </mrow>
+            <mrow>
+              \ln|T-75| \amp = -\frac1{30}t + C
+            </mrow>
+            <mrow>
+              |T-75| \amp = e^Ce^{-t/30}
+            </mrow>
+            <mrow>
+              T-75 \amp = Ae^{-t/30}
+            </mrow>
+            <mrow>
+              T \amp = 75 + Ae^{-t/30}
+            </mrow>
+          </md>
+          for any constant <m>A</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What happens to all the solutions as
+          <m>t\to\infty</m>?  Explain how this agrees
+          with your intuition.
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          As <m>t\to\infty</m>, <m>T\to 75</m>°F.
+          The coffee cools to room temperature,
+          as expected.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the solution with <m>T(0) = 105</m>.
+          What is the temperature of the cup of
+          coffee after 20 minutes?
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          <m>T(0) = 75 + A = 105</m> gives
+          <m>A = 30</m>, so
+          <m>T(t) = 75 + 30e^{-t/30}</m>.
+          After 20 minutes, we have
+          <md>
+            T(20) = 75 + 30e^{-2/3} \approx 90.4^\circ
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How long does it take to cool to
+          80<m>^\circ</m>?
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          Setting <m>75 + 30e^{-t/30} = 80</m> leads to
+          <md>
+            e^{-t/30} = \frac{1}{6}
+          </md>
+          so <m>t = 30\ln 6 \approx 53.8</m> minutes.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Over time, a sample of a radioactive material
+        will decay at a rate proportional to its mass.
+        If we call <m>M(t)</m> the mass of the
+        radioactive substance, we can express this
+        fact by
+        <md>
+          \frac{dM}{dt}=-kM.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the general solution of the differential
+          equation.  (Your solution will depend on the
+          constant of proportionality <m>k</m>.)
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          Separating variables gives
+          <md>
+            <mrow>
+              \frac1M\frac{dM}{dt} \amp = -k
+            </mrow>
+            <mrow>
+              \int \frac1M~dM \amp =-\int k~dt
+            </mrow>
+            <mrow>
+              \ln|M|\amp = -kt + C
+            </mrow>
+            <mrow>
+              |M|\amp = e^Ce^{-kt}
+            </mrow>
+            <mrow>
+              M \amp = Ae^{-kt}
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now find the solution where the initial mass
+          is <m>M(0) = M_0</m>.
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          <m>M(0) = A = M_0</m>, so
+          <m>M(t) = M_0 e^{-kt}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          The half-life of a radioactive substance is
+          the amount of time required for half the mass
+          to decay.  Carbon-14 has a half-life of 5730
+          years.  What is the value of <m>k</m> for
+          Carbon-14?
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          <m>M_0 e^{-5730k} = \frac12M_0</m>, so
+          <m>e^{-5730k} = \frac12</m> and
+          <md>
+            k = \frac{\ln 2}{5730} \approx 0.000121
+          </md>
+          per year.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If the mass of a Carbon-14 sample is
+          initially 20 grams, how long does it take
+          until there are only 5 grams left?
+        </p>
+      </statement>
+      <solution component="28">
+        <p>
+          <m>20e^{-kt} = 5</m> gives
+          <m>e^{-kt} = \frac{1}{4}</m>, so
+          <md>
+            t = \frac{\ln 4}{k} = 2 \cdot 5730
+            = 11460
+          </md>
+          years.  This is exactly two half-lives since we start with
+          20 grams and go to 10 and then 5 grams.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

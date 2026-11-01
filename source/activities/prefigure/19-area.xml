@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,300)" margins="5">
+  <coordinates bbox="(-3,-3,4,4)">
+    <definition>f(x)=x^3-3*x^2-x+3</definition>
+    <definition>g(x)=3-x</definition>
+    <grid-axes/>
+    <area-under-curve function="f" domain="(-1,1)" fill="lightgray"/>
+    <area-between-curves functions="(g,f)" domain="(0,1)" fill="lightgray" stroke="none"/>
+    <area-under-curve function="g" domain="(1,3)" fill="lightgray" stroke="none"/>
+    <graph function="g" domain="(0,3)" stroke="black"/>
+    <line endpoints="((0,0),(3,0))" stroke="black"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>

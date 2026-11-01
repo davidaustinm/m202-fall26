@@ -1,0 +1,11 @@
+<prefigure xmlns="https://prefigure.org"
+           label="27-graph">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(x)=-x*(x-1)*(x-3)</definition>
+    <definition>a = 1</definition>
+    <coordinates bbox="(0,-4,4,4)">
+      <grid-axes ylabel="\frac{dP}{dt}" xlabel="P"/>
+      <graph function="f"/>
+    </coordinates>
+  </diagram>
+</prefigure>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Separable Differential Equations</title>
+
+  <!--
+  <exercise>
+    <introduction>
+      <p>
+        Over time, a sample of a radioactive material
+        will decay at a rate proportional to its mass.
+        If we call <m>M(t)</m> the mass of the
+        radioactive substance, we can express this
+        fact by
+        <md>
+          \frac{dM}{dt}=-kM.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Find the general solution of the differential
+          equation.  (Your solution will depend on the
+          constant of proportionality <m>k</m>.)
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          Separating variables: <m>\frac{dM}{M} =
+          -k\,dt</m>, so <m>\ln|M| = -kt + C</m> and
+          <md>
+            M = Ae^{-kt}
+          </md>
+          for any constant <m>A</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now find the solution where the initial mass
+          is <m>M(0) = M_0</m>.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>M(0) = A = M_0</m>, so
+          <m>M(t) = M_0 e^{-kt}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          The half-life of a radioactive substance is
+          the amount of time required for half the mass
+          to decay.  Carbon-14 has a half-life of 5730
+          years.  What is the value of <m>k</m> for
+          Carbon-14?
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>M_0 e^{-5730k} = \frac{M_0}{2}</m>, so
+          <m>e^{-5730k} = \frac12</m> and
+          <md>
+            k = \frac{\ln 2}{5730} \approx 0.000121
+          </md>
+          per year.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If the mass of a Carbon-14 sample is
+          initially 20 grams, how long does it take
+          until there are only 5 grams left?
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>20e^{-kt} = 5</m> gives
+          <m>e^{-kt} = \frac{1}{4}</m>, so
+          <md>
+            t = \frac{\ln 4}{k} = 2 \cdot 5730
+            = 11460
+          </md>
+          years (exactly two half-lives:
+          20g <m>\to</m> 10g <m>\to</m> 5g).
+        </p>
+      </solution>
+    </task>
+  </exercise>
+  -->
+  
+  <exercise>
+    <introduction>
+      <p>
+        Suppose you have an investment account that
+        earns interest at a rate of 5% compounded
+        continuously.  Call <m>M(t)</m> the amount of
+        money in the account.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          This means that the rate of change of <m>M</m> is
+          5% of <m>M</m>.  Write this fact as a
+          differential equation that describes how the
+          amount of money changes.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>\frac{dM}{dt} = 0.05M</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now suppose that you withdraw money at the
+          rate of $10,000 per year from the account.
+          How does this change your differential
+          equation?
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>\frac{dM}{dt} = 0.05M - 10000</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Sketch a slope field for this equation.  Then identify any
+          equilibrium solutions and determine whether they are stable
+          or unstable.
+        </p>
+      </statement>
+      <solution component="30">
+        <image width="40%">
+          <xi:include href="prefigure/30-slope.xml"/>
+        </image>
+        <p>
+          There is an equilibriuim solution when <m>\frac{dM}{dt} =
+          0</m>, which happens when <m>0.05M - 10000 = 0</m>.  This
+          shows that <m>M=200000</m> is an unstable equilibrium.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Find the general solution to this
+          differential equation.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          This is a separable equation so we first separate the
+          variables:
+          <md>
+            <mrow>
+              \frac{1}{0.05M-10000}\frac{dM}{dt} \amp = 1
+            </mrow>
+            <mrow>
+              \int \frac{1}{0.05M-10000}~dM\amp = \int 1 ~dt
+            </mrow>
+            <mrow>
+              \frac{1}{0.05}\ln|0.05M-10000| \amp = t + C
+            </mrow>
+            <mrow>
+              |0.05M-10000| \amp = Ae^{0.05t}
+            </mrow>
+            <mrow>
+              M(t) \amp = 200000 + Ae^{0.05}
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the solution that corresponds to an
+          initial value of $100,000 in the account.
+          How long does it take until all the money
+          has been withdrawn?
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>M(0) = 200000 + C
+          = 100000</m> gives
+          <m>C = 100000 - 200000 = -100000</m>.  We then have
+          <md>
+            M(t) = 200000 - 100000e^{0.05t}
+          </md>.
+          Setting
+          <m>M(t) = 0</m>:
+          <md>
+            e^{0.05t} = 2
+          </md>
+          or
+          <md>
+            t = 20\ln(2) \approx 13.9
+          </md>
+          years.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the smallest amount of money you
+          would need to live off the interest
+          indefinitely?
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          The slope field shows the
+          equilibrium solution 
+          <m>M = 20000</m>.  Solutions with an initial value below
+          this amount decrease eventually to zero while solutions with
+          an initial value above this amount grow arbitrarily large.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        When a drug is present in a patient's
+        bloodstream, it is typically absorbed by the
+        body at a rate proportional to the amount in
+        the bloodstream.  Let <m>Q(t)</m> be the
+        amount of a drug in a patient's bloodstream.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Write a differential equation that expresses
+          the fact that the rate at which the drug
+          leaves the bloodstream is proportional to
+          the amount in the bloodstream.  Use <m>k</m>
+          as the constant of proportionality.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>\frac{dQ}{dt} = -kQ</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the solution to the differential
+          equation with an initial amount
+          <m>Q(0) = Q_0</m>.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>Q(t) = Q_0 e^{-kt}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If the half-life of a particular drug is
+          10 hours, find the constant <m>k</m>.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>Q_0 e^{-10k} = \frac{Q_0}{2}</m>, so
+          <m>k = \frac{\ln 2}{10} \approx 0.0693</m>
+          per hour.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now suppose that a drug is being given
+          intravenously at the rate of 2 milligrams
+          per hour.  Write a differential equation
+          that describes the rate of change of
+          <m>Q</m>.  (The rate of change is the rate at which the
+          drug enters the bloodstream minus the rate
+          at which it leaves.)
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          <m>\frac{dQ}{dt} = 2 - kQ</m>, where
+          <m>k = \frac{\ln 2}{10}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Sketch a slope field, determine any equilibrium solutions
+          and whether they are stable or unstable.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          There is a stable equilibrium at <m>Q=\frac2k \approx
+          28.9</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Assuming that the drug is not initially
+          present in the patient, solve the
+          differential equation for <m>Q</m> and
+          explain what happens after a long time.
+        </p>
+      </statement>
+      <solution component="30">
+        <p>
+          Separating variables with <m>Q(0) = 0</m>:
+          <md>
+            Q(t) = \frac{2}{k}\left(1-e^{-kt}\right).
+          </md>
+          As <m>t\to\infty</m>, <m>Q \to \frac{2}{k}
+          = \frac{20}{\ln 2} \approx 28.9</m> mg.
+          The drug level approaches a steady state
+          where the rate of absorption equals the
+          rate of infusion.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

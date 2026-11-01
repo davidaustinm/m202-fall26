@@ -18,6 +18,8 @@
     \newcommand{\ds}{\displaystyle}
     \newcommand{\xbar}{\overline{x}}
     \newcommand{\ybar}{\overline{y}}
+    \newcommand{\vtab}{\vphantom{\Huge M}}
+    \newcommand{\htab}{\hphantom{\Huge MM}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->

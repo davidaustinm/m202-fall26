@@ -1,0 +1,9 @@
+<prefigure xmlns="https://prefigure.org"
+           label="25-slope-1-sol">
+  <diagram dimensions="(320,200)" margins="5">
+    <coordinates bbox="(-1,-2,7,3)">
+      <grid-axes spacings="((-1,1,7),(-2,1,3))" xlabel="y" ylabel="dy/dt"/>
+      <line endpoints="((0,2),(4,0))" stroke="blue" infinite="yes"/>
+    </coordinates>
+  </diagram>
+</prefigure>

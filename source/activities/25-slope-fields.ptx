@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Slope Fields</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's consider the autonomous differential equation
+        <md>
+          \frac{dy}{dt} = -\frac 12( y - 4).
+        </md>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Make a plot of <m>\frac{dy}{dt}</m> versus <m>y</m>.
+          Looking at the graph, for what values of <m>y</m> does
+          <m>y</m> increase and for what values does it decrease?
+        </p>
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-1.xml"/>
+        </image>
+      </statement>
+      <solution component="25">
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-1-sol.xml"/>
+        </image>
+        <p>
+          <m>dy/dt = 0</m> when <m>y = 4</m>.  The quantity
+          <m>y</m> increases when <m>y \lt 4</m> and decreases
+          when <m>y \gt 4</m>.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now sketch the slope field for this differential equation.
+        </p>
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-2.xml"/>
+        </image>
+      </statement>
+      <solution component="25">
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-2-field.xml"/>
+        </image>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Sketch the solutions that satisfy <m>y(0) = 0</m>,
+          <m>y(0) = 2</m>, <m>y(0) = 4</m>, and <m>y(0) = 6</m>.
+        </p>
+      </statement>
+      <solution component="25">
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-2-sol.xml"/>
+        </image>
+        <p>
+          All solutions converge to the equilibrium <m>y = 4</m>
+          as <m>t \to \infty</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Verify that <m>y(t) = 4 + 2e^{-t/2}</m> is a solution
+          to the differential equation with initial value
+          <m>y(0) = 6</m>.  Compare its graph to the one you
+          sketched above.
+        </p>
+      </statement>
+      <solution component="25">
+        <p>
+          <m>y'(t) = -e^{-t/2}</m> and
+          <md>
+            -\frac12(y-4) = -\frac12(4+2e^{-t/2}-4) = -e^{-t/2}
+          </md>,
+          confirming it is a solution.  Also <m>y(0) = 6</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is special about the solution where <m>y(0) = 4</m>?
+        </p>
+      </statement>
+      <solution component="25">
+        <p>
+          When <m>y(0) = 4</m>, we have <m>dy/dt = 0</m>, so the
+          solution is the constant function <m>y = 4</m>.  This is
+          an equilibrium solution.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the differential equation
+        <md>
+          \frac{dy}{dt} = t - y.
+        </md>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Plot the slope field of this differential equation below.
+          Then sketch the solutions corresponding to
+          <m>y(0)=0</m>, <m>y(0)=1</m>, <m>y(0)=2</m>,
+          <m>y(0)=-1</m>, and <m>y(0)=-2</m>.
+        </p>
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-4-blank.xml"/>
+        </image>
+      </statement>
+      <solution component="25">
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-4.xml"/>
+        </image>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What do you think the solution is when <m>y(0)=-1</m>?
+          Verify that your guess is correct.
+        </p>
+      </statement>
+      <solution component="25">
+        <p>
+          The solution looks like <m>y = t - 1</m> so let's check:
+          <m>y' = 1</m> and <m>t - y = t - (t-1) = 1</m>,
+          and <m>y(0) = -1</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Now let's consider the autonomous differential equation
+        <md>
+          \frac{dy}{dt} = -\frac 12 y(y-4).
+        </md>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Make a plot of <m>\frac{dy}{dt}</m> versus <m>y</m>.
+          Looking at the graph, for what values of <m>y</m> does
+          <m>y</m> increase and for what values does it decrease?
+        </p>
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-5.xml"/>
+        </image>
+      </statement>
+      <solution component="25">
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-5-sol.xml"/>
+        </image>
+        <p>
+          <m>dy/dt = 0</m> when <m>y = 0</m> or <m>y = 4</m>.
+          The quantity <m>y</m> increases when
+          <m>0 \lt y \lt 4</m> and decreases when <m>y \lt 0</m>
+          or <m>y \gt 4</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.2in">
+      <statement>
+        <p>
+          Identify any constant solutions of this differential
+          equation.  We call these <em>equilibrium</em> solutions.
+        </p>
+      </statement>
+      <solution component="25">
+        <p>
+          The equilibrium solutions are <m>y = 0</m> and
+          <m>y = 4</m>.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now sketch the slope field for this differential equation.
+        </p>
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-5-field.xml"/>
+        </image>
+      </statement>
+      <solution component="25">
+        <image width="50%">
+          <xi:include href="prefigure/25-slope-5-curves.xml"/>
+        </image>
+        <p>
+          The slope field has positive slopes for
+          <m>0 \lt y \lt 4</m>, negative slopes for <m>y \lt 0</m>
+          or <m>y \gt 4</m>, and zero slopes along <m>y = 0</m>
+          and <m>y = 4</m>.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Sketch the solutions with initial values
+          <m>y(0) = -1, 0, 1, \ldots, 5</m>.
+        </p>
+      </statement>
+      <solution component="25">
+        <p>
+          Solutions with <m>0 \lt y(0) \lt 4</m> increase toward
+          <m>y = 4</m>.  Solutions with <m>y(0) \gt 4</m> decrease
+          toward <m>y = 4</m>.  Solutions with <m>y(0) \lt 0</m>
+          decrease without bound.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          An equilibrium solution <m>\overline{y}</m> is called
+          <em>stable</em> if nearby solutions converge to
+          <m>\overline{y}</m>.  This means that if the initial
+          condition varies slightly from <m>\overline{y}</m>, then
+          <m>\lim_{t\to\infty}y(t) = \overline{y}</m>.
+        </p>
+        <p>
+          Conversely, an equilibrium solution <m>\overline{y}</m>
+          is called <em>unstable</em> if nearby solutions are
+          pushed away from <m>\overline{y}</m>.
+        </p>
+        <p>
+          Using your work above, classify the equilibrium solutions
+          you found as either stable or unstable.
+        </p>
+      </statement>
+      <solution component="25">
+        <p>
+          The equilibrium <m>y = 4</m> is stable since nearby solutions
+          converge to it from both sides.  The equilibrium
+          <m>y = 0</m> is unstable because solutions with
+          <m>y(0) \gt 0</m> move away from <m>y = 0</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          Suppose that <m>y(t)</m> describes the population of a
+          species of living organisms and that the initial value
+          <m>y(0) \gt 0</m>.  What can you say about the eventual
+          fate of this population?
+        </p>
+      </statement>
+      <solution component="25">
+        <p>
+          If <m>y(0) \gt 0</m>, the population will approach the
+          stable equilibrium <m>y = 4</m> as <m>t \to \infty</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

@@ -177,7 +177,7 @@
         <p>
           We have <m>x=2\sqrt{y}</m> so that the radius of a slice is
           <m>2\sqrt{y}</m>.  Therefore, the cross sectional area is
-          <m>A(y)=4\pi y</m> and the volume is <m>dV=4\piy~dy</m>.  The
+          <m>A(y)=4\pi y</m> and the volume is <m>dV=4\pi y~dy</m>.  The
           volume is
           <md>
             V = \int_0^4 4\pi y~dy = 2y^2|_0^4 = 32\pi

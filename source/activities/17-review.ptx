@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Review</title>
+
+  <introduction>
+    <sidebyside widths="60% 40%">
+      <p>
+        Suppose that a water tank is formed by rotating the portion
+        of the graph <m>y=x^2</m> between <m>0\leq x\leq 2</m>
+        about the <m>y</m>-axis.  The units on the axes are meters.
+      </p>
+      <image>
+        <prefigure xmlns="https://prefigure.org"
+                   label="17-tank">
+          <xi:include href="prefigure/17-tank.xml"/>
+        </prefigure>
+      </image>
+    </sidebyside>
+  </introduction>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Find the total volume of the tank.
+      </p>
+    </statement>
+    <solution component="17">
+      <p>
+        We will take horizontal slices whose cross sectional radii are
+        <m>\sqrt{y}</m>.  Then <m>A(y)=\pi y</m> and <m>dV = A(y)~dy =
+        \pi y~dy</m>.  Therefore,
+        <md>
+          V = \int dV = \int_0^4 \pi y~dy = 8\pi = 25.1
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Suppose that the tank is filled to a depth of 3 meters
+        with water whose density is 1000 kg/m<m>^3</m>.  Find the
+        mass of the water in the tank.
+      </p>
+    </statement>
+    <solution component="17">
+      <p>
+        The mass of a horizontal slice is <m>dm=\rho ~dV = 1000\pi
+        y~dy</m>.  This gives
+        <md>
+          M = \int dm = \int_0^3 1000\pi y~dy = 14137
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p>
+        Find the center of mass of the water.
+      </p>
+    </statement>
+    <solution component="17">
+      <p>
+        We need to find
+        <md>
+          \int y~dm = \int_0^3 1000\pi y^2~dy = 28274
+        </md>
+        so that
+        <md>
+          \ybar = \frac{\int y~dm}{\int ~dm} = \frac {28274}{M}=2
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1.75in">
+    <statement>
+      <p>
+        How much work is required to pump all the water to a
+        height of one meter above the top of the tank?
+      </p>
+    </statement>
+    <solution component="17">
+      <p>
+        The top of the tank is at <m>y=4</m> so one meter above the
+        top is <m>y=5</m>.  A typical slice at the location <m>y</m>
+        therefore needs to be raised a distance <m>5-y</m>.  This
+        gives
+        <md>
+          W= \int ~dW = \int_0^3 1000\pi g(5-y)y~dy=415633
+        </md>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Suppose the pump breaks down after 300,000 Joules of work
+        has been done.  What is the height of water left in the
+        tank?
+      </p>
+    </statement>
+    <solution component="17">
+      <p>
+        We will use <m>H</m> to denote the height of water in the
+        tank.  Since we pump water from the top, we have
+        <md>
+          \int_H^3 1000g\pi (5-y)y~dy = 300000
+        </md>.
+        We can use Desmos to find <m>H=1.36</m>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Suppose that a more careful analysis shows that the
+        density varies as <m>\rho(y)=1005-10y</m>.  Find the
+        center of mass now.
+      </p>
+    </statement>
+    <solution component="17">
+      <p>
+        We now have <m>dm=(1005-10y)\pi y~dy</m> so that
+        <md>
+          M = \int ~dm = \int_0^3 (1005-10y)\pi y~dy = 13925
+        </md>.
+        Also
+        <md>
+          \int y~dm = \int_0^3 (1005-10y)\pi y^2~dy = 27780
+        </md>
+        so that
+        <md>
+          \ybar = \frac{\int y~dm}{\int ~dm} =
+          \frac{27780}{13925}=1.995
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+</worksheet>

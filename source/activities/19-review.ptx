@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exam review</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that we define a function
+        <md>
+          F(x) = \int_0^x \frac{\sin(t)}t~dt
+        </md>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find <m>F'(2)</m>.  Is <m>F</m> increasing or decreasing at
+          <m>x=2</m>?
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          Since <m>F'(x)=\frac{\sin(x)}x</m>, we have
+          <m>F'(2)=\frac{\sin(2)}{2} > 0</m> so <m>F</m> is
+          increasing.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find <m>F''(2)</m>.  Is <m>F</m> concave up or down at
+          <m>x=2</m>?
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          Since <m>F'(x)=\frac{\sin(x)}{x}</m>, it follows that
+          <md>
+            F''(x) = \frac{x\cos(x)-\sin(x)}{x^2}
+          </md>
+          so that
+          <md>
+            F''(x) = \frac{2\cos(2)-\sin(2)}{4} =-0.436
+          </md>
+          so the graph of <m>F</m> is concave down.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the first three critical points of <m>F</m> to the
+          right of <m>x=0</m> and determine whether they are relative
+          maxima or minima.
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          <m>F'(x)=\frac{\sin(x)}{x} = 0</m> at <m>x=\pi,2\pi,3\pi</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Determine the value of <m>F</m> at the first critical point
+          that you found.
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          Using Desmos, <m>F(\pi)=\int_0^\pi\frac{\sin(t)}{t}~dt =
+          1.85</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Find antiderivatives of the following functions.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int \frac{3x}{4x^2+1}~dx</m>
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          Let's try the substitution <m>u=4x^2+1</m> so that <m>du =
+          8x~dx</m>.  Then
+          <md>
+            \int \frac{3x}{4x^2+1}~dx = \frac38\int \frac1u~du =
+            \frac38 \ln|u|+C = \frac38\ln|4x^2+1|+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int \frac{3x}{(4x^2+1)^3}~dx</m>
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          With the same substitution <m>u=4x^2+1</m>,
+          <md>
+            \int \frac{3x}{(4x^2+1)^3}~dx = \frac38\int \frac1u^3~du =
+            -\frac3{16} \frac1{u^2}+C = -\frac3{16}\frac{1}{(4x^2+1)^2}+C
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int \arctan(x)~dx</m>
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          This isn't on the table of antiderivatives, and a
+          substitution isn't going to help.  Let's try integration by
+          parts where we differentiate <m>\arctan(x)</m>:
+          <md>
+            \begin{array}{ll}
+            u=\arctan(x) \amp du=\frac1{1+x^2}~dx \\
+            dv=dx \amp v = x \\
+            \end{array}
+          </md>
+          so that
+          <md>
+            <mrow>
+              \int \arctan(x)~dx \amp= x\arctan(x) -
+              \int\frac{x}{1+x^2}~dx
+            </mrow>
+            <mrow>
+              \amp = x\arctan(x) - \frac12\ln|1+x^2|+C
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int 4xe^{4x}~dx</m>
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          Let's try integration by parts:
+          <md>
+            \begin{array}{ll}
+            u=x \amp du=dx \\
+            dv = 4e^{4x}~dx \amp v= e^{4x}~dx 
+            \end{array}
+          </md>
+          so that
+          <md>
+            <mrow>
+              \int 4xe^{4x}~dx \amp= xe^{4x} - 
+              \int e^{4x}~dx
+            </mrow>
+            <mrow>
+              \int 4xe^{4x}~dx \amp= xe^{4x} - 
+              \frac14 e^{4x} + C
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\ds\int_1^3 x\sin(2x)~dx</m>
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          Let's try integration by parts:
+          <md>
+            \begin{array}{ll}
+            u=x \amp du=dx \\
+            dv = \sin(2x)~dx \amp v= -\frac12\cos(2x)~dx 
+            \end{array}
+          </md>
+          so that
+          <md>
+            <mrow>
+              \int x\sin(2x)~dx \amp= -\frac12
+              x\cos(2x)+\frac12\int\cos(2x)~dx 
+            </mrow>
+            <mrow>
+              \amp = -\frac12
+              x\cos(2x)+\frac14 \sin(2x)+C
+            </mrow>
+          </md>.
+          Now
+          <md>
+            <mrow>
+              \int_1^3 x\sin(2x)~dx \amp =
+              \left(-\frac12x\cos(2x)+\frac14\sin(2x)\right)|^3_1
+            </mrow>
+            <mrow>
+              \amp =-\frac12(3\cos(6)-\cos(2)) +
+              \frac14(\sin(6)-\sin(2))
+            </mrow>
+            <mrow>
+              \amp = -1.95
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <sidebyside widths="40% 40%">
+        <p>
+          Shown on the right is the graph of the function
+          <md>f(x)=x^3-3x^2-x+3</md>.
+          Find the area of the shaded region.
+        </p>
+        <image>
+          <prefigure xmlns="https://prefigure.org"
+                     label="19-area">
+            <xi:include href="prefigure/19-area.xml"/>
+          </prefigure>
+        </image>
+      </sidebyside>
+    </statement>
+    <solution component="19">
+      <p>
+        We could look at the area under the graph between <m>-1\leq x
+        \leq 0</m> and then add in the area of the triangle.  So
+        <md>
+          <mrow>
+            A \amp = \int_{-1}^0 (x^3-3x^2-x+3)~dx + \frac12 2\cdot 2
+          </mrow>
+          <mrow>
+            \amp = \left(\frac14x^4-x^3-\frac12x^2+3x\right)\bigg|_{-1}^0 + 2
+          </mrow>
+          <mrow>
+            \amp = \frac{17}4
+          </mrow>
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <introduction>
+      <p>
+        Consider a tank that is obtained by spinning the graph
+        <m>y=\sqrt{x}</m> between <m>0\leq x \leq 4</m> about the
+        vertical axis.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the volume of the water tank.
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          We will slice horizontal so that the cross sectional radius
+          is <m>x=y^2</m>.  Then <m>A(y)=\pi y^4</m> and <m>dV=\pi
+          y^4~dy</m>.  Then
+          <md>
+            V = \int_0^2 \pi y^4~dy = \frac{32\pi}{5}
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If the tank is filled with a fluid whose density is given by
+          <m>\rho(y)=10-y</m>, find the mass of fluid.
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          <m>dm = \rho(y)~dV = \pi(10-y)y^4~dy</m> so
+          <md>
+            V = \int_0^2 \pi (10-y)y^4~dy = \pi\int_0^2 (10y^4-y^5)~dy
+            = \pi(2\cdot 2^5 - \frac16 2^6) = \frac{160\pi}{3}
+          </md>.          
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Assume the dimensions are in meters and the density is in
+          kilograms per cubic meter.
+          Find the amount of work required to pump all of the fluid to
+          the a location one meter above the top of the tank.
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          A slice at location <m>y</m> needs to be raised to
+          <m>y=3</m> so the distance is <m>3-y</m>.  Therefore,
+          <m>dW = (3-y)g~dm = \pi g(3-y)(10-y)y^4~dy</m> so that
+          <md>
+            W = \int_0^2 \pi g(3-y)(10-y)y^4~dy = 2205
+          </md>
+          Joules.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If you siphon off half of the volume, how deep is the fluid
+          remaining?
+        </p>
+      </statement>
+      <solution component="19">
+        <p>
+          <md>
+            <mrow>
+              V \amp = \int_0^H \pi y^4~dy = \frac12\frac{32\pi}{5}
+            </mrow>
+            <mrow>
+              \frac15H^5 \amp = \frac{16}{5}
+            </mrow>
+            <mrow>
+              H \amp = (16)^{1/5} = 1.74
+            </mrow>
+          </md>
+          meters.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

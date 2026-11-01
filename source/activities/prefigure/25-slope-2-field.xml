@@ -1,0 +1,10 @@
+<prefigure xmlns="https://prefigure.org"
+           label="25-slope-2-field">
+  <diagram dimensions="(320,300)" margins="5">
+    <definition>f(t,y)=-1/2*(y-4)</definition>
+    <coordinates bbox="(-1,-1,7,7)">
+      <grid-axes spacings="((-1,1,7),(-1,1,7))" xlabel="t" ylabel="y"/>
+      <slope-field function="f" stroke="blue"/>
+    </coordinates>
+  </diagram>
+</prefigure>

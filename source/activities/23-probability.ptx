@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Normal distributions</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's begin with the function
+        <md>
+          p(x) = \frac{1}{\sqrt{2\pi}}e^{-x^2/2},
+        </md>
+        which defines a ``normal distribution.''
+        Plot this function and verify that it has the
+        shape of a bell curve centered about the point <m>x=0</m>.
+      </p>
+      <p>
+        One inconvenience in dealing with this function is that it does not
+        have an antiderivative in terms of functions that are familiar to
+        us.  Therefore, any definite integrals that we would like to
+        evaluate involving this function require the use of a numerical
+        method.  That means that you'll need to use Desmos to evaluate any
+        definite integrals of this function.
+      </p>
+    </introduction>
+      
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Since this is a probability density function, what should be
+          the value of
+          <md>
+            \int_{-\infty}^\infty p(x)~dx?
+          </md>
+          Verify that this is the case.
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          Using Desmos, we find that
+          <md>
+            \int_{-\infty}^\infty p(x)~dx = 1
+          </md>
+          as required for a probability density function.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is the probability that a data point will lie between
+          <m>0</m> and <m>1</m>?
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          Using Desmos again,
+          <md>
+            \int_0^1 \frac{1}{\sqrt{2\pi}}e^{-x^2/2}~dx \approx 0.341
+          </md>
+          so about 34.1%.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that we measure the heights of men in the United States and
+        find the normal distribution
+        <md>
+          p(x)=\frac1{3\sqrt{2\pi}}e^{-(x-70)^2/18}
+        </md>
+        where <m>x</m> is measured in inches.
+      </p>
+    </introduction>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Plot this function (what is a reasonable range of <m>x</m>
+          values?) and discuss the significance of the graph.
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          A reasonable range is roughly <m>55 \leq x \leq 85</m>.
+          The graph is a bell curve centered at <m>x=70</m> inches,
+          indicating that the average height is 70 inches, with a
+          spread of a few inches on either side.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Find the average height.
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          <md>
+            \overline{x} = \int_{-\infty}^\infty x\cdot p(x)~dx = 70
+          </md>
+          inches, the center of the distribution.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Then find the fraction of men whose height is between 70 and 72
+          inches.
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          <md>
+            \int_{70}^{72} p(x)~dx \approx 0.248
+          </md>
+          so about 24.8%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          What fraction of men are taller than 74 inches?
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          <md>
+            \int_{74}^\infty p(x)~dx \approx 0.091
+          </md>
+          so about 9.1%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          What is the median height?
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          The cumulative distribution function is
+          <md>
+            C(s)=\int_{-\infty}^s p(x)~dx
+          </md>
+          and we want the median <m>m</m> that satisfies
+          <m>C(m)=1/2</m> so <m>m=70</m> again.  The median is the
+          same as the average or mean.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          If <m>\overline{x}</m> is the mean of the density function,
+          the standard
+          deviation <m>\sigma</m>, which measures the spread in the
+          data, is given
+          by
+          <md>
+            \sigma^2 = \int_{-\infty}^\infty (x-\overline{x})^2p(x)~dx.
+          </md>
+          Notice that this is defining <m>\sigma^2</m> so you'll need
+          to take the
+          square root of the integral.  Find the standard deviation of this
+          distribution.
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          <md>
+            \sigma^2 = \int_{-\infty}^\infty (x-70)^2 p(x)~dx = 9
+          </md>
+          so <m>\sigma = 3</m> inches.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        The general form of the normal distribution is
+        <md>
+          p(x) = \frac{1}{\sigma\sqrt{2\pi}}
+          e^{-\frac{(x-\bar{x})^2}{2\sigma^2}}
+        </md>.
+        Average annual snowfall in Grand Rapids is 72.4 inches with a standard
+        deviation of 16 inches.
+      </p>
+    </introduction>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          A few years ago, we had a lot of snow with 109
+          inches recorded.  What is the chance that there is more than 109
+          inches of snow?
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          <md>
+            \int_{109}^\infty p(x)~dx \approx 0.011
+          </md>
+          so about 1.1%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          What is the
+          chance that there is 40 or fewer inches of snow in a year?
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          <md>
+            \int_{-\infty}^{40} p(x)~dx \approx 0.021
+          </md>
+          so about 2.1%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          What is the chance that the snowfall is more than the average?
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          By the symmetry of the normal distribution,
+          <md>
+            \int_{72.4}^\infty p(x)~dx = 0.5
+          </md>
+          so 50%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          What is the chance that the snowfall is more than one standard
+          deviation above the average?
+        </p>
+      </statement>
+      <solution component="23">
+        <p>
+          One standard deviation above the mean is <m>72.4 + 16 =
+          88.4</m> inches.
+          <md>
+            \int_{88.4}^\infty p(x)~dx \approx 0.159
+          </md>
+          so about 15.9%.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

@@ -1,0 +1,13 @@
+<prefigure xmlns="https://prefigure.org"
+           label="25-slope-4">
+  <diagram dimensions="(300,300)" margins="5">
+  <definition>f(t,y)=t-y</definition>
+    <coordinates bbox="(-4,-4,4,4)">
+      <grid-axes xlabel="t" ylabel="y"/>
+      <slope-field function="f" stroke="blue"/>
+      <repeat parameter="k in [-2,-1,0,1,2]">
+        <plot-de-solution function="f" t0="0" t1="4" y0="k" stroke="orange"/>
+      </repeat>
+    </coordinates>
+  </diagram>
+</prefigure>

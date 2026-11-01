@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Euler's Method</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Remember the first differential equation we
+        looked at:
+        <md>
+          \frac{dT}{dt} = -\frac1{15}T + 5.
+        </md>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Sketch a slope field below as well as several
+          solution curves.
+        </p>
+        <image width="40%">
+          <shortdescription>A diagram for sketching the slope field</shortdescription>
+          <xi:include href="prefigure/26-empty-1.xml"/>
+        </image>
+      </statement>
+      <solution component="26">
+        <image width="40%">
+          <shortdescription>A sketch of the slope field</shortdescription>
+          <xi:include href="prefigure/26-sol-1.xml"/>
+        </image>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+      <p>
+        Suppose we begin with an initial temperature at
+        <m>t=0</m> of <m>T=105</m>.
+        What is <m>dT/dt</m> at this time?  Include
+        the units on your response.
+      </p>
+      </statement>
+      <solution component="26">
+        <p>
+          <md>
+            \frac{dT}{dt} = -\frac{1}{15}(105) + 5 = -2
+          </md>
+          degrees F per minute.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          By approximately how much does the temperature
+          change over the next 0.5 minutes?  We will
+          call this <m>\Delta T</m>, the change in
+          temperature.
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          <m>\Delta T = (-2)(0.5) = -1</m>°F.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          What is the approximate temperature at
+          <m>t=0.5</m>?
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          <m>T(0.5) \approx 105 + (-1) = 104</m>°F.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Summarize what you've found by filling in the
+          blank entries in the following table:
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>T</m></cell>
+            <cell><m>dT/dt</m></cell>
+            <cell><m>\Delta T</m></cell>
+          </row>
+          <row>
+            <cell>0.0<m>\vphantom{\Huge M}</m></cell>
+            <cell>105.0<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+          </row>
+          <row>
+            <cell>0.5<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="26">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>T</m></cell>
+            <cell><m>dT/dt</m></cell>
+            <cell><m>\Delta T</m></cell>
+          </row>
+          <row>
+            <cell>0.0<m>\vphantom{\Huge M}</m></cell>
+            <cell>105.0<m>\vtab</m></cell>
+            <cell>-2.0<m>\vtab</m></cell>
+            <cell>-1.0<m>\vtab</m></cell>
+          </row>
+          <row>
+            <cell>0.5<m>\vtab</m></cell>
+            <cell>104.0<m>\vtab</m></cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          We can now repeat this process.  What is
+          <m>dT/dt</m> at time <m>t=0.5</m>?
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          At <m>t=0</m>: <m>dT/dt = -2</m>,
+          <m>\Delta T = -1</m>, so <m>T(0.5) = 104</m>.
+        </p>
+        <p>
+          At <m>t=0.5</m>: <m>dT/dt =
+          -\frac{1}{15}(104) + 5 = -\frac{29}{15}
+          \approx -1.93</m>°F/min.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          By approximately how much does the temperature
+          change over the next 0.5 minutes?
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          <m>\Delta T \approx (-1.93)(0.5)
+          \approx -0.97</m>°F.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is the approximate temperature at
+          <m>t=1</m>?
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          <m>T(1) \approx 104 + (-0.97)
+          = 103.03</m>°F.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Summarize what you've found by filling in the
+          blank entries in the following table:
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>T</m></cell>
+            <cell><m>dT/dt</m></cell>
+            <cell><m>\Delta T</m></cell>
+          </row>
+          <row>
+            <cell>0.0</cell>
+            <cell>105.0</cell>
+            <cell>-2</cell>
+            <cell>-1</cell>
+          </row>
+          <row>
+            <cell>0.5</cell>
+            <cell>104.0</cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+          </row>
+          <row>
+            <cell>1.0</cell>
+            <cell><m>\htab</m></cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Continue in this way until you estimate the
+          temperature at time <m>t=2.0</m>.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>T</m></cell>
+            <cell><m>dT/dt</m></cell>
+            <cell><m>\Delta T</m></cell>
+          </row>
+          <row>
+            <cell>0.0<m>\vtab</m></cell>
+            <cell>105.0<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.5<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+          </row>
+          <row>
+            <cell>1.0<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>1.5<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>2.0<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="26">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>T</m></cell>
+            <cell><m>dT/dt</m></cell>
+            <cell><m>\Delta T</m></cell>
+          </row>
+          <row>
+            <cell>0.0</cell>
+            <cell>105.00</cell>
+            <cell>-2.00</cell>
+            <cell>-1.00</cell>
+          </row>
+          <row>
+            <cell>0.5</cell>
+            <cell>104.00</cell>
+            <cell>-1.93</cell>
+            <cell>-0.97</cell>
+          </row>
+          <row>
+            <cell>1.0</cell>
+            <cell>103.03</cell>
+            <cell>-1.87</cell>
+            <cell>-0.93</cell>
+          </row>
+          <row>
+            <cell>1.5</cell>
+            <cell>102.10</cell>
+            <cell>-1.81</cell>
+            <cell>-0.90</cell>
+          </row>
+          <row>
+            <cell>2.0</cell>
+            <cell>101.20</cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Verify that the function
+          <m>T(t) = 75 + 30e^{-t/15}</m> is the
+          solution to this differential equation with
+          the initial value <m>T(0) = 105</m>.
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          The left-hand side is <m>T'(t) = -2e^{-t/15}</m>.  The
+          right-hand side is
+          <md>
+            -\frac{1}{15}T + 5
+            = -\frac{1}{15}(75+30e^{-t/15}) + 5
+            = -2e^{-t/15}
+          </md>
+          so they agree.
+          Also, <m>T(0) = 75 + 30 = 105</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the actual value of <m>T(2)</m>?  How
+          does it compare to your approximate value?
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          <m>T(2) = 75 + 30e^{-2/15} \approx 101.26</m>°F.
+          The approximation of 101.20 is fairly close.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        This technique of finding an approximate solution
+        to an initial value problem is called
+        <em>Euler's method</em>.  (Euler is pronounced
+        like "Oiler.")
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now let's look at the differential equation
+          <md>
+            \frac{dy}{dt} = \frac 12(4y-y^2).
+          </md>
+          Sketch a slope field below as well as the
+          solution with the initial value
+          <m>y(0) = 1</m>.
+        </p>
+        <image width="40%">
+          <shortdescription>A diagram for sketching the slope field</shortdescription>
+          <xi:include href="prefigure/26-empty-2.xml"/>
+        </image>
+      </statement>
+      <solution component="26">
+          <shortdescription>A sketch of the slope field</shortdescription>
+        <image width="40%">
+          <xi:include href="prefigure/26-sol-2.xml"/>
+        </image>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now use Euler's method taking steps of
+          <m>h=0.5</m> to approximate the solution at
+          the points <m>t=0.5, 1.0, 1.5, 2.0</m>.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>dy/dt</m></cell>
+            <cell><m>\Delta y</m></cell>
+          </row>
+          <row>
+            <cell>0.0<m>\vtab</m></cell>
+            <cell>1.0<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.5<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+          </row>
+          <row>
+            <cell>1.0<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>1.5<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>2.0<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="26">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>dy/dt</m></cell>
+            <cell><m>\Delta y</m></cell>
+          </row>
+          <row>
+            <cell>0.0</cell>
+            <cell>1.000</cell>
+            <cell>1.500</cell>
+            <cell>0.750</cell>
+          </row>
+          <row>
+            <cell>0.5</cell>
+            <cell>1.750</cell>
+            <cell>1.969</cell>
+            <cell>0.984</cell>
+          </row>
+          <row>
+            <cell>1.0</cell>
+            <cell>2.734</cell>
+            <cell>1.730</cell>
+            <cell>0.865</cell>
+          </row>
+          <row>
+            <cell>1.5</cell>
+            <cell>3.599</cell>
+            <cell>0.721</cell>
+            <cell>0.360</cell>
+          </row>
+          <row>
+            <cell>2.0</cell>
+            <cell>3.960</cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Now consider the equation
+        <md>
+          \frac{dy}{dt} = t - y
+        </md>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Sketch the slope field below along with the
+          solution with initial value <m>y(0) = 1</m>.
+        </p>
+        <image width="40%">
+          <shortdescription>A diagram for sketching the slope field</shortdescription>
+          <xi:include href="prefigure/26-empty-3.xml"/>
+        </image>
+      </statement>
+      <solution component="26">
+          <shortdescription>A sketch of the slope field</shortdescription>
+        <image width="40%">
+          <xi:include href="prefigure/26-sol-3.xml"/>
+        </image>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now use Euler's method with a step size of
+          <m>h=0.25</m> to approximate the value of the
+          solution at
+          <m>t=0.25, 0.50, 0.75, 1.00</m>.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>dy/dt</m></cell>
+            <cell><m>\Delta y</m></cell>
+          </row>
+          <row>
+            <cell>0.0<m>\vtab</m></cell>
+            <cell>1.0<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.25<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+          </row>
+          <row>
+            <cell>0.50<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.75<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>1.00<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="26">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>dy/dt</m></cell>
+            <cell><m>\Delta y</m></cell>
+          </row>
+          <row>
+            <cell>0.00</cell>
+            <cell>1.000</cell>
+            <cell>-1.000</cell>
+            <cell>-0.250</cell>
+          </row>
+          <row>
+            <cell>0.25</cell>
+            <cell>0.750</cell>
+            <cell>-0.500</cell>
+            <cell>-0.125</cell>
+          </row>
+          <row>
+            <cell>0.50</cell>
+            <cell>0.625</cell>
+            <cell>-0.125</cell>
+            <cell>-0.031</cell>
+          </row>
+          <row>
+            <cell>0.75</cell>
+            <cell>0.594</cell>
+            <cell>0.156</cell>
+            <cell>0.039</cell>
+          </row>
+          <row>
+            <cell>1.00</cell>
+            <cell>0.633</cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Check that the function
+          <m>y(t) = t - 1 + 2e^{-t}</m> is the solution
+          to this differential equation with this
+          initial value.
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          The left-hand side is <m>y'(t) = 1 - 2e^{-t}</m> and the
+          right-hand side is
+          <m>t - y = t - (t-1+2e^{-t}) = 1 - 2e^{-t}</m>.
+          Also <m>y(0) = 0 - 1 + 2 = 1</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is <m>y(1.00)</m> and how does it compare
+          to your approximation?
+        </p>
+      </statement>
+      <solution component="26">
+        <p>
+          <m>y(1) = 1 - 1 + 2e^{-1} = 2e^{-1}
+          \approx 0.736</m>.  The approximation
+          of 0.633 underestimates the actual value by a little bit.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

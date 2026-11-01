@@ -1,0 +1,11 @@
+<prefigure xmlns="https://prefigure.org"
+           label="29-slope">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(t,y)=9.8-2*y</definition>
+    <definition>a = 1</definition>
+    <coordinates bbox="(-1,-1,2,6)">
+      <grid-axes xlabel="t" ylabel="v" decorations="no" vlabels="(1,2,5)"/>
+      <slope-field function="f"/>
+    </coordinates>
+  </diagram>
+</prefigure>

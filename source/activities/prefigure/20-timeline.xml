@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 100)" margins="5">
+  <definition>a=4</definition>
+  <definition>dx=0.1</definition>
+  <coordinates bbox="(-1,-1,11,0.5)">
+    <line endpoints="((0,0),(10,0))" stroke="black"/>
+    <tick-mark location="0" offset="(10,-5)" font-size="14">Start work</tick-mark>
+    <tick-mark location="10" offset="(-10,-5)" font-size="14">Retirement</tick-mark>
+    <rectangle lower-left="(a-dx,-dx)" dimensions="(2*dx,2*dx)"
+               fill="black"/>
+    <line endpoints="((0,0.2),(a,0.2))" arrows="2"/>
+    <label anchor="(a/2,0.2)" alignment="center" clear-background="yes">
+      <m>t</m>
+    </label>
+    <label anchor="(a,-dx)" alignment="south" offset="(0,-4)"><m>dt</m></label>
+  </coordinates>
+</diagram>

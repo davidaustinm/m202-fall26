@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Working with probability</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that you perform an experiment with outcomes <m>0\leq
+        x\leq 10</m> and that your data is described by the
+        probability density function <m>p(x) = \frac 1{50}x</m>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What fraction of the data lies in the interval <m>0\leq x
+          \leq 3</m>?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <md>
+            \int_0^3\frac1{50}x~dx = \frac{1}{100}x^2\biggl|_0^3 =
+            0.09
+          </md>
+          so 9%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What fraction of the data lies in the interval <m>3\leq x
+          \leq 10</m>?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          Since all the data is between 0 and 10, then 91% would be
+          between 3 and 10.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Compute the integral <m>\int_0^{10} p(x)~dx</m>.  What does
+          this integral represent?  Why should we have known its value
+          before doing the computation?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          This represents the fraction of data that lies in <m>0\leq
+          x\leq 10</m>.  Since all the data lies in that interval,
+          that value will be 100% so that
+          <md>
+            \int_0^{10}p(x)~dx = 1
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          For what value of <m>x</m> does 75% of the data lie below
+          <m>x</m>?  This is known as the <em>third quartile</em>.
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          We will call it <m>s</m> so that
+          <md>
+            <mrow>
+              \int_0^sp(x)~dx \amp = 0.75
+            </mrow>
+            <mrow>
+              \frac{s^2}{100} \amp = 0.75
+            </mrow>
+          </md>
+          so <m>s=\sqrt{75} = 8.66</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          The median <m>m</m> is the point where half of the data is
+          less than <m>m</m> and half is more than <m>m</m>.  What is
+          the median?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <md>
+            <mrow>
+              \int_0^mp(x)~dx \amp = 0.5
+            </mrow>
+            <mrow>
+              \frac{m^2}{100} \amp = 0.5
+            </mrow>
+          </md>
+          so <m>m=\sqrt{50} = 7.07</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          The <em>cumulative distribution</em> function <m>C(s)</m>
+          measures the fraction of data in the range <m>0\leq x \leq
+          s</m>.  Find an expression for <m>C(s)</m>.
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <md>
+            C(s) = \int_0^s\frac1{50}x~dx = \frac{s^2}{100}
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is <m>C'(s)</m>?  Why should we have known this before
+          doing the computation?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <m>C'(s)=\frac{1}{50}s = p(s)</m>.  In other words, <m>C</m>
+          is an antiderivative of <m>p</m>, which we already knew by
+          the Second FUNdamental Theorem of Calculus.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that <m>p(x) = K(81x-x^3)</m> is a probability
+        density function where <m>0\leq x \leq 9</m> and <m>K</m> is
+        some constant.
+      </p>
+    </introduction>
+      
+    <task workspace="1in">
+      <statement>
+        <p>
+          What do you know about the integral
+          <m>\int_0^9 p(x)~dx</m>?  Use that observation to determine
+          <m>K</m>.
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          We know that <m>\int_0^9p(x) = 1</m> since all the data is
+          between 0 and 9.  Therefore,
+          <md>
+            K\int_0^9(81x-x^3)~dx =
+            K\left(\frac{81}{2}x^2-\frac14x^4\right)\biggl|_0^9~dx = 1
+          </md>
+          so that <m>K=\frac{4}{6561}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Sketch a graph of <m>p</m>.  Near what value of <m>x</m> are
+          outcomes most likely?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          The probability density function has a maximum where
+          <m>p'(x)= K(81 - 3x^2)=0</m>, which happens where
+          <m>x=\sqrt{27} = 5.19</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the median <m>m</m>.
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          We need to solve for
+          <md>
+            <mrow>
+              \int_0^m\frac4{6561}\left(81x-x^3\right)~dx \amp = \frac 12
+            </mrow>
+            <mrow>
+              \frac{4}{6561}\left(\frac{81}{2}m^2 - \frac14 m^4\right)
+              \amp = \frac12
+            </mrow>,
+            which is in where <m>m=4.87</m>.
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Find and sketch the cumulative distribution function
+          <m>C(s)</m>.
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <md>
+            C(s)=\int_0^sp(x)~dx =
+            \frac{4}{6561}\left(\frac{81}{2}s^2-\frac14s^4\right)
+
+          </md>
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+        <p>
+          Suppose that the results of an experiment are described by
+          the cumulative distribution function <m>C(s) = \sin(\pi
+          s/10)</m> where the outcomes satisfy <m>0\leq x \leq 5</m>.
+        </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What fraction of the data is less than 2?
+          What fraction of the data is more than 2?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <md>C(2) = \sin\left(\frac{2\pi}{10}\right) = 0.58</md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the median <m>m</m>?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <md>
+            C(m)=\frac12 = \sin\left(\frac{m\pi}{10}\right)
+          </md>
+          so <m>\frac{m\pi}{10}=\frac{\pi}{6}</m> so <m>m=5/3</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the first quartile <m>x</m>, the point where 25% of
+          the data is less than <m>x</m>?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <m>C(s) = \frac14 = \sin\left(\frac{s\pi}{10}\right)</m>
+          so <m>s=0.8</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What fraction of the data lies between 1 and 2?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <m>C(2)-C(1) = 0.279</m> so 27.9%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the probability density function?
+        </p>
+      </statement>
+      <solution component="21">
+        <p>
+          <md>
+            p(x) = C'(x) = \frac{\pi}{10}\cos\left(\frac{\pi
+            x}{10}\right)
+          </md>
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

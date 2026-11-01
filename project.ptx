@@ -9,7 +9,7 @@
     <target name="student-02" source="main.ptx" format="html"
             publication="publication-02.ptx" deploy-dir="MTH202-02" />
     <target name="instructor" source="main.ptx" format="html"
-            publication="publication.ptx" />
+            publication="publication.ptx" deploy-dir="instructor"/>
 
 
     

@@ -1,0 +1,10 @@
+<prefigure xmlns="https://prefigure.org"
+           label="27-de-2">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(x)=x*(6-x)</definition>
+    <coordinates bbox="(-1,-1,9,9)">
+      <grid-axes xlabel="P" ylabel="\frac{dP}{dt}"/>
+      <graph function="f"/>
+    </coordinates>
+  </diagram>
+</prefigure>

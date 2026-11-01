@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Preparing for Exam 1</title>
+
+  <p component="prod-04">
+    Our first exam is <alert>Wednesday, October 7</alert> during
+    our usual class meeting time.  We will take some time on Monday,
+    October 5 to review a bit, but it would be a good idea to start
+    earlier.
+  </p>
+
+  <p component="prod-02">
+    Our first exam is <alert>Thursday, October 8</alert> during
+    our usual class meeting time.  We will take some time on Tuesday,
+    October 6 to review a bit, but it would be a good idea to start
+    earlier.
+  </p>
+
+  <paragraphs>
+    <title>Topics</title>
+
+    <p>
+      The exam will cover everything that we've done in the course up to
+      this point.  One of the best things to do is to work through the
+      in-class activities and make sure that you feel comfortable with
+      everything.  Solutions to all of those activities are available on
+      Blackboard, but you can also print new copies using the printer
+      icon and work through them again.
+    </p>
+
+    <p>
+      <alert>Remember:</alert> The most important thing is for you to
+      focus on concepts.  It's also great to find an answer, but be
+      sure that you understand all the steps that you've taken to get
+      there and how they fit together.  If you have this kind of
+      understanding, you should be able to deal with situations that
+      may be slightly new.
+    </p>
+
+    <p>
+      Here is a list of topics that we have studied.
+      <ul>
+        <li>
+          <p>
+            This is something from Calculus I, but it's important to
+            remember how to evaluate a definite integral.  In
+            particular,
+            <md>
+              \int_a^b f(x)~dx = F(b)-F(a)
+            </md>
+            if <m>F</m> is an antiderivative of <m>f</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Antiderivatives:
+            <ul>
+              <li>
+                <p>
+                  We have seen how to use an integral to define an
+                  antiderivative of a function.  We called this the
+                  <em>Second Fundamental Theorem of Calculus.</em>
+                  That is, if
+                  <md>
+                    F(x)=\int_a^x f(t)~dt
+                  </md>,
+                  then <m>F' = f</m>, which means that <m>F</m> is an
+                  antiderivative of <m>f</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We have also seen three techniques for symbolically
+                  finding antiderivatives:
+                  <ol>
+                    <li>Table of antiderivatives</li>
+                    <li>Substitution</li>
+                    <li>Integration by parts</li>
+                  </ol>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+        <li>
+          <p>
+            We have also seen some ways of approximating definite
+            integrals:
+            <ul>
+              <li>
+                <p>
+                  Left and right Riemann sums
+                </p>
+              </li>
+              <li>
+                <p>
+                  The midpoint rule
+                </p>
+              </li>
+              <li>
+                <p>
+                  The trapezoidal rule
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+        <li>
+          <p>
+            Slice-compute-add: This is our main principle for looking
+            at applications.  Integrals show up in many, many places
+            and in many, many disciplines so it's important to be
+            familiar with how to set up integrals using this
+            principle.  We have applied this to the following
+            <ul>
+              <li>
+                <p>
+                  Area
+                </p>
+              </li>
+              <li>
+                <p>
+                  Volume
+                </p>
+              </li>
+              <li>
+                <p>
+                  Mass
+                </p>
+              </li>
+              <li>
+                <p>
+                  Centers of mass
+                </p>
+              </li>
+              <li>
+                <p>
+                  Work
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+      </ul>
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Time</title>
+
+    <p>
+      Just a reminder:  I realize that in-class exams can be stressful
+      because of the time constraints.  I take this seriously and will
+      design the exam so that you can easily complete it in our class
+      meeting (one hour, fifty minutes).  Your job is to make sure you
+      are prepared.
+    </p>
+  </paragraphs>
+
+</worksheet>

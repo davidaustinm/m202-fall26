@@ -1,0 +1,10 @@
+<prefigure xmlns="https://prefigure.org"
+           label="27-slope">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(t,x)=-x*(x-1)*(x-3)</definition>
+    <coordinates bbox="(-1,-1,3,4)">
+      <grid-axes ylabel="P" xlabel="t" decorations="no" vlabels="(0,1,3)"/>
+      <slope-field function="f" stroke="blue"/>
+    </coordinates>
+  </diagram>
+</prefigure>

@@ -136,7 +136,7 @@
       <statement>
         <p>
           Suppose that the region in the previous question is spun
-          about the line <m>y=4</m>.  Set an integral that finds the
+          about the line <m>x=4</m>.  Set an integral that finds the
           resulting volume.
         </p>
       </statement>
@@ -215,7 +215,7 @@
 
   </exercise>
 
-  <exercise>
+  <exercise workspace="1in">
     <statement>
       <p>
         Here's an antiderivative we'll need later in the course:

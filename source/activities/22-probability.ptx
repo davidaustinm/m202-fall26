@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Probability density functions</title>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Suppose that you perform an experiment with outcomes <m>0\leq x\leq
+        10</m> and that your data is described by the probability density
+        function <m>p(x) = \frac 1{50}x</m>.
+      </p>
+      <p>
+        Find the median of the data and the average <m>\bar{x}</m>.
+      </p>
+    </statement>
+    <solution component="22">
+      <p>
+        The median <m>m</m> is defined by
+        <md>
+          \int_0^m p(x)~dx = \frac12
+        </md>,
+        which leads to <m>m=\sqrt{50}=7.07</m>.
+      </p>
+      <p>
+        The average is
+        <md>
+          \xbar = \int_0^{10}xp(x)~dx = \int_0^{10}\frac{1}{50}x^2~dx
+          = \frac{1000}{150} =  6.67
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Two fast food restaurants collect data about how long customers
+        wait before their order is taken.  One restaurant finds that the
+        waiting time is described by the probability density function
+        <md>
+          p_1(t) = \frac 12e^{-t/2}
+        </md>
+        where <m>0 \leq t \lt \infty</m> is measured in minutes. The second
+        restaurant finds the probability density function
+        <md>
+          p_2(t) = \frac 14e^{-t/4}.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Verify that <m>p_1(t)</m> is a probability density function;  that
+          is, check that <m>\int_0^\infty p(t)~dt = 1</m>.
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          <md>
+            \int_0^\infty \frac12e^{-t/2}~dt =
+            -e^{-t/2}\biggl|_0^\infty = 1
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          For the first restaurant, what fraction of patrons waits
+          less than one minute?  What fraction waits between 1 and 2 minutes?
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          <md>
+            <mrow>
+              \int_0^1 \frac12 e^{-t/2}~dt \amp = -e^{-t/2}\biggl|_0^1
+              \amp = 0.393
+            </mrow>
+            <mrow>
+              \int_1^2 \frac12 e^{-t/2}~dt \amp = -e^{-t/2}\biggl|_1^2
+              \amp = 0.239
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Sketch the graphs of the two functions <m>p_1(t)</m> and
+          <m>p_2(t)</m> on the same plot.  Based only on these graphs,
+          which restaurant offers generally faster service?  Explain
+          your response.
+        </p>
+      </statement>
+      <solution component="22">
+        <image width="40%">
+          <prefigure xmlns="https://prefigure.org"
+                     label="22-graphs">
+            <xi:include href="prefigure/22-graphs.xml"/>
+          </prefigure>
+        </image>
+        <p>
+          The service is faster in restaurant 1 because a large
+          portion are served close to <m>t=0</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Now find the average waiting time for the two restaurants.
+          Does your result confirm what you saw in the graphs?
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          Integrate <m>\int te^{at}~dt</m> by parts:  <m>u=t</m> and
+          <m>dv=e^{at}~dt</m> so that <m>du=dt</m> and <m>v=\frac1a
+          e^{at}</m>.  Then
+          <md>
+            \int te^{at}~dt = \frac1a te^{at} - \int\frac1ae^{at}~dt =
+            \frac1a te^{at} - \frac1{a^2}e^{at}
+          </md>.
+          Then we have
+          <md>
+            <mrow>
+              \overline{t}_1 \amp = \int_0^\infty
+              t\frac12e^{-t/2}~dt \amp = 
+              \left(-te^{-t/2} - 2e^{-t/2}\right)\biggl|_0^\infty \amp
+              = 2
+            </mrow>
+            <mrow>
+              \overline{t}_2 \amp = \int_0^\infty
+              t\frac14e^{-t/4}~dt \amp = 
+              \left(-te^{-t/4} - 4e^{-t/4}\right)\biggl|_0^\infty \amp
+              = 4
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose that <m>C_1(s)</m> is the cumulative distribution function
+          for the first restaurant.  Explain what this function measures.
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          <m>C(s)</m> measures the fraction of diners who are served
+          within <m>s</m> minutes.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Find the cumulative distribution function <m>C_1(s)</m> and use it to
+          find the median waiting time of the first restaurant.
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          <md>
+            C_1(s) = \int_0^s\frac12e^{-t/2}~dt = -e^{-t/2}\biggl|_0^s
+            = 1 - e^{-s/2}
+          </md>
+          To find the median <m>m</m>, we have
+          <md>C_1(m) = 1-e^{-m/2} = \frac12</md>
+          so <m>e^{-m/2} = \frac12</m> and <m>m=-2\ln(1/2) = 1.38</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Is this median lower or higher than the average waiting time?
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          The average waiting time is 2 minutes so the median is lower.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How do the medians of the two restaurants compare?
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          The median for the second restaurant is <m>-4\ln(1/2) =
+          2.76</m> so it is higher than in the first restauarant, as
+          expected.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose there is a company that makes phones, and they study how
+        long it takes for a phone to fail.  A typical probability
+        distribution in this case is a "Gamma distribution," such as
+        <md>
+          p(x) = \frac{1}{16}x^2e^{-\frac12 x}.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Graph this function and determine the most likely time for a phone
+          to fail.
+        </p>
+      </statement>
+      <solution component="22">
+        <image width="40%">
+          <prefigure xmlns="https://prefigure.org"
+                     label="22-gamma">
+            <xi:include href="prefigure/22-gamma.xml"/>
+          </prefigure>
+        </image>
+        <p>
+          The most likely time to fail is around 4 years.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the chance that a phone lasts longer than 4 years?
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          <md>
+            \int_4^\infty p(x)~dx = 0.32
+          </md>
+          so about 32%.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the average time it takes a phone to fail?
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          <md>
+            \int_0^\infty x\frac1{16}x^2e^{-x/2}~dx = 6
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          At what point will 50% of phones have failed?  What's another word
+          for this time?
+        </p>
+      </statement>
+      <solution component="22">
+        <p>
+          This is the median time <m>m</m> where
+          <md>
+            \int_0^m \frac1{16}x^2e^{-x/2}~dx = \frac12
+          </md>
+          so <m>m=5.35</m> years.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

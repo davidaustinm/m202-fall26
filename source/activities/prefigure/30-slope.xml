@@ -1,0 +1,10 @@
+<prefigure xmlns="https://prefigure.org"
+           label="30-slope">
+  <diagram dimensions="(300,300)" margins="20">
+    <definition>f(t,y)=y-2</definition>
+    <coordinates bbox="(0,0,4,4)">
+      <grid-axes xlabel="t" ylabel="M" decorations="no"/>
+      <slope-field function="f"/>
+    </coordinates>
+  </diagram>
+</prefigure>

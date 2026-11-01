@@ -1,0 +1,8 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 240)" margins="(40,25,15,10)">
+  <coordinates bbox="(0,0,1.8,120)">
+    <grid spacings="((0,0.3,1.8),(0,20,120))"/>
+    <axes xlabel="t" ylabel="v" vlabels="(0,20,120)" hlabels="(0,0.3,1.8)"/>
+
+  </coordinates>
+</diagram>

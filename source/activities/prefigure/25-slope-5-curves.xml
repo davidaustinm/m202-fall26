@@ -1,0 +1,14 @@
+<prefigure xmlns="https://prefigure.org"
+           label="25-slope-5-curves">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(t,y)=-1/2*y*(y-4)</definition>
+    <coordinates bbox="(-1,-2,7,6)">
+      <grid-axes xlabel="y" ylabel="y"/>
+      <slope-field function="f" stroke="blue"/>
+      <repeat parameter="k in [-1,0,1,2,3,4,5]">
+        <plot-de-solution function="f" t0="0" t1="7" y0="k"
+                          stroke="orange"/>
+      </repeat>
+    </coordinates>
+  </diagram>
+</prefigure>

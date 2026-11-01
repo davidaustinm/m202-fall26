@@ -22,6 +22,7 @@
       <xi:include href="./syllabus/runestone-02.ptx" />
       <xi:include href="./syllabus/runestone-04.ptx" />
       <xi:include href="./syllabus/learning-targets.ptx" />
+      <xi:include href="./syllabus/exam1.ptx" />
       <!--
           <xi:include href="./syllabus/homework.ptx" />
       -->
@@ -74,6 +75,21 @@
       <xi:include href="./activities/14-centers.ptx"/>
       <xi:include href="./activities/15-lab-2.ptx"/>
       <xi:include href="./activities/16-work.ptx"/>
+      <xi:include href="./activities/17-review.ptx"/>
+      <xi:include href="./activities/18-numerical.ptx"/>
+      <xi:include href="./activities/19-review.ptx"/>
+      <xi:include href="./activities/20-finance.ptx"/>
+      <xi:include href="./activities/21-probability.ptx"/>
+      <xi:include href="./activities/22-probability.ptx"/>
+      <xi:include href="./activities/23-probability.ptx"/>
+      <xi:include href="./activities/24-deintro.ptx"/>
+      <xi:include href="./activities/25-slope-fields.ptx"/>
+      <xi:include href="./activities/26-euler.ptx"/>
+      <xi:include href="./activities/27-des.ptx"/>
+      <xi:include href="./activities/28-separable.ptx"/>
+      <xi:include href="./activities/29-review.ptx"/>
+      <xi:include href="./activities/30-separable.ptx"/>
+      <xi:include href="./activities/31-lab-3.ptx"/>
     </chapter>
 
   </book>

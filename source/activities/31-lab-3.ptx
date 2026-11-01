@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lab 3: Euler's Method</title>
+
+  <introduction>
+    <p component="prod-02"><term>Due: Tuesday, November 10</term></p>
+    <p component="prod-04"><term>Due: Monday, November 9</term></p>
+
+    <p>
+      <alert>Names:</alert>
+    </p>
+    
+    <p>
+      <term>Instructions:</term> The exercises here should be
+      completed in groups of 2 or 3 students with one write-up
+      submitted from each group.  Be sure to include everyone's name
+      on the write-up.
+    </p>
+
+    <p>
+      We have used Euler's method to help us
+      approximate solutions to differential
+      equations.  Today we will use spreadsheets
+      to implement Euler's method
+      (<q>Oiler's method</q>).
+    </p>
+    <p>
+      Remember: the derivative <m>dy/dt</m> gives
+      the instantaneous rate of change.  When we
+      move forward in time, the change in <m>y</m>
+      is approximately
+      <md>
+        \Delta y \approx \frac{dy}{dt} \times
+        \Delta t.
+      </md>
+    </p>
+  </introduction>
+
+  <exercise>
+    <introduction>
+      <p>
+        We'll begin by considering the differential
+        equation
+        <md>
+          \frac{dy}{dt} = 2y
+        </md>
+        with the initial value <m>y(0) = 3</m>.
+      </p>
+      <p>
+        We would like to approximate the solution
+        over the interval <m>0\leq t\leq 1</m>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the solution to this differential equation with
+          the appropriate initial value.
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Since we now have an explicit formula for
+          the solution, we don't really need to build
+          a numerical approximation to the solution.
+          However, this is a good problem to start
+          with since we can test the accuracy of our
+          approximation.
+        </p>
+        <p>
+          We will walk from <m>t=0</m> to <m>t=1</m>
+          taking steps of size <m>h=0.1</m>; that is,
+          we will approximate the solution at
+          <m>t=0.1, 0.2, 0.3, \ldots, 1</m>.  We can
+          do the first steps as follows.
+        </p>
+        <p>
+          Since <m>y(0) = 3</m> and
+          <m>dy/dt = 2y</m>, what is <m>dy/dt</m> when <m>t=0</m>?
+          By approximately how much does
+          <m>y</m> change when we move from
+          <m>t=0</m> to <m>t=0.1</m>?  Approximately
+          what is <m>y(0.1)</m>?
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Now we have an approximation for
+          <m>y(0.1)</m>.  What is <m>dy/dt</m> at
+          this time?  By approximately how much does
+          <m>y</m> change when we move from
+          <m>t=0.1</m> to <m>t=0.2</m>?
+          Approximately what is <m>y(0.2)</m>?
+        </p>
+      </statement>
+    </task>
+  </exercise>
+  
+  <exercise workspace="0.5in">
+    <introduction>
+      <p>
+        Now we will build a Google sheet that
+        continues this approximation process as
+        shown below.  Remember that the differential
+        equation gives the slope of the tangent
+        lines.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          A convenient way to set up the spreadsheet is shown below.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>h</m></cell>
+            <cell><m>t</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>dy/dt</m></cell>
+            <cell><m>\Delta y</m></cell>
+            <cell>Exact solution</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.0000</cell>
+            <cell>3.0000</cell>
+            <cell>6.0000</cell>
+            <cell>0.6000</cell>
+            <cell>3.0000</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.1000</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.2000</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.3000</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+        <p>
+          Now that you have the change in <m>y</m>,
+          how do you find the next value,
+          <m>y(0.1)</m>?
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>h</m></cell>
+            <cell><m>t</m></cell>
+            <cell><m>y</m></cell>
+            <cell>Slope</cell>
+            <cell><m>\Delta y</m></cell>
+            <cell>Exact solution</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.0000</cell>
+            <cell>3.0000</cell>
+            <cell>6.0000</cell>
+            <cell>0.6000</cell>
+            <cell>3.0000</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.1000</cell>
+            <cell>3.6000</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.2000</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.3000</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+        <p>
+          Now continue this process:
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell><m>h</m></cell>
+            <cell><m>t</m></cell>
+            <cell><m>y</m></cell>
+            <cell>Slope</cell>
+            <cell><m>\Delta y</m></cell>
+            <cell>Exact solution</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.0000</cell>
+            <cell>3.0000</cell>
+            <cell>6.0000</cell>
+            <cell>0.6000</cell>
+            <cell>3.0000</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.1000</cell>
+            <cell>3.6000</cell>
+            <cell>7.2000</cell>
+            <cell>0.7200</cell>
+            <cell>3.6642</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.2000</cell>
+            <cell>4.3200</cell>
+            <cell>8.6400</cell>
+            <cell>0.8640</cell>
+            <cell>4.4755</cell>
+          </row>
+          <row>
+            <cell>0.1000</cell>
+            <cell>0.3000</cell>
+            <cell>5.1840</cell>
+            <cell>10.3680</cell>
+            <cell>1.0368</cell>
+            <cell>5.4664</cell>
+          </row>
+        </tabular>
+        <p>
+          What does Euler's method give for the
+          approximate value of <m>y(1)</m>?
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Now repeat using a step size of
+          <m>h = 0.01</m>.  If your worksheet is set
+          up efficiently, you should only have to
+          change one entry.  What does Euler's method
+          give for the approximate value of
+          <m>y(1)</m>?
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Finally, repeat again using a step size of
+          <m>h = 0.001</m>.  What is your
+          approximation for the value of
+          <m>y(1)</m>?
+        </p>
+      </statement>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Fill in the table below (<q>Error</q> is
+          just the difference between the exact value
+          and your approximation):
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell>Step size</cell>
+            <cell>Approximate value of <m>y(1)</m></cell>
+            <cell>Error</cell>
+          </row>
+          <row>
+            <cell>0.1<m>\vtab</m></cell>
+            <cell><m>\htab</m></cell>
+            <cell><m>\htab</m></cell>
+          </row>
+          <row>
+            <cell>0.01<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>0.001<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+        <p>
+          Describe quantitatively how the error
+          changes as the step size changes.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Now we'll consider the differential equation
+        <md>
+          \frac{dy}{dt} = \frac{1}{10}(6y - y^2)
+        </md>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Plot below a graph of
+          <m>\frac{dy}{dt}</m> versus <m>y</m> and
+          sketch a slope field.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          If we look at the solution with the initial
+          value <m>y(0) = 1</m>, what do you expect
+          to happen over a very long time?
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          If we look at the solution with the initial
+          value <m>y(0) = 8</m>, what do you expect
+          to happen over a very long time?
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Now build a Google sheet implementing
+          Euler's method to find the solution to this
+          differential equation with <m>y(0) = 1</m>
+          using a step size of <m>h = 0.1</m> over
+          the range <m>0 \leq t \leq 12</m>.  Plot
+          the approximate solution as a function of
+          time and include a sketch below.  Does this
+          verify your expectation from above?
+          Explain.
+        </p>
+      </statement>
+    </task>
+    
+    <task workspace="1in">
+      <statement>
+        <p>
+          By looking at the graph of your approximate
+          solution, what is the value of <m>y</m>
+          when the slope is the greatest?  Offer an
+          explanation of this by looking at your
+          graph of <m>\frac{dy}{dt}</m> versus
+          <m>y</m>.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          Now look at the solution with
+          <m>y(0) = 8</m>.  If you have your
+          worksheet set up efficiently, you should
+          only have to change one entry.  Include a
+          sketch of your solution below.  Does the
+          long-term behavior verify your expectation?
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+</worksheet>

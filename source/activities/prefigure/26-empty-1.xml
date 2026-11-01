@@ -1,0 +1,8 @@
+<prefigure xmlns="https://prefigure.org"
+           label="26-empty-1">
+  <diagram dimensions="(300,300)" margins="(35,5,5,10)">
+    <coordinates bbox="(0,0,45,120)">
+      <grid-axes decorations="no" vlabels="(15,15,120)"/>
+    </coordinates>
+  </diagram>
+</prefigure>

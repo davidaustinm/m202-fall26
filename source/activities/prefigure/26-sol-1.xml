@@ -1,0 +1,14 @@
+<prefigure xmlns="https://prefigure.org"
+           label="26-sol-1">
+  <diagram dimensions="(300,300)" margins="(35,5,5,5)">
+    <definition>f(t,y)=-1/15*(y-75)</definition>
+    <coordinates bbox="(0,0,45,120)">
+      <grid-axes decorations="no" vlabels="(15,15,120)"/>
+      <slope-field function="f"/>
+      <repeat parameter="k in [15,45,75,105]">
+        <plot-de-solution function="f" t0="0" t1="bbox[2]" y0="k"
+                          stroke="orange"/>
+      </repeat>
+    </coordinates>
+  </diagram>
+</prefigure>

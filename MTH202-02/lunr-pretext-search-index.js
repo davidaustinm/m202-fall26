@@ -1493,6 +1493,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Now we'll consider the differential equation .     Plot below a graph of versus and sketch a slope field.      If we look at the solution with the initial value , what do you expect to happen over a very long time?      If we look at the solution with the initial value , what do you expect to happen over a very long time?      Now build a Google sheet implementing Euler's method to find the solution to this differential equation with using a step size of over the range . Plot the approximate solution as a function of time and include a sketch below. Does this verify your expectation from above? Explain.      By looking at the graph of your approximate solution, what is the value of when the slope is the greatest? Offer an explanation of this by looking at your graph of versus .      Now look at the solution with . If you have your worksheet set up efficiently, you should only have to change one entry. Include a sketch of your solution below. Does the long-term behavior verify your expectation?    "
+},
+{
+  "id": "activities-34",
+  "level": "1",
+  "url": "activities-34.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Modeling with Differential Equations",
+  "body": " Modeling with Differential Equations    Suppose you have a tank that holds 100 liters of pure water. At some point, you turn on a faucet that causes salt water to flow into the tank. Three liters flow in every minute and there are 20 grams of salt in every liter. At the same time, you begin to drain water out of the tank at the rate of 3 liters per minute.  We will find a differential equation for , the number of grams of salt in the tank as a function of time.   Important: To set up the equation, think in terms of rates!     How many grams of salt enter the tank every minute?      Let's figure out how much salt flows out of the tank. Remember that measures the amount of salt in the tank.  If there are grams of salt in the tank, what is the concentration of salt? That is, how many grams are in each liter? (Assume that the water is well mixed.)      If three liters of solution are drained out every minute, at what rate is salt leaving the tank?      The rate of change of the amount of salt in the tank is the difference of the rate at which salt enters and the rate at which salt leaves. Write this differential equation below.      Sketch a graph of as a function of and use it to give a rough sketch of the slope field. On the slope field, sketch the solution that corresponds to the initial value .      Find if there is initially no salt in the tank. That is, find the solution of the differential equation for which .      Sketch your solution below. What happens to the amount of salt in the tank after a very long time? Does this agree with what you found using the slope field?       When a baby is small, she grows rapidly. However, as she grows, the rate of growth slows down. A simple model is that the rate of change in the baby's weight is inversely proportional to the baby's weight, which means that the rate of change is proportional to the reciprocal of the weight.     If we let be the baby's weight as a function of , write a differential equation that expresses this assumption.      Assume that at birth the baby weighs 8 pounds and one month later she weighs 10 pounds. That is, and . Solve the differential equation you found above and sketch the solution.     "
+},
+{
+  "id": "activities-34-2",
+  "level": "2",
+  "url": "activities-34.html#activities-34-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose you have a tank that holds 100 liters of pure water. At some point, you turn on a faucet that causes salt water to flow into the tank. Three liters flow in every minute and there are 20 grams of salt in every liter. At the same time, you begin to drain water out of the tank at the rate of 3 liters per minute.  We will find a differential equation for , the number of grams of salt in the tank as a function of time.   Important: To set up the equation, think in terms of rates!     How many grams of salt enter the tank every minute?      Let's figure out how much salt flows out of the tank. Remember that measures the amount of salt in the tank.  If there are grams of salt in the tank, what is the concentration of salt? That is, how many grams are in each liter? (Assume that the water is well mixed.)      If three liters of solution are drained out every minute, at what rate is salt leaving the tank?      The rate of change of the amount of salt in the tank is the difference of the rate at which salt enters and the rate at which salt leaves. Write this differential equation below.      Sketch a graph of as a function of and use it to give a rough sketch of the slope field. On the slope field, sketch the solution that corresponds to the initial value .      Find if there is initially no salt in the tank. That is, find the solution of the differential equation for which .      Sketch your solution below. What happens to the amount of salt in the tank after a very long time? Does this agree with what you found using the slope field?    "
+},
+{
+  "id": "activities-34-3",
+  "level": "2",
+  "url": "activities-34.html#activities-34-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  When a baby is small, she grows rapidly. However, as she grows, the rate of growth slows down. A simple model is that the rate of change in the baby's weight is inversely proportional to the baby's weight, which means that the rate of change is proportional to the reciprocal of the weight.     If we let be the baby's weight as a function of , write a differential equation that expresses this assumption.      Assume that at birth the baby weighs 8 pounds and one month later she weighs 10 pounds. That is, and . Solve the differential equation you found above and sketch the solution.    "
+},
+{
+  "id": "activities-35",
+  "level": "1",
+  "url": "activities-35.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Modeling with Differential Equations",
+  "body": " Modeling with Differential Equations    Suppose a cylindrical tank with a hole in the bottom is filled with water. The water will leak out and the height of the water in the tank will decrease. Let's call the height . Toricelli's Law says that where is some constant.  Suppose that the initial height of water in the tank is 100 cm and that, after five minutes, the height of water is 81 cm.  Find the height in the tank as a function of time and sketch a graph of . How long does it take for the water to drain out?      Suppose that you continually put money into an account that earns interest at an annual rate of 6%, at the rate of $5,000 per year. Let be the balance of the account.     Write a differential equation that expresses the rate of change .      Solve your differential equation for assuming that .      How long does it take to reach $50,000?       Suppose that you take out a mortgage of $100,000 at an interest rate of 4%. Let be the amount that you owe on the mortgage after years, so .     The interest you are paying causes the amount you owe to increase. Suppose that you are also paying dollars per year on the mortgage. Set up a differential equation that describes , the rate at which the amount you owe is changing.      Solve the differential equation in terms of .      If you want to pay off the mortgage after 30 years, what should the value of be? What is your monthly mortgage payment?      How much will you have paid over the 30 years?      What is the monthly mortgage payment if you want to pay off the mortgage after 20 years? How much will you have paid over the 20 years?     "
+},
+{
+  "id": "activities-35-2",
+  "level": "2",
+  "url": "activities-35.html#activities-35-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose a cylindrical tank with a hole in the bottom is filled with water. The water will leak out and the height of the water in the tank will decrease. Let's call the height . Toricelli's Law says that where is some constant.  Suppose that the initial height of water in the tank is 100 cm and that, after five minutes, the height of water is 81 cm.  Find the height in the tank as a function of time and sketch a graph of . How long does it take for the water to drain out?   "
+},
+{
+  "id": "activities-35-3",
+  "level": "2",
+  "url": "activities-35.html#activities-35-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that you continually put money into an account that earns interest at an annual rate of 6%, at the rate of $5,000 per year. Let be the balance of the account.     Write a differential equation that expresses the rate of change .      Solve your differential equation for assuming that .      How long does it take to reach $50,000?    "
+},
+{
+  "id": "activities-35-4",
+  "level": "2",
+  "url": "activities-35.html#activities-35-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose that you take out a mortgage of $100,000 at an interest rate of 4%. Let be the amount that you owe on the mortgage after years, so .     The interest you are paying causes the amount you owe to increase. Suppose that you are also paying dollars per year on the mortgage. Set up a differential equation that describes , the rate at which the amount you owe is changing.      Solve the differential equation in terms of .      If you want to pay off the mortgage after 30 years, what should the value of be? What is your monthly mortgage payment?      How much will you have paid over the 30 years?      What is the monthly mortgage payment if you want to pay off the mortgage after 20 years? How much will you have paid over the 20 years?    "
 }
 ]
 

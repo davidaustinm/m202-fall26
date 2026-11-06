@@ -1556,6 +1556,60 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Suppose that you take out a mortgage of $100,000 at an interest rate of 4%. Let be the amount that you owe on the mortgage after years, so .     The interest you are paying causes the amount you owe to increase. Suppose that you are also paying dollars per year on the mortgage. Set up a differential equation that describes , the rate at which the amount you owe is changing.     .      Solve the differential equation in terms of .    Separating variables gives . Using , we have       If you want to pay off the mortgage after 30 years, what should the value of be? What is your monthly mortgage payment?    Setting , we have per year, or about per month.      How much will you have paid over the 30 years?     .      What is the monthly mortgage payment if you want to pay off the mortgage after 20 years? How much will you have paid over the 20 years?    Setting , we have per year, or about per month. The total paid is .    "
+},
+{
+  "id": "activities-36",
+  "level": "1",
+  "url": "activities-36.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Modeling with Differential Equations",
+  "body": " Modeling with Differential Equations    A drug is absorbed from your bloodstream at a rate proportional to the amount in your bloodstream. That is, if is the quantity of the drug in your bloodstream, the rate of change of is proportional to .     Write this as a differential equation using as the constant of proportionality.      Solve the differential equation with the initial value . If the half-life of the drug is 8 hours, find the value of .      Now suppose that the drug is administered intravenously at the rate of 2 milligrams per hour. Set up a differential equation that describes .      Find any equilibrium solutions and determine whether they are stable or unstable.      Solve the differential equation assuming .      How long does it take for to reach 90% of the equilibrium?      Suppose you are a doctor and would like your patient to have a stable amount of 50 mg in their bloodstream. At what rate should you administer the drug intravenously?       The half-life of a particular cough suppressant is 3.8 hours. Assume that the rate at which the medicine is absorbed from your bloodstream is proportional to the amount present, and that you take a 10 mg dose.     Find , the amount of the medicine in your bloodstream hours after taking the dose.      How long until there is only 1 mg in your bloodstream?     Suppose that you take another 10mg does at this point. How much is left in your bloodstream 4 hours later?    "
+},
+{
+  "id": "activities-36-2",
+  "level": "2",
+  "url": "activities-36.html#activities-36-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A drug is absorbed from your bloodstream at a rate proportional to the amount in your bloodstream. That is, if is the quantity of the drug in your bloodstream, the rate of change of is proportional to .     Write this as a differential equation using as the constant of proportionality.      Solve the differential equation with the initial value . If the half-life of the drug is 8 hours, find the value of .      Now suppose that the drug is administered intravenously at the rate of 2 milligrams per hour. Set up a differential equation that describes .      Find any equilibrium solutions and determine whether they are stable or unstable.      Solve the differential equation assuming .      How long does it take for to reach 90% of the equilibrium?      Suppose you are a doctor and would like your patient to have a stable amount of 50 mg in their bloodstream. At what rate should you administer the drug intravenously?    "
+},
+{
+  "id": "activities-36-3",
+  "level": "2",
+  "url": "activities-36.html#activities-36-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The half-life of a particular cough suppressant is 3.8 hours. Assume that the rate at which the medicine is absorbed from your bloodstream is proportional to the amount present, and that you take a 10 mg dose.     Find , the amount of the medicine in your bloodstream hours after taking the dose.      How long until there is only 1 mg in your bloodstream?     Suppose that you take another 10mg does at this point. How much is left in your bloodstream 4 hours later?   "
+},
+{
+  "id": "activities-37",
+  "level": "1",
+  "url": "activities-37.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Population Growth",
+  "body": " Population Growth    Let's begin with a simple model for how the Earth's population will evolve. We will suppose that the rate of change of the population is proportional to the population . In mathematical notation:      What is the solution to this differential equation with ?      The quantity is often called the per capita growth rate . It measures how much of the rate of change of is due to a single person.  Here is some data. Use it to estimate the per capita growth rate, perhaps using a central difference. (The population is given in billions.)      Year  Population    1970  3.70    1980  4.44    1990  5.27        Suppose we say that corresponds to the year 1980. What is the solution with this initial value?      What does this predict for the population in the year 2080? 2180? 2580?      Does this seem like a reasonable model for population growth? Explain why or why not.       Our original model where is clearly not useful for making long-term predictions. Realistically, we don't expect the per capita growth rate to be constant. It would probably make more sense to imagine that the per capita growth rate decreases when the population becomes very large. In our new model, we assume that the per capita growth rate is a linearly decreasing function:      Complete the table by estimating the derivative as the average rate of change of the population over 10-year intervals. Then find the per capita growth rate.        Year  Population      1960  3.02  ---  ---    1970  3.70      1980  4.44      1990  5.27      2000  6.06  ---  ---    For your three data points, plot the per capita growth rate versus the population below:           Sketch in a straight line that best fits your data and use it to determine the constants and in the logistic equation.      What is the differential equation for ?      Sketch the rate of change as a function of . (Don't worry about the scale on the axes.)  For what values of the population is ? What does this mean?      Based on your graph, for what values of the population will the population increase? For what values will it decrease?      What does this predict about the long-term behavior of Earth's population?     "
+},
+{
+  "id": "activities-37-2",
+  "level": "2",
+  "url": "activities-37.html#activities-37-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let's begin with a simple model for how the Earth's population will evolve. We will suppose that the rate of change of the population is proportional to the population . In mathematical notation:      What is the solution to this differential equation with ?      The quantity is often called the per capita growth rate . It measures how much of the rate of change of is due to a single person.  Here is some data. Use it to estimate the per capita growth rate, perhaps using a central difference. (The population is given in billions.)      Year  Population    1970  3.70    1980  4.44    1990  5.27        Suppose we say that corresponds to the year 1980. What is the solution with this initial value?      What does this predict for the population in the year 2080? 2180? 2580?      Does this seem like a reasonable model for population growth? Explain why or why not.    "
+},
+{
+  "id": "activities-37-3",
+  "level": "2",
+  "url": "activities-37.html#activities-37-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Our original model where is clearly not useful for making long-term predictions. Realistically, we don't expect the per capita growth rate to be constant. It would probably make more sense to imagine that the per capita growth rate decreases when the population becomes very large. In our new model, we assume that the per capita growth rate is a linearly decreasing function:      Complete the table by estimating the derivative as the average rate of change of the population over 10-year intervals. Then find the per capita growth rate.        Year  Population      1960  3.02  ---  ---    1970  3.70      1980  4.44      1990  5.27      2000  6.06  ---  ---    For your three data points, plot the per capita growth rate versus the population below:           Sketch in a straight line that best fits your data and use it to determine the constants and in the logistic equation.      What is the differential equation for ?      Sketch the rate of change as a function of . (Don't worry about the scale on the axes.)  For what values of the population is ? What does this mean?      Based on your graph, for what values of the population will the population increase? For what values will it decrease?      What does this predict about the long-term behavior of Earth's population?    "
 }
 ]
 

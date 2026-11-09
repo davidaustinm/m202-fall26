@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Learning targets",
-  "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use substitution to find antiderivatives.  I can use integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can use definite integrals to find the volume of a solid of revolution and the mass given its density.  I can use definite integrals to find physical quantities such as centers of mass and work.  I can use definite integrals to represent key quantities in other applications such as finance and probability.   I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can express real world situations as differential equations, determine any stable or unstable equilibrium solutions, and explain the significance of the equilibrium solutions in context.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
+  "body": " Learning targets    Given the graph of a function and other data, I can construct an accurate graph of the antiderivative of the function by determining select values of the antiderivative as well as where the antiderivative is increasing\/decreasing and concave up\/down.  I can use substitution to find antiderivatives.  I can use integration by parts to find antiderivatives.  I can use definite integrals to find the area of a planar region.  I can use definite integrals to find the volume of a solid of revolution and the mass given its density.  I can use definite integrals to find physical quantities such as centers of mass and work.  I can use definite integrals to represent key quantities in other applications such as finance and probability.   I can check whether a function is a solution to a differential equation and explain why the function is or is not a solution.  I can apply Euler’s Method to generate an approximate solution to an initial value problem and explain the result’s meaning in context.  I can examine a differential equations to determine any stable or unstable equilibrium solutions, and I can solve a separable differential equation.  I can determine whether or not an infinite series is geometric and, if so (and it converges), find its sum.  Given appropriate information about a function, I can find its Taylor series.    "
 },
 {
   "id": "course-documents-7",
@@ -1610,6 +1610,42 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Our original model where is clearly not useful for making long-term predictions. Realistically, we don't expect the per capita growth rate to be constant. It would probably make more sense to imagine that the per capita growth rate decreases when the population becomes very large. In our new model, we assume that the per capita growth rate is a linearly decreasing function:      Complete the table by estimating the derivative as the average rate of change of the population over 10-year intervals. Then find the per capita growth rate.        Year  Population      1960  3.02  ---  ---    1970  3.70      1980  4.44      1990  5.27      2000  6.06  ---  ---    For your three data points, plot the per capita growth rate versus the population below:           Sketch in a straight line that best fits your data and use it to determine the constants and in the logistic equation.      What is the differential equation for ?      Sketch the rate of change as a function of . (Don't worry about the scale on the axes.)  For what values of the population is ? What does this mean?      Based on your graph, for what values of the population will the population increase? For what values will it decrease?      What does this predict about the long-term behavior of Earth's population?    "
+},
+{
+  "id": "activities-38",
+  "level": "1",
+  "url": "activities-38.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Logistic Growth",
+  "body": " Logistic Growth    Let's look at the logistic equation      Sketch a graph of as a function of . Then sketch a rough slope field.      Identify any equilibrium solutions and determine if they are stable or unstable.      What do you predict happens after a long time if ?      Write the solution satisfying . Sketch a graph of and verify your prediction.       Recently, we modeled the Earth's population with a logistic equation with and billion.     Write the logistic differential equation.      The population is currently close to billion. What does our equation predict for the rate of change of the population?      Write the function assuming that corresponds to the year 2020 with a population of 8 billion.      What does this predict for the population in 2030? 2050? 2100?      When will the population reach 10 billion?       Suppose that measures the number of bacteria living in a colony in a Petri dish, where is measured in thousands of bacteria and is measured in days.     One day, you measure that there are 6 thousand bacteria and the rate of change is 18 thousand bacteria per day. What is the per capita growth rate?      A while later, you measure that there are 9 thousand bacteria and the rate of change is still 18 thousand bacteria per day.  Using this data, write the per capita growth rate as a linear function of the population; that is, find and so that the per capita growth rate is .      Assuming the population grows according to a logistic model, write a differential equation for .      What will happen to the bacteria population after a very long time?      At what population is the number of bacteria increasing most rapidly?      If the initial population is 6 thousand, how long does it take for the population to reach 12 thousand?     "
+},
+{
+  "id": "activities-38-2",
+  "level": "2",
+  "url": "activities-38.html#activities-38-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let's look at the logistic equation      Sketch a graph of as a function of . Then sketch a rough slope field.      Identify any equilibrium solutions and determine if they are stable or unstable.      What do you predict happens after a long time if ?      Write the solution satisfying . Sketch a graph of and verify your prediction.    "
+},
+{
+  "id": "activities-38-3",
+  "level": "2",
+  "url": "activities-38.html#activities-38-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Recently, we modeled the Earth's population with a logistic equation with and billion.     Write the logistic differential equation.      The population is currently close to billion. What does our equation predict for the rate of change of the population?      Write the function assuming that corresponds to the year 2020 with a population of 8 billion.      What does this predict for the population in 2030? 2050? 2100?      When will the population reach 10 billion?    "
+},
+{
+  "id": "activities-38-4",
+  "level": "2",
+  "url": "activities-38.html#activities-38-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose that measures the number of bacteria living in a colony in a Petri dish, where is measured in thousands of bacteria and is measured in days.     One day, you measure that there are 6 thousand bacteria and the rate of change is 18 thousand bacteria per day. What is the per capita growth rate?      A while later, you measure that there are 9 thousand bacteria and the rate of change is still 18 thousand bacteria per day.  Using this data, write the per capita growth rate as a linear function of the population; that is, find and so that the per capita growth rate is .      Assuming the population grows according to a logistic model, write a differential equation for .      What will happen to the bacteria population after a very long time?      At what population is the number of bacteria increasing most rapidly?      If the initial population is 6 thousand, how long does it take for the population to reach 12 thousand?    "
 }
 ]
 

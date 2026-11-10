@@ -55,6 +55,15 @@ var ptx_lunr_docs = [
   "body": " Preparing for Exam 1  Our first exam is Thursday, October 8 during our usual class meeting time. We will take some time on Tuesday, October 6 to review a bit, but it would be a good idea to start earlier.   Topics  The exam will cover everything that we've done in the course up to this point. One of the best things to do is to work through the in-class activities and make sure that you feel comfortable with everything. Solutions to all of those activities are available on Blackboard, but you can also print new copies using the printer icon and work through them again.   Remember: The most important thing is for you to focus on concepts. It's also great to find an answer, but be sure that you understand all the steps that you've taken to get there and how they fit together. If you have this kind of understanding, you should be able to deal with situations that may be slightly new.  Here is a list of topics that we have studied.   This is something from Calculus I, but it's important to remember how to evaluate a definite integral. In particular, if is an antiderivative of .    Antiderivatives:   We have seen how to use an integral to define an antiderivative of a function. We called this the Second Fundamental Theorem of Calculus. That is, if , then , which means that is an antiderivative of .    We have also seen three techniques for symbolically finding antiderivatives:  Table of antiderivatives  Substitution  Integration by parts         We have also seen some ways of approximating definite integrals:   Left and right Riemann sums    The midpoint rule    The trapezoidal rule       Slice-compute-add: This is our main principle for looking at applications. Integrals show up in many, many places and in many, many disciplines so it's important to be familiar with how to set up integrals using this principle. We have applied this to the following   Area    Volume    Mass    Centers of mass    Work          Time  Just a reminder: I realize that in-class exams can be stressful because of the time constraints. I take this seriously and will design the exam so that you can easily complete it in our class meeting (one hour, fifty minutes). Your job is to make sure you are prepared.   "
 },
 {
+  "id": "course-documents-8",
+  "level": "1",
+  "url": "course-documents-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Preparing for Exam 2",
+  "body": " Preparing for Exam 2  Our first exam is Thursday, November 19 during our usual class meeting time. We will take some time on Tuesday, November 17 to review a bit, but it would be a good idea to start earlier.   Technology: You will be allowed to use a calculator but not Desmos or other resources.   Topics  The exam will focus on everything that we've done in the course after the first exam up until now. One of the best things to do is to work through the in-class activities and make sure that you feel comfortable with everything. Solutions to all of those activities are available on Blackboard, but you can also print new copies using the printer icon and work through them again.   Remember: The most important thing is for you to focus on concepts. It's also great to find an answer, but be sure that you understand all the steps that you've taken to get there and how they fit together. If you have this kind of understanding, you should be able to deal with situations that may be slightly new.  Here is a list of topics that we have studied.   For the final slice-compute-add topics, we considered   Some topics in finance such as computing the future- and present-value of an income stream. Rather than memorize a formula, you should understand what we did and why it works.    Some topics in probability such as   Probability density functions: what is a probability density function, what kind of information does it tell us, and how can we recognize a probability density function?    Cumulative distribution functions: what is a cumulative distribution function, how it related to a probability density function, and what are some of properties of a cumulative distribution function?    Some summary statistics, such as  mean  median  and how they are related to one another            Differential equations   How do differential equations arise? One thing that's important that some people have found challenging is to look at a situation and describe it using a differential equation.    What is an equilibrium solution and what does it mean to be stable or unstable?    How can we graphically understand autonomous equations by sketching a plot of versus ?    What is a slope field?    What does Euler's method do and how does it work?    How can we solve a separable differential equation? What is the role of ?          Time  Just a reminder: I realize that in-class exams can be stressful because of the time constraints. I take this seriously and will design the exam so that you can easily complete it in our class meeting (one hour, fifty minutes). Your job is to make sure you are prepared.   "
+},
+{
   "id": "activities-2",
   "level": "1",
   "url": "activities-2.html",
@@ -1646,6 +1655,33 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Suppose that measures the number of bacteria living in a colony in a Petri dish, where is measured in thousands of bacteria and is measured in days.     One day, you measure that there are 6 thousand bacteria and the rate of change is 18 thousand bacteria per day. What is the per capita growth rate?      A while later, you measure that there are 9 thousand bacteria and the rate of change is still 18 thousand bacteria per day.  Using this data, write the per capita growth rate as a linear function of the population; that is, find and so that the per capita growth rate is .      Assuming the population grows according to a logistic model, write a differential equation for .      What will happen to the bacteria population after a very long time?      At what population is the number of bacteria increasing most rapidly?      If the initial population is 6 thousand, how long does it take for the population to reach 12 thousand?    "
+},
+{
+  "id": "activities-39",
+  "level": "1",
+  "url": "activities-39.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "More modeling",
+  "body": " More modeling    If you were to jump from an airplane with a parachute, gravity will cause your downward velocity to increase at the rate of meters per second squared. At the same time, wind resistance causes your velocity to decrease at a rate proportional to the velocity.     Using for the constant of proportionality, write a differential equation that describes the rate of change of the downward velocity .      Find any equilibrium solutions and decide whether they are stable or unstable. Your result should depend on .      Suppose your initial velocity is . Find the velocity as a function of time.      If you find that your velocity stabilizes at 54 meters per second, is the value of ?      How long does it take to reach 50% of the terminal velocity?       The logistic equation is sometimes used to model the spread of a disease through a population. We will call the fraction of people who have had the disease and suppose that . Suppose that initially one tenth of the population has had the disease so that .     What happens to after a very long time?      Find a formula for .      At what time is changing most rapidly?      How long until 80% has had the disease?     "
+},
+{
+  "id": "activities-39-2",
+  "level": "2",
+  "url": "activities-39.html#activities-39-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  If you were to jump from an airplane with a parachute, gravity will cause your downward velocity to increase at the rate of meters per second squared. At the same time, wind resistance causes your velocity to decrease at a rate proportional to the velocity.     Using for the constant of proportionality, write a differential equation that describes the rate of change of the downward velocity .      Find any equilibrium solutions and decide whether they are stable or unstable. Your result should depend on .      Suppose your initial velocity is . Find the velocity as a function of time.      If you find that your velocity stabilizes at 54 meters per second, is the value of ?      How long does it take to reach 50% of the terminal velocity?    "
+},
+{
+  "id": "activities-39-3",
+  "level": "2",
+  "url": "activities-39.html#activities-39-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The logistic equation is sometimes used to model the spread of a disease through a population. We will call the fraction of people who have had the disease and suppose that . Suppose that initially one tenth of the population has had the disease so that .     What happens to after a very long time?      Find a formula for .      At what time is changing most rapidly?      How long until 80% has had the disease?    "
 }
 ]
 

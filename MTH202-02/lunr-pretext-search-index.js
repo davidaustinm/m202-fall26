@@ -1682,6 +1682,105 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  The logistic equation is sometimes used to model the spread of a disease through a population. We will call the fraction of people who have had the disease and suppose that . Suppose that initially one tenth of the population has had the disease so that .     What happens to after a very long time?      Find a formula for .      At what time is changing most rapidly?      How long until 80% has had the disease?    "
+},
+{
+  "id": "activities-40",
+  "level": "1",
+  "url": "activities-40.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Some Review for Exam 2",
+  "body": " Some Review for Exam 2    The probability density function describes the amount of time, in minutes, you wait to talk to a representative when you call your bank.     Find the cumulative distribution function. What does this function tell us?      Find the median waiting time.      Find the average waiting time.      What percentage of people wait less time than the average?      What percentage of people wait less time than the median?       Students are given a three-hour test and you record the length of time it takes students to complete the test. The cumulative distribution function is .     What is the median time it takes for students to complete the test?      If you finish in 2 hours, what percentage of students have finished before you?      What is the probability density function ?      The first quartile is the time at which 25% of students have finished the exam, and the third quartile is when 75% have. Find these times.      Find the average time it takes for students to finish the exam.       Consider the differential equation      Sketch as a function of and a slope field for this equation, and identify any equilibrium solutions. For each equilibrium, determine whether it is stable or unstable.      If , use Euler's method with a step size of 0.1 to estimate the value .       Find the solution to the following initial value problems.                    Newton's Law of Cooling states that the temperature of an object changes at a rate proportional to the difference between its temperature and room temperature. Suppose that is the temperature of some object sitting in a room. Newton's Law says that   Suppose that the temperature is initially . Ten minutes later, it is . When will the temperature reach ?    "
+},
+{
+  "id": "activities-40-2",
+  "level": "2",
+  "url": "activities-40.html#activities-40-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The probability density function describes the amount of time, in minutes, you wait to talk to a representative when you call your bank.     Find the cumulative distribution function. What does this function tell us?      Find the median waiting time.      Find the average waiting time.      What percentage of people wait less time than the average?      What percentage of people wait less time than the median?    "
+},
+{
+  "id": "activities-40-3",
+  "level": "2",
+  "url": "activities-40.html#activities-40-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Students are given a three-hour test and you record the length of time it takes students to complete the test. The cumulative distribution function is .     What is the median time it takes for students to complete the test?      If you finish in 2 hours, what percentage of students have finished before you?      What is the probability density function ?      The first quartile is the time at which 25% of students have finished the exam, and the third quartile is when 75% have. Find these times.      Find the average time it takes for students to finish the exam.    "
+},
+{
+  "id": "activities-40-4",
+  "level": "2",
+  "url": "activities-40.html#activities-40-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the differential equation      Sketch as a function of and a slope field for this equation, and identify any equilibrium solutions. For each equilibrium, determine whether it is stable or unstable.      If , use Euler's method with a step size of 0.1 to estimate the value .    "
+},
+{
+  "id": "activities-40-5",
+  "level": "2",
+  "url": "activities-40.html#activities-40-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find the solution to the following initial value problems.                 "
+},
+{
+  "id": "activities-40-6",
+  "level": "2",
+  "url": "activities-40.html#activities-40-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Newton's Law of Cooling states that the temperature of an object changes at a rate proportional to the difference between its temperature and room temperature. Suppose that is the temperature of some object sitting in a room. Newton's Law says that   Suppose that the temperature is initially . Ten minutes later, it is . When will the temperature reach ?   "
+},
+{
+  "id": "activities-41",
+  "level": "1",
+  "url": "activities-41.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 4: Systems of Differential Equations",
+  "body": " Lab 4: Systems of Differential Equations   Due: Tuesday, November 24   Names:    Instructions: The exercises here should be completed in groups of 2 or 3 students with one write-up submitted from each group. Be sure to include everyone's name on the write-up.  Up to this point, we have looked at differential equations that describe a single function. It sometimes happens, however, that we find two quantities whose rates of change depend on one another. In this case, we have a system of differential equations.  In today's lab, we'll begin by looking at a system of differential equations that can be used to describe the interaction of two different species, one of whom preys on the other. For instance, we will consider a population of wolves that prey upon a population of deer . Let's build two differential equations that describe how the populations change.     First of all, we will suppose that if there were no wolves, the deer would increase at a rate proportional to their population: where time is measured in days. In other words, the per capita growth rate is constant.  If there are now some wolves around, we would expect that the per capita growth rate would decrease. For instance, we might find that   In the same way, we will suppose that if there were no deer, the wolves would die off, since they have no food, at a rate proportional to their population: However, if there are some deer around, we expect the wolves' per capita growth rate to increase. For instance,   The pair of equations is called the Lotka-Volterra model for predator-prey interaction. Though a simple model, the basic effects predicted by the model have been observed in nature.     Suppose at some time, there are 1500 deer and 60 wolves. Is the deer population increasing or decreasing? Is the wolf population increasing or decreasing?      For what values of does the deer population increase? For what values of does the wolf population increase? Does this agree with your intuition about the situation? Why or why not?      Are there values for and so that neither quantity changes?      Suppose initially there are deer and wolves; that is, and . Use Excel to implement Euler's method with a step size of to find out how the populations behave over the course of one year.  Your spreadsheet will probably begin something like this:                  0.1  0.0  1000.0  40.0  4.00  0.00    0.1  0.1  1004.0  40.0  4.02  0.00    0.1  0.2  1008.0  40.0  4.03  0.00    0.1  0.3  1012.0  40.0  4.05  0.00    Sketch a graph of the populations and over one year below and discuss any interesting features that you see. In particular, you should discuss the general behavior of the two graphs along with any relationships you notice between the two graphs.       We'll now examine another system of differential equations, this time imagining two species and that compete for food. If there is one species without the other, we will assume a logistic model for population growth; say, where is measured in millions. However, if there is some of the species around, it will lower the growth rate of to, say, Species behaves in the same way: so we have the system of equations      Set up a spreadsheet to study this system of equations with the initial values and using a step size of . Make a plot of and . What happens after a very long time?      Study what happens with a few different initial values. What do you notice?      If the constants are adjusted just a little bit, there is a very different kind of behavior. Consider the system of equations Study this system with and . Make a plot of and . What happens after a very long time?      Now consider the initial values and . What happens after a very long time?      How do these two examples of systems of competing species differ from one another?     "
+},
+{
+  "id": "activities-41-2-1",
+  "level": "2",
+  "url": "activities-41.html#activities-41-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Due: Tuesday, November 24 "
+},
+{
+  "id": "activities-41-2-3",
+  "level": "2",
+  "url": "activities-41.html#activities-41-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "activities-41-3",
+  "level": "2",
+  "url": "activities-41.html#activities-41-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  First of all, we will suppose that if there were no wolves, the deer would increase at a rate proportional to their population: where time is measured in days. In other words, the per capita growth rate is constant.  If there are now some wolves around, we would expect that the per capita growth rate would decrease. For instance, we might find that   In the same way, we will suppose that if there were no deer, the wolves would die off, since they have no food, at a rate proportional to their population: However, if there are some deer around, we expect the wolves' per capita growth rate to increase. For instance,   The pair of equations is called the Lotka-Volterra model for predator-prey interaction. Though a simple model, the basic effects predicted by the model have been observed in nature.     Suppose at some time, there are 1500 deer and 60 wolves. Is the deer population increasing or decreasing? Is the wolf population increasing or decreasing?      For what values of does the deer population increase? For what values of does the wolf population increase? Does this agree with your intuition about the situation? Why or why not?      Are there values for and so that neither quantity changes?      Suppose initially there are deer and wolves; that is, and . Use Excel to implement Euler's method with a step size of to find out how the populations behave over the course of one year.  Your spreadsheet will probably begin something like this:                  0.1  0.0  1000.0  40.0  4.00  0.00    0.1  0.1  1004.0  40.0  4.02  0.00    0.1  0.2  1008.0  40.0  4.03  0.00    0.1  0.3  1012.0  40.0  4.05  0.00    Sketch a graph of the populations and over one year below and discuss any interesting features that you see. In particular, you should discuss the general behavior of the two graphs along with any relationships you notice between the two graphs.    "
+},
+{
+  "id": "activities-41-4",
+  "level": "2",
+  "url": "activities-41.html#activities-41-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  We'll now examine another system of differential equations, this time imagining two species and that compete for food. If there is one species without the other, we will assume a logistic model for population growth; say, where is measured in millions. However, if there is some of the species around, it will lower the growth rate of to, say, Species behaves in the same way: so we have the system of equations      Set up a spreadsheet to study this system of equations with the initial values and using a step size of . Make a plot of and . What happens after a very long time?      Study what happens with a few different initial values. What do you notice?      If the constants are adjusted just a little bit, there is a very different kind of behavior. Consider the system of equations Study this system with and . Make a plot of and . What happens after a very long time?      Now consider the initial values and . What happens after a very long time?      How do these two examples of systems of competing species differ from one another?    "
 }
 ]
 

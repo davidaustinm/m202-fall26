@@ -1,0 +1,315 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="38-slope-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="38-slope-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="38-slope-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="38-slope-grid-axes">
+    <g id="38-slope-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="32.3" y1="305.0" x2="32.3" y2="5.0"/>
+      <line x1="59.5" y1="305.0" x2="59.5" y2="5.0"/>
+      <line x1="86.8" y1="305.0" x2="86.8" y2="5.0"/>
+      <line x1="114.1" y1="305.0" x2="114.1" y2="5.0"/>
+      <line x1="141.4" y1="305.0" x2="141.4" y2="5.0"/>
+      <line x1="168.6" y1="305.0" x2="168.6" y2="5.0"/>
+      <line x1="195.9" y1="305.0" x2="195.9" y2="5.0"/>
+      <line x1="223.2" y1="305.0" x2="223.2" y2="5.0"/>
+      <line x1="250.5" y1="305.0" x2="250.5" y2="5.0"/>
+      <line x1="277.7" y1="305.0" x2="277.7" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="267.5" x2="305.0" y2="267.5"/>
+      <line x1="5.0" y1="230.0" x2="305.0" y2="230.0"/>
+      <line x1="5.0" y1="192.5" x2="305.0" y2="192.5"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="117.5" x2="305.0" y2="117.5"/>
+      <line x1="5.0" y1="80.0" x2="305.0" y2="80.0"/>
+      <line x1="5.0" y1="42.5" x2="305.0" y2="42.5"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="38-slope-axes" stroke="black" stroke-width="2">
+      <line id="38-slope-__line-21" x1="5.0" y1="155.0" x2="305.0" y2="155.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="38-slope-__line-22" x1="168.6" y1="158.0" x2="168.6" y2="152.0"/>
+        <line id="38-slope-__line-23" x1="305.0" y1="158.0" x2="305.0" y2="152.0"/>
+      </g>
+      <line id="38-slope-__line-24" x1="32.3" y1="305.0" x2="32.3" y2="5.0" stroke="black" stroke-width="2"/>
+    </g>
+    <g id="38-slope-__label-0" transform="translate(301.0,151.0) translate(-6.5,-11.5)">
+      <g id="38-slope-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+          <defs>
+            <path id="38-slope-MJX-2-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:t" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#38-slope-MJX-2-NCM-I-1D461"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="38-slope-__label-1" transform="translate(36.3,9.0) translate(0.0,-0.0)">
+      <g id="38-slope-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="38-slope-MJX-3-NCM-I-1D466" d="M163 442C118 442 83 417 58 367C39 328 29 301 29 286C29 277 34 272 45 272C59 272 60 278 64 293C87 372 119 412 160 412C173 412 180 403 180 385C180 369 175 346 164 317C126 214 107 145 107 108C107 32 154-13 231-13C264-13 295-1 323 23C288-109 233-175 158-175C124-175 101-164 89-142C129-140 149-121 149-85C149-60 136-47 109-47C72-47 50-78 50-115C50-170 100-205 158-205C273-205 367-99 392-1L486 377C489 388 490 396 490 401C490 421 479 431 458 431C442 431 429 423 420 408C414 387 409 369 406 354L342 97C332 61 279 16 234 16C196 16 177 41 177 92C177 134 194 198 227 284C240 319 247 343 247 357C247 406 212 442 163 442Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:y" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#38-slope-MJX-3-NCM-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="38-slope-__label-2" transform="translate(168.6,166.0) translate(-4.5,-0.0)">
+      <g id="38-slope-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="38-slope-MJX-4-NCM-N-35" d="M118 315C123 315 129 319 134 326C164 371 205 393 257 393C292 393 319 373 337 332C348 305 354 264 354 209C354 146 346 102 331 76C306 35 272 14 229 14C162 14 109 62 91 114C94 113 96 114 100 114C130 114 155 137 155 167C155 198 130 219 100 219C65 219 50 200 50 163C50 63 131-22 231-22C292-22 344 0 386 44C428 88 449 141 449 202C449 260 432 310 398 353C361 400 315 423 259 423C212 423 171 408 138 378L138 556C165 548 191 544 218 544C264 544 304 555 338 578C369 597 390 616 402 634C408 642 411 648 411 651C411 661 406 666 396 666C341 645 294 634 256 634C211 634 168 643 127 662C122 664 118 665 114 665C105 665 100 656 100 637L100 345C100 324 100 315 118 315Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{5}" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#38-slope-MJX-4-NCM-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="38-slope-__label-3" transform="translate(305.0,166.0) translate(-9.0,-0.0)">
+      <g id="38-slope-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="38-slope-MJX-5-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+            <path id="38-slope-MJX-5-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{10}" data-semantic-speech="10">
+                <use data-c="31" xlink:href="#38-slope-MJX-5-NCM-N-31"/>
+                <use data-c="30" xlink:href="#38-slope-MJX-5-NCM-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <g id="38-slope-__slope-field-0">
+    <line id="38-slope-__line-25" x1="4.7" y1="309.7" x2="5.3" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-26" x1="4.5" y1="290.9" x2="5.5" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-27" x1="4.1" y1="272.2" x2="5.9" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-28" x1="2.6" y1="253.4" x2="7.4" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-29" x1="-1.8" y1="230.0" x2="11.8" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-30" x1="-0.2" y1="206.6" x2="10.2" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-31" x1="0.5" y1="187.8" x2="9.5" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-32" x1="-1.8" y1="169.4" x2="11.8" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-33" x1="-1.8" y1="155.0" x2="11.8" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-34" x1="-1.8" y1="140.6" x2="11.8" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-35" x1="0.5" y1="122.2" x2="9.5" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-36" x1="-0.2" y1="103.4" x2="10.2" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-37" x1="-1.8" y1="80.0" x2="11.8" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-38" x1="2.6" y1="56.6" x2="7.4" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-39" x1="4.1" y1="37.8" x2="5.9" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-40" x1="4.5" y1="19.1" x2="5.5" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-41" x1="4.7" y1="0.3" x2="5.3" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-42" x1="32.0" y1="309.7" x2="32.6" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-43" x1="31.8" y1="290.9" x2="32.7" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-44" x1="31.4" y1="272.2" x2="33.2" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-45" x1="29.8" y1="253.4" x2="34.7" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-46" x1="25.5" y1="230.0" x2="39.1" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-47" x1="27.1" y1="206.6" x2="37.5" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-48" x1="27.7" y1="187.8" x2="36.8" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-49" x1="25.5" y1="169.4" x2="39.1" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-50" x1="25.5" y1="155.0" x2="39.1" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-51" x1="25.5" y1="140.6" x2="39.1" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-52" x1="27.7" y1="122.2" x2="36.8" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-53" x1="27.1" y1="103.4" x2="37.5" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-54" x1="25.5" y1="80.0" x2="39.1" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-55" x1="29.8" y1="56.6" x2="34.7" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-56" x1="31.4" y1="37.8" x2="33.2" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-57" x1="31.8" y1="19.1" x2="32.7" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-58" x1="32.0" y1="0.3" x2="32.6" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-59" x1="59.3" y1="309.7" x2="59.8" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-60" x1="59.1" y1="290.9" x2="60.0" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-61" x1="58.6" y1="272.2" x2="60.5" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-62" x1="57.1" y1="253.4" x2="62.0" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-63" x1="52.7" y1="230.0" x2="66.4" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-64" x1="54.4" y1="206.6" x2="64.7" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-65" x1="55.0" y1="187.8" x2="64.1" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-66" x1="52.7" y1="169.4" x2="66.4" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-67" x1="52.7" y1="155.0" x2="66.4" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-68" x1="52.7" y1="140.6" x2="66.4" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-69" x1="55.0" y1="122.2" x2="64.1" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-70" x1="54.4" y1="103.4" x2="64.7" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-71" x1="52.7" y1="80.0" x2="66.4" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-72" x1="57.1" y1="56.6" x2="62.0" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-73" x1="58.6" y1="37.8" x2="60.5" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-74" x1="59.1" y1="19.1" x2="60.0" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-75" x1="59.3" y1="0.3" x2="59.8" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-76" x1="86.5" y1="309.7" x2="87.1" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-77" x1="86.3" y1="290.9" x2="87.3" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-78" x1="85.9" y1="272.2" x2="87.7" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-79" x1="84.4" y1="253.4" x2="89.2" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-80" x1="80.0" y1="230.0" x2="93.6" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-81" x1="81.6" y1="206.6" x2="92.0" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-82" x1="82.3" y1="187.8" x2="91.4" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-83" x1="80.0" y1="169.4" x2="93.6" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-84" x1="80.0" y1="155.0" x2="93.6" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-85" x1="80.0" y1="140.6" x2="93.6" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-86" x1="82.3" y1="122.2" x2="91.4" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-87" x1="81.6" y1="103.4" x2="92.0" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-88" x1="80.0" y1="80.0" x2="93.6" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-89" x1="84.4" y1="56.6" x2="89.2" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-90" x1="85.9" y1="37.8" x2="87.7" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-91" x1="86.3" y1="19.1" x2="87.3" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-92" x1="86.5" y1="0.3" x2="87.1" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-93" x1="113.8" y1="309.7" x2="114.4" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-94" x1="113.6" y1="290.9" x2="114.6" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-95" x1="113.2" y1="272.2" x2="115.0" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-96" x1="111.7" y1="253.4" x2="116.5" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-97" x1="107.3" y1="230.0" x2="120.9" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-98" x1="108.9" y1="206.6" x2="119.3" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-99" x1="109.5" y1="187.8" x2="118.6" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-100" x1="107.3" y1="169.4" x2="120.9" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-101" x1="107.3" y1="155.0" x2="120.9" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-102" x1="107.3" y1="140.6" x2="120.9" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-103" x1="109.5" y1="122.2" x2="118.6" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-104" x1="108.9" y1="103.4" x2="119.3" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-105" x1="107.3" y1="80.0" x2="120.9" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-106" x1="111.7" y1="56.6" x2="116.5" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-107" x1="113.2" y1="37.8" x2="115.0" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-108" x1="113.6" y1="19.1" x2="114.6" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-109" x1="113.8" y1="0.3" x2="114.4" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-110" x1="141.1" y1="309.7" x2="141.6" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-111" x1="140.9" y1="290.9" x2="141.8" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-112" x1="140.5" y1="272.2" x2="142.3" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-113" x1="138.9" y1="253.4" x2="143.8" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-114" x1="134.5" y1="230.0" x2="148.2" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-115" x1="136.2" y1="206.6" x2="146.6" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-116" x1="136.8" y1="187.8" x2="145.9" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-117" x1="134.5" y1="169.4" x2="148.2" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-118" x1="134.5" y1="155.0" x2="148.2" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-119" x1="134.5" y1="140.6" x2="148.2" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-120" x1="136.8" y1="122.2" x2="145.9" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-121" x1="136.2" y1="103.4" x2="146.6" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-122" x1="134.5" y1="80.0" x2="148.2" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-123" x1="138.9" y1="56.6" x2="143.8" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-124" x1="140.5" y1="37.8" x2="142.3" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-125" x1="140.9" y1="19.1" x2="141.8" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-126" x1="141.1" y1="0.3" x2="141.6" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-127" x1="168.4" y1="309.7" x2="168.9" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-128" x1="168.2" y1="290.9" x2="169.1" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-129" x1="167.7" y1="272.2" x2="169.5" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-130" x1="166.2" y1="253.4" x2="171.1" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-131" x1="161.8" y1="230.0" x2="175.5" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-132" x1="163.4" y1="206.6" x2="173.8" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-133" x1="164.1" y1="187.8" x2="173.2" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-134" x1="161.8" y1="169.4" x2="175.5" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-135" x1="161.8" y1="155.0" x2="175.5" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-136" x1="161.8" y1="140.6" x2="175.5" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-137" x1="164.1" y1="122.2" x2="173.2" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-138" x1="163.4" y1="103.4" x2="173.8" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-139" x1="161.8" y1="80.0" x2="175.5" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-140" x1="166.2" y1="56.6" x2="171.1" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-141" x1="167.7" y1="37.8" x2="169.5" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-142" x1="168.2" y1="19.1" x2="169.1" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-143" x1="168.4" y1="0.3" x2="168.9" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-144" x1="195.6" y1="309.7" x2="196.2" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-145" x1="195.4" y1="290.9" x2="196.4" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-146" x1="195.0" y1="272.2" x2="196.8" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-147" x1="193.5" y1="253.4" x2="198.3" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-148" x1="189.1" y1="230.0" x2="202.7" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-149" x1="190.7" y1="206.6" x2="201.1" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-150" x1="191.4" y1="187.8" x2="200.5" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-151" x1="189.1" y1="169.4" x2="202.7" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-152" x1="189.1" y1="155.0" x2="202.7" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-153" x1="189.1" y1="140.6" x2="202.7" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-154" x1="191.4" y1="122.2" x2="200.5" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-155" x1="190.7" y1="103.4" x2="201.1" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-156" x1="189.1" y1="80.0" x2="202.7" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-157" x1="193.5" y1="56.6" x2="198.3" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-158" x1="195.0" y1="37.8" x2="196.8" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-159" x1="195.4" y1="19.1" x2="196.4" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-160" x1="195.6" y1="0.3" x2="196.2" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-161" x1="222.9" y1="309.7" x2="223.5" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-162" x1="222.7" y1="290.9" x2="223.7" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-163" x1="222.3" y1="272.2" x2="224.1" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-164" x1="220.8" y1="253.4" x2="225.6" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-165" x1="216.4" y1="230.0" x2="230.0" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-166" x1="218.0" y1="206.6" x2="228.4" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-167" x1="218.6" y1="187.8" x2="227.7" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-168" x1="216.4" y1="169.4" x2="230.0" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-169" x1="216.4" y1="155.0" x2="230.0" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-170" x1="216.4" y1="140.6" x2="230.0" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-171" x1="218.6" y1="122.2" x2="227.7" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-172" x1="218.0" y1="103.4" x2="228.4" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-173" x1="216.4" y1="80.0" x2="230.0" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-174" x1="220.8" y1="56.6" x2="225.6" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-175" x1="222.3" y1="37.8" x2="224.1" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-176" x1="222.7" y1="19.1" x2="223.7" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-177" x1="222.9" y1="0.3" x2="223.5" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-178" x1="250.2" y1="309.7" x2="250.7" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-179" x1="250.0" y1="290.9" x2="250.9" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-180" x1="249.5" y1="272.2" x2="251.4" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-181" x1="248.0" y1="253.4" x2="252.9" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-182" x1="243.6" y1="230.0" x2="257.3" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-183" x1="245.3" y1="206.6" x2="255.7" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-184" x1="245.9" y1="187.8" x2="255.0" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-185" x1="243.6" y1="169.4" x2="257.3" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-186" x1="243.6" y1="155.0" x2="257.3" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-187" x1="243.6" y1="140.6" x2="257.3" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-188" x1="245.9" y1="122.2" x2="255.0" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-189" x1="245.3" y1="103.4" x2="255.7" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-190" x1="243.6" y1="80.0" x2="257.3" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-191" x1="248.0" y1="56.6" x2="252.9" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-192" x1="249.5" y1="37.8" x2="251.4" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-193" x1="250.0" y1="19.1" x2="250.9" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-194" x1="250.2" y1="0.3" x2="250.7" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-195" x1="277.4" y1="309.7" x2="278.0" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-196" x1="277.3" y1="290.9" x2="278.2" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-197" x1="276.8" y1="272.2" x2="278.6" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-198" x1="275.3" y1="253.4" x2="280.2" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-199" x1="270.9" y1="230.0" x2="284.5" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-200" x1="272.5" y1="206.6" x2="282.9" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-201" x1="273.2" y1="187.8" x2="282.3" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-202" x1="270.9" y1="169.4" x2="284.5" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-203" x1="270.9" y1="155.0" x2="284.5" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-204" x1="270.9" y1="140.6" x2="284.5" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-205" x1="273.2" y1="122.2" x2="282.3" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-206" x1="272.5" y1="103.4" x2="282.9" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-207" x1="270.9" y1="80.0" x2="284.5" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-208" x1="275.3" y1="56.6" x2="280.2" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-209" x1="276.8" y1="37.8" x2="278.6" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-210" x1="277.3" y1="19.1" x2="278.2" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-211" x1="277.4" y1="0.3" x2="278.0" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-212" x1="304.7" y1="309.7" x2="305.3" y2="300.3" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-213" x1="304.5" y1="290.9" x2="305.5" y2="281.6" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-214" x1="304.1" y1="272.2" x2="305.9" y2="262.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-215" x1="302.6" y1="253.4" x2="307.4" y2="244.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-216" x1="298.2" y1="230.0" x2="311.8" y2="230.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-217" x1="299.8" y1="206.6" x2="310.2" y2="215.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-218" x1="300.5" y1="187.8" x2="309.5" y2="197.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-219" x1="298.2" y1="169.4" x2="311.8" y2="178.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-220" x1="298.2" y1="155.0" x2="311.8" y2="155.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-221" x1="298.2" y1="140.6" x2="311.8" y2="131.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-222" x1="300.5" y1="122.2" x2="309.5" y2="112.8" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-223" x1="299.8" y1="103.4" x2="310.2" y2="94.1" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-224" x1="298.2" y1="80.0" x2="311.8" y2="80.0" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-225" x1="302.6" y1="56.6" x2="307.4" y2="65.9" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-226" x1="304.1" y1="37.8" x2="305.9" y2="47.2" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-227" x1="304.5" y1="19.1" x2="305.5" y2="28.4" stroke="blue" stroke-width="2" fill="none"/>
+    <line id="38-slope-__line-228" x1="304.7" y1="0.3" x2="305.3" y2="9.7" stroke="blue" stroke-width="2" fill="none"/>
+  </g>
+</svg>

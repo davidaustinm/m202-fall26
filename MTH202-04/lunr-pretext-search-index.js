@@ -1690,7 +1690,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Some Review for Exam 2",
-  "body": " Some Review for Exam 2    The probability density function describes the amount of time, in minutes, you wait to talk to a representative when you call your bank.     Find the cumulative distribution function. What does this function tell us?      Find the median waiting time.      Find the average waiting time.      What percentage of people wait less time than the average?      What percentage of people wait less time than the median?       Students are given a three-hour test and you record the length of time it takes students to complete the test. The cumulative distribution function is .     What is the median time it takes for students to complete the test?      If you finish in 2 hours, what percentage of students have finished before you?      What is the probability density function ?      The first quartile is the time at which 25% of students have finished the exam, and the third quartile is when 75% have. Find these times.      Find the average time it takes for students to finish the exam.       Consider the differential equation      Sketch as a function of and a slope field for this equation, and identify any equilibrium solutions. For each equilibrium, determine whether it is stable or unstable.      If , use Euler's method with a step size of 0.1 to estimate the value .       Find the solution to the following initial value problems.                    Newton's Law of Cooling states that the temperature of an object changes at a rate proportional to the difference between its temperature and room temperature. Suppose that is the temperature of some object sitting in a room. Newton's Law says that   Suppose that the temperature is initially . Ten minutes later, it is . When will the temperature reach ?    "
+  "body": " Some Review for Exam 2    The probability density function describes the amount of time, in minutes, you wait to talk to a representative when you call your bank.     Find the cumulative distribution function. What does this function tell us?     This gives the probability that you wait less than minutes.      Find the median waiting time.    Setting gives the expression , so minutes.      Find the average waiting time.    Integrating by parts with and , we see that minutes.      What percentage of people wait less time than the average?     , so about .      What percentage of people wait less time than the median?    Exactly , which is the definition of the median.       Students are given a three-hour test and you record the length of time it takes students to complete the test. The cumulative distribution function is .     What is the median time it takes for students to complete the test?    Setting : , so hours.      If you finish in 2 hours, what percentage of students have finished before you?     , so about .      What is the probability density function ?     .      The first quartile is the time at which 25% of students have finished the exam, and the third quartile is when 75% have. Find these times.    First quartile: gives hours.  Third quartile: gives hours.      Find the average time it takes for students to finish the exam.     hours.       Consider the differential equation      Sketch as a function of and a slope field for this equation, and identify any equilibrium solutions. For each equilibrium, determine whether it is stable or unstable.       f(x)=4*x-x^3            f(t,x)=(4*x-x^3)\/4         There are stable equilibria at and and an unstable equilibrium at .      If , use Euler's method with a step size of 0.1 to estimate the value .                 0.0  1.0000  3.000  0.300    0.1  1.3000  3.003  0.300    0.2  1.6003  2.303  0.230    0.3  1.8306  1.188  0.119    0.4  1.9494       So .       Find the solution to the following initial value problems.          Separating variables and antidifferentiating shows that . Using , we see that , so .           Separating variables gives . Using : , so .       Newton's Law of Cooling states that the temperature of an object changes at a rate proportional to the difference between its temperature and room temperature. Suppose that is the temperature of some object sitting in a room. Newton's Law says that   Suppose that the temperature is initially . Ten minutes later, it is . When will the temperature reach ?    The general solution is . Using , we see that . Using allows us to find since , so .  Setting : , giving minutes.    "
 },
 {
   "id": "activities-40-2",
@@ -1699,7 +1699,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  The probability density function describes the amount of time, in minutes, you wait to talk to a representative when you call your bank.     Find the cumulative distribution function. What does this function tell us?      Find the median waiting time.      Find the average waiting time.      What percentage of people wait less time than the average?      What percentage of people wait less time than the median?    "
+  "body": "  The probability density function describes the amount of time, in minutes, you wait to talk to a representative when you call your bank.     Find the cumulative distribution function. What does this function tell us?     This gives the probability that you wait less than minutes.      Find the median waiting time.    Setting gives the expression , so minutes.      Find the average waiting time.    Integrating by parts with and , we see that minutes.      What percentage of people wait less time than the average?     , so about .      What percentage of people wait less time than the median?    Exactly , which is the definition of the median.    "
 },
 {
   "id": "activities-40-3",
@@ -1708,7 +1708,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Students are given a three-hour test and you record the length of time it takes students to complete the test. The cumulative distribution function is .     What is the median time it takes for students to complete the test?      If you finish in 2 hours, what percentage of students have finished before you?      What is the probability density function ?      The first quartile is the time at which 25% of students have finished the exam, and the third quartile is when 75% have. Find these times.      Find the average time it takes for students to finish the exam.    "
+  "body": "  Students are given a three-hour test and you record the length of time it takes students to complete the test. The cumulative distribution function is .     What is the median time it takes for students to complete the test?    Setting : , so hours.      If you finish in 2 hours, what percentage of students have finished before you?     , so about .      What is the probability density function ?     .      The first quartile is the time at which 25% of students have finished the exam, and the third quartile is when 75% have. Find these times.    First quartile: gives hours.  Third quartile: gives hours.      Find the average time it takes for students to finish the exam.     hours.    "
 },
 {
   "id": "activities-40-4",
@@ -1717,7 +1717,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Consider the differential equation      Sketch as a function of and a slope field for this equation, and identify any equilibrium solutions. For each equilibrium, determine whether it is stable or unstable.      If , use Euler's method with a step size of 0.1 to estimate the value .    "
+  "body": "  Consider the differential equation      Sketch as a function of and a slope field for this equation, and identify any equilibrium solutions. For each equilibrium, determine whether it is stable or unstable.       f(x)=4*x-x^3            f(t,x)=(4*x-x^3)\/4         There are stable equilibria at and and an unstable equilibrium at .      If , use Euler's method with a step size of 0.1 to estimate the value .                 0.0  1.0000  3.000  0.300    0.1  1.3000  3.003  0.300    0.2  1.6003  2.303  0.230    0.3  1.8306  1.188  0.119    0.4  1.9494       So .    "
 },
 {
   "id": "activities-40-5",
@@ -1726,7 +1726,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Find the solution to the following initial value problems.                 "
+  "body": "  Find the solution to the following initial value problems.          Separating variables and antidifferentiating shows that . Using , we see that , so .           Separating variables gives . Using : , so .    "
 },
 {
   "id": "activities-40-6",
@@ -1735,7 +1735,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Newton's Law of Cooling states that the temperature of an object changes at a rate proportional to the difference between its temperature and room temperature. Suppose that is the temperature of some object sitting in a room. Newton's Law says that   Suppose that the temperature is initially . Ten minutes later, it is . When will the temperature reach ?   "
+  "body": "  Newton's Law of Cooling states that the temperature of an object changes at a rate proportional to the difference between its temperature and room temperature. Suppose that is the temperature of some object sitting in a room. Newton's Law says that   Suppose that the temperature is initially . Ten minutes later, it is . When will the temperature reach ?    The general solution is . Using , we see that . Using allows us to find since , so .  Setting : , giving minutes.   "
 },
 {
   "id": "activities-41",

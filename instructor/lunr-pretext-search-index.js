@@ -1788,35 +1788,53 @@ var ptx_lunr_docs = [
   "url": "activities-42.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Series as Functions",
-  "body": " Series as Functions   We can use the fact that the geometric series gives us when to find series representations of other functions.     We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .           Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.    Substituting :        We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.     .      Explain why .    If we antidifferentiate .      By integrating the series you found for , find a series representation of .    Integrating term by term: .      Let to obtain a series for .           Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?    Five terms: . The actual value is , so the error is about .       Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.    Substituting : .      Remember that and use this to create a series for .    Integrating term by term: .      Remember that and use this to write a series for .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is . The error is about , which shows that this series converges very slowly.      Using , write a series that gives .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is , so the error is less than , which is very accurate.     "
+  "title": "Geometric Series",
+  "body": " Geometric Series    Consider the series      Find the sum where , , , , .    Using , we have       What happens as ?    The sum approaches .       Now look at the sum      Find the sum when , , , .    Using , we have       What happens as ?    The sum grows without bound; the series diverges.       Consider the sum      Find the sum where , , , , .    The sum equals 0 when is odd and 1 when is even so that , , , , .      What happens as ?    The sum oscillates between 0 and 1; the limit does not exist.       Write out the first four terms of the series . Then determine the value of this sum.    The first four terms are .  This is a geometric series with first term , ratio , and 7 terms so we have       Consider the limit      For what values of does this limit exist?    The limit exists when .      If the limit exists, what is its value?    Since as when , the sum is .     "
+},
+{
+  "id": "activities-42-2",
+  "level": "2",
+  "url": "activities-42.html#activities-42-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the series      Find the sum where , , , , .    Using , we have       What happens as ?    The sum approaches .    "
 },
 {
   "id": "activities-42-3",
   "level": "2",
   "url": "activities-42.html#activities-42-3",
   "type": "Worksheet Exercise",
-  "number": "1",
+  "number": "2",
   "title": "",
-  "body": "  We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .           Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.    Substituting :     "
+  "body": "  Now look at the sum      Find the sum when , , , .    Using , we have       What happens as ?    The sum grows without bound; the series diverges.    "
 },
 {
   "id": "activities-42-4",
   "level": "2",
   "url": "activities-42.html#activities-42-4",
   "type": "Worksheet Exercise",
-  "number": "2",
+  "number": "3",
   "title": "",
-  "body": "  We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.     .      Explain why .    If we antidifferentiate .      By integrating the series you found for , find a series representation of .    Integrating term by term: .      Let to obtain a series for .           Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?    Five terms: . The actual value is , so the error is about .    "
+  "body": "  Consider the sum      Find the sum where , , , , .    The sum equals 0 when is odd and 1 when is even so that , , , , .      What happens as ?    The sum oscillates between 0 and 1; the limit does not exist.    "
 },
 {
   "id": "activities-42-5",
   "level": "2",
   "url": "activities-42.html#activities-42-5",
   "type": "Worksheet Exercise",
-  "number": "3",
+  "number": "4",
   "title": "",
-  "body": "  Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.    Substituting : .      Remember that and use this to create a series for .    Integrating term by term: .      Remember that and use this to write a series for .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is . The error is about , which shows that this series converges very slowly.      Using , write a series that gives .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is , so the error is less than , which is very accurate.    "
+  "body": "  Write out the first four terms of the series . Then determine the value of this sum.    The first four terms are .  This is a geometric series with first term , ratio , and 7 terms so we have    "
+},
+{
+  "id": "activities-42-6",
+  "level": "2",
+  "url": "activities-42.html#activities-42-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Consider the limit      For what values of does this limit exist?    The limit exists when .      If the limit exists, what is its value?    Since as when , the sum is .    "
 },
 {
   "id": "activities-43",
@@ -1824,40 +1842,76 @@ var ptx_lunr_docs = [
   "url": "activities-43.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Taylor Series",
-  "body": " Taylor Series    Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .    The Taylor polynomial is Evaluating at gives       Let .     Find the first five terms of the Taylor series for .    Computing derivatives at , we see that This means that . Therefore       Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.    Use so that The exact value is so the error is less than .       Let .     Find the first five terms of the Taylor series for .    Computing derivatives at gives . Therefore       How can you use this to find the Taylor series for ?    Substitute so that       You may remember that Use the first five terms of your Taylor series to estimate .    Integrating term by term, we see that At , we have . The actual value is , so the error is less than .       Suppose that . Find the Taylor series for . What do you notice?    Since , , , and for , the Taylor series is The Taylor series of a polynomial is just the polynomial itself.    "
-},
-{
-  "id": "activities-43-2",
-  "level": "2",
-  "url": "activities-43.html#activities-43-2",
-  "type": "Worksheet Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .    The Taylor polynomial is Evaluating at gives    "
+  "title": "Series as Functions",
+  "body": " Series as Functions   We can use the fact that the geometric series gives us when to find series representations of other functions.     We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .           Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.    Substituting :        We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.     .      Explain why .    If we antidifferentiate .      By integrating the series you found for , find a series representation of .    Integrating term by term: .      Let to obtain a series for .           Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?    Five terms: . The actual value is , so the error is about .       Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.    Substituting : .      Remember that and use this to create a series for .    Integrating term by term: .      Remember that and use this to write a series for .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is . The error is about , which shows that this series converges very slowly.      Using , write a series that gives .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is , so the error is less than , which is very accurate.     "
 },
 {
   "id": "activities-43-3",
   "level": "2",
   "url": "activities-43.html#activities-43-3",
   "type": "Worksheet Exercise",
-  "number": "2",
+  "number": "1",
   "title": "",
-  "body": "  Let .     Find the first five terms of the Taylor series for .    Computing derivatives at , we see that This means that . Therefore       Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.    Use so that The exact value is so the error is less than .    "
+  "body": "  We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .           Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.    Substituting :     "
 },
 {
   "id": "activities-43-4",
   "level": "2",
   "url": "activities-43.html#activities-43-4",
   "type": "Worksheet Exercise",
-  "number": "3",
+  "number": "2",
   "title": "",
-  "body": "  Let .     Find the first five terms of the Taylor series for .    Computing derivatives at gives . Therefore       How can you use this to find the Taylor series for ?    Substitute so that       You may remember that Use the first five terms of your Taylor series to estimate .    Integrating term by term, we see that At , we have . The actual value is , so the error is less than .    "
+  "body": "  We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.     .      Explain why .    If we antidifferentiate .      By integrating the series you found for , find a series representation of .    Integrating term by term: .      Let to obtain a series for .           Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?    Five terms: . The actual value is , so the error is about .    "
 },
 {
   "id": "activities-43-5",
   "level": "2",
   "url": "activities-43.html#activities-43-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.    Substituting : .      Remember that and use this to create a series for .    Integrating term by term: .      Remember that and use this to write a series for .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is . The error is about , which shows that this series converges very slowly.      Using , write a series that gives .           What approximation to do you find with the first five terms? How does this compare to the actual value?    Five terms: . The actual value is , so the error is less than , which is very accurate.    "
+},
+{
+  "id": "activities-44",
+  "level": "1",
+  "url": "activities-44.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Taylor Series",
+  "body": " Taylor Series    Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .    The Taylor polynomial is Evaluating at gives       Let .     Find the first five terms of the Taylor series for .    Computing derivatives at , we see that This means that . Therefore       Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.    Use so that The exact value is so the error is less than .       Let .     Find the first five terms of the Taylor series for .    Computing derivatives at gives . Therefore       How can you use this to find the Taylor series for ?    Substitute so that       You may remember that Use the first five terms of your Taylor series to estimate .    Integrating term by term, we see that At , we have . The actual value is , so the error is less than .       Suppose that . Find the Taylor series for . What do you notice?    Since , , , and for , the Taylor series is The Taylor series of a polynomial is just the polynomial itself.    "
+},
+{
+  "id": "activities-44-2",
+  "level": "2",
+  "url": "activities-44.html#activities-44-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .    The Taylor polynomial is Evaluating at gives    "
+},
+{
+  "id": "activities-44-3",
+  "level": "2",
+  "url": "activities-44.html#activities-44-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let .     Find the first five terms of the Taylor series for .    Computing derivatives at , we see that This means that . Therefore       Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.    Use so that The exact value is so the error is less than .    "
+},
+{
+  "id": "activities-44-4",
+  "level": "2",
+  "url": "activities-44.html#activities-44-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let .     Find the first five terms of the Taylor series for .    Computing derivatives at gives . Therefore       How can you use this to find the Taylor series for ?    Substitute so that       You may remember that Use the first five terms of your Taylor series to estimate .    Integrating term by term, we see that At , we have . The actual value is , so the error is less than .    "
+},
+{
+  "id": "activities-44-5",
+  "level": "2",
+  "url": "activities-44.html#activities-44-5",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",

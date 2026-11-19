@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Series as Functions</title>
+<title>Geometric Series</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
@@ -216,8 +216,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-39.html" class="internal"><span class="title">More modeling</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-40.html" class="internal"><span class="title">Some Review for Exam 2</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-41.html" class="internal"><span class="title">Lab 4: Systems of Differential Equations</span></a></div></li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="activities-42.html" class="internal"><span class="title">Series as Functions</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-43.html" class="internal"><span class="title">Taylor Series</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="activities-42.html" class="internal"><span class="title">Geometric Series</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-43.html" class="internal"><span class="title">Series as Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-44.html" class="internal"><span class="title">Taylor Series</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
@@ -279,314 +280,229 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <section class="worksheet" id="activities-42" data-margins="0.75in 0.75in 0.75in 0.75in">
 <h1 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Series as Functions</span><div class="print-links"><a href="?printpreview=activities-42" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Geometric Series</span><div class="print-links"><a href="?printpreview=activities-42" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h1>
-<section class="introduction" id="activities-42-2">
-<div class="para logical" id="activities-42-2-1">
-<div class="para">We can use the fact that the geometric series gives us</div>
-<div class="displaymath process-math" id="activities-42-2-1-1">
+<article class="exercise exercise-like" id="activities-42-2"><h2 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="activities-42-2-1">
+<div class="para logical" id="activities-42-2-1-1">
+<div class="para">Consider the series</div>
+<div class="displaymath process-math" id="activities-42-2-1-1-1">
 \begin{equation*}
-\frac{1}{1-x} = 1 + x + x^2 + x^3
-+ \cdots + x^n + \cdots
+1 + \frac{1}{2} +
+\left(\frac{1}{2}\right)^2 +
+\cdots +
+\left(\frac{1}{2}\right)^n.
 \end{equation*}
 </div>
-<div class="para">when <span class="process-math">\(-1 \lt x \lt 1\)</span> to find series representations of other functions.</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section>
-<article class="exercise exercise-like" id="activities-42-3"><h2 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="activities-42-2-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="activities-42-2-2-1-1">Find the sum where <span class="process-math">\(n = 3\text{,}\)</span> <span class="process-math">\(n = 5\text{,}\)</span> <span class="process-math">\(n = 7\text{,}\)</span> <span class="process-math">\(n = 10\text{,}\)</span> <span class="process-math">\(n = 15\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-42-2-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-42-2-2-2-1">
+<div class="para">Using <span class="process-math">\(S_n =
+2\!\left(1 - (1/2)^{n+1}\right)\text{,}\)</span> we have</div>
+<div class="displaymath process-math" id="activities-42-2-2-2-1-2">
+\begin{align*}
+S_3 \amp= 15/8 = 1.875\\
+S_5 \amp= 63/32 \approx 1.969\\
+S_7 \amp= 255/128 \approx 1.992\\
+S_{10} \amp\approx 1.999\\
+S_{15} \amp\approx 2.000.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.a.1"><a tabindex="-1" href="#activities-42-2-2-2" title="Copy heading and permalink for Solution 1.a.1" aria-label="Copy heading and permalink for Solution 1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.a"><a tabindex="-1" href="#activities-42-2-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="activities-42-2-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="activities-42-2-3-1-1">What happens as <span class="process-math">\(n \to \infty\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-42-2-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-42-2-3-2-1">The sum approaches <span class="process-math">\(2\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.b.1"><a tabindex="-1" href="#activities-42-2-3-2" title="Copy heading and permalink for Solution 1.b.1" aria-label="Copy heading and permalink for Solution 1.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.b"><a tabindex="-1" href="#activities-42-2-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#activities-42-2" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="activities-42-3"><h2 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
 <div class="introduction" id="activities-42-3-1">
-<div class="para" id="activities-42-3-1-1">We will first find a series for <span class="process-math">\(\frac{1}{1+x}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="activities-42-3-1-1">
+<div class="para">Now look at the sum</div>
+<div class="displaymath process-math" id="activities-42-3-1-1-1">
+\begin{equation*}
+1 + 2 + 2^2 + 2^3 +
+\cdots + 2^n.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="activities-42-3-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="activities-42-3-2-1-1">Let’s begin by rewriting the geometric series in terms of the variable <span class="process-math">\(u\text{,}\)</span> rather than <span class="process-math">\(x\text{;}\)</span> that is, set <span class="process-math">\(x = u\)</span> to write the series for <span class="process-math">\(\frac{1}{1-u}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-42-3-2-1-1">Find the sum when <span class="process-math">\(n = 5\text{,}\)</span> <span class="process-math">\(n = 6\text{,}\)</span> <span class="process-math">\(n = 10\text{,}\)</span> <span class="process-math">\(n = 15\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
 <details id="activities-42-3-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
 <div class="para logical" id="activities-42-3-2-2-1">
-<div class="displaymath process-math" id="activities-42-3-2-2-1-1">
-\begin{equation*}
-\frac{1}{1-u} = 1 + u + u^2 + u^3
-+ \ldots + u^n + \ldots 
-\end{equation*}
+<div class="para">Using <span class="process-math">\(S_n = 2^{n+1} - 1\text{,}\)</span> we have</div>
+<div class="displaymath process-math" id="activities-42-3-2-2-1-2">
+\begin{align*}
+S_5 \amp= 63\\
+S_6 \amp= 127\\
+S_{10} \amp= 2047\\
+S_{15} \amp= 65535.
+\end{align*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 1.a.1"><a tabindex="-1" href="#activities-42-3-2-2" title="Copy heading and permalink for Solution 1.a.1" aria-label="Copy heading and permalink for Solution 1.a.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.a.1"><a tabindex="-1" href="#activities-42-3-2-2" title="Copy heading and permalink for Solution 2.a.1" aria-label="Copy heading and permalink for Solution 2.a.1">🔗</a></div>
 </div></details>
 </div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.a"><a tabindex="-1" href="#activities-42-3-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.a"><a tabindex="-1" href="#activities-42-3-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-42-3-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para" id="activities-42-3-3-1-1">Now let <span class="process-math">\(u = -x\)</span> to obtain a series for <span class="process-math">\(\frac{1}{1+x}\text{.}\)</span>  Write the first four nonzero terms and try to write the general term.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-42-3-3-1-1">What happens as <span class="process-math">\(n \to \infty\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
 <details id="activities-42-3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-3-3-2-1">
-<div class="para">Substituting <span class="process-math">\(u = -x\text{:}\)</span>
+<div class="para" id="activities-42-3-3-2-1">The sum grows without bound; the series diverges.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="displaymath process-math" id="activities-42-3-3-2-1-2">
-\begin{equation*}
-\frac{1}{1+x} = 1 - x + x^2 - x^3
-+ \ldots + (-1)^n x^n + \ldots
-\end{equation*}
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 1.b.1"><a tabindex="-1" href="#activities-42-3-3-2" title="Copy heading and permalink for Solution 1.b.1" aria-label="Copy heading and permalink for Solution 1.b.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 2.b.1"><a tabindex="-1" href="#activities-42-3-3-2" title="Copy heading and permalink for Solution 2.b.1" aria-label="Copy heading and permalink for Solution 2.b.1">🔗</a></div>
 </div></details>
 </div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.b"><a tabindex="-1" href="#activities-42-3-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#activities-42-3" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.b"><a tabindex="-1" href="#activities-42-3-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2"><a tabindex="-1" href="#activities-42-3" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div>
 </article>
-<article class="exercise exercise-like" id="activities-42-4"><h2 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<article class="exercise exercise-like" id="activities-42-4"><h2 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
 <div class="introduction" id="activities-42-4-1">
-<div class="para" id="activities-42-4-1-1">We can integrate and differentiate series easily because they consist of only powers of <span class="process-math">\(x\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="activities-42-4-1-1">
+<div class="para">Consider the sum</div>
+<div class="displaymath process-math" id="activities-42-4-1-1-1">
+\begin{equation*}
+1 + (-1) + (-1)^2 + (-1)^3 +
+\cdots + (-1)^n.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="activities-42-4-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="activities-42-4-2-1-1">Now that we have a series for <span class="process-math">\(\frac{1}{1+x}\text{,}\)</span> let’s rewrite this in terms of the variable <span class="process-math">\(u\text{,}\)</span> as we did before.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-42-4-2-1-1">Find the sum where <span class="process-math">\(n = 5\text{,}\)</span> <span class="process-math">\(n = 6\text{,}\)</span> <span class="process-math">\(n = 7\text{,}\)</span> <span class="process-math">\(n = 8\text{,}\)</span> <span class="process-math">\(n = 9\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
 <details id="activities-42-4-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-4-2-2-1">
-<div class="displaymath process-math" id="activities-42-4-2-2-1-1">
-\begin{equation*}
-\frac{1}{1+u} = 1 - u + u^2 - u^3
-+ \ldots + (-1)^nu^n + \ldots\text{.}
-\end{equation*}
+<div class="para" id="activities-42-4-2-2-1">The sum equals 0 when <span class="process-math">\(n\)</span> is odd and 1 when <span class="process-math">\(n\)</span> is even so that <span class="process-math">\(S_5 = 0\text{,}\)</span> <span class="process-math">\(S_6 = 1\text{,}\)</span> <span class="process-math">\(S_7 = 0\text{,}\)</span> <span class="process-math">\(S_8 = 1\text{,}\)</span> <span class="process-math">\(S_9 = 0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 2.a.1"><a tabindex="-1" href="#activities-42-4-2-2" title="Copy heading and permalink for Solution 2.a.1" aria-label="Copy heading and permalink for Solution 2.a.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.a.1"><a tabindex="-1" href="#activities-42-4-2-2" title="Copy heading and permalink for Solution 3.a.1" aria-label="Copy heading and permalink for Solution 3.a.1">🔗</a></div>
 </div></details>
 </div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 2.a"><a tabindex="-1" href="#activities-42-4-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#activities-42-4-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-42-4-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para" id="activities-42-4-3-1-1">Explain why <span class="process-math">\(\ln(1+x) =
-\int_0^x \frac{1}{1+u}\,du\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-42-4-3-1-1">What happens as <span class="process-math">\(n \to \infty\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
 <details id="activities-42-4-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-4-3-2-1">
-<div class="para">If we antidifferentiate</div>
-<div class="displaymath process-math" id="activities-42-4-3-2-1-1">
-\begin{equation*}
-\int_0^x \frac1{1+u}~du =
-\ln(1+u)|_0^x = \ln(1+x) - \ln(1) = \ln(1+x)\text{.}
-\end{equation*}
+<div class="para" id="activities-42-4-3-2-1">The sum oscillates between 0 and 1; the limit does not exist.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 2.b.1"><a tabindex="-1" href="#activities-42-4-3-2" title="Copy heading and permalink for Solution 2.b.1" aria-label="Copy heading and permalink for Solution 2.b.1">🔗</a></div>
-</div></details>
-</div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 2.b"><a tabindex="-1" href="#activities-42-4-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
-</article>
-<article class="task exercise-like" id="activities-42-4-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
-<div class="para" id="activities-42-4-4-1-1">By integrating the series you found for <span class="process-math">\(\frac{1}{1+u}\text{,}\)</span> find a series representation of <span class="process-math">\(\ln(1+x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions">
-<details id="activities-42-4-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
-<div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-4-4-2-1">
-<div class="para">Integrating term by term:</div>
-<div class="displaymath process-math" id="activities-42-4-4-2-1-1">
-\begin{equation*}
-\ln(1+x) = x - \frac{x^2}{2} +
-\frac{x^3}{3} - \frac{x^4}{4}
-+ \ldots + (-1)^n\frac{x^{n+1}}{n} + \ldots\text{.}
-\end{equation*}
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 2.c.1"><a tabindex="-1" href="#activities-42-4-4-2" title="Copy heading and permalink for Solution 2.c.1" aria-label="Copy heading and permalink for Solution 2.c.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.b.1"><a tabindex="-1" href="#activities-42-4-3-2" title="Copy heading and permalink for Solution 3.b.1" aria-label="Copy heading and permalink for Solution 3.b.1">🔗</a></div>
 </div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 2.c"><a tabindex="-1" href="#activities-42-4-4" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#activities-42-4-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3"><a tabindex="-1" href="#activities-42-4" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div>
 </article>
-<article class="task exercise-like" id="activities-42-4-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
-<div class="para" id="activities-42-4-5-1-1">Let <span class="process-math">\(x = 1/2\)</span> to obtain a series for <span class="process-math">\(\ln(3/2)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="exercise exercise-like" id="activities-42-5"><h2 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="para" id="activities-42-5-1-1">Write out the first four terms of the series <span class="process-math">\(\sum_{n=3}^{9}\frac{4}{3^n}\text{.}\)</span> Then determine the value of this sum.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
-<details id="activities-42-4-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<details id="activities-42-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-4-5-2-1">
-<div class="displaymath process-math" id="activities-42-4-5-2-1-1">
+<div class="para" id="activities-42-5-2-1">The first four terms are <span class="process-math">\(\frac{4}{27} + \frac{4}{81} +
+\frac{4}{243} + \frac{4}{729}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="activities-42-5-2-2">
+<div class="para">This is a geometric series with first term <span class="process-math">\(4/27\text{,}\)</span> ratio <span class="process-math">\(1/3\text{,}\)</span> and 7 terms so we have</div>
+<div class="displaymath process-math" id="activities-42-5-2-2-3">
 \begin{equation*}
-\ln\!\left(\frac{3}{2}\right) =
-\frac{1}{2} - \frac{1}{8} +
-\frac{1}{24} - \frac{1}{64} +
-\frac{1}{160} - \ldots
+\frac{4}{27} \cdot
+\frac{1-(1/3)^7}{1-1/3}
+= \frac{4372}{19683}
+\approx 0.222.
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 2.d.1"><a tabindex="-1" href="#activities-42-4-5-2" title="Copy heading and permalink for Solution 2.d.1" aria-label="Copy heading and permalink for Solution 2.d.1">🔗</a></div>
-</div></details>
-</div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 2.d"><a tabindex="-1" href="#activities-42-4-5" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div>
-</article>
-<article class="task exercise-like" id="activities-42-4-6"><h3 class="heading"><span class="codenumber">(e)</span></h3>
-<div class="para" id="activities-42-4-6-1-1">Approximate the value of <span class="process-math">\(\ln(3/2)\)</span> using the first five terms in your series.  How does your approximation compare to the actual value?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions">
-<details id="activities-42-4-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
-<div class="solution solution-like knowl__content">
-<div class="para" id="activities-42-4-6-2-1">Five terms: <span class="process-math">\(\frac{1}{2} - \frac{1}{8} +
-\frac{1}{24} - \frac{1}{64} +
-\frac{1}{160} \approx 0.4073\text{.}\)</span> The actual value is <span class="process-math">\(\ln(3/2) \approx 0.4055\text{,}\)</span> so the error is about <span class="process-math">\(0.002\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-4-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 2.e.1"><a tabindex="-1" href="#activities-42-4-6-2" title="Copy heading and permalink for Solution 2.e.1" aria-label="Copy heading and permalink for Solution 2.e.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 4.1"><a tabindex="-1" href="#activities-42-5-2" title="Copy heading and permalink for Solution 4.1" aria-label="Copy heading and permalink for Solution 4.1">🔗</a></div>
 </div></details>
 </div>
 <div class="workspace" data-space="1.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 2.e"><a tabindex="-1" href="#activities-42-4-6" title="Copy heading and permalink for Task 2.e" aria-label="Copy heading and permalink for Task 2.e">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2"><a tabindex="-1" href="#activities-42-4" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 4"><a tabindex="-1" href="#activities-42-5" title="Copy heading and permalink for Worksheet Exercise 4" aria-label="Copy heading and permalink for Worksheet Exercise 4">🔗</a></div>
 </article>
-<article class="exercise exercise-like" id="activities-42-5"><h2 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
-<div class="introduction" id="activities-42-5-1">
-<div class="para" id="activities-42-5-1-1">Next we’ll find a series representation of <span class="process-math">\(\arctan(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
-<article class="task exercise-like" id="activities-42-5-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="activities-42-5-2-1-1">Let’s start again with the series for <span class="process-math">\(\frac{1}{1-u}\text{.}\)</span>  Write this series and substitute <span class="process-math">\(u = -x^2\)</span> to produce a series for <span class="process-math">\(\frac{1}{1+x^2}\text{.}\)</span>  Write the first four nonzero terms and try to write the general term.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions">
-<details id="activities-42-5-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
-<div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-5-2-2-1">
-<div class="para">Substituting <span class="process-math">\(u = -x^2\text{:}\)</span>
-</div>
-<div class="displaymath process-math" id="activities-42-5-2-2-1-2">
+<article class="exercise exercise-like" id="activities-42-6"><h2 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="activities-42-6-1">
+<div class="para logical" id="activities-42-6-1-1">
+<div class="para">Consider the limit</div>
+<div class="displaymath process-math" id="activities-42-6-1-1-1">
 \begin{equation*}
-\frac{1}{1+x^2} =
-1 - x^2 + x^4 - x^6 + \ldots +
-(-1)^nx^{2n}+\ldots\text{.}
+\lim_{n\to\infty}
+\left(1 + r + r^2 + r^3 +
+\cdots + r^n\right).
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 3.a.1"><a tabindex="-1" href="#activities-42-5-2-2" title="Copy heading and permalink for Solution 3.a.1" aria-label="Copy heading and permalink for Solution 3.a.1">🔗</a></div>
-</div></details>
 </div>
-<div class="workspace" data-space="0.75in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#activities-42-5-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
-</article>
-<article class="task exercise-like" id="activities-42-5-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para" id="activities-42-5-3-1-1">Remember that <span class="process-math">\(\arctan x =
-\int_0^x \frac{1}{1+u^2}\,du\)</span> and use this to create a series for <span class="process-math">\(\arctan x\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="activities-42-6-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="activities-42-6-2-1-1">For what values of <span class="process-math">\(r\)</span> does this limit exist?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
-<details id="activities-42-5-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<details id="activities-42-6-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-5-3-2-1">
-<div class="para">Integrating term by term:</div>
-<div class="displaymath process-math" id="activities-42-5-3-2-1-1">
-\begin{equation*}
-\arctan x = x - \frac{x^3}{3} +
-\frac{x^5}{5} - \frac{x^7}{7}
-+ \ldots +
-\frac{(-1)^n x^{2n+1}}{2n+1} + \ldots\text{.}
-\end{equation*}
+<div class="para" id="activities-42-6-2-2-1">The limit exists when <span class="process-math">\(|r| \lt 1\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-6-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 3.b.1"><a tabindex="-1" href="#activities-42-5-3-2" title="Copy heading and permalink for Solution 3.b.1" aria-label="Copy heading and permalink for Solution 3.b.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.a.1"><a tabindex="-1" href="#activities-42-6-2-2" title="Copy heading and permalink for Solution 5.a.1" aria-label="Copy heading and permalink for Solution 5.a.1">🔗</a></div>
 </div></details>
 </div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#activities-42-5-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.a"><a tabindex="-1" href="#activities-42-6-2" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div>
 </article>
-<article class="task exercise-like" id="activities-42-5-4"><h3 class="heading"><span class="codenumber">(c)</span></h3>
-<div class="para" id="activities-42-5-4-1-1">Remember that <span class="process-math">\(\frac{\pi}{4} = \arctan(1)\)</span> and use this to write a series for <span class="process-math">\(\pi/4\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="activities-42-6-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="activities-42-6-3-1-1">If the limit exists, what is its value?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-6-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
-<details id="activities-42-5-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<details id="activities-42-6-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-5-4-2-1">
-<div class="displaymath process-math" id="activities-42-5-4-2-1-1">
-\begin{equation*}
-\frac{\pi}{4} = 1 - \frac{1}{3} +
-\frac{1}{5} - \frac{1}{7} + \ldots 
-+ \frac{(-1)^n}{2n+1} + \ldots
-\end{equation*}
+<div class="para" id="activities-42-6-3-2-1">Since <span class="process-math">\(S_n = \frac{1-r^{n+1}}{1-r}
+\to \frac{1}{1-r}\)</span> as <span class="process-math">\(n\to\infty\)</span> when <span class="process-math">\(|r| \lt 1\text{,}\)</span> the sum is <span class="process-math">\(\frac{1}{1-r}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-6-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 3.c.1"><a tabindex="-1" href="#activities-42-5-4-2" title="Copy heading and permalink for Solution 3.c.1" aria-label="Copy heading and permalink for Solution 3.c.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.b.1"><a tabindex="-1" href="#activities-42-6-3-2" title="Copy heading and permalink for Solution 5.b.1" aria-label="Copy heading and permalink for Solution 5.b.1">🔗</a></div>
 </div></details>
 </div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 3.c"><a tabindex="-1" href="#activities-42-5-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
-</article>
-<article class="task exercise-like" id="activities-42-5-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
-<div class="para" id="activities-42-5-5-1-1">What approximation to <span class="process-math">\(\pi/4\)</span> do you find with the first five terms? How does this compare to the actual value?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions">
-<details id="activities-42-5-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
-<div class="solution solution-like knowl__content">
-<div class="para" id="activities-42-5-5-2-1">Five terms: <span class="process-math">\(1 - \frac{1}{3} + \frac{1}{5} -
-\frac{1}{7} + \frac{1}{9}
-\approx 0.835\text{.}\)</span> The actual value is <span class="process-math">\(\pi/4 \approx 0.785\text{.}\)</span> The error is about <span class="process-math">\(0.050\text{,}\)</span> which shows that this series converges very slowly.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 3.d.1"><a tabindex="-1" href="#activities-42-5-5-2" title="Copy heading and permalink for Solution 3.d.1" aria-label="Copy heading and permalink for Solution 3.d.1">🔗</a></div>
-</div></details>
-</div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 3.d"><a tabindex="-1" href="#activities-42-5-5" title="Copy heading and permalink for Task 3.d" aria-label="Copy heading and permalink for Task 3.d">🔗</a></div>
-</article>
-<article class="task exercise-like" id="activities-42-5-6"><h3 class="heading"><span class="codenumber">(e)</span></h3>
-<div class="para" id="activities-42-5-6-1-1">Using <span class="process-math">\(x = 1/2\text{,}\)</span> write a series that gives <span class="process-math">\(\arctan(1/2)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions">
-<details id="activities-42-5-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
-<div class="solution solution-like knowl__content">
-<div class="para logical" id="activities-42-5-6-2-1">
-<div class="displaymath process-math" id="activities-42-5-6-2-1-1">
-\begin{equation*}
-\arctan\!\left(\frac{1}{2}\right) =
-\frac{1}{2} - \frac{1}{24} +
-\frac{1}{160} - \frac{1}{896} +
-\frac{1}{4608} - \cdots
-\end{equation*}
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 3.e.1"><a tabindex="-1" href="#activities-42-5-6-2" title="Copy heading and permalink for Solution 3.e.1" aria-label="Copy heading and permalink for Solution 3.e.1">🔗</a></div>
-</div></details>
-</div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 3.e"><a tabindex="-1" href="#activities-42-5-6" title="Copy heading and permalink for Task 3.e" aria-label="Copy heading and permalink for Task 3.e">🔗</a></div>
-</article>
-<article class="task exercise-like" id="activities-42-5-7"><h3 class="heading"><span class="codenumber">(f)</span></h3>
-<div class="para" id="activities-42-5-7-1-1">What approximation to <span class="process-math">\(\arctan(1/2)\)</span> do you find with the first five terms?  How does this compare to the actual value?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions">
-<details id="activities-42-5-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
-<div class="solution solution-like knowl__content">
-<div class="para" id="activities-42-5-7-2-1">Five terms: <span class="process-math">\(\frac{1}{2} - \frac{1}{24} +
-\frac{1}{160} - \frac{1}{896} +
-\frac{1}{4608} \approx 0.46368\text{.}\)</span> The actual value is <span class="process-math">\(\arctan(1/2) \approx 0.46365\text{,}\)</span> so the error is less than <span class="process-math">\(0.00004\text{,}\)</span> which is very accurate.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-42-5-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Solution 3.f.1"><a tabindex="-1" href="#activities-42-5-7-2" title="Copy heading and permalink for Solution 3.f.1" aria-label="Copy heading and permalink for Solution 3.f.1">🔗</a></div>
-</div></details>
-</div>
-<div class="workspace" data-space="0.5in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 3.f"><a tabindex="-1" href="#activities-42-5-7" title="Copy heading and permalink for Task 3.f" aria-label="Copy heading and permalink for Task 3.f">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3"><a tabindex="-1" href="#activities-42-5" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Series as Functions"><a tabindex="-1" href="#activities-42" title="Copy heading and permalink for Worksheet: Series as Functions" aria-label="Copy heading and permalink for Worksheet: Series as Functions">🔗</a></div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.b"><a tabindex="-1" href="#activities-42-6-3" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 5"><a tabindex="-1" href="#activities-42-6" title="Copy heading and permalink for Worksheet Exercise 5" aria-label="Copy heading and permalink for Worksheet Exercise 5">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Geometric Series"><a tabindex="-1" href="#activities-42" title="Copy heading and permalink for Worksheet: Geometric Series" aria-label="Copy heading and permalink for Worksheet: Geometric Series">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">

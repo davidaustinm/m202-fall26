@@ -1788,35 +1788,53 @@ var ptx_lunr_docs = [
   "url": "activities-42.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Series as Functions",
-  "body": " Series as Functions   We can use the fact that the geometric series gives us when to find series representations of other functions.     We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .      Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.       We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.      Explain why .      By integrating the series you found for , find a series representation of .      Let to obtain a series for .      Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?       Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.      Remember that and use this to create a series for .      Remember that and use this to write a series for .      What approximation to do you find with the first five terms? How does this compare to the actual value?      Using , write a series that gives .      What approximation to do you find with the first five terms? How does this compare to the actual value?     "
+  "title": "Geometric Series",
+  "body": " Geometric Series    Consider the series      Find the sum where , , , , .      What happens as ?       Now look at the sum      Find the sum when , , , .      What happens as ?       Consider the sum      Find the sum where , , , , .      What happens as ?       Write out the first four terms of the series . Then determine the value of this sum.      Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?     "
+},
+{
+  "id": "activities-42-2",
+  "level": "2",
+  "url": "activities-42.html#activities-42-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the series      Find the sum where , , , , .      What happens as ?    "
 },
 {
   "id": "activities-42-3",
   "level": "2",
   "url": "activities-42.html#activities-42-3",
   "type": "Worksheet Exercise",
-  "number": "1",
+  "number": "2",
   "title": "",
-  "body": "  We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .      Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.    "
+  "body": "  Now look at the sum      Find the sum when , , , .      What happens as ?    "
 },
 {
   "id": "activities-42-4",
   "level": "2",
   "url": "activities-42.html#activities-42-4",
   "type": "Worksheet Exercise",
-  "number": "2",
+  "number": "3",
   "title": "",
-  "body": "  We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.      Explain why .      By integrating the series you found for , find a series representation of .      Let to obtain a series for .      Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?    "
+  "body": "  Consider the sum      Find the sum where , , , , .      What happens as ?    "
 },
 {
   "id": "activities-42-5",
   "level": "2",
   "url": "activities-42.html#activities-42-5",
   "type": "Worksheet Exercise",
-  "number": "3",
+  "number": "4",
   "title": "",
-  "body": "  Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.      Remember that and use this to create a series for .      Remember that and use this to write a series for .      What approximation to do you find with the first five terms? How does this compare to the actual value?      Using , write a series that gives .      What approximation to do you find with the first five terms? How does this compare to the actual value?    "
+  "body": "  Write out the first four terms of the series . Then determine the value of this sum.   "
+},
+{
+  "id": "activities-42-6",
+  "level": "2",
+  "url": "activities-42.html#activities-42-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?    "
 },
 {
   "id": "activities-43",
@@ -1824,40 +1842,76 @@ var ptx_lunr_docs = [
   "url": "activities-43.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Taylor Series",
-  "body": " Taylor Series    Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .      Let .     Find the first five terms of the Taylor series for .      Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.       Let .     Find the first five terms of the Taylor series for .      How can you use this to find the Taylor series for ?      You may remember that Use the first five terms of your Taylor series to estimate .       Suppose that . Find the Taylor series for . What do you notice?    "
-},
-{
-  "id": "activities-43-2",
-  "level": "2",
-  "url": "activities-43.html#activities-43-2",
-  "type": "Worksheet Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .   "
+  "title": "Series as Functions",
+  "body": " Series as Functions   We can use the fact that the geometric series gives us when to find series representations of other functions.     We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .      Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.       We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.      Explain why .      By integrating the series you found for , find a series representation of .      Let to obtain a series for .      Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?       Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.      Remember that and use this to create a series for .      Remember that and use this to write a series for .      What approximation to do you find with the first five terms? How does this compare to the actual value?      Using , write a series that gives .      What approximation to do you find with the first five terms? How does this compare to the actual value?     "
 },
 {
   "id": "activities-43-3",
   "level": "2",
   "url": "activities-43.html#activities-43-3",
   "type": "Worksheet Exercise",
-  "number": "2",
+  "number": "1",
   "title": "",
-  "body": "  Let .     Find the first five terms of the Taylor series for .      Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.    "
+  "body": "  We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .      Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.    "
 },
 {
   "id": "activities-43-4",
   "level": "2",
   "url": "activities-43.html#activities-43-4",
   "type": "Worksheet Exercise",
-  "number": "3",
+  "number": "2",
   "title": "",
-  "body": "  Let .     Find the first five terms of the Taylor series for .      How can you use this to find the Taylor series for ?      You may remember that Use the first five terms of your Taylor series to estimate .    "
+  "body": "  We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.      Explain why .      By integrating the series you found for , find a series representation of .      Let to obtain a series for .      Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?    "
 },
 {
   "id": "activities-43-5",
   "level": "2",
   "url": "activities-43.html#activities-43-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.      Remember that and use this to create a series for .      Remember that and use this to write a series for .      What approximation to do you find with the first five terms? How does this compare to the actual value?      Using , write a series that gives .      What approximation to do you find with the first five terms? How does this compare to the actual value?    "
+},
+{
+  "id": "activities-44",
+  "level": "1",
+  "url": "activities-44.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Taylor Series",
+  "body": " Taylor Series    Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .      Let .     Find the first five terms of the Taylor series for .      Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.       Let .     Find the first five terms of the Taylor series for .      How can you use this to find the Taylor series for ?      You may remember that Use the first five terms of your Taylor series to estimate .       Suppose that . Find the Taylor series for . What do you notice?    "
+},
+{
+  "id": "activities-44-2",
+  "level": "2",
+  "url": "activities-44.html#activities-44-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .   "
+},
+{
+  "id": "activities-44-3",
+  "level": "2",
+  "url": "activities-44.html#activities-44-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let .     Find the first five terms of the Taylor series for .      Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.    "
+},
+{
+  "id": "activities-44-4",
+  "level": "2",
+  "url": "activities-44.html#activities-44-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let .     Find the first five terms of the Taylor series for .      How can you use this to find the Taylor series for ?      You may remember that Use the first five terms of your Taylor series to estimate .    "
+},
+{
+  "id": "activities-44-5",
+  "level": "2",
+  "url": "activities-44.html#activities-44-5",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",

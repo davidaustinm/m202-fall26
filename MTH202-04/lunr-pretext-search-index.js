@@ -1781,6 +1781,141 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  We'll now examine another system of differential equations, this time imagining two species and that compete for food. If there is one species without the other, we will assume a logistic model for population growth; say, where is measured in millions. However, if there is some of the species around, it will lower the growth rate of to, say, Species behaves in the same way: so we have the system of equations      Set up a spreadsheet to study this system of equations with the initial values and using a step size of . Make a plot of and . What happens after a very long time?      Study what happens with a few different initial values. What do you notice?      If the constants are adjusted just a little bit, there is a very different kind of behavior. Consider the system of equations Study this system with and . Make a plot of and . What happens after a very long time?      Now consider the initial values and . What happens after a very long time?      How do these two examples of systems of competing species differ from one another?    "
+},
+{
+  "id": "activities-42",
+  "level": "1",
+  "url": "activities-42.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Geometric Series",
+  "body": " Geometric Series    Consider the series      Find the sum where , , , , .      What happens as ?       Now look at the sum      Find the sum when , , , .      What happens as ?       Consider the sum      Find the sum where , , , , .      What happens as ?       Write out the first four terms of the series . Then determine the value of this sum.      Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?     "
+},
+{
+  "id": "activities-42-2",
+  "level": "2",
+  "url": "activities-42.html#activities-42-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the series      Find the sum where , , , , .      What happens as ?    "
+},
+{
+  "id": "activities-42-3",
+  "level": "2",
+  "url": "activities-42.html#activities-42-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Now look at the sum      Find the sum when , , , .      What happens as ?    "
+},
+{
+  "id": "activities-42-4",
+  "level": "2",
+  "url": "activities-42.html#activities-42-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the sum      Find the sum where , , , , .      What happens as ?    "
+},
+{
+  "id": "activities-42-5",
+  "level": "2",
+  "url": "activities-42.html#activities-42-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Write out the first four terms of the series . Then determine the value of this sum.   "
+},
+{
+  "id": "activities-42-6",
+  "level": "2",
+  "url": "activities-42.html#activities-42-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?    "
+},
+{
+  "id": "activities-43",
+  "level": "1",
+  "url": "activities-43.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Series as Functions",
+  "body": " Series as Functions   We can use the fact that the geometric series gives us when to find series representations of other functions.     We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .      Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.       We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.      Explain why .      By integrating the series you found for , find a series representation of .      Let to obtain a series for .      Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?       Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.      Remember that and use this to create a series for .      Remember that and use this to write a series for .      What approximation to do you find with the first five terms? How does this compare to the actual value?      Using , write a series that gives .      What approximation to do you find with the first five terms? How does this compare to the actual value?     "
+},
+{
+  "id": "activities-43-3",
+  "level": "2",
+  "url": "activities-43.html#activities-43-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  We will first find a series for .     Let's begin by rewriting the geometric series in terms of the variable , rather than ; that is, set to write the series for .      Now let to obtain a series for . Write the first four nonzero terms and try to write the general term.    "
+},
+{
+  "id": "activities-43-4",
+  "level": "2",
+  "url": "activities-43.html#activities-43-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  We can integrate and differentiate series easily because they consist of only powers of .     Now that we have a series for , let's rewrite this in terms of the variable , as we did before.      Explain why .      By integrating the series you found for , find a series representation of .      Let to obtain a series for .      Approximate the value of using the first five terms in your series. How does your approximation compare to the actual value?    "
+},
+{
+  "id": "activities-43-5",
+  "level": "2",
+  "url": "activities-43.html#activities-43-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Next we'll find a series representation of .     Let's start again with the series for . Write this series and substitute to produce a series for . Write the first four nonzero terms and try to write the general term.      Remember that and use this to create a series for .      Remember that and use this to write a series for .      What approximation to do you find with the first five terms? How does this compare to the actual value?      Using , write a series that gives .      What approximation to do you find with the first five terms? How does this compare to the actual value?    "
+},
+{
+  "id": "activities-44",
+  "level": "1",
+  "url": "activities-44.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Taylor Series",
+  "body": " Taylor Series    Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .      Let .     Find the first five terms of the Taylor series for .      Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.       Let .     Find the first five terms of the Taylor series for .      How can you use this to find the Taylor series for ?      You may remember that Use the first five terms of your Taylor series to estimate .       Suppose that . Find the Taylor series for . What do you notice?    "
+},
+{
+  "id": "activities-44-2",
+  "level": "2",
+  "url": "activities-44.html#activities-44-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose you have this information about a function: Form a Taylor polynomial for and use it to estimate .   "
+},
+{
+  "id": "activities-44-3",
+  "level": "2",
+  "url": "activities-44.html#activities-44-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let .     Find the first five terms of the Taylor series for .      Use the first five terms to approximate (what value of should you use?) and compare your approximation to the exact value.    "
+},
+{
+  "id": "activities-44-4",
+  "level": "2",
+  "url": "activities-44.html#activities-44-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let .     Find the first five terms of the Taylor series for .      How can you use this to find the Taylor series for ?      You may remember that Use the first five terms of your Taylor series to estimate .    "
+},
+{
+  "id": "activities-44-5",
+  "level": "2",
+  "url": "activities-44.html#activities-44-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suppose that . Find the Taylor series for . What do you notice?   "
 }
 ]
 

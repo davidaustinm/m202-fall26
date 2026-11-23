@@ -1789,7 +1789,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Geometric Series",
-  "body": " Geometric Series    Consider the series      Find the sum where , , , , .      What happens as ?       Now look at the sum      Find the sum when , , , .      What happens as ?       Consider the sum      Find the sum where , , , , .      What happens as ?       Write out the first four terms of the series . Then determine the value of this sum.      Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?     "
+  "body": " Geometric Series    Consider the series      Find the sum where , , , , .    Using , we have       What happens as ?    The sum approaches .       Now look at the sum      Find the sum when , , , .    Using , we have       What happens as ?    The sum grows without bound; the series diverges.       Consider the sum      Find the sum where , , , , .    The sum equals 0 when is odd and 1 when is even so that , , , , .      What happens as ?    The sum oscillates between 0 and 1; the limit does not exist.       Write out the first four terms of the series . Then determine the value of this sum.    The first four terms are .  This is a geometric series with first term , ratio , and 7 terms so we have       Consider the limit      For what values of does this limit exist?    The limit exists when .      If the limit exists, what is its value?    Since as when , the sum is .     "
 },
 {
   "id": "activities-42-2",
@@ -1798,7 +1798,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Consider the series      Find the sum where , , , , .      What happens as ?    "
+  "body": "  Consider the series      Find the sum where , , , , .    Using , we have       What happens as ?    The sum approaches .    "
 },
 {
   "id": "activities-42-3",
@@ -1807,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Now look at the sum      Find the sum when , , , .      What happens as ?    "
+  "body": "  Now look at the sum      Find the sum when , , , .    Using , we have       What happens as ?    The sum grows without bound; the series diverges.    "
 },
 {
   "id": "activities-42-4",
@@ -1816,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Consider the sum      Find the sum where , , , , .      What happens as ?    "
+  "body": "  Consider the sum      Find the sum where , , , , .    The sum equals 0 when is odd and 1 when is even so that , , , , .      What happens as ?    The sum oscillates between 0 and 1; the limit does not exist.    "
 },
 {
   "id": "activities-42-5",
@@ -1825,7 +1825,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Write out the first four terms of the series . Then determine the value of this sum.   "
+  "body": "  Write out the first four terms of the series . Then determine the value of this sum.    The first four terms are .  This is a geometric series with first term , ratio , and 7 terms so we have    "
 },
 {
   "id": "activities-42-6",
@@ -1834,7 +1834,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?    "
+  "body": "  Consider the limit      For what values of does this limit exist?    The limit exists when .      If the limit exists, what is its value?    Since as when , the sum is .    "
 },
 {
   "id": "activities-43",
@@ -1916,6 +1916,42 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Suppose that . Find the Taylor series for . What do you notice?   "
+},
+{
+  "id": "activities-45",
+  "level": "1",
+  "url": "activities-45.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Taylor Series",
+  "body": " Taylor Series    The process we used to find the Taylor series for can be used for many other functions.     Find the Taylor series for using this approach.      Graph the Taylor polynomial and . On approximately what interval are they within units of one another? To answer this, perhaps you could graph .      Now graph the Taylor polynomial and . On approximately what interval are they within units of one another.      How about ? On approximately what interval is within units of ?       Let's now use what we just found to write the Taylor series for .     One way to do this is to rewrite the Taylor series for the cosine function in terms of , that is, write , and then set .      The integral is one that can't be evaluated by antidifferentiating. We can, however, integrate the Taylor series for . Go ahead and do that to find a series representation of .      Approximate the integral by adding together the first five nonzero terms. How does this approximation compare to the approximation you get from Desmos?       Let's now work with .     Find the Taylor series for by computing its derivatives.      Now evaluate the series at to get a series representation of .      What does your calculator\/Desmos give you for an approximate value of ?      Let's form a series of approximations by adding together successively more terms in the series for this value.       Approximation with terms                            What do you notice about the behavior of the series approximations compared to the value of that Desmos gives you?     "
+},
+{
+  "id": "activities-45-2",
+  "level": "2",
+  "url": "activities-45.html#activities-45-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The process we used to find the Taylor series for can be used for many other functions.     Find the Taylor series for using this approach.      Graph the Taylor polynomial and . On approximately what interval are they within units of one another? To answer this, perhaps you could graph .      Now graph the Taylor polynomial and . On approximately what interval are they within units of one another.      How about ? On approximately what interval is within units of ?    "
+},
+{
+  "id": "activities-45-3",
+  "level": "2",
+  "url": "activities-45.html#activities-45-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let's now use what we just found to write the Taylor series for .     One way to do this is to rewrite the Taylor series for the cosine function in terms of , that is, write , and then set .      The integral is one that can't be evaluated by antidifferentiating. We can, however, integrate the Taylor series for . Go ahead and do that to find a series representation of .      Approximate the integral by adding together the first five nonzero terms. How does this approximation compare to the approximation you get from Desmos?    "
+},
+{
+  "id": "activities-45-4",
+  "level": "2",
+  "url": "activities-45.html#activities-45-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let's now work with .     Find the Taylor series for by computing its derivatives.      Now evaluate the series at to get a series representation of .      What does your calculator\/Desmos give you for an approximate value of ?      Let's form a series of approximations by adding together successively more terms in the series for this value.       Approximation with terms                            What do you notice about the behavior of the series approximations compared to the value of that Desmos gives you?    "
 }
 ]
 

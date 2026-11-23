@@ -1916,6 +1916,42 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Suppose that . Find the Taylor series for . What do you notice?    Since , , , and for , the Taylor series is The Taylor series of a polynomial is just the polynomial itself.   "
+},
+{
+  "id": "activities-45",
+  "level": "1",
+  "url": "activities-45.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Taylor Series",
+  "body": " Taylor Series    The process we used to find the Taylor series for can be used for many other functions.     Find the Taylor series for using this approach.    Computing derivatives at , we have The pattern repeats, so       Graph the Taylor polynomial and . On approximately what interval are they within units of one another? To answer this, perhaps you could graph .     . The error is approximately , so is within of on roughly .      Now graph the Taylor polynomial and . On approximately what interval are they within units of one another.     . The error is approximately , so is within of on roughly .      How about ? On approximately what interval is within units of ?    Roughly . The higher-degree polynomials agree with over wider and wider intervals.       Let's now use what we just found to write the Taylor series for .     One way to do this is to rewrite the Taylor series for the cosine function in terms of , that is, write , and then set .    Substituting gives       The integral is one that can't be evaluated by antidifferentiating. We can, however, integrate the Taylor series for . Go ahead and do that to find a series representation of .    Integrating term by term and evaluating from 0 to 1 shows us that       Approximate the integral by adding together the first five nonzero terms. How does this approximation compare to the approximation you get from Desmos?     . Desmos gives the same value to five decimal places.       Let's now work with .     Find the Taylor series for by computing its derivatives.    We have . This leads us to .      Now evaluate the series at to get a series representation of .    Replacing by leads us to .      What does your calculator\/Desmos give you for an approximate value of ?     .      Let's form a series of approximations by adding together successively more terms in the series for this value.       Approximation with terms                            What do you notice about the behavior of the series approximations compared to the value of that Desmos gives you?         Approximation with terms                            The partial sums alternately overshoot and undershoot , converging toward it.     "
+},
+{
+  "id": "activities-45-2",
+  "level": "2",
+  "url": "activities-45.html#activities-45-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The process we used to find the Taylor series for can be used for many other functions.     Find the Taylor series for using this approach.    Computing derivatives at , we have The pattern repeats, so       Graph the Taylor polynomial and . On approximately what interval are they within units of one another? To answer this, perhaps you could graph .     . The error is approximately , so is within of on roughly .      Now graph the Taylor polynomial and . On approximately what interval are they within units of one another.     . The error is approximately , so is within of on roughly .      How about ? On approximately what interval is within units of ?    Roughly . The higher-degree polynomials agree with over wider and wider intervals.    "
+},
+{
+  "id": "activities-45-3",
+  "level": "2",
+  "url": "activities-45.html#activities-45-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let's now use what we just found to write the Taylor series for .     One way to do this is to rewrite the Taylor series for the cosine function in terms of , that is, write , and then set .    Substituting gives       The integral is one that can't be evaluated by antidifferentiating. We can, however, integrate the Taylor series for . Go ahead and do that to find a series representation of .    Integrating term by term and evaluating from 0 to 1 shows us that       Approximate the integral by adding together the first five nonzero terms. How does this approximation compare to the approximation you get from Desmos?     . Desmos gives the same value to five decimal places.    "
+},
+{
+  "id": "activities-45-4",
+  "level": "2",
+  "url": "activities-45.html#activities-45-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let's now work with .     Find the Taylor series for by computing its derivatives.    We have . This leads us to .      Now evaluate the series at to get a series representation of .    Replacing by leads us to .      What does your calculator\/Desmos give you for an approximate value of ?     .      Let's form a series of approximations by adding together successively more terms in the series for this value.       Approximation with terms                            What do you notice about the behavior of the series approximations compared to the value of that Desmos gives you?         Approximation with terms                            The partial sums alternately overshoot and undershoot , converging toward it.    "
 }
 ]
 

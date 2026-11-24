@@ -1,0 +1,11 @@
+<prefigure xmlns="https://prefigure.org"
+           label="38-slope">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(t,x)=(4*x-x^3)/4</definition>
+    <coordinates bbox="(-1,-4,10,4)">
+      <grid-axes ylabel="y" xlabel="t" decorations="no" 
+                 hlabels="(0,5,15)" border="yes"/>
+      <slope-field function="f" spacings="((-1,1,bbox[2]),(-4,0.5,4))"/>
+    </coordinates>
+  </diagram>
+</prefigure>

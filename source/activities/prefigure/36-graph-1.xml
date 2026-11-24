@@ -1,0 +1,10 @@
+<prefigure xmlns="https://prefigure.org"
+           label="36-graph-1">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(x)=1/10*x*(8-x)</definition>
+    <coordinates bbox="(-1,-1,10,2)">
+      <grid-axes ylabel="\frac{dy}{dt}" xlabel="y" border="yes"/>
+      <graph function="f"/>
+    </coordinates>
+  </diagram>
+</prefigure>

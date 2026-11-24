@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Logistic Growth</title>
+
+  <exercise>
+    <task workspace="2in">
+      <statement>
+        <p>Let's look at the logistic equation
+<md>
+\frac{dy}{dt} = \frac{1}{10}y(8-y).
+</md>
+Sketch a graph of <m>dy/dt</m> as a function of <m>y</m>.  Then sketch a
+rough slope field.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Identify any equilibrium solutions and determine if they are stable or
+unstable.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What do you predict happens after a long time if <m>y(0) = 1</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Write the solution to this equation that satisfies <m>y(0) = 1</m>.  Sketch
+a graph of <m>y(t)</m> and verify that your prediction is accurate.</p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <task workspace="1in">
+      <statement>
+        <p>Recently, we modeled the Earth's
+  population with a logistic equation with <m>k=0.0025</m> and <m>N=12</m>.
+  Write the logistic differential equation.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The population is currently close to <m>P=8</m> billion.  What does our
+  equation predict for the rate of change of the population?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Write the
+  function <m>P(t)</m> assuming that <m>t=0</m> corresponds to the year 2020
+  with a population of 8 billion.</p>
+      </statement>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>What does this predict for the population in the year 2030?  2050?
+  2100?</p>
+      </statement>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>When will the population reach 10 billion?</p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <task workspace="0.75in">
+      <statement>
+        <p>Suppose that <m>P(t)</m> measures the number of bacteria living in a
+  colony in a Petri dish, where <m>P</m> is measured in thousands of
+  bacteria and <m>t</m> is measured in days.  One day, you measure that
+  there are 6 thousand bacteria and the rate of change is 18 thousand
+  bacteria per day.    What is the per capita growth rate?</p>
+      </statement>
+    </task>
+    <task workspace="1.25in">
+      <statement>
+        <p>A while later, you measure that there are 9 thousand bacteria and
+  that the rate of change is still 18 thousand bacteria per day.</p>
+        <p>Using this data, write the per capita growth rate as a linear
+  function of the population;  that is, find <m>k</m> and <m>N</m> so that the
+  per capita growth rate is <m>k(N-P)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>Write a differential equation for <m>dP/dt</m>, the rate of change of the
+  number of bacteria.</p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>What will happen to the bacteria population after a very long time?</p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>At what population is the number of bacteria increasing most
+  rapidly?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>If the initial population is 6 thousand, how long does it take for
+  the population to reach 12 thousand?</p>
+      </statement>
+    </task>
+  </exercise>
+
+</worksheet>

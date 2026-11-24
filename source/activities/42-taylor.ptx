@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Taylor Series</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        The process we used to find the Taylor series for
+        <m>\sin(x)</m> can be used for many other functions.
+      </p>
+    </introduction>
+    <task workspace="3in">
+      <statement>
+        <p>
+          Find the Taylor
+          series for <m>\cos(x)</m> using this approach.
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          Computing derivatives at <m>x=0</m>, we have
+          <md>
+            <mrow>
+              f(x) \amp= \cos(x),
+              \amp f(0) \amp= 1
+            </mrow>
+            <mrow>
+              f'(x) \amp= -\sin(x),
+              \amp f'(0) \amp= 0
+            </mrow>
+            <mrow>
+              f''(x) \amp= -\cos(x),
+              \amp f''(0) \amp= -1
+            </mrow>
+            <mrow>
+              f'''(x) \amp= \sin(x),
+              \amp f'''(0) \amp= 0
+            </mrow>
+            <mrow>
+              f^{(4)}(x) \amp= \cos(x),
+              \amp f^{(4)}(0) \amp= 1.
+            </mrow>
+          </md>
+          The pattern repeats, so
+          <md>
+            \cos(x) = 1 - \frac{x^2}{2!} +
+            \frac{x^4}{4!} - \frac{x^6}{6!}
+            + \cdots =
+            \sum_{n=0}^\infty
+            \frac{(-1)^n x^{2n}}{(2n)!}.
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Graph the Taylor polynomial
+          <m>T_2(x)</m> and <m>\cos(x)</m>.
+          On approximately what interval are
+          they within <m>0.1</m> units of one
+          another?  To answer this, perhaps
+          you could graph
+          <m>\cos(x) - T_2(x)</m>.
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          <m>T_2(x) = 1 - x^2/2</m>.  The
+          error is approximately <m>x^4/24</m>,
+          so <m>T_2</m> is within <m>0.1</m>
+          of <m>\cos(x)</m> on roughly
+          <m>[-1.2, 1.2]</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Now graph the Taylor polynomial
+          <m>T_4(x)</m> and <m>\cos(x)</m>.
+          On approximately what interval are
+          they within <m>0.1</m> units of one
+          another.
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          <m>T_4(x) = 1 - x^2/2 +
+          x^4/24</m>.  The error is
+          approximately <m>x^6/720</m>, so
+          <m>T_4</m> is within <m>0.1</m>
+          of <m>\cos(x)</m> on roughly
+          <m>[-2, 2]</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          How about <m>T_{10}(x)</m>?  On
+          approximately what interval is
+          <m>T_{10}(x)</m> within <m>0.1</m>
+          units of <m>\cos(x)</m>?
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          Roughly <m>[-3.5, 3.5]</m>.  The
+          higher-degree polynomials agree with
+          <m>\cos(x)</m> over wider and wider
+          intervals.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's now use what we just found to
+        write the Taylor series for
+        <m>\cos(x^2)</m>.
+      </p>
+    </introduction>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          One way to do
+          this is to rewrite the Taylor series
+          for the cosine function in terms of
+          <m>u</m>, that is, write
+          <m>\cos(u)</m>, and then set
+          <m>u = x^2</m>.
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          Substituting <m>u = x^2</m> gives
+          <md>
+            \cos(x^2) = 1 -
+            \frac{x^4}{2!} +
+            \frac{x^8}{4!} -
+            \frac{x^{12}}{6!} +
+            \cdots
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          The integral
+          <m>\int_0^1 \cos(x^2)\,dx</m>
+          is one that can't be evaluated by
+          antidifferentiating.  We can,
+          however, integrate the Taylor series
+          for <m>\cos(x^2)</m>.  Go ahead and
+          do that to find a series
+          representation of
+          <m>\int_0^1 \cos(x^2)\,dx</m>.
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          Integrating term by term and
+          evaluating from 0 to 1 shows us that
+          <md>
+            \int_0^1 \cos(x^2)\,dx =
+            1 - \frac{1}{10} +
+            \frac{1}{216} -
+            \frac{1}{9360} +
+            \frac{1}{685440} - \cdots
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Approximate the integral by adding
+          together the first five nonzero
+          terms.  How does this approximation
+          compare to the approximation you get
+          from Desmos?
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          <m>1 - 0.1 + 0.00463 - 0.000107
+          + 0.0000015 \approx 0.90452</m>.
+          Desmos gives the same value to five
+          decimal places.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's now work with <m>e^x</m>.
+      </p>
+    </introduction>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Find the Taylor series for <m>e^x</m> by computing its
+          derivatives.
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          We have
+          <md>
+            <mrow>
+              f(x) \amp= e^x,
+              \amp f(0) \amp= 1
+            </mrow>
+            <mrow>
+              f'(x) \amp= e^x,
+              \amp f'(0) \amp= 1
+            </mrow>
+            <mrow>
+              f''(x) \amp= e^x,
+              \amp f''(0) \amp= 1
+            </mrow>
+            <mrow>
+              f'''(x) \amp= e^x,
+              \amp f'''(0) \amp= 1
+            </mrow>
+            <mrow>
+              f^{(4)}(x) \amp= e^x
+              \amp f^{(4)}(0) \amp= 1
+            </mrow>
+          </md>.
+          This leads us to
+          <md>
+            e^x = 1+x+\frac12x^2+\frac16x^3+\frac1{24}x^4+\ldots +
+            \frac1{n!} x^n + \ldots
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Now evaluate the series at
+          <m>x = -1</m> to get a series
+          representation of <m>e^{-1}</m>.
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          Replacing <m>x</m> by <m>-1</m> leads us to
+          <md>
+            e^{-1} = 1 - 1 +
+            \frac{1}{2} - \frac{1}{6} +
+            \frac{1}{4!} - \ldots + (-1)^n\frac{1}{n!} + \ldots
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What does your calculator/Desmos
+          give you for an approximate value
+          of <m>e^{-1}</m>?
+        </p>
+      </statement>
+      <solution component="42">
+        <p>
+          <m>e^{-1} \approx 0.36788</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Let's form a series of approximations
+          by adding together successively more
+          terms in the series for this value.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="left"/>
+          <row bottom="minor">
+            <cell><m>n</m></cell>
+            <cell>
+              Approximation with <m>n</m> terms
+            </cell>
+          </row>
+          <row>
+            <cell><m>1\vtab</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>2\vtab</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>3\vtab</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>4\vtab</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>5\vtab</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>6\vtab</m></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+        <p>
+          What do you notice about the
+          behavior of the series approximations
+          compared to the value of
+          <m>e^{-1}</m> that Desmos gives you?
+        </p>
+      </statement>
+      <solution component="42">
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="left"/>
+          <row bottom="minor">
+            <cell><m>n</m></cell>
+            <cell>
+              Approximation with <m>n</m> terms
+            </cell>
+          </row>
+          <row>
+            <cell><m>1</m></cell>
+            <cell><m>1</m></cell>
+          </row>
+          <row>
+            <cell><m>2</m></cell>
+            <cell><m>0</m></cell>
+          </row>
+          <row>
+            <cell><m>3</m></cell>
+            <cell><m>0.500</m></cell>
+          </row>
+          <row>
+            <cell><m>4</m></cell>
+            <cell><m>0.333</m></cell>
+          </row>
+          <row>
+            <cell><m>5</m></cell>
+            <cell><m>0.375</m></cell>
+          </row>
+          <row>
+            <cell><m>6</m></cell>
+            <cell><m>0.367</m></cell>
+          </row>
+        </tabular>
+        <p>
+          The partial sums alternately
+          overshoot and undershoot
+          <m>e^{-1} \approx 0.36788</m>,
+          converging toward it.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

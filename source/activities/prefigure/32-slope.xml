@@ -1,0 +1,12 @@
+<prefigure xmlns="https://prefigure.org"
+           label="32-slope">
+  <diagram xmlns="https://prefigure.org"
+           dimensions="(300, 300)" margins="5">
+    <definition>f(t,x) = 6-3*x</definition>
+    <coordinates bbox="(-1,-0.5,2,3)">
+      <axes decorations="no" xlabel="t" ylabel="S"/>
+      <slope-field function="f"/>
+      <plot-de-solution function="f" t0="0" t1="bbox[2]" y0="0" stroke="orange"/>
+    </coordinates>
+  </diagram>
+</prefigure>

@@ -1,0 +1,11 @@
+<prefigure xmlns="https://prefigure.org"
+           label="36-sol-1">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(t,x)=1/10*x*(8-x)</definition>
+    <coordinates bbox="(-1,-1,10,10)">
+      <grid-axes ylabel="y" xlabel="t" border="yes"/>
+      <slope-field function="f"/>
+      <plot-de-solution function="f" t0="0" t1="bbox[2]" y0="1" stroke="orange"/>
+    </coordinates>
+  </diagram>
+</prefigure>

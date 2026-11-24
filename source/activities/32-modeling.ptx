@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Modeling with Differential Equations</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose you have a tank that holds 100 liters
+        of pure water.  At some point, you turn on a
+        faucet that causes salt water to flow into
+        the tank.  Three liters flow in every minute
+        and there are 20 grams of salt in every
+        liter.  At the same time, you begin to drain
+        water out of the tank at the rate of 3 liters
+        per minute.
+      </p>
+      <p>
+        We will find a differential equation for
+        <m>S(t)</m>, the number of grams of salt in
+        the tank as a function of time.
+      </p>
+      <p>
+        <alert>Important:</alert> To set up the equation,
+        think in terms of rates!
+      </p>
+    </introduction>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          How many grams of salt enter the tank every
+          minute?
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          Three liters come in every minute and each liter contains 20
+          grams of salt so
+          <m>3 \cdot 20 = 60</m> grams per minute.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          Let's figure out how much salt flows out
+          of the tank.  Remember that <m>S</m>
+          measures the amount of salt in the tank.
+        </p>
+        <p>
+          If there are <m>S</m> grams of salt in the
+          tank, what is the concentration of salt?
+          That is, how many grams are in each liter?
+          (Assume that the water is well mixed.)
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          Since there are <m>S</m> grams in 100 liters, there are
+          <m>S/100</m> grams per liter.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          If three liters of solution are drained out
+          every minute, at what rate is salt leaving
+          the tank?
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          Three liters go out and each liter contains
+          <m>S/100</m> grams of salt so
+          <m>3\frac{S}{100}=\frac{3}{100}S</m> grams per minute.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          The rate of change of the amount of salt in
+          the tank is the difference of the rate at
+          which salt enters and the rate at which
+          salt leaves.  Write this differential
+          equation below.
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          <md>
+            \frac{dS}{dt} = 60 - \frac{3}{100}S
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Sketch a graph of <m>dS/dt</m> as a
+          function of <m>S</m> and use it to give a
+          rough sketch of the slope field.  On the
+          slope field, sketch the solution that
+          corresponds to the initial value
+          <m>S(0) = 0</m>.
+        </p>
+      </statement>
+      <solution component="32">
+        <image width="40%">
+          <xi:include href="prefigure/32-graph.xml"/>
+        </image>
+        <image width="40%">
+          <xi:include href="prefigure/32-slope.xml"/>
+        </image>
+        <p>
+          Setting <m>dS/dt = 0</m> gives the stable equilibrium
+          solution <m>S = 2000</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find <m>S(t)</m> if there is initially no
+          salt in the tank.  That is, find the
+          solution of the differential equation for
+          which <m>S(0) = 0</m>.
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          Rewriting the equation as
+          <md>
+            <mrow>
+              \frac{dS}{dt} \amp = -\frac{3}{100}(S-2000)
+            </mrow>
+            <mrow>
+              \int\frac{1}{S-2000}~dS \amp = \int-\frac{3}{100}~dt
+            </mrow>
+            <mrow>
+              \ln|S-2000| \amp = -\frac{3}{100}t+C
+            </mrow>
+            <mrow>
+              S \amp = 2000 + Ae^{-3t/100}
+            </mrow>
+          </md>.
+          Since
+          <m>S(0) = 0</m>, we see that <m>A = -2000</m>, so
+          <md>
+            S(t) = 2000\!\left(1 - e^{-3t/100}\right)
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Sketch your solution below.  What happens
+          to the amount of salt in the tank after a
+          very long time?  Does this agree with what
+          you found using the slope field?
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          As <m>t\to\infty</m>,
+          <m>S\to 2000</m> grams.  The graph matches the one found
+          from the slope
+          field.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        When a baby is small, she grows rapidly.
+        However, as she grows, the rate of growth
+        slows down.  A simple model is that the
+        rate of change in the baby's weight is
+        <em>inversely</em> proportional to the
+        baby's weight, which means that the rate
+        of change is proportional to the reciprocal
+        of the weight.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If we let <m>w(t)</m> be
+          the baby's weight as a function of
+          <m>t</m>, write a differential equation
+          that expresses this assumption.
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          <m>\frac{dw}{dt} = \frac{k}{w}</m> for
+          some positive constant.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2.5in">
+      <statement>
+        <p>
+          Assume that at birth the baby weighs
+          8 pounds and one month later she weighs
+          10 pounds.  That is, <m>w(0) = 8</m> and
+          <m>w(1) = 10</m>.  Solve the differential
+          equation you found above and sketch the
+          solution.
+        </p>
+      </statement>
+      <solution component="32">
+        <p>
+          Separating variables gives
+          <md>
+            <mrow>
+              \int w~dw \amp = \int k~dt
+            </mrow>
+            <mrow>
+              \frac12 w^2 \amp = kt + C
+            </mrow>
+            <mrow>
+              w^2 = \amp = 2kt + C
+            </mrow>
+          </md>.
+          Using
+          <m>w(0) = 8</m>, we see that <m>C = 64</m>.  Using
+          <m>w(1) = 10</m>, we have <m>100 = 2k + 64</m>,
+          so <m>2k = 36</m>.  Thus
+          <md>
+            w(t) = \sqrt{36t + 64}
+          </md>.
+        </p>
+        <image width="40%">
+          <xi:include href="prefigure/32-graph-2.xml"/>
+        </image>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

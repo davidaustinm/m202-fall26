@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>More modeling</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        If you were to jump from an airplane with a parachute, gravity
+        will cause your 
+        downward velocity to increase at the rate of <m>g \approx 9.8</m>
+        meters per second squared. At the same time, wind resistance causes
+        your velocity to decrease at a rate proportional to the velocity. 
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Using <m>k</m> for the constant of proportionality, write a
+          differential equation that describes the rate of change of
+          the downward velocity <m>v</m>.
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          <md>
+            \frac{dv}{dt} = 9.8 - kv
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Find any equilibrium solutions and decide whether they are
+          stable or unstable. Your result should depend on <m>k</m>.
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          There is a stable equilibrium at <m>v = \frac{9.8}k</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Suppose your initial velocity is <m>v(0)=0</m>.  Find the
+          velocity as a function of time.
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          <md>
+            <mrow>
+              \frac1{9.8-kv}\frac{dv}{dt} \amp = 1
+            </mrow>
+            <mrow>
+              \int\frac1{9.8-kv}~dv \amp = \int 1~dt
+            </mrow>
+            <mrow>
+              -\frac1k\ln|9.8-kv| \amp = t+C
+            </mrow>
+            <mrow>
+              v \amp = Ae^{-kt} + \frac{9.8}{k}
+            </mrow>
+            <mrow>
+              v \amp = \frac{9.8}{k}\left(1-e^{-kt}\right)
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          If you find that your velocity stabilizes at 54 meters per
+          second, is the value of <m>k</m>?
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          <m>\frac{9.8}k = 54</m> so
+          <md>k=\frac{9.8}{54}\approx0.181</md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          How long does it take to reach 50% of the terminal velocity?
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          Solving <m>v(t)=\frac12 54 = 27</m> gives
+          <m>e^{-kt}=\frac12</m> so that
+          <md>
+            t = \frac{\ln\left|\frac12\right|}{-k} = 3.8
+          </md>
+          seconds.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        The logistic equation is sometimes used to model the spread of
+        a disease through a population.  We will call <m>p(t)</m> the
+        fraction of people who have had the disease and suppose
+        that
+        <md>
+          \frac{dp}{dt} = 0.2p(1-p)
+        </md>.
+        Suppose that initially one tenth of the population has had
+        the disease so that <m>p(0)=0.1</m>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What happens to <m>p(t)</m> after a very long time?
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          <m>p=1</m> is a stable equilibrium so eventually everyone
+          has had the disease.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find a formula for <m>p(t)</m>.
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          Using our earlier expression for logistic growth, we have
+          <md>
+            p(t)=\frac{1}{1+9e^{-0.2t}}
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          At what time is <m>p</m> changing most rapidly?
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          With logistic growth, the greatest rate of change occurs
+          when <m>p</m> is halfway between 0 and the carrying
+          capacity, which is 1 in this case.  So when <m>p(t)=0.5</m>.
+          This leads to
+          <md>
+            <mrow>
+              p(t) = \frac1{1+9e^{-0.2t}} \amp = 1/2
+            </mrow>
+            <mrow>
+              1+9e^{-0.2t} \amp = 2
+            </mrow>
+            <mrow>
+              t \amp = \frac{\ln(1/9)}{-0.2} \approx 11.0
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          How long until 80% has had the disease?
+        </p>
+      </statement>
+      <solution component="37">
+        <p>
+          <md>
+            <mrow>
+              p(t) = \frac1{1+9e^{-0.2t}} \amp = 0.8
+            </mrow>
+            <mrow>
+              1+9e^{-0.2t} \amp = \frac54
+            </mrow>
+            <mrow>
+              t \amp = \frac{\ln(1/36)}{-0.2} \approx 16.3
+            </mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

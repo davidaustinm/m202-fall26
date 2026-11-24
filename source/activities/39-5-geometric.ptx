@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometric Series</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the series
+        <md>
+          1 + \frac{1}{2} +
+          \left(\frac{1}{2}\right)^2 +
+          \cdots +
+          \left(\frac{1}{2}\right)^n.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Find the sum where <m>n = 3</m>,
+          <m>n = 5</m>, <m>n = 7</m>,
+          <m>n = 10</m>, <m>n = 15</m>.
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          Using <m>S_n =
+          2\!\left(1 - (1/2)^{n+1}\right)</m>, we have
+          <md>
+            <mrow>
+              S_3 \amp= 15/8 = 1.875
+            </mrow>
+            <mrow>
+              S_5 \amp= 63/32 \approx 1.969
+            </mrow>
+            <mrow>
+              S_7 \amp= 255/128 \approx 1.992
+            </mrow>
+            <mrow>
+              S_{10} \amp\approx 1.999
+            </mrow>
+            <mrow>
+              S_{15} \amp\approx 2.000.
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What happens as <m>n \to \infty</m>?
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          The sum approaches <m>2</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Now look at the sum
+        <md>
+          1 + 2 + 2^2 + 2^3 +
+          \cdots + 2^n.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Find the sum when <m>n = 5</m>,
+          <m>n = 6</m>, <m>n = 10</m>,
+          <m>n = 15</m>.
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          Using <m>S_n = 2^{n+1} - 1</m>, we have
+          <md>
+            <mrow>
+              S_5 \amp= 63
+            </mrow>
+            <mrow>
+              S_6 \amp= 127
+            </mrow>
+            <mrow>
+              S_{10} \amp= 2047
+            </mrow>
+            <mrow>
+              S_{15} \amp= 65535.
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What happens as <m>n \to \infty</m>?
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          The sum grows without bound;
+          the series diverges.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the sum
+        <md>
+          1 + (-1) + (-1)^2 + (-1)^3 +
+          \cdots + (-1)^n.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Find the sum where <m>n = 5</m>,
+          <m>n = 6</m>, <m>n = 7</m>,
+          <m>n = 8</m>, <m>n = 9</m>.
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          The sum equals 0 when <m>n</m> is
+          odd and 1 when <m>n</m> is even so that
+          <m>S_5 = 0</m>, <m>S_6 = 1</m>,
+          <m>S_7 = 0</m>, <m>S_8 = 1</m>,
+          <m>S_9 = 0</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What happens as <m>n \to \infty</m>?
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          The sum oscillates between 0 and 1;
+          the limit does not exist.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Write out the first four terms of the
+        series
+        <m>\sum_{n=3}^{9}\frac{4}{3^n}</m>.
+        Then determine the value of this sum.
+      </p>
+    </statement>
+    <solution component="39-5">
+      <p>
+        The first four terms are
+        <m>\frac{4}{27} + \frac{4}{81} +
+        \frac{4}{243} + \frac{4}{729}</m>.
+      </p>
+      <p>
+        This is a geometric series with first
+        term <m>4/27</m>, ratio <m>1/3</m>,
+        and 7 terms so we have
+        <md>
+          \frac{4}{27} \cdot
+          \frac{1-(1/3)^7}{1-1/3}
+          = \frac{4372}{19683}
+          \approx 0.222.
+        </md>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the limit
+        <md>
+          \lim_{n\to\infty}
+          \left(1 + r + r^2 + r^3 +
+          \cdots + r^n\right).
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          For what values of <m>r</m> does
+          this limit exist?
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          The limit exists when
+          <m>|r| \lt 1</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If the limit exists, what is its
+          value?
+        </p>
+      </statement>
+      <solution component="39-5">
+        <p>
+          Since <m>S_n = \frac{1-r^{n+1}}{1-r}
+          \to \frac{1}{1-r}</m> as
+          <m>n\to\infty</m> when
+          <m>|r| \lt 1</m>, the sum is
+          <m>\frac{1}{1-r}</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

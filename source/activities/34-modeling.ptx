@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Modeling with Differential Equations</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        A drug is absorbed from your bloodstream at a
+        rate proportional to the amount in your
+        bloodstream.  That is, if <m>Q</m> is the
+        quantity of the drug in your bloodstream, the
+        rate of change of <m>Q</m> is proportional
+        to <m>Q</m>.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Write this as a differential equation using
+          <m>k</m> as the constant of proportionality.
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          <m>\frac{dQ}{dt} = -kQ</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Solve the differential equation with the
+          initial value <m>Q(0) = Q_0</m>.  If the
+          half-life of the drug is 8 hours, find
+          the value of <m>k</m>.
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          Separating variables gives
+          <m>Q(t) = Q_0 e^{-kt}</m>.  After 8 hours, we know that
+          there is half of the original amount, which means that
+          <md>
+            Q_0 e^{-8k} = \frac{Q_0}{2}
+          </md>.
+          Therefore
+          <md>
+            k = -\frac{\ln\left(\frac12\right)}{8} \approx 0.0866
+          </md>
+          per hour.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Now suppose that the drug is administered
+          intravenously at the rate of 2 milligrams
+          per hour.  Set up a differential equation
+          that describes <m>Q(t)</m>.
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          <m>\frac{dQ}{dt} = 2 - kQ</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Find any equilibrium solutions and
+          determine whether they are stable or
+          unstable.
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          An equilibrium solution is one where
+          <m>dQ/dt = 0</m> so we solve
+          <md>
+            \frac{dQ}{dt} = 2-kQ = 0
+          </md>,
+          which shows that the equilibrium solution is
+          <md>
+            \frac{2}{k} \approx 23.1
+          </md>
+          mg.  This is a stable
+          equilibrium since the right-hand side
+          decreases as <m>Q</m> increases through
+          <m>Q^*</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Solve the differential equation assuming
+          <m>Q(0) = 0</m>.
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          Separating the equation shows us that
+          <md>
+            <mrow>
+              \frac{1}{2-kQ}\frac{dQ}{dt} \amp = 1
+            </mrow>
+            <mrow>
+              -\frac{1}{k}\ln|2-kQ| \amp = t+C
+            </mrow>
+          </md>.
+          In the usual way, this gives
+          <md>
+            Q = \frac{2}{k} + Ae^{-kt}
+          </md>.
+          Since
+          <m>Q(0) = 0</m>, we have <m>A = -\frac{2}{k}</m>,
+          so
+          <md>
+            Q(t) = \frac{2}{k}
+            \!\left(1 - e^{-kt}\right)
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          How long does it take for <m>Q</m> to
+          reach 90% of the equilibrium?
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          We need
+          <md>
+            Q(t) = \frac2k\left(1-e^{-kt}\right) = 0.9\frac2k
+          </md>,
+          which means that <m>1 - e^{-kt} = 0.9</m>.  Therefore,
+          <m>e^{-kt} = 0.1</m>, so
+          <md>
+            t = -\frac{\ln(0.1)}{k}
+            \approx 26.6
+          </md>
+          hours.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Suppose you are a doctor and would like
+          your patient to have a stable amount of
+          50 mg in their bloodstream.  At what rate
+          should you administer the drug
+          intravenously?
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          Let's call <m>r</m> the rate at which the drug is
+          administered so that the differential equation becomes
+          <md>
+            \frac{dQ}{dt} = r-kQ
+          </md>.
+          The equilibrium is then <m>\frac rk = 50</m> so we need
+          <md>
+            r=50k\approx 4.33
+          </md>
+          mg/hr.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        The half-life of a particular cough
+        suppressant is 3.8 hours.  Assume that the
+        rate at which the medicine is absorbed from
+        your bloodstream is proportional to the
+        amount present, and that you take a 10 mg
+        dose.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find <m>Q(t)</m>, the amount of the
+          medicine in your bloodstream <m>t</m>
+          hours after taking the dose.
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          From the half-life, we see that
+          <m>k = -\frac{\ln(0.5)}{3.8}</m>.  With
+          <m>Q(0) = 10</m>:
+          <md>
+            Q(t) = 10\,e^{-kt}
+          </md>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          How long until there is only 1 mg in
+          your bloodstream?
+        </p>
+      </statement>
+      <solution component="34">
+        <p>
+          Setting <m>10\,e^{-kt} = 1</m>:
+          <m>e^{-kt} = \frac{1}{10}</m>, so
+          <md>
+            t = -\frac{\ln(0.1)}{k}
+            \approx 12.6
+          </md>
+          hours.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        Suppose that you take another 10mg does at this point.  How
+        much is left in your bloodstream 4 hours later?
+      </statement>
+      <solution component="34">
+        <p>
+          Just after you take the next 10mg dose, you have 11mg in
+          your bloodstream so
+          <md>
+            Q(t)=11e^{-kt}
+          </md>.
+          Four hours later, you have
+          <md>
+            Q(4) = 11e^{-4k} = \approx 5.3
+          </md>
+          mg.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

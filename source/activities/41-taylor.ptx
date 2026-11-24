@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Taylor Series</title>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Suppose you have this information about
+        a function:
+        <md>
+          <mrow>
+            f(0) = 2, \quad f'(0) = -3,
+          </mrow>
+          <mrow>
+            f''(0) = -1, \quad f'''(0) = 0,
+          </mrow>
+          <mrow>
+            f^{(4)}(0) = -3.
+          </mrow>
+        </md>
+        Form a Taylor polynomial for <m>f(x)</m>
+        and use it to estimate <m>f(0.5)</m>.
+      </p>
+    </statement>
+    <solution component="41">
+      <p>
+        The Taylor polynomial is
+        <md>
+          T(x) = 2 - 3x - \frac{x^2}{2}
+          - \frac{x^4}{8}.
+        </md>
+        Evaluating at <m>x = 0.5</m> gives
+        <md>
+          T(0.5) = 2 - 1.5 - 0.125 - 0.0078
+          \approx 0.367.
+        </md>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let <m>f(x) = \sqrt{1+x} =
+        (1+x)^{1/2}</m>.
+      </p>
+    </introduction>
+    <task workspace="4in">
+      <statement>
+        <p>
+          Find the first five terms of the
+          Taylor series for <m>f(x)</m>.
+        </p>
+      </statement>
+      <solution component="41">
+        <p>
+          Computing derivatives at <m>x = 0</m>, we see that
+          <md>
+            <mrow>
+              f(x) \amp = (1+x)^{1/2}
+            </mrow>
+            <mrow>
+              f'(x) \amp = \frac12(1+x)^{-1/2}
+            </mrow>
+            <mrow>
+              f''(x) \amp = -\frac14(1+x)^{-3/2}
+            </mrow>
+            <mrow>
+              f'''(x) \amp = \frac38(1+x)^{-5/2}
+            </mrow>
+            <mrow>
+              f(x)^{(4)} \amp = -\frac{15}{16}(1+x)^{-7/2}
+            </mrow>
+          </md>
+          This means that
+          <md>
+            <mrow>
+              f(0) \amp = 1
+            </mrow>
+            <mrow>
+              f'(0) \amp = \frac{1}{2}
+            </mrow>
+            <mrow>
+              f''(0) \amp = -\frac{1}{4} 
+            </mrow>
+            <mrow>
+              f'''(0) \amp = \frac{3}{8}
+            </mrow>
+            <mrow>
+              f^{(4)}(0) \amp = -\frac{15}{16}
+            </mrow>
+          </md>.
+          Therefore
+          <md>
+            f(x) \approx 1 + \frac{x}{2}
+            - \frac{x^2}{8} + \frac{x^3}{16}
+            - \frac{5x^4}{128}.
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Use the first five terms to approximate
+          <m>\sqrt{1.1}</m> (what value of
+          <m>x</m> should you use?) and compare
+          your approximation to the exact value.
+        </p>
+      </statement>
+      <solution component="41">
+        <p>
+          Use <m>x = 0.1</m> so that
+          <md>
+            \sqrt{1.1} \approx 1 + 0.05
+            - 0.00125 + 0.0000625
+            - 0.0000039
+            \approx 1.04881.
+          </md>
+          The exact value is 
+          <md>
+            \sqrt{1.1} \approx 1.04881
+          </md>
+          so the error is less than
+          <m>0.000001</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let <m>f(x) = \frac{1}{\sqrt{1+x}} =
+        (1+x)^{-1/2}</m>.
+      </p>
+    </introduction>
+    <task workspace="3.5in">
+      <statement>
+        <p>
+          Find the first five terms of the
+          Taylor series for <m>f(x)</m>.
+        </p>
+      </statement>
+      <solution component="41">
+        <p>
+          Computing derivatives at <m>x = 0</m> gives
+          <md>
+            <mrow>
+              f(0) \amp = 1
+            </mrow>
+            <mrow>
+              f'(0) \amp = -\frac{1}{2}
+            </mrow>
+            <mrow>
+              f''(0) \amp = \frac{3}{4}
+            </mrow>
+            <mrow>
+              f'''(0) \amp = -\frac{15}{8}
+            </mrow>
+            <mrow>
+              f^{(4)}(0) \amp = \frac{105}{16}
+            </mrow>
+          </md>.
+          Therefore
+          <md>
+            f(x) \approx 1 - \frac{x}{2}
+            + \frac{3x^2}{8} - \frac{5x^3}{16}
+            + \frac{35x^4}{128}.
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          How can you use this to find the Taylor
+          series for
+          <m>\frac{1}{\sqrt{1-u^2}}</m>?
+        </p>
+      </statement>
+      <solution component="41">
+        <p>
+          Substitute <m>x = -u^2</m> so that
+          <md>
+            \frac{1}{\sqrt{1-u^2}} \approx
+            1 + \frac{u^2}{2} +
+            \frac{3u^4}{8} +
+            \frac{5u^6}{16} +
+            \frac{35u^8}{128}.
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          You may remember that
+          <md>
+            \arcsin(x) = \int_0^x
+            \frac{1}{\sqrt{1-u^2}}\,du.
+          </md>
+          Use the first five terms of your
+          Taylor series to estimate
+          <m>\arcsin(0.1)</m>.
+        </p>
+      </statement>
+      <solution component="41">
+        <p>
+          Integrating term by term, we see that
+          <md>
+            \arcsin(x) \approx x +
+            \frac{x^3}{6} +
+            \frac{3x^5}{40} +
+            \frac{5x^7}{112} +
+            \frac{35x^9}{1152}.
+          </md>
+          At <m>x = 0.1</m>, we have
+          <m>0.1 + 0.000167 + 0.0000008
+          + \cdots \approx 0.100168</m>.
+          The actual value is
+          <m>\arcsin(0.1) \approx 0.100167</m>,
+          so the error is less than
+          <m>0.000001</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <statement>
+      <p>
+        Suppose that <m>f(x) = 3 + 4x - 7x^2</m>.
+        Find the Taylor series for <m>f(x)</m>.
+        What do you notice?
+      </p>
+    </statement>
+    <solution component="41">
+      <p>
+        Since <m>f(0) = 3</m>,
+        <m>f'(0) = 4</m>,
+        <m>f''(0) = -14</m>, and
+        <m>f^{(n)}(0) = 0</m> for <m>n \geq 3</m>,
+        the Taylor series is
+        <md>
+          3 + 4x + \frac{-14}{2!}x^2
+          = 3 + 4x - 7x^2.
+        </md>
+        The Taylor series of a polynomial is
+        just the polynomial itself.
+      </p>
+    </solution>
+  </exercise>
+
+</worksheet>

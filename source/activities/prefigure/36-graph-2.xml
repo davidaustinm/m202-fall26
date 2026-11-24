@@ -1,0 +1,11 @@
+<prefigure xmlns="https://prefigure.org"
+           label="36-graph-2">
+  <diagram dimensions="(300,300)" margins="5">
+    <definition>f(x)=1/3*x*(15-x)</definition>
+    <coordinates bbox="(-1,-5,20,30)">
+      <grid-axes ylabel="\frac{dP}{dt}" xlabel="P" decorations="no" 
+        hlabels="(0,5,15)" border="yes"/>
+      <graph function="f"/>
+    </coordinates>
+  </diagram>
+</prefigure>

@@ -1,0 +1,11 @@
+<prefigure xmlns="https://prefigure.org"
+           label="35-graph">
+  <diagram dimensions="(400, 300)" margins="5">
+    <definition>f(x)=0.2*(12.5-x)*x</definition>
+    <coordinates bbox="(0,-5,14,10)">
+      <axes decorations="no" xlabel="P" ylabel="\frac{dP}{dt}/P"
+            hlabels="(0,2,14)"/>
+      <graph function="f"/>
+    </coordinates>
+  </diagram>  
+</prefigure>

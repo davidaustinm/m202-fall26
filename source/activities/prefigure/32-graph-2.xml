@@ -1,0 +1,11 @@
+<prefigure xmlns="https://prefigure.org"
+           label="32-graph-2">
+  <diagram xmlns="https://prefigure.org"
+           dimensions="(300, 300)" margins="5">
+    <definition>f(x)=sqrt(336*x+64)</definition>
+    <coordinates bbox="(-1,-1,12,60)">
+      <axes decorations="no" xlabel="t" ylabel="w"/>
+      <graph function="f" domain="(0,12)"/>
+    </coordinates>
+  </diagram>
+</prefigure>

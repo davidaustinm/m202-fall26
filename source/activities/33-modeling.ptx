@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Modeling with Differential Equations</title>
+
+  <exercise workspace="0.5in">
+    <statement>
+      <p>
+        Suppose a cylindrical tank with a hole in
+        the bottom is filled with water.  The water
+        will leak out and the height of the water in
+        the tank will decrease.  Let's call the
+        height <m>h(t)</m>.  Toricelli's Law says
+        that
+        <md>
+          \frac{dh}{dt} = -k\sqrt{h}
+        </md>
+        where <m>k</m> is some constant.
+      </p>
+      <p>
+        Suppose that the initial height of water in
+        the tank is 100 cm and that, after five
+        minutes, the height of water is 81 cm.
+      </p>
+      <p>
+        Find the height in the tank as a function of
+        time and sketch a graph of <m>h(t)</m>.  How
+        long does it take for the water to drain out?
+      </p>
+    </statement>
+    <solution component="33">
+      <p>
+        Separating variables gives us
+        <md>
+          <mrow>
+            \int h^{-1/2}~dh \amp = \int -k~dt
+          </mrow>
+          <mrow>
+            2h^{1/2} \amp = -kt + C
+          </mrow>
+          <mrow>
+            2\sqrt{h} \amp = -kt + C
+          </mrow>
+        </md>.
+        Using <m>h(0) = 100</m>, we see that <m>C = 20</m>.
+        Using <m>h(5) = 81</m>, we have
+        <m>18 = 20 - 5k</m> so
+        <m>k = \frac{2}{5}</m>.  Therefore,
+        <md>
+          h(t) = \left(10 - \frac{t}{5}\right)^2.
+        </md>
+        Setting <m>h = 0</m>, we see that the tank drains after
+        <m>t = 50</m> minutes.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that you continually put money into
+        an account that earns interest at an annual
+        rate of 6%, at the rate of $5,000 per year.
+        Let <m>B(t)</m> be the balance of the
+        account.
+      </p>
+    </introduction>
+    <task workspace="0.25in">
+      <statement>
+        <p>
+          Write a differential equation that
+          expresses the rate of change <m>dB/dt</m>.
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          <m>\frac{dB}{dt} = 0.06B + 5000</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Solve your differential equation for
+          <m>B(t)</m> assuming that <m>B(0) = 0</m>.
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          This is a separable equation so
+          <md>
+            <mrow>
+              \frac{dB}{dt} \amp = 0.06(B + \frac{250000}{3})
+            </mrow>
+            <mrow>
+              \int \frac{1}{B+250000/3}~dB \amp = \int 0.06~dt
+            </mrow>
+            <mrow>
+              \ln|B+250000/3| \amp = 0.06t+C
+            </mrow>
+            <mrow>
+              B \amp = Ae^{0.06t} - \frac{250000}{3}
+            </mrow>
+          </md>.
+          Since <m>B(0) = 0</m>, we have <m>A = \frac{250000}{3}</m>,
+          so
+          <md>
+            B(t) = \frac{250000}{3}
+            \!\left(e^{0.06t} - 1\right).
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How long does it take to reach $50,000?
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          Setting <m>B(t) = 50000</m>, we have
+          <m>e^{0.06t} = \frac{8}{5}</m>, so
+          <md>
+            t = \frac{\ln(8/5)}{0.06} \approx 7.8
+          </md>
+          years.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Suppose that you take out a mortgage of
+        $100,000 at an interest rate of 4%.  Let
+        <m>M(t)</m> be the amount that you owe on
+        the mortgage after <m>t</m> years, so
+        <m>M(0) = 100{,}000</m>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          The interest you are paying causes the
+          amount you owe to increase.  Suppose that
+          you are also paying <m>r</m> dollars per
+          year on the mortgage.  Set up a
+          differential equation that describes
+          <m>dM/dt</m>, the rate at which the amount
+          you owe is changing.
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          <m>\frac{dM}{dt} = 0.04M - r</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Solve the differential equation in terms
+          of <m>r</m>.
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          Separating variables gives
+          <m>M = 25r + Ae^{0.04t}</m>.  Using
+          <m>M(0) = 100000</m>, we have
+          <md>
+            M(t) = 25r + (100000 - 25r)e^{0.04t}.
+          </md>
+        </p>
+      </solution>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          If you want to pay off the mortgage after
+          30 years, what should the value of
+          <m>r</m> be?  What is your monthly
+          mortgage payment?
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          Setting <m>M(30) = 0</m>, we have
+          <md>
+            r = \frac{4000e^{1.2}}{e^{1.2}-1}
+            \approx \$5{,}724
+          </md>
+          per year, or about <m>\$477</m> per month.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          How much will you have paid over the
+          30 years?
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          <m>30 \times 5724 \approx
+          \$171{,}700</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          What is the monthly mortgage payment if
+          you want to pay off the mortgage after
+          20 years?  How much will you have paid
+          over the 20 years?
+        </p>
+      </statement>
+      <solution component="33">
+        <p>
+          Setting <m>M(20) = 0</m>, we have
+          <md>
+            r = \frac{4000e^{0.8}}{e^{0.8}-1}
+            \approx \$7{,}264
+          </md>
+          per year, or about <m>\$605</m> per month.
+          The total paid is
+          <m>20 \times 7264 \approx
+          \$145{,}300</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

@@ -23,6 +23,7 @@
       <xi:include href="./syllabus/runestone-04.ptx" />
       <xi:include href="./syllabus/learning-targets.ptx" />
       <xi:include href="./syllabus/exam1.ptx" />
+      <xi:include href="./syllabus/exam2.ptx" />
       <!--
           <xi:include href="./syllabus/homework.ptx" />
       -->
@@ -90,6 +91,18 @@
       <xi:include href="./activities/29-review.ptx"/>
       <xi:include href="./activities/30-separable.ptx"/>
       <xi:include href="./activities/31-lab-3.ptx"/>
+      <xi:include href="./activities/32-modeling.ptx"/>
+      <xi:include href="./activities/33-modeling.ptx"/>
+      <xi:include href="./activities/34-modeling.ptx"/>
+      <xi:include href="./activities/35-population.ptx"/>
+      <xi:include href="./activities/36-logistic.ptx"/>
+      <xi:include href="./activities/37-modeling.ptx"/>
+      <xi:include href="./activities/38-review.ptx"/>
+      <xi:include href="./activities/39-lab-4.ptx"/>
+      <xi:include href="./activities/39-5-geometric.ptx"/>
+      <xi:include href="./activities/40-series.ptx"/>
+      <xi:include href="./activities/41-taylor.ptx"/>
+      <xi:include href="./activities/42-taylor.ptx"/>
     </chapter>
 
   </book>

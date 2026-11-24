@@ -1,0 +1,12 @@
+<prefigure xmlns="https://prefigure.org"
+           label="32-graph">
+  <diagram xmlns="https://prefigure.org"
+           dimensions="(300, 300)" margins="5">
+    <definition>f(x) = 6-3*x</definition>
+    <coordinates bbox="(-1,-4,3,8)">
+      <axes decorations="no" xlabel="S" ylabel="\frac{dS}{dt}"/>
+      <graph function="f"/>
+      <tick-mark location="2" alignment="sw" offset="(7,-4)">2000</tick-mark>
+    </coordinates>
+  </diagram>
+</prefigure>

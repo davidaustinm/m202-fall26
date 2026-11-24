@@ -1,0 +1,15 @@
+<prefigure xmlns="https://prefigure.org"
+           label="35-line">
+  <diagram xmlns="https://prefigure.org"
+           dimensions="(400, 300)" margins="(45,25,15,5)">
+    <definition>f(x)=sqrt(36*x+64)</definition>
+    <coordinates bbox="(0,0,14,0.03)">
+      <grid-axes decorations="yes" xlabel="P" ylabel="dP/dt"
+                 hlabels="(0,2,14)" spacings="((0,1,14),(0,0.005,0.03))"/>
+      <line endpoints="((0,0.027),(12.5,0))" stroke="blue"/>
+      <repeat parameter="p in ((3.7,0.0192),(4.44,0.0177),(5.27,0.0154))">
+        <point p="p"/>
+      </repeat>
+    </coordinates>
+  </diagram>
+</prefigure>

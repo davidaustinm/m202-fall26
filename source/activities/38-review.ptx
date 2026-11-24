@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Some Review for Exam 2</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        The probability density function
+        <m>p(t) = \frac{1}{3}e^{-t/3}</m>
+        describes the amount of time, in minutes,
+        you wait to talk to a representative when
+        you call your bank.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Find the cumulative distribution
+          function.  What does this function
+          tell us?
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          <md>
+            C(s) = \int_0^s \frac{1}{3}e^{-t/3}
+            \,dt = 1 - e^{-s/3}.
+          </md>
+          This gives the probability that you wait less
+          than <m>s</m> minutes.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Find the median waiting time.
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          Setting <m>C(m) = 0.5</m> gives the expression
+          <m>e^{-m/3} = \frac{1}{2}</m>, so
+          <m>m = 3\ln(\frac12) \approx 2.08</m> minutes.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Find the average waiting time.
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          Integrating by parts with
+          <m>u = t</m> and
+          <m>dv = \frac{1}{3}e^{-t/3}\,dt</m>, we see that
+          <md>
+            \int_0^\infty t\cdot\frac{1}{3}
+            e^{-t/3}\,dt
+            = \Bigl[-te^{-t/3}\Bigr]_0^\infty
+            + \int_0^\infty e^{-t/3}\,dt
+            = 0 + 3 = 3
+          </md>
+          minutes.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What percentage of people wait less
+          time than the average?
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          <m>C(3) = 1 - e^{-1} \approx 0.632</m>,
+          so about <m>63.2\%</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What percentage of people wait less
+          time than the median?
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          Exactly <m>50\%</m>, which is the definition of
+          the median.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Students are given a three-hour test and
+        you record the length of time it takes
+        students to complete the test.  The
+        cumulative distribution function is
+        <m>C(t) = t^3/27</m>.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the median time it takes for
+          students to complete the test?
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          Setting <m>t^3/27 = 0.5</m>:
+          <m>t^3 = 13.5</m>, so
+          <m>t = \sqrt[3]{13.5} \approx
+          2.38</m> hours.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          If you finish in 2 hours, what
+          percentage of students have finished
+          before you?
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          <m>C(2) = 8/27 \approx 0.296</m>,
+          so about <m>29.6\%</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the probability density
+          function <m>p(t)</m>?
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          <m>p(t) = C'(t) = t^2/9</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          The first quartile is the time at
+          which 25% of students have finished
+          the exam, and the third quartile is
+          when 75% have.  Find these times.
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          First quartile: <m>t^3/27 = 0.25</m>
+          gives <m>t = 3/\sqrt[3]{4}
+          \approx 1.89</m> hours.
+        </p>
+        <p>
+          Third quartile: <m>t^3/27 = 0.75</m>
+          gives <m>t = \sqrt[3]{81/4}
+          \approx 2.73</m> hours.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Find the average time it takes for
+          students to finish the exam.
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          <md>
+            \int_0^3 t\cdot\frac{t^2}{9}\,dt
+            = \int_0^3\frac{t^3}{9}\,dt
+            = \left[\frac{t^4}{36}\right]_0^3
+            = \frac{81}{36} = \frac{9}{4}
+            = 2.25
+          </md>
+          hours.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Consider the differential equation
+        <md>
+          \frac{dy}{dt} = 4y - y^3.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          Sketch <m>dy/dt</m> as a function of <m>y</m> and a slope
+          field for this equation, and 
+          identify any equilibrium solutions.
+          For each equilibrium, determine whether
+          it is stable or unstable.
+        </p>
+      </statement>
+      <solution component="38">
+        <image width="50%">
+          <xi:include href="prefigure/38-graph.xml"/>
+        </image>
+        <image width="50%">
+          <xi:include href="prefigure/38-slope.xml"/>
+        </image>
+        
+        <p>
+          There are stable equilibria at <m>y = -2</m> and <m>y=2</m>
+          and an unstable equilibrium at <m>y=0</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          If <m>y(0) = 1</m>, use Euler's method
+          with a step size of 0.1 to estimate
+          the value <m>y(0.4)</m>.
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          <tabular>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center"/>
+            <row bottom="minor">
+              <cell><m>t</m></cell>
+              <cell><m>y</m></cell>
+              <cell><m>dy/dt</m></cell>
+              <cell><m>\Delta y</m></cell>
+            </row>
+            <row>
+              <cell>0.0</cell>
+              <cell>1.0000</cell>
+              <cell>3.000</cell>
+              <cell>0.300</cell>
+            </row>
+            <row>
+              <cell>0.1</cell>
+              <cell>1.3000</cell>
+              <cell>3.003</cell>
+              <cell>0.300</cell>
+            </row>
+            <row>
+              <cell>0.2</cell>
+              <cell>1.6003</cell>
+              <cell>2.303</cell>
+              <cell>0.230</cell>
+            </row>
+            <row>
+              <cell>0.3</cell>
+              <cell>1.8306</cell>
+              <cell>1.188</cell>
+              <cell>0.119</cell>
+            </row>
+            <row>
+              <cell>0.4</cell>
+              <cell>1.9494</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </p>
+        <p>
+          So <m>y(0.4) \approx 1.95</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Find the solution to the following
+        initial value problems.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <md>
+            <mrow>\frac{dy}{dt} \amp= 6-y</mrow>
+            <mrow>y(0) \amp= 3</mrow>
+          </md>
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          Separating variables and antidifferentiating shows that
+          <m>y = 6 + Ae^{-t}</m>.
+          Using <m>y(0) = 3</m>, we see that <m>A = -3</m>,
+          so <m>y = 6 - 3e^{-t}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          <md>
+            <mrow>\frac{dy}{dt} \amp= \frac{1}{y}</mrow>
+            <mrow>y(0) \amp= 2</mrow>
+          </md>
+        </p>
+      </statement>
+      <solution component="38">
+        <p>
+          Separating variables gives
+          <m>y^2 = 2t + C</m>.
+          Using <m>y(0) = 2</m>: <m>C = 4</m>,
+          so <m>y = \sqrt{2t+4}</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Newton's Law of Cooling states that the
+        temperature of an object changes at a rate
+        proportional to the difference between its
+        temperature and room temperature.  Suppose
+        that <m>T(t)</m> is the temperature of some
+        object sitting in a <m>70^\circ</m> room.
+        Newton's Law says that
+        <md>
+          \frac{dT}{dt} = -k(T-70).
+        </md>
+      </p>
+      <p>
+        Suppose that the temperature is initially
+        <m>120^\circ</m>.  Ten minutes later, it is
+        <m>100^\circ</m>.  When will the temperature
+        reach <m>80^\circ</m>?
+      </p>
+    </statement>
+    <solution component="38">
+      <p>
+        The general solution is
+        <m>T = 70 + Ae^{-kt}</m>.  Using
+        <m>T(0) = 120</m>, we see that <m>A = 50</m>.
+        Using <m>T(10) = 100</m> allows us to find <m>k</m> since
+        <m>e^{-10k} = \frac{3}{5}</m>, so
+        <m>k = \frac{\ln(5/3)}{10}</m>.
+      </p>
+      <p>
+        Setting <m>T = 80</m>:
+        <m>e^{-kt} = \frac{1}{5}</m>, giving
+        <md>
+          t = \frac{\ln 5}{k}
+          = \frac{10\ln 5}{\ln(5/3)}
+          \approx 31.5
+        </md>
+        minutes.
+      </p>
+    </solution>
+  </exercise>
+
+</worksheet>

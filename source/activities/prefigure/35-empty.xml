@@ -1,0 +1,10 @@
+<prefigure xmlns="https://prefigure.org"
+           label="35-empty">
+  <diagram xmlns="https://prefigure.org"
+           dimensions="(400, 300)" margins="(45,25,15,5)">
+    <coordinates bbox="(0,0,14,0.03)">
+      <grid-axes decorations="yes" xlabel="P" ylabel="\frac{dP}{dt}/P"
+                 hlabels="(0,2,14)" spacings="((0,1,14),(0,0.005,0.03))"/>
+    </coordinates>
+  </diagram>
+</prefigure>

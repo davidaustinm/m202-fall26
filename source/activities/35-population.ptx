@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Population Growth</title>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let's begin with a simple model for how the
+        Earth's population will evolve.  We will
+        suppose that <em>the rate of change of the
+        population is proportional to the
+        population</em>.  In mathematical notation:
+        <md>
+          \frac{dP}{dt} = kP.
+        </md>
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is the solution to this differential
+          equation with <m>P(0) = P_0</m>?
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          Separating variables gives
+          <m>P(t) = P_0 e^{kt}</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          The quantity
+          <m>k = \frac{\frac{dP}{dt}}{P}</m>
+          is often called the <em>per capita growth
+          rate</em>.  It measures how much of the
+          rate of change of <m>P</m> is due to a
+          single person.
+        </p>
+        <p>
+          Here is some data.  Use it to estimate
+          the per capita growth rate, perhaps using a central
+          difference.  (The 
+          population is given in billions.)
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell>Year</cell>
+            <cell>Population <m>P(t)</m></cell>
+          </row>
+          <row>
+            <cell>1970</cell>
+            <cell>3.70</cell>
+          </row>
+          <row>
+            <cell>1980</cell>
+            <cell>4.44</cell>
+          </row>
+          <row>
+            <cell>1990</cell>
+            <cell>5.27</cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution component="35">
+        <p>
+          Using a central difference at 1980, we have
+          <m>dP/dt \approx (5.27 - 3.70)/20
+          = 0.0785</m> billion/yr.  Then
+          <md>
+            k \approx 0.0785/4.44 \approx 0.018
+          </md>
+          per year.          
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Suppose we say that <m>t = 0</m>
+          corresponds to the year 1980.  What is the solution with
+          this initial value?
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          <m>P(t) = 4.44\,e^{0.018t}</m> billion,
+          where <m>t</m> is years after 1980.
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What does this predict for the population
+          in the year 2080?  2180?  2580?
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          <ul>
+            <li>
+              2080 (<m>t = 100</m>):
+              <m>4.44\,e^{1.8} \approx 26.9</m>
+              billion.
+            </li>
+            <li>
+              2180 (<m>t = 200</m>):
+              <m>4.44\,e^{3.6} \approx 162</m>
+              billion.
+            </li>
+            <li>
+              2580 (<m>t = 600</m>):
+              <m>4.44\,e^{10.8} \approx
+              217{,}000</m> billion.
+            </li>
+          </ul>
+        </p>
+      </solution>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Does this seem like a reasonable model for
+          population growth?  Explain why or why
+          not.
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          No.  The model predicts that the population will become
+          extremely large.  The prediction for 2580 is that there will
+          be one person per square meter of Earth's surface.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Our original model where <m>dP/dt = kP</m>
+        is clearly not useful for making long-term
+        predictions.  Realistically, we don't
+        expect the per capita growth rate to be
+        constant.  It would probably make more
+        sense to imagine that the per capita growth
+        rate decreases when the population becomes
+        very large.  In our new model, we assume
+        that the per capita growth rate is a
+        linearly decreasing function:
+        <md>
+          \frac{\frac{dP}{dt}}{P} = k(N - P).
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Complete the table by estimating the
+          derivative <m>dP/dt</m> as the average
+          rate of change of the population using
+          central differences.  Then find the per
+          capita growth rate.
+        </p>
+        <tabular>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center" right="minor"/>
+          <col halign="center"/>
+          <row bottom="minor">
+            <cell>Year</cell>
+            <cell>Population <m>P(t)</m></cell>
+            <cell><m>dP/dt</m></cell>
+            <cell><m>\frac{1}{P}\,dP/dt</m></cell>
+          </row>
+          <row>
+            <cell>1960<m>\vtab</m></cell>
+            <cell>3.02<m>\vtab</m></cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+          <row>
+            <cell>1970<m>\vtab</m></cell>
+            <cell>3.70<m>\vtab</m></cell>
+            <cell><m>\htab\htab</m></cell>
+            <cell><m>\htab\htab</m></cell>
+          </row>
+          <row>
+            <cell>1980<m>\vtab</m></cell>
+            <cell>4.44<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>1990<m>\vtab</m></cell>
+            <cell>5.27<m>\vtab</m></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>2000<m>\vtab</m></cell>
+            <cell>6.06<m>\vtab</m></cell>
+            <cell>---</cell>
+            <cell>---</cell>
+          </row>
+        </tabular>
+        <p>
+          For your three data points, plot the per
+          capita growth rate versus the population
+          below:
+        </p>
+        <image width="65%">
+          <xi:include href="prefigure/35-empty.xml"/>
+        </image>
+        <p>
+          Sketch in a straight line that best fits
+          your data and use it to determine the
+          constants <m>k</m> and <m>N</m> in the
+          logistic equation.
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          Using central differences, we have
+          <ul>
+            <li>
+              1970: <m>dP/dt \approx (4.44 -
+              3.02)/20 = 0.071</m>,
+              per capita <m>\approx 0.071/3.70
+              \approx 0.0192</m>.
+            </li>
+            <li>
+              1980: <m>dP/dt \approx (5.27 -
+              3.70)/20 = 0.0785</m>,
+              per capita <m>\approx 0.0785/4.44
+              \approx 0.0177</m>.
+            </li>
+            <li>
+              1990: <m>dP/dt \approx (6.06 -
+              4.44)/20 = 0.081</m>,
+              per capita <m>\approx 0.081/5.27
+              \approx 0.0154</m>.
+            </li>
+          </ul>
+        </p>
+        <image width="65%">
+          <xi:include href="prefigure/35-line.xml"/>
+        </image>
+        <p>
+          Sketching in a line gives
+          approximately <m>k \approx 0.0025</m>
+          and <m>N \approx 12.5</m> billion.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the differential equation for
+          <m>dP/dt</m>?
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          <m>\frac{dP}{dt} = k(N - P)P
+          \approx 0.0025(12.5 - P)P</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          Sketch the rate of change <m>dP/dt</m>
+          as a function of <m>P</m>.  (Don't worry
+          about the scale on the axes.)
+        </p>
+        <p>
+          For what values of the population is
+          <m>dP/dt = 0</m>?  What does this mean?
+        </p>
+      </statement>
+      <solution component="35">
+        <image width="50%">
+          <xi:include href="prefigure/35-graph.xml"/>
+        </image>
+        <p>
+          <m>dP/dt = 0</m> when <m>P = 0</m> or
+          <m>P = N \approx 12.5</m> billion.
+          <m>P = N</m> is a stable equilibrium
+          (the carrying capacity); <m>P = 0</m>
+          is an unstable equilibrium.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Based on your graph, for what values of
+          the population will the population
+          increase?  For what values will it
+          decrease?
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          The population increases when
+          <m>0 \lt P \lt 12.5</m> and decreases
+          when <m>P \gt 12.5</m>.
+        </p>
+      </solution>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          What does this predict about the long-term behavior of
+          Earth's
+          population?
+        </p>
+      </statement>
+      <solution component="35">
+        <p>
+          The model predicts that the
+          world population will level off and
+          approach a carrying capacity of
+          approximately <m>N \approx 12.5</m>
+          billion people.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+</worksheet>

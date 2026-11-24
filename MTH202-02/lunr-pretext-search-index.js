@@ -1789,7 +1789,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Geometric Series",
-  "body": " Geometric Series    Consider the series      Find the sum where , , , , .      What happens as ?       Now look at the sum      Find the sum when , , , .      What happens as ?       Consider the sum      Find the sum where , , , , .      What happens as ?       Write out the first four terms of the series . Then determine the value of this sum.      Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?     "
+  "body": " Geometric Series    Consider the series      Find the sum where , , , , .    Using , we have       What happens as ?    The sum approaches .       Now look at the sum      Find the sum when , , , .    Using , we have       What happens as ?    The sum grows without bound; the series diverges.       Consider the sum      Find the sum where , , , , .    The sum equals 0 when is odd and 1 when is even so that , , , , .      What happens as ?    The sum oscillates between 0 and 1; the limit does not exist.       Write out the first four terms of the series . Then determine the value of this sum.    The first four terms are .  This is a geometric series with first term , ratio , and 7 terms so we have       Consider the limit      For what values of does this limit exist?    The limit exists when .      If the limit exists, what is its value?    Since as when , the sum is .     "
 },
 {
   "id": "activities-42-2",
@@ -1798,7 +1798,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Consider the series      Find the sum where , , , , .      What happens as ?    "
+  "body": "  Consider the series      Find the sum where , , , , .    Using , we have       What happens as ?    The sum approaches .    "
 },
 {
   "id": "activities-42-3",
@@ -1807,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Now look at the sum      Find the sum when , , , .      What happens as ?    "
+  "body": "  Now look at the sum      Find the sum when , , , .    Using , we have       What happens as ?    The sum grows without bound; the series diverges.    "
 },
 {
   "id": "activities-42-4",
@@ -1816,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Consider the sum      Find the sum where , , , , .      What happens as ?    "
+  "body": "  Consider the sum      Find the sum where , , , , .    The sum equals 0 when is odd and 1 when is even so that , , , , .      What happens as ?    The sum oscillates between 0 and 1; the limit does not exist.    "
 },
 {
   "id": "activities-42-5",
@@ -1825,7 +1825,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Write out the first four terms of the series . Then determine the value of this sum.   "
+  "body": "  Write out the first four terms of the series . Then determine the value of this sum.    The first four terms are .  This is a geometric series with first term , ratio , and 7 terms so we have    "
 },
 {
   "id": "activities-42-6",
@@ -1834,7 +1834,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Consider the limit      For what values of does this limit exist?      If the limit exists, what is its value?    "
+  "body": "  Consider the limit      For what values of does this limit exist?    The limit exists when .      If the limit exists, what is its value?    Since as when , the sum is .    "
 },
 {
   "id": "activities-43",
